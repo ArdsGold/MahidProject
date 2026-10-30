@@ -1,0 +1,400 @@
+{
+  "domain": "webguiding.net",
+  "checked_utc": "2026-10-23T15:02:40.863035+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://webguiding.net/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "webguiding.net",
+      "startingUrl": "https://webguiding.net/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Continue",
+      "optionalReciprocal": false
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "webguiding.net",
+      "url": "https://webguiding.net/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://webguiding.net/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://webguiding.net/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Cambridge scientists create a $10 chip that could put a medical lab on your wris",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/",
+          "navigation_only": false
+        },
+        {
+          "label": "Cambridge scientists create a $10 chip that could put a medical lab on your wris",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://webguiding.net/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "webguiding.net",
+      "url": "https://webguiding.net/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://webguiding.net/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://webguiding.net/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |___Antiques",
+                "|   |___Architecture",
+                "|   |___Archives",
+                "|   |___Art History",
+                "|   |___Awards",
+                "|   |___Bodyart",
+                "|   |___Chats and Forums",
+                "|   |___Classical Studies",
+                "|   |___Comics",
+                "|   |___Costumes",
+                "|   |___Crafts",
+                "|   |___Cultures and Groups",
+                "|   |___Dance",
+                "|   |___Design",
+                "|   |___Digital",
+                "|   |___Directories",
+                "|   |___Education",
+                "|   |___Entertainment",
+                "|   |___Events",
+                "|   |___Genres",
+                "|   |___Graphic Design",
+                "|   |___Humanities",
+                "|   |___Illustration",
+                "|   |___Libraries",
+                "|   |___Literature",
+                "|   |___Magazines and E-zines",
+                "|   |___Movies",
+                "|   |___Museums",
+                "|   |___Music",
+                "|   |___Myths and Folktales",
+                "|   |___Native and Tribal",
+                "|   |___News and Media",
+                "|   |___Online Writing",
+                "|   |___Organizations",
+                "|   |___People",
+                "|   |___Performing Arts",
+                "|   |___Periods and Movements"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://webguiding.net/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Cambridge scientists create a $10 chip that could put a medical lab on your wris",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Cambridge scientists create a $10 chip that could put a medical lab on your wris",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/submit.php",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://webguiding.net/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://webguiding.net/",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://webguiding.net/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Cambridge scientists create a $10 chip that could put a medical lab on your wris",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/",
+          "navigation_only": false
+        },
+        {
+          "label": "Cambridge scientists create a $10 chip that could put a medical lab on your wris",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/",
+          "navigation_only": false
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://webguiding.net/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://webguiding.net/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Cambridge scientists create a $10 chip that could put a medical lab on your wris",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Cambridge scientists create a $10 chip that could put a medical lab on your wris",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://webguiding.net/submit.php",
+          "navigation_only": false
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T15:02:37.676183+00:00",
+    "page": "https://webguiding.net/",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://webguiding.net/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://webguiding.net/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator",
+    "scope": "Operator confirmed Add Site; unrelated article-title candidates excluded from confirmed controls"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T15:03:00.691939+00:00",
+    "page": "https://webguiding.net/submit.php",
+    "evidence": "Confirmed Add Site route; native form guard passed without reciprocal configuration. Targeted policy scan excluding select options returned no matches.",
+    "scope": "Unrelated article links are not confirmed navigation controls. Structural mapping only; no fields filled or form submitted; server acceptance and public backlink untested."
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json"
+}

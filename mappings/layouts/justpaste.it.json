@@ -1,0 +1,150 @@
+{
+  "domain": "justpaste.it",
+  "checked_utc": "2026-10-23T18:38:44.891568+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "tinymce-editor",
+  "access": "Accessible guest editor",
+  "entry_url": "https://justpaste.it/",
+  "field_map": {
+    "name": "input[placeholder=\"Title\"]",
+    "body": {
+      "frame": "#tinyMCEEditor_ifr",
+      "selector": "body#tinymce[contenteditable=true]"
+    }
+  },
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "justpaste.it",
+      "url": "https://justpaste.it/",
+      "page_error": "",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "justpaste.it",
+      "url": "https://justpaste.it/",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Publish",
+          "url": "",
+          "selector": "",
+          "tag": "button",
+          "role": "",
+          "page": "https://justpaste.it/",
+          "navigation_only": false
+        }
+      ],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "tinymce"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Validate existing platform runtime against current editor",
+    "Review actual content and access limits",
+    "Independently verify any future public listing"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://justpaste.it/",
+      "observed_controls": []
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:38:44.891589+00:00",
+    "page": "https://justpaste.it/",
+    "confirmed_by": "operator",
+    "controls": [
+      {
+        "label": "Add",
+        "url": "https://justpaste.it/"
+      },
+      {
+        "label": "Account",
+        "url": "https://justpaste.it/login"
+      },
+      {
+        "label": "Publish",
+        "selector": "button.publishButton",
+        "navigation_only": false
+      }
+    ],
+    "evidence": "Operator confirmed Add, Account and Publish; no separate Register control identified on editor page."
+  },
+  "review_reason": "",
+  "verification_level": "Operator-confirmed editor controls and live title/TinyMCE/access inspection",
+  "limits": {
+    "title": 100,
+    "body": "No HTML maxlength observed; server limit unverified"
+  },
+  "workflow_steps": [
+    {
+      "step": 1,
+      "label": "Add",
+      "url": "https://justpaste.it/"
+    },
+    {
+      "step": 2,
+      "label": "Title",
+      "selector": "input[placeholder=\"Title\"]"
+    },
+    {
+      "step": 3,
+      "label": "Rich Text Area",
+      "frame": "#tinyMCEEditor_ifr",
+      "selector": "body#tinymce[contenteditable=true]",
+      "action": "Use normal editor input; include exact approved website as clickable anchor with public client details"
+    },
+    {
+      "step": 4,
+      "label": "Access",
+      "selector": "xpath=//button[normalize-space(.)=\"Access\"]",
+      "evidence": "Panel shows access, CAPTCHA, counter and expiry options; no expiry date displayed; no settings changed"
+    },
+    {
+      "step": 5,
+      "label": "Publish",
+      "selector": "button.publishButton",
+      "action": "Not clicked during mapping"
+    }
+  ],
+  "final_form_controls": {
+    "submit": "button.publishButton",
+    "label": "Publish",
+    "settings": "xpath=//button[normalize-space(.)=\"Settings\"]",
+    "access": "xpath=//button[normalize-space(.)=\"Access\"]",
+    "paid_policy": "Premium offer separate; no premium option selected"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:38:44.891600+00:00",
+    "page": "https://justpaste.it/",
+    "evidence": "Visible Title input maxlength100, TinyMCE iframe tinyMCEEditor_ifr with body#tinymce contenteditable=true, Publish button. Account opens /login. Access panel inspected using normal button: advanced settings may require account, no expiry date shown.",
+    "scope": "No client content entered, access settings changed, account action or Publish click. No public-link or publication claim. Existing campaign journal must be checked before future submission; body should contain all public workbook details within actual limits."
+  }
+}

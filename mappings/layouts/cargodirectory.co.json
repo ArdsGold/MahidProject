@@ -1,0 +1,176 @@
+{
+  "domain": "cargodirectory.co",
+  "checked_utc": "2026-10-23T12:46:55.040002+00:00",
+  "status": "Needs deeper inspection",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://www.cargodirectory.co/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "cargodirectory.co",
+      "url": "https://www.cargodirectory.co/submit.php",
+      "forms": [],
+      "links": [],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "cargodirectory.co",
+      "url": "https://www.cargodirectory.co/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.cargodirectory.co/search_results",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "location_value",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"location_value\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://www.cargodirectory.co/sitesearch",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.cargodirectory.co/[object%20HTMLInputElement]",
+          "fields": [
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "first_name",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"first_name\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "consent_history[1]",
+              "tag": "input",
+              "type": "checkbox",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"consent_history[1]\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "newsletter_modal_signup_380-element-13",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"newsletter_modal_signup_380-element-13\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "domain": "paste.laravel.io",
+  "checked_utc": "2026-10-23T13:33:43.319807+00:00",
+  "status": "Needs deeper inspection",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://paste.laravel.io/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "paste.laravel.io",
+      "url": "https://paste.laravel.io/",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://paste.laravel.io/",
+          "fields": [
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "code",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"code\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "reset",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "reset",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

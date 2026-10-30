@@ -1,0 +1,17 @@
+{
+  "domain": "brownedgedirectory.com",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "php-directory",
+    "website_type": "Directory",
+    "basis": "Configured route"
+  },
+  "saved_structure": {
+    "family": "php-directory",
+    "fingerprint": "105ffac06b85b7d5",
+    "basis": "Live HTTP",
+    "source": "https://brownedgedirectory.com/submit.php"
+  },
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

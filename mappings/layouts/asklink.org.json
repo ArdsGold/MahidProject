@@ -1,0 +1,321 @@
+{
+  "domain": "asklink.org",
+  "checked_utc": "2026-10-23T14:35:49.049137+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://asklink.org/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "asklink.org",
+      "startingUrl": "https://asklink.org/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Continue",
+      "optionalReciprocal": false
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "asklink.org",
+      "url": "https://asklink.org/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://asklink.org/index.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://asklink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://asklink.org/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://asklink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://asklink.org/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "asklink.org",
+      "url": "https://asklink.org/submit.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://asklink.org/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |   |___Animated Graphics",
+                "|   |   |___Animation Art Galleries",
+                "|   |   |___Animation Companies",
+                "|   |   |___Anime",
+                "|   |   |___Artists",
+                "|   |   |___Audio",
+                "|   |   |___Awards",
+                "|   |   |___Cartoons",
+                "|   |   |___Chats and Forums",
+                "|   |   |___Collectibles",
+                "|   |   |___Computer",
+                "|   |   |___Contests",
+                "|   |   |___DVD",
+                "|   |   |___Experimental",
+                "|   |   |___Festivals",
+                "|   |   |___Movies",
+                "|   |   |___News and Media",
+                "|   |   |___Organizations",
+                "|   |   |___Puppetry",
+                "|   |   |___Shopping",
+                "|   |   |___Stop-Motion",
+                "|   |   |___Studios",
+                "|   |   |___Training",
+                "|   |   |___Video Games",
+                "|   |   |___Voice Actors",
+                "|   |   |___Web",
+                "|   |   |___Web Rings",
+                "|   |   |___Writers",
+                "|   |___Antiques",
+                "|   |   |___Appliances",
+                "|   |   |___Auctions",
+                "|   |   |___Autos",
+                "|   |   |___Bicycles",
+                "|   |   |___Books",
+                "|   |   |___Bottles",
+                "|   |   |___Cameras",
+                "|   |   |___Cash Registers"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://asklink.org/index.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://asklink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://asklink.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://asklink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://asklink.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://asklink.org/",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://asklink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://asklink.org/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://asklink.org/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://asklink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://asklink.org/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:35:36.580368+00:00",
+    "page": "https://asklink.org/",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://asklink.org/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://asklink.org/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json"
+}

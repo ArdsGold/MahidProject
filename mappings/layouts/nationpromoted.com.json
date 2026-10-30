@@ -1,0 +1,481 @@
+{
+  "domain": "nationpromoted.com",
+  "checked_utc": "2026-10-23T13:33:17.885617+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "business-listing-reference",
+  "access": "Account form is not supported by the current adapter; access has not been ruled out",
+  "entry_url": "https://nationpromoted.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "nationpromoted.com",
+      "url": "https://nationpromoted.com/",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://nationpromoted.com/",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch1$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://nationpromoted.com/directory/listingedit.aspx"
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://nationpromoted.com/directory/register.aspx"
+        },
+        {
+          "label": "Login",
+          "url": "https://nationpromoted.com/directory/login.aspx"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "nationpromoted.com",
+      "url": "https://nationpromoted.com/directory/register.aspx",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://nationpromoted.com/directory/register.aspx",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$FirstName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$LastName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$ReEnterPassword\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$OrgName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$OrgName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Country",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Country\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$State",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$State\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Address1",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Address1\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Address2",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Address2\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$City$CityDropDownList",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$City$CityDropDownList\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Phone",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Phone\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$AltPhone",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$AltPhone\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SocialURL_Facebook",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SocialURL_Facebook\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SocialURL_LinkedIn",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SocialURL_LinkedIn\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SocialURL_Twitter",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SocialURL_Twitter\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SocialURL_Instagram",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SocialURL_Instagram\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$DeleteLogo",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$DeleteLogo\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$PersonalProfile",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$PersonalProfile\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$OkToEmail",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$OkToEmail\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$OkToEmail",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$OkToEmail\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$UpdateButton",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$UpdateButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://nationpromoted.com/directory/listingedit.aspx"
+        },
+        {
+          "label": "Login",
+          "url": "https://nationpromoted.com/directory/login.aspx"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "review_reason": "Unsupported account form",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://nationpromoted.com/",
+      "https://nationpromoted.com/directory/register.aspx"
+    ],
+    "observed_form_count": 2,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "domain": "expatriates.com",
+  "checked_utc": "2026-10-23T12:59:04.677990+00:00",
+  "status": "Needs deeper inspection",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://www.expatriates.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "expatriates.com",
+      "url": "https://www.expatriates.com/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.expatriates.com/scripts/search/search.epl",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "region_name",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"region_name\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

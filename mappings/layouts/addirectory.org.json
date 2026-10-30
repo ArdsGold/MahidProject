@@ -1,0 +1,257 @@
+{
+  "domain": "addirectory.org",
+  "checked_utc": "2026-10-27T12:25:06.856112+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://addirectory.org/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "addirectory.org",
+      "startingUrl": "https://addirectory.org/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Continue",
+      "optionalReciprocal": false,
+      "inspected_date": "2026-10-27",
+      "fixture": "mappings/fixtures/addirectory.org.contract.html",
+      "source_layout": "mappings/layouts/addirectory.org.json",
+      "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "addirectory.org",
+      "url": "https://addirectory.org/submit.php",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://addirectory.org/index.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://addirectory.org/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|Â Â Â |___Animation",
+                "|Â Â Â |Â Â Â |___Animated Graphics",
+                "|Â Â Â |Â Â Â |___Animation Art Galleries",
+                "|Â Â Â |Â Â Â |___Animation Companies",
+                "|Â Â Â |Â Â Â |___Anime",
+                "|Â Â Â |Â Â Â |___Artists",
+                "|Â Â Â |Â Â Â |___Audio",
+                "|Â Â Â |Â Â Â |___Awards",
+                "|Â Â Â |Â Â Â |___Cartoons",
+                "|Â Â Â |Â Â Â |___Chats and Forums",
+                "|Â Â Â |Â Â Â |___Collectibles",
+                "|Â Â Â |Â Â Â |___Computer",
+                "|Â Â Â |Â Â Â |___Contests",
+                "|Â Â Â |Â Â Â |___DVD",
+                "|Â Â Â |Â Â Â |___Experimental",
+                "|Â Â Â |Â Â Â |___Festivals",
+                "|Â Â Â |Â Â Â |___Movies",
+                "|Â Â Â |Â Â Â |___News and Media",
+                "|Â Â Â |Â Â Â |___Organizations",
+                "|Â Â Â |Â Â Â |___Puppetry",
+                "|Â Â Â |Â Â Â |___Shopping",
+                "|Â Â Â |Â Â Â |___Stop-Motion",
+                "|Â Â Â |Â Â Â |___Studios",
+                "|Â Â Â |Â Â Â |___Training",
+                "|Â Â Â |Â Â Â |___Video Games",
+                "|Â Â Â |Â Â Â |___Voice Actors",
+                "|Â Â Â |Â Â Â |___Web",
+                "|Â Â Â |Â Â Â |___Web Rings",
+                "|Â Â Â |Â Â Â |___Writers",
+                "|Â Â Â |___Antiques",
+                "|Â Â Â |Â Â Â |___Appliances",
+                "|Â Â Â |Â Â Â |___Auctions",
+                "|Â Â Â |Â Â Â |___Autos",
+                "|Â Â Â |Â Â Â |___Bicycles",
+                "|Â Â Â |Â Â Â |___Books",
+                "|Â Â Â |Â Â Â |___Bottles",
+                "|Â Â Â |Â Â Â |___Cameras",
+                "|Â Â Â |Â Â Â |___Cash Registers"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://addirectory.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://addirectory.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://addirectory.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://addirectory.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://addirectory.org/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://addirectory.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://addirectory.org/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-27T12:24:39.809769+00:00",
+    "page": "https://addirectory.org/submit.php",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://addirectory.org/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://addirectory.org/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json"
+}

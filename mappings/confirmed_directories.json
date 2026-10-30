@@ -1,0 +1,627 @@
+{
+  "alivelinks.org": {
+    "domain": "alivelinks.org",
+    "startingUrl": "https://alivelinks.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/alivelinks.org.json",
+    "fixture": "mappings/fixtures/alivelinks.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "asklink.org": {
+    "domain": "asklink.org",
+    "startingUrl": "https://asklink.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/asklink.org.json",
+    "fixture": "mappings/fixtures/asklink.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "colorblossomdirectory.com": {
+    "domain": "colorblossomdirectory.com",
+    "startingUrl": "https://colorblossomdirectory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/colorblossomdirectory.com.json",
+    "fixture": "mappings/fixtures/colorblossomdirectory.com.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "gowwwlist.com": {
+    "domain": "gowwwlist.com",
+    "startingUrl": "https://gowwwlist.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/gowwwlist.com.json",
+    "fixture": "mappings/fixtures/gowwwlist.com.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "johnnylist.org": {
+    "domain": "johnnylist.org",
+    "startingUrl": "https://johnnylist.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/johnnylist.org.json",
+    "fixture": "mappings/fixtures/johnnylist.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "webguiding.net": {
+    "domain": "webguiding.net",
+    "startingUrl": "https://webguiding.net/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/webguiding.net.json",
+    "fixture": "mappings/fixtures/webguiding.net.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "onecooldir.com": {
+    "domain": "onecooldir.com",
+    "startingUrl": "https://onecooldir.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/onecooldir.com.json",
+    "fixture": "mappings/fixtures/onecooldir.com.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "1directory.org": {
+    "domain": "1directory.org",
+    "startingUrl": "https://1directory.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/1directory.org.json",
+    "fixture": "mappings/fixtures/1directory.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "targetlink.biz": {
+    "domain": "targetlink.biz",
+    "startingUrl": "https://targetlink.biz/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/targetlink.biz.json",
+    "fixture": "mappings/fixtures/targetlink.biz.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "sublimelink.org": {
+    "domain": "sublimelink.org",
+    "startingUrl": "https://sublimelink.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/sublimelink.org.json",
+    "fixture": "mappings/fixtures/sublimelink.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "hotlinks.biz": {
+    "domain": "hotlinks.biz",
+    "startingUrl": "https://hotlinks.biz/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/hotlinks.biz.json",
+    "fixture": "mappings/fixtures/hotlinks.biz.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "justdirectory.org": {
+    "domain": "justdirectory.org",
+    "startingUrl": "https://justdirectory.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/justdirectory.org.json",
+    "fixture": "mappings/fixtures/justdirectory.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "freeweblink.org": {
+    "domain": "freeweblink.org",
+    "startingUrl": "https://freeweblink.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/freeweblink.org.json",
+    "fixture": "mappings/fixtures/freeweblink.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "free-weblink.com": {
+    "domain": "free-weblink.com",
+    "startingUrl": "https://free-weblink.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/free-weblink.com.json",
+    "fixture": "mappings/fixtures/free-weblink.com.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "freeseolink.org": {
+    "domain": "freeseolink.org",
+    "startingUrl": "https://freeseolink.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/freeseolink.org.json",
+    "fixture": "mappings/fixtures/freeseolink.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "link-man.org": {
+    "domain": "link-man.org",
+    "startingUrl": "https://link-man.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/link-man.org.json",
+    "fixture": "mappings/fixtures/link-man.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "smartseolink.org": {
+    "domain": "smartseolink.org",
+    "startingUrl": "https://smartseolink.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/smartseolink.org.json",
+    "fixture": "mappings/fixtures/smartseolink.org.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "craigslistdirectory.net": {
+    "domain": "craigslistdirectory.net",
+    "startingUrl": "https://craigslistdirectory.net/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/craigslistdirectory.net.json",
+    "fixture": "mappings/fixtures/craigslistdirectory.net.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "interesting-dir.com": {
+    "domain": "interesting-dir.com",
+    "startingUrl": "https://interesting-dir.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/interesting-dir.com.json",
+    "fixture": "mappings/fixtures/interesting-dir.com.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "face-list.com": {
+    "domain": "face-list.com",
+    "startingUrl": "https://face-list.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/face-list.com.json",
+    "fixture": "mappings/fixtures/face-list.com.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "bestbuydir.com": {
+    "domain": "bestbuydir.com",
+    "startingUrl": "https://bestbuydir.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-24",
+    "source_layout": "mappings/layouts/bestbuydir.com.json",
+    "fixture": "mappings/fixtures/bestbuydir.com.contract.html",
+    "fixture_basis": "Synthetic offline fixture from recorded live control contract; category values are test-only, not site IDs"
+  },
+  "bizz-directory.com": {
+    "id": "bizz-directory",
+    "domain": "bizz-directory.com",
+    "name": "Bizz Directory",
+    "startingUrl": "https://bizz-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/bizz-directory.ts",
+    "source_sha256": "c872a15988f0bd263b049cabe6cb036add324426328a7c15e0db2a443e54fd96",
+    "provisional": false,
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/bizz-directory.com.contract.html",
+    "source_layout": "mappings/layouts/bizz-directory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "greenydirectory.com": {
+    "id": "greeny-directory",
+    "domain": "greenydirectory.com",
+    "name": "Greeny Directory",
+    "startingUrl": "https://greenydirectory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/greeny-directory.ts",
+    "source_sha256": "d44a13bd9b5b45a9bb1a07271a4149b21e041d515dc345595eaa88651897ea96",
+    "provisional": false,
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/greenydirectory.com.contract.html",
+    "source_layout": "mappings/layouts/greenydirectory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "groovy-directory.com": {
+    "id": "groovy-directory",
+    "domain": "groovy-directory.com",
+    "name": "Groovy Directory",
+    "startingUrl": "https://groovy-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/groovy-directory.ts",
+    "source_sha256": "8424b615dade1d676d36e64fd476d6b3e65829c9a7f1ac9c661279daddfa082b",
+    "provisional": false,
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/groovy-directory.com.contract.html",
+    "source_layout": "mappings/layouts/groovy-directory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "fire-directory.com": {
+    "id": "fire-directory",
+    "domain": "fire-directory.com",
+    "name": "Fire Directory",
+    "startingUrl": "https://fire-directory.com/",
+    "submitValue": "Submit",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "manualRadio": {
+      "name": "LINK_TYPE",
+      "value": "normal"
+    },
+    "source": "extSource/source/extension/src/automation/fire-directory.ts",
+    "source_sha256": "da0ce0f4156b2e04055e8eaba6c8a47b3ad6443ecd1164b99bf996389ae09fa7",
+    "provisional": false,
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/fire-directory.com.contract.html",
+    "source_layout": "mappings/layouts/fire-directory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "linkedin-directory.com": {
+    "id": "linkedin-directory",
+    "domain": "linkedin-directory.com",
+    "name": "LinkedIn Directory",
+    "startingUrl": "https://linkedin-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/linkedin-directory.ts",
+    "source_sha256": "671ebe7679365a5412ddd683a85ec9428838f945178f2f891505e8e47513b64a",
+    "provisional": false,
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/linkedin-directory.com.contract.html",
+    "source_layout": "mappings/layouts/linkedin-directory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "searchdomainhere.com": {
+    "id": "search-domain-here",
+    "domain": "searchdomainhere.com",
+    "name": "Search Domain Here",
+    "startingUrl": "https://searchdomainhere.com/",
+    "submitValue": "Submit",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "source": "extSource/source/extension/src/automation/search-domain-here.ts",
+    "source_sha256": "68300e4925e12d198967a1076b01d1ac75edfb8c641e5799006b4e5cdde30261",
+    "provisional": false,
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/searchdomainhere.com.contract.html",
+    "source_layout": "mappings/layouts/searchdomainhere.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "addirectory.org": {
+    "domain": "addirectory.org",
+    "startingUrl": "https://addirectory.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/addirectory.org.contract.html",
+    "source_layout": "mappings/layouts/addirectory.org.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "alive-directory.com": {
+    "domain": "alive-directory.com",
+    "startingUrl": "https://alive-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/alive-directory.com.contract.html",
+    "source_layout": "mappings/layouts/alive-directory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "apeopledirectory.com": {
+    "domain": "apeopledirectory.com",
+    "startingUrl": "https://apeopledirectory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/apeopledirectory.com.contract.html",
+    "source_layout": "mappings/layouts/apeopledirectory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "aquarius-dir.com": {
+    "domain": "aquarius-dir.com",
+    "startingUrl": "https://aquarius-dir.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/aquarius-dir.com.contract.html",
+    "source_layout": "mappings/layouts/aquarius-dir.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "ask-dir.org": {
+    "domain": "ask-dir.org",
+    "startingUrl": "https://ask-dir.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/ask-dir.org.contract.html",
+    "source_layout": "mappings/layouts/ask-dir.org.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "ask-directory.com": {
+    "domain": "ask-directory.com",
+    "startingUrl": "https://ask-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "manualRadio": {
+      "name": "LINK_TYPE",
+      "value": "normal",
+      "otherValues": [
+        "reciprocal"
+      ]
+    },
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/ask-directory.com.contract.html",
+    "source_layout": "mappings/layouts/ask-directory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "bedirectory.com": {
+    "domain": "bedirectory.com",
+    "startingUrl": "https://bedirectory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/bedirectory.com.contract.html",
+    "source_layout": "mappings/layouts/bedirectory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "beegdirectory.com": {
+    "domain": "beegdirectory.com",
+    "startingUrl": "https://beegdirectory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/beegdirectory.com.contract.html",
+    "source_layout": "mappings/layouts/beegdirectory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "classdirectory.org": {
+    "domain": "classdirectory.org",
+    "startingUrl": "https://classdirectory.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/classdirectory.org.contract.html",
+    "source_layout": "mappings/layouts/classdirectory.org.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "clicksordirectory.com": {
+    "domain": "clicksordirectory.com",
+    "startingUrl": "https://clicksordirectory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/clicksordirectory.com.contract.html",
+    "source_layout": "mappings/layouts/clicksordirectory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "ecodir.net": {
+    "domain": "ecodir.net",
+    "startingUrl": "https://ecodir.net/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/ecodir.net.contract.html",
+    "source_layout": "mappings/layouts/ecodir.net.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "globaldir.org": {
+    "domain": "globaldir.org",
+    "startingUrl": "https://globaldir.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/globaldir.org.contract.html",
+    "source_layout": "mappings/layouts/globaldir.org.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "nicedir.net": {
+    "domain": "nicedir.net",
+    "startingUrl": "https://nicedir.net/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/nicedir.net.contract.html",
+    "source_layout": "mappings/layouts/nicedir.net.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "afunnydir.com": {
+    "domain": "afunnydir.com",
+    "startingUrl": "https://afunnydir.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "manualRadio": {
+      "name": "LINK_TYPE",
+      "value": "normal",
+      "otherValues": [
+        "reciprocal"
+      ]
+    },
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/afunnydir.com.contract.html",
+    "source_layout": "mappings/layouts/afunnydir.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "justlink.org": {
+    "domain": "justlink.org",
+    "startingUrl": "https://justlink.org/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": false,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/justlink.org.contract.html",
+    "source_layout": "mappings/layouts/justlink.org.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  },
+  "darkschemedirectory.com": {
+    "domain": "darkschemedirectory.com",
+    "startingUrl": "https://darkschemedirectory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "submitValue": "Continue",
+    "optionalReciprocal": true,
+    "inspected_date": "2026-10-27",
+    "fixture": "mappings/fixtures/darkschemedirectory.com.contract.html",
+    "source_layout": "mappings/layouts/darkschemedirectory.com.json",
+    "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+  }
+}

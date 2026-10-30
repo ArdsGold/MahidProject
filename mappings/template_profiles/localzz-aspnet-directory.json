@@ -1,0 +1,240 @@
+{
+  "profile_id": "localzz-aspnet-directory",
+  "checked_utc": "2026-10-23T14:25:02.568038+00:00",
+  "purpose": "Evidence profile for future mapping; not an enabled publisher or automatic classifier",
+  "evidence_hosts": [
+    "localbranded.com",
+    "localbrowsed.com",
+    "localbundled.com"
+  ],
+  "basis": "Saved rendered-page observations and live plan-selector reviews",
+  "platform_inference": "ASP.NET Web Forms directory family; Localzz policy links observed on all three plan selectors. Shared operator/account access is not established.",
+  "routes": {
+    "register": "/directory/register.aspx",
+    "login": "/directory/login.aspx",
+    "posting_entry": "/directory/listingedit.aspx",
+    "plan_next": "/directory/listingedit1.aspx"
+  },
+  "confirmed_navigation": {
+    "register_label": "Sign Up",
+    "login_label": "Login",
+    "post_label": "Add Listing",
+    "post_selectors": [
+      "[id=\"HLAddListing\"]",
+      "[id=\"HyperLink1\"]"
+    ]
+  },
+  "registration_core": [
+    {
+      "name": "ctl00$PageContent$RegistrationForm$Address1",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$Address2",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$AltPhone",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$City$CityDropDownList",
+      "tag": "select",
+      "type": "select"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$Country",
+      "tag": "select",
+      "type": "select"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$Email",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$FirstName",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$LastName",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$OkToEmail",
+      "tag": "input",
+      "type": "radio"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$OrgName",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$Password",
+      "tag": "input",
+      "type": "password"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$PersonalProfile",
+      "tag": "textarea",
+      "type": "textarea"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$Phone",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$PostalCode",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+      "tag": "input",
+      "type": "password"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$SocialURL_Facebook",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$SocialURL_Instagram",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$SocialURL_LinkedIn",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$SocialURL_Twitter",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$State",
+      "tag": "select",
+      "type": "select"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$URL",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "name": "ctl00$PageContent$RegistrationForm$UpdateButton",
+      "tag": "input",
+      "type": "submit"
+    }
+  ],
+  "registration_core_count": 22,
+  "related_saved_layouts_matching_all_core_controls": [
+    "businessizze.com",
+    "citiezz.com",
+    "cityadvertised.com",
+    "citycategories.com",
+    "cityizze.com",
+    "citypromoted.com",
+    "dailyizze.com",
+    "featureizze.com",
+    "featurezz.com",
+    "listizze.com",
+    "localadvertised.com",
+    "localannounced.com",
+    "localbranded.com",
+    "localbrowsed.com",
+    "localbundled.com",
+    "localdisplayed.com",
+    "localfeatured.com",
+    "localstorefronts.com",
+    "nationpromoted.com",
+    "postingzz.com",
+    "postizze.com",
+    "usacategories.com",
+    "usafeatured.com",
+    "usapromoted.com"
+  ],
+  "plans_by_host": {
+    "localbranded.com": [
+      {
+        "price_usd": 0.99,
+        "website_link_included": false,
+        "plan_id": "31"
+      },
+      {
+        "price_usd": 3,
+        "website_link_included": true,
+        "plan_id": "32"
+      },
+      {
+        "price_usd": 5,
+        "website_link_included": true,
+        "plan_id": "33"
+      }
+    ],
+    "localbrowsed.com": [
+      {
+        "price_usd": 0.99,
+        "website_link_included": false,
+        "plan_id": "30"
+      },
+      {
+        "price_usd": 3,
+        "website_link_included": true,
+        "plan_id": "32"
+      },
+      {
+        "price_usd": 5,
+        "website_link_included": true,
+        "plan_id": "33"
+      }
+    ],
+    "localbundled.com": [
+      {
+        "price_usd": 0.99,
+        "website_link_included": false,
+        "plan_id": "30"
+      },
+      {
+        "price_usd": 3,
+        "website_link_included": true,
+        "plan_id": "32"
+      },
+      {
+        "price_usd": 5,
+        "website_link_included": true,
+        "plan_id": "33"
+      }
+    ]
+  },
+  "differences": [
+    "Homepage search control prefixes/layout differ.",
+    "Localbundled registration includes an additional DeleteLogo checkbox.",
+    "Cheapest plan ID is 31 on Localbranded, 30 on Localbrowsed and Localbundled.",
+    "No final listing editor or publication result was validated."
+  ],
+  "recommended_mapping_order": [
+    "Clear browser verification.",
+    "Ask the operator to confirm Register and Add Listing controls on the first mapping of each hostname.",
+    "Follow the actual Add Listing route before attempting login or registration.",
+    "Inspect each live plan price and whether a clickable website URL is included; do not copy plan IDs across hosts.",
+    "If only paid options are observed, save the observed restriction and stop account work on that route.",
+    "If a free appropriate option exists, inspect its next step and account requirements; preserve per-host account and CAPTCHA state."
+  ],
+  "guardrails": [
+    "Do not infer free/paid status on another website from family membership.",
+    "Do not infer account sharing or successful sign-in.",
+    "Do not treat homepage/search forms as posting editors.",
+    "Do not mark access gap from unsupported automation.",
+    "Do not count any mapping as a verified publication."
+  ]
+}

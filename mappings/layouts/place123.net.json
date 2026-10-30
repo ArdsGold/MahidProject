@@ -1,0 +1,7 @@
+{
+  "domain": "place123.net",
+  "status": "Inspection error",
+  "reason": "BridgeError",
+  "checked_utc": "2026-10-23T13:34:21.585024+00:00",
+  "publishing_enabled_by_inventory": false
+}

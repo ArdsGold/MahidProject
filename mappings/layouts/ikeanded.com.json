@@ -1,0 +1,1396 @@
+{
+  "domain": "ikeanded.com",
+  "checked_utc": "2026-10-23T18:34:48.565309+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "localzz-aspnet-directory",
+  "access": "Signed-in navigation and free listing editor observed",
+  "entry_url": "https://www.ikeanded.com/directory/listingedit.aspx",
+  "field_map": {
+    "name": "[name=\"ctl00$PageContent$Listing$Title\"]",
+    "short_description": "[name=\"ctl00$PageContent$Listing$ShortDescription\"]",
+    "body": "[name=\"ctl00$PageContent$Listing$Description\"]",
+    "business_name": "[name=\"ctl00$PageContent$Listing$OrgName\"]",
+    "hours": "[name=\"ctl00$PageContent$Listing$Hours\"]",
+    "phone": "[name=\"ctl00$PageContent$Listing$Phone\"]",
+    "public_email": "[name=\"ctl00$PageContent$Listing$Email\"]",
+    "website": "[name=\"ctl00$PageContent$Listing$URL\"]",
+    "category": "[name=\"ctl00$PageContent$Listing$CatId\"]"
+  },
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "ikeanded.com",
+      "url": "https://www.ikeanded.com/",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://www.ikeanded.com/",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.ikeanded.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.ikeanded.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "create a listing",
+          "url": "http://www.ikeanded.com/directory/login.aspx",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.ikeanded.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.ikeanded.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "create a listing",
+          "url": "http://www.ikeanded.com/directory/login.aspx",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "ikeanded.com",
+      "url": "https://www.ikeanded.com/directory/register.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://www.ikeanded.com/directory/register.aspx",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$FirstName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$LastName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$ReEnterPassword\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$OrgName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$OrgName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Country",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Country\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$State",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$State\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Address1",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Address1\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Address2",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Address2\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$City$CityDropDownList",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$City$CityDropDownList\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Phone",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Phone\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$AltPhone",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$AltPhone\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SocialURL_Facebook",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SocialURL_Facebook\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SocialURL_LinkedIn",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SocialURL_LinkedIn\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SocialURL_Twitter",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SocialURL_Twitter\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SocialURL_Instagram",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SocialURL_Instagram\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$DeleteLogo",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$DeleteLogo\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$PersonalProfile",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$PersonalProfile\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$OkToEmail",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$OkToEmail\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$OkToEmail",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$OkToEmail\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$UpdateButton",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$UpdateButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.ikeanded.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.ikeanded.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "ikeanded.com",
+      "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "ikeanded.com",
+      "url": "",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$PageContent$Listing$Title",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 100,
+              "selector": "[name=\"ctl00$PageContent$Listing$Title\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$ShortDescription",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$ShortDescription\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$Description",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$Description\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$IncludeProfile",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$IncludeProfile\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$IncludeProfile",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$IncludeProfile\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$DL_FeatureList$ctl00$CB_FeatureItem",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$DL_FeatureList$ctl00$CB_FeatureItem\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$DL_FeatureList$ctl01$CB_FeatureItem",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$DL_FeatureList$ctl01$CB_FeatureItem\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$DL_FeatureList$ctl02$CB_FeatureItem",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$DL_FeatureList$ctl02$CB_FeatureItem\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$DL_FeatureList$ctl03$CB_FeatureItem",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$DL_FeatureList$ctl03$CB_FeatureItem\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$OrgName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$Listing$OrgName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$FirstName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$Listing$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$LastName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$Listing$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$ListingEditAddress$_Country",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$ListingEditAddress$_Country\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$ListingEditAddress$_State",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$ListingEditAddress$_State\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$PageContent$Listing$ListingEditAddress$_Address1",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$Listing$ListingEditAddress$_Address1\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$ListingEditAddress$_Address2",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$Listing$ListingEditAddress$_Address2\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$ListingEditAddress$_City$CityDropDownList",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$ListingEditAddress$_City$CityDropDownList\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$PageContent$Listing$ListingEditAddress$_PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 19,
+              "selector": "[name=\"ctl00$PageContent$Listing$ListingEditAddress$_PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$Latitude",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 13,
+              "selector": "[name=\"ctl00$PageContent$Listing$Latitude\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$Longitude",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 13,
+              "selector": "[name=\"ctl00$PageContent$Listing$Longitude\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$Hours",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$Listing$Hours\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$Phone",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$Listing$Phone\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$AltPhone",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$Listing$AltPhone\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$Email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$Listing$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$Listing$URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$SocialURL_Facebook",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$Listing$SocialURL_Facebook\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$SocialURL_LinkedIn",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$Listing$SocialURL_LinkedIn\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$SocialURL_Twitter",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$Listing$SocialURL_Twitter\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$SocialURL_Instagram",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$Listing$SocialURL_Instagram\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$ListingDocTitle1",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$Listing$ListingDocTitle1\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$SaveAsDraftButton",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$SaveAsDraftButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$Listing$RunButton",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$Listing$RunButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Listing",
+          "url": "",
+          "selector": "[id=\"PageContent_Listing_RunButton\"]",
+          "tag": "input",
+          "role": "",
+          "page": "",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Validate account/profile and dependent location controls",
+    "Implement/offline-test final-editor and free-plan guards",
+    "Independently verify any future public listing and record five-day expiry"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://www.ikeanded.com/",
+      "observed_controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.ikeanded.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.ikeanded.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "create a listing",
+          "url": "http://www.ikeanded.com/directory/login.aspx",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://www.ikeanded.com/directory/register.aspx",
+      "observed_controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.ikeanded.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "page": "https://www.ikeanded.com/directory/listingedit.aspx",
+      "observed_controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "selector": "[id=\"HLAddListing\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.ikeanded.com/directory/listingedit.aspx",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:33:42.773133+00:00",
+    "page": "https://www.ikeanded.com/",
+    "controls": [
+      {
+        "label": "Add Listing",
+        "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+        "selector": "[id=\"HyperLink1\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://www.ikeanded.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Sign Up",
+        "url": "https://www.ikeanded.com/directory/register.aspx",
+        "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://www.ikeanded.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Login",
+        "url": "https://www.ikeanded.com/directory/login.aspx",
+        "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://www.ikeanded.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Add Listing",
+        "url": "https://www.ikeanded.com/directory/listingedit.aspx",
+        "selector": "[id=\"HLAddListing\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://www.ikeanded.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "create a listing",
+        "url": "http://www.ikeanded.com/directory/login.aspx",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://www.ikeanded.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "",
+  "verification_level": "Operator-confirmed controls; live Logout navigation, free-plan selection and final editor",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://www.ikeanded.com/",
+      "https://www.ikeanded.com/directory/register.aspx",
+      "https://www.ikeanded.com/directory/listingedit.aspx"
+    ],
+    "observed_form_count": 3,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "workflow_steps": [
+    {
+      "step": 1,
+      "label": "Add Listing",
+      "url": "https://www.ikeanded.com/directory/listingedit.aspx"
+    },
+    {
+      "step": 2,
+      "label": "Basic 5 Day Listing FREE: Select Plan",
+      "selector": "#PageContent_ListingPlan_AllPlansRepeater_SelectLink_3",
+      "plan_id": "30",
+      "guard": "Live plan container must say Basic 5 Day Listing FREE and link refers to a new listing (lid=-1), plan 30; never use paid/subscription options"
+    },
+    {
+      "step": 3,
+      "label": "Create Directory Listing - Details",
+      "path": "/directory/listingedit1.aspx",
+      "action": "Inspect final editor; do not save draft or submit during mapping"
+    }
+  ],
+  "limits": {
+    "ctl00$PageContent$Listing$Title": 100,
+    "ctl00$PageContent$Listing$OrgName": 50,
+    "ctl00$PageContent$Listing$FirstName": 50,
+    "ctl00$PageContent$Listing$LastName": 50,
+    "ctl00$PageContent$Listing$ListingEditAddress$_Address1": 50,
+    "ctl00$PageContent$Listing$ListingEditAddress$_Address2": 50,
+    "ctl00$PageContent$Listing$ListingEditAddress$_PostalCode": 19,
+    "ctl00$PageContent$Listing$Latitude": 13,
+    "ctl00$PageContent$Listing$Longitude": 13,
+    "ctl00$PageContent$Listing$Hours": 250,
+    "ctl00$PageContent$Listing$Phone": 50,
+    "ctl00$PageContent$Listing$AltPhone": 50,
+    "ctl00$PageContent$Listing$Email": 250,
+    "ctl00$PageContent$Listing$URL": 250,
+    "ctl00$PageContent$Listing$SocialURL_Facebook": 250,
+    "ctl00$PageContent$Listing$SocialURL_LinkedIn": 250,
+    "ctl00$PageContent$Listing$SocialURL_Twitter": 250,
+    "ctl00$PageContent$Listing$SocialURL_Instagram": 250,
+    "ctl00$PageContent$Listing$ListingDocTitle1": 250,
+    "short_description_displayed_limit": 160
+  },
+  "free_plan": {
+    "label": "Basic 5 Day Listing",
+    "duration_days": 5,
+    "price": "FREE",
+    "website_link_included": true,
+    "evidence": "Live plan description says free five-day listing includes website link and photos; editor header confirms same plan"
+  },
+  "final_form_controls": {
+    "submit": "[name=\"ctl00$PageContent$Listing$RunButton\"]",
+    "label": "Submit Listing",
+    "draft": "[name=\"ctl00$PageContent$Listing$SaveAsDraftButton\"]",
+    "mapping_policy": "Neither control clicked",
+    "profile": "IncludeProfile radios; do not reuse unverified profile details",
+    "map": "No invented coordinates; no geocoding performed"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:34:48.565351+00:00",
+    "page": "https://www.ikeanded.com/directory/listingedit1.aspx",
+    "evidence": "After initial generic unsupported-account assessment, live recheck showed My Account and Logout, then free plan selector. Guarded normal click on Basic 5 Day Listing FREE reached final editor with business details, address, hours, website and socials. Free option differs from paid-only related Localzz sites; per-host plans must be checked.",
+    "scope": "Earlier unsupported-account conclusion superseded by observed signed-in editor. No account-creation success inferred. No client content filled, draft saved or listing submitted. Dependent country/state/city dropdowns, required fields and server acceptance still need validation. Five-day duration must be preserved in future reporting."
+  }
+}

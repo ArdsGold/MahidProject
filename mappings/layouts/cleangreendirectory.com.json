@@ -1,0 +1,252 @@
+{
+  "domain": "cleangreendirectory.com",
+  "checked_utc": "2026-10-30T15:09:25.471328+00:00",
+  "status": "Inspection error",
+  "runtime": "Needs adapter",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://cleangreendirectory.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "cleangreendirectory.com",
+      "startingUrl": "https://cleangreendirectory.com/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Continue",
+      "optionalReciprocal": true
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "cleangreendirectory.com",
+      "url": "https://cleangreendirectory.com/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://cleangreendirectory.com/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://cleangreendirectory.com/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 70,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 100,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts & Humanities",
+                "|   |___Art History",
+                "|   |___Art Weblogs",
+                "|   |___Artists",
+                "|   |___Awards",
+                "|   |___Booksellers",
+                "|   |___Censorship",
+                "|   |___Chats and Forums",
+                "|   |___Crafts",
+                "|   |___Criticism and Theory",
+                "|   |___Cultural Policy",
+                "|   |___Cultures and Groups",
+                "|   |___Design Arts",
+                "|   |___Education",
+                "|   |___Events",
+                "|   |___Humanities",
+                "|   |___Institutes",
+                "|   |___Job and Employment Resources",
+                "|   |___Local History",
+                "|   |___Museums, Galleries, and Centers",
+                "|   |___News and Media",
+                "|   |___Organizations",
+                "|   |___Performing Arts",
+                "|   |___Photography",
+                "|   |___Reference",
+                "|   |___Shopping and Services",
+                "|   |___Visual Arts",
+                "|___Blogs",
+                "|   |___Blog Hosting",
+                "|   |___Business",
+                "|   |___Computer",
+                "|   |___Eclectic",
+                "|   |___Education",
+                "|   |___Home and Garden",
+                "|   |___Internet",
+                "|   |___Law",
+                "|   |___Library",
+                "|   |___Making Money",
+                "|   |___Money"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "RECPR_URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"RECPR_URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_TEXT",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"RECPR_TEXT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": true,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://cleangreendirectory.com/submit.php",
+      "observed_controls": []
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:55:43.595421+00:00",
+    "page": "https://cleangreendirectory.com/submit.php",
+    "controls": [],
+    "confirmed_by": "operator",
+    "confirmed_form": {
+      "page": "https://cleangreendirectory.com/submit.php",
+      "submit_label": "Continue",
+      "submit_selector": "[name=\"submit\"][type=\"submit\"]"
+    }
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:55:59.655392+00:00",
+    "page": "https://cleangreendirectory.com/submit.php",
+    "evidence": "Submission guideline: Only submit the top-level domain & sub-domain name of your site, unless using featured submission. DO NOT include a trailing slash.",
+    "operator_confirmation": "Confirmed ? this is the posting form",
+    "scope": "Continue button and posting form confirmed. Structural guard passed, including optional reciprocal field; no business fields filled and nothing submitted."
+  },
+  "campaign_compatibility": {
+    "campaign": "default",
+    "status": "Restricted by stated URL policy",
+    "reason": "Approved St. Louis destination uses a location subfolder; page reserves subfolder URLs for featured submissions",
+    "free_plan_eligibility": "Not established for exact approved URL"
+  },
+  "review_reason": "508 Resource Limit Is Reached on live inspection"
+}

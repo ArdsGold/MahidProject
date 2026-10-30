@@ -1,0 +1,17 @@
+{
+  "domain": "postquickads.com",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "xzero-classifieds",
+    "website_type": "Classifieds",
+    "basis": "Configured route"
+  },
+  "saved_structure": {
+    "family": "unknown",
+    "fingerprint": "",
+    "basis": "Live HTTP",
+    "source": "https://PostQuickAds.com/"
+  },
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

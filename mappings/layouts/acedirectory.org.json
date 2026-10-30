@@ -1,0 +1,226 @@
+{
+  "domain": "acedirectory.org",
+  "checked_utc": "2026-10-23T16:30:13.574919+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://acedirectory.org/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "acedirectory.org",
+      "url": "https://acedirectory.org/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://acedirectory.org/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://acedirectory.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://acedirectory.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://acedirectory.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://acedirectory.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "acedirectory.org",
+      "url": "https://acedirectory.org/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://acedirectory.org/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://acedirectory.org/submit",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://acedirectory.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://acedirectory.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://acedirectory.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://acedirectory.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Posting entry confirmed; final posting form not reached",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://acedirectory.org/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://acedirectory.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://acedirectory.org/submit.php",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://acedirectory.org/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://acedirectory.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://acedirectory.org/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T16:29:25.287904+00:00",
+    "page": "https://acedirectory.org/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://acedirectory.org/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://acedirectory.org/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T16:31:09.295382+00:00",
+    "page": "https://acedirectory.org/submit",
+    "evidence": "Step One Choose a Category visible. #ok Go To Step Two is present; #hierarchy and #tree Sports nodes not found in current rendered DOM.",
+    "scope": "Category selection remains unresolved. No claim of final-form access, account failure or Access gap. Nothing published.",
+    "operator_confirmation": "The chooser does not work ? save Needs review and continue",
+    "operator_confirmed_utc": "2026-10-23T16:31:29.752508+00:00"
+  },
+  "review_reason": "Category chooser does not work; confirmed by operator",
+  "verification_level": "Live category-step inspection and operator confirmation",
+  "observed_workflow_variant": "PHP Link Directory; category-first submission"
+}

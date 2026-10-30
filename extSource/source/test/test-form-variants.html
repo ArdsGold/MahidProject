@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Backlink Autofill 2.0 - Test Form (variants)</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        max-width: 720px;
+        margin: 32px auto;
+        padding: 0 16px;
+        color: #1c2430;
+      }
+      h1 { font-size: 1.3rem; }
+      section { border: 1px solid #d9dee5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+      h2 { font-size: 1rem; margin-top: 0; }
+      label { display: block; font-weight: 600; margin: 10px 0 4px; font-size: 0.9rem; }
+      input[type="text"] {
+        width: 100%; padding: 8px 10px; border: 1px solid #d9dee5; border-radius: 6px; font: inherit;
+      }
+      .row { margin-bottom: 4px; }
+      button { font: inherit; padding: 8px 16px; border-radius: 6px; border: 1px solid #1456d9; background: #1456d9; color: #fff; cursor: pointer; }
+      #submit-log { margin-top: 12px; font-weight: 600; color: #b3261e; }
+      .hint { color: #5c6b7a; font-size: 0.85rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Listing Form - name / placeholder / bare-label variants</h1>
+    <p class="hint">
+      Same five profile slots, but signalled only through name attributes, placeholders, or bare
+      labels. Expected: all five fill (business name, contact name, email, phone, website). Also see
+      <a href="test-form.html">test-form.html</a> for the standard-labelled version.
+    </p>
+
+    <form id="variant-form" action="#" method="post">
+      <section>
+        <h2>Expected: all five filled</h2>
+        <div class="row">
+          <input name="company" type="text" placeholder="Company" />
+          <p class="hint">placeholder/name only -&gt; Business Name</p>
+        </div>
+        <div class="row">
+          <input name="contact_person" type="text" placeholder="Contact person" />
+          <p class="hint">placeholder/name only -&gt; Contact Name</p>
+        </div>
+        <div class="row">
+          <input name="user_email" type="text" />
+          <p class="hint">name only -&gt; Email</p>
+        </div>
+        <div class="row">
+          <input name="telephone_number" type="text" />
+          <p class="hint">name only -&gt; Phone</p>
+        </div>
+        <div class="row">
+          <input placeholder="Website URL" type="text" />
+          <p class="hint">placeholder only -&gt; Website</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Edge cases</h2>
+        <div class="row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" />
+          <p class="hint">
+            Bare "Name" -&gt; matches Contact Name, but expected: SKIPPED here ("slot already
+            filled" by the contact person field above - one fill per slot). On a page where it is the
+            only name field, it fills as Contact Name.
+          </p>
+        </div>
+        <div class="row">
+          <input name="company_email" type="text" />
+          <p class="hint">
+            Ambiguous "company email" (business name vs email, no type hint) -&gt; expected: SKIPPED
+            as ambiguous (not confident enough).
+          </p>
+        </div>
+      </section>
+
+      <button id="submit-button" type="submit">Post Listing</button>
+      <div id="submit-log"></div>
+    </form>
+
+    <script>
+      document.getElementById("variant-form").addEventListener("submit", function (event) {
+        event.preventDefault();
+        document.getElementById("submit-log").textContent =
+          "Form submitted at " + new Date().toLocaleTimeString() + " (manual submit only).";
+      });
+    </script>
+  </body>
+</html>

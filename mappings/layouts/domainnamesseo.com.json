@@ -1,0 +1,228 @@
+{
+  "domain": "domainnamesseo.com",
+  "checked_utc": "2026-10-23T17:41:41.964115+00:00",
+  "status": "Submissions closed",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Posting currently closed by website",
+  "entry_url": "https://domainnamesseo.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "domainnamesseo.com",
+      "url": "https://domainnamesseo.com/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://domainnamesseo.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://domainnamesseo.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://domainnamesseo.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://domainnamesseo.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://domainnamesseo.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "domainnamesseo.com",
+      "url": "https://domainnamesseo.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://domainnamesseo.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://domainnamesseo.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://domainnamesseo.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://domainnamesseo.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://domainnamesseo.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Posting entry confirmed; final posting form not reached",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://domainnamesseo.com/",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://domainnamesseo.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://domainnamesseo.com/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://domainnamesseo.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://domainnamesseo.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://domainnamesseo.com/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:41:25.074699+00:00",
+    "page": "https://domainnamesseo.com/",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://domainnamesseo.com/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://domainnamesseo.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Submission page explicitly states link submissions are closed",
+  "verification_level": "Live explicit closure message",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:41:41.964129+00:00",
+    "page": "https://domainnamesseo.com/submit",
+    "evidence": "Closed. We are sorry but link submissions are closed. We will be back in 24 hours. No listing form or next-step controls present.",
+    "scope": "Reopening time is a website claim, not independently confirmed. No listing submitted; not classified as Access gap."
+  }
+}

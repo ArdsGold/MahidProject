@@ -1,0 +1,28 @@
+{
+  "domain": "cakeresume.com",
+  "checked_utc": "2026-10-23T12:46:15.692947+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "External sign-in requires a provider-specific mapping",
+  "entry_url": "",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "previous_status": "Account access gap",
+  "previous_access_reason": "External sign-in requires a provider-specific mapping",
+  "review_reason": "Unsupported external sign-in",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [],
+    "observed_form_count": 0,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  }
+}

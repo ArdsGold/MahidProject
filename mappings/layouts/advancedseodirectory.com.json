@@ -1,0 +1,23 @@
+{
+  "domain": "advancedseodirectory.com",
+  "status": "Inspection error",
+  "reason": "BridgeError",
+  "checked_utc": "2026-10-23T17:57:08.703767+00:00",
+  "publishing_enabled_by_inventory": false,
+  "review_reason": "Operator confirms loading/server/connection error; independent homepage HTTP 500",
+  "access": "Website loading or server error",
+  "completion_level": "Error confirmed; final posting form not reached",
+  "verification_level": "Browser retries, independent HTTP 500 and operator confirmation",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:57:08.703782+00:00",
+    "page": "https://advancedseodirectory.com/",
+    "controls": [],
+    "confirmed_by": "operator",
+    "evidence": "Chrome shows loading, server or connection error; no posting/account controls available."
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:57:08.703785+00:00",
+    "evidence": "Submission-page browser inspection and homepage retry failed (BridgeError). Independent homepage request returned HTTP 500. Operator confirms loading/server/connection error.",
+    "scope": "Underlying server cause unconfirmed. Not a credential failure or Access gap. No listing submitted."
+  }
+}

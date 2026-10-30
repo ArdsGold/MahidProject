@@ -1,0 +1,7 @@
+{
+  "domain": "flipmyyard.com",
+  "status": "Inspection error",
+  "reason": "BridgeError",
+  "checked_utc": "2026-10-23T13:31:31.659348+00:00",
+  "publishing_enabled_by_inventory": false
+}

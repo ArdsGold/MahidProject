@@ -1,0 +1,499 @@
+{
+  "ad-links.org": {
+    "id": "ad-links",
+    "domain": "ad-links.org",
+    "name": "Ad Links",
+    "startingUrl": "https://ad-links.org/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/f03-directory.ts",
+    "source_sha256": "21808c4b237f2067c1c71e6fb8c10ea9b9f78ef0e4c9aaf7c2366273d892cb5e",
+    "provisional": false
+  },
+  "adbritedirectory.com": {
+    "id": "adbrite-directory",
+    "domain": "adbritedirectory.com",
+    "name": "Adbrite Directory",
+    "startingUrl": "https://www.adbritedirectory.com/",
+    "protocols": [
+      "http:",
+      "https:"
+    ],
+    "manualTerms": {
+      "name": "agree",
+      "value": "0",
+      "label": "Accept Terms of Agreement",
+      "rulesPath": "/rules.php",
+      "exitValue": "Exit"
+    },
+    "entryLabels": [
+      "Submit Links"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/adbrite-directory.ts",
+    "source_sha256": "985e0a4669e33263c6a9cea26be4301d4f14cf1b8ce71a923d1497d4dee6e6a3",
+    "provisional": false
+  },
+  "addgoodsites.com": {
+    "id": "addgoodsites",
+    "domain": "addgoodsites.com",
+    "name": "Add Good Sites",
+    "startingUrl": "https://addgoodsites.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/f03-directory.ts",
+    "source_sha256": "21808c4b237f2067c1c71e6fb8c10ea9b9f78ef0e4c9aaf7c2366273d892cb5e",
+    "provisional": false
+  },
+  "advancedseodirectory.com": {
+    "id": "advanced-seo-directory",
+    "domain": "advancedseodirectory.com",
+    "name": "Advanced SEO Directory",
+    "startingUrl": "http://advancedseodirectory.com/",
+    "protocols": [
+      "http:",
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/advanced-seo-directory.ts",
+    "source_sha256": "e595a93dea23e644b8630b88682a77ec9c81098048fa4f665e264882e5c7b944",
+    "provisional": false
+  },
+  "aurora-directory.com": {
+    "id": "aurora-directory",
+    "domain": "aurora-directory.com",
+    "name": "Aurora Directory",
+    "startingUrl": "https://aurora-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/aurora-directory.ts",
+    "source_sha256": "ae78822b30e60b8ffb57ebcd59ced956b5c57e0e911d73a5f5bb41b780e3db7b",
+    "provisional": false,
+    "optionalReciprocal": true
+  },
+  "backpagedir.com": {
+    "id": "backpagedir",
+    "domain": "backpagedir.com",
+    "name": "Backpage Directory",
+    "startingUrl": "https://backpagedir.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/f03-directory.ts",
+    "source_sha256": "21808c4b237f2067c1c71e6fb8c10ea9b9f78ef0e4c9aaf7c2366273d892cb5e",
+    "provisional": false
+  },
+  "bizz-directory.com": {
+    "id": "bizz-directory",
+    "domain": "bizz-directory.com",
+    "name": "Bizz Directory",
+    "startingUrl": "https://bizz-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/bizz-directory.ts",
+    "source_sha256": "c872a15988f0bd263b049cabe6cb036add324426328a7c15e0db2a443e54fd96",
+    "provisional": false
+  },
+  "bluebook-directory.com": {
+    "id": "bluebook-directory",
+    "domain": "bluebook-directory.com",
+    "name": "Bluebook Directory",
+    "startingUrl": "https://bluebook-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/bluebook-directory.ts",
+    "source_sha256": "6a77b631e4301b6df3e3ac6d81c7ee04fb22236921fb9f0fdcbc5a60af20780f",
+    "provisional": false
+  },
+  "businessfreedirectory.biz": {
+    "id": "businessfreedirectory",
+    "domain": "businessfreedirectory.biz",
+    "name": "Business Free Directory",
+    "startingUrl": "https://businessfreedirectory.biz/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/f03-directory.ts",
+    "source_sha256": "21808c4b237f2067c1c71e6fb8c10ea9b9f78ef0e4c9aaf7c2366273d892cb5e",
+    "provisional": false
+  },
+  "directory3.org": {
+    "id": "directory3",
+    "domain": "directory3.org",
+    "name": "Directory3",
+    "startingUrl": "http://directory3.org/",
+    "protocols": [
+      "http:",
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Links"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/directory3.ts",
+    "source_sha256": "629be59b1fb041f9e79c9c169e6589c2dc6b8c632b0652e8e7b2829d59cd05b0",
+    "provisional": false
+  },
+  "efdir.com": {
+    "id": "efdir",
+    "domain": "efdir.com",
+    "name": "Efdir",
+    "startingUrl": "http://efdir.com/",
+    "protocols": [
+      "http:",
+      "https:"
+    ],
+    "manualTerms": {
+      "name": "agree",
+      "value": "0",
+      "label": "Accept Terms of Agreement",
+      "rulesPath": "/rules.php",
+      "exitValue": "Exit"
+    },
+    "entryLabels": [
+      "Submit Links"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/efdir.ts",
+    "source_sha256": "cb60b2eeb0c087585f52dc5962813167056d1bb2c52fec34b99ff9822c472700",
+    "provisional": false
+  },
+  "expansiondirectory.com": {
+    "id": "expansion-directory",
+    "domain": "expansiondirectory.com",
+    "name": "Expansion Directory",
+    "startingUrl": "https://expansiondirectory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit your link to the directory",
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/expansion-directory.ts",
+    "source_sha256": "e31bfaf522e5409e70ff65b1728c35b62c205045cabcd14e03b97890ab56c9b5",
+    "provisional": false,
+    "optionalReciprocal": true
+  },
+  "familydir.com": {
+    "id": "familydir",
+    "domain": "familydir.com",
+    "name": "Familydir",
+    "startingUrl": "https://familydir.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "manualRadio": {
+      "name": "LINK_TYPE",
+      "value": "normal"
+    },
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/familydir.ts",
+    "source_sha256": "75f128fe86f9cc1374f333462f0d7c007596fd7d33f0ee46c86f99ab42bcbcab",
+    "provisional": false
+  },
+  "fire-directory.com": {
+    "id": "fire-directory",
+    "domain": "fire-directory.com",
+    "name": "Fire Directory",
+    "startingUrl": "https://fire-directory.com/",
+    "submitValue": "Submit",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "manualRadio": {
+      "name": "LINK_TYPE",
+      "value": "normal"
+    },
+    "source": "extSource/source/extension/src/automation/fire-directory.ts",
+    "source_sha256": "da0ce0f4156b2e04055e8eaba6c8a47b3ad6443ecd1164b99bf996389ae09fa7",
+    "provisional": false
+  },
+  "fruity-directory.com": {
+    "id": "fruity-directory",
+    "domain": "fruity-directory.com",
+    "name": "Fruity Directory",
+    "startingUrl": "https://fruity-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/fruity-directory.ts",
+    "source_sha256": "7e6d31709176d0c129750f8baf7c6d63aa8cdd2a64da56af3be5c83117be847f",
+    "provisional": false,
+    "optionalReciprocal": true
+  },
+  "greenydirectory.com": {
+    "id": "greeny-directory",
+    "domain": "greenydirectory.com",
+    "name": "Greeny Directory",
+    "startingUrl": "https://greenydirectory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/greeny-directory.ts",
+    "source_sha256": "d44a13bd9b5b45a9bb1a07271a4149b21e041d515dc345595eaa88651897ea96",
+    "provisional": false
+  },
+  "groovy-directory.com": {
+    "id": "groovy-directory",
+    "domain": "groovy-directory.com",
+    "name": "Groovy Directory",
+    "startingUrl": "https://groovy-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/groovy-directory.ts",
+    "source_sha256": "8424b615dade1d676d36e64fd476d6b3e65829c9a7f1ac9c661279daddfa082b",
+    "provisional": false
+  },
+  "ifidir.com": {
+    "id": "ifidir",
+    "domain": "ifidir.com",
+    "name": "Ifidir",
+    "startingUrl": "http://ifidir.com/",
+    "protocols": [
+      "http:",
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/ifidir.ts",
+    "source_sha256": "ad5acc03046bf6fc927947a78d9387fc5b0979867e961c7b9dba763ea20ec136",
+    "provisional": true
+  },
+  "jet-links.com": {
+    "id": "jet-links",
+    "domain": "jet-links.com",
+    "name": "Jet Links",
+    "startingUrl": "https://jet-links.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "manualTerms": {
+      "name": "agree",
+      "value": "0",
+      "label": "Accept Terms of Agreement",
+      "rulesPath": "/rules.php",
+      "exitValue": "Exit"
+    },
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/jet-links.ts",
+    "source_sha256": "119993ef6b47c6737a34a13203bd4e332e1e014a4809299c83bf0bcfab262bb8",
+    "provisional": false
+  },
+  "linkedin-directory.com": {
+    "id": "linkedin-directory",
+    "domain": "linkedin-directory.com",
+    "name": "LinkedIn Directory",
+    "startingUrl": "http://linkedin-directory.com/",
+    "protocols": [
+      "http:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/linkedin-directory.ts",
+    "source_sha256": "671ebe7679365a5412ddd683a85ec9428838f945178f2f891505e8e47513b64a",
+    "provisional": false
+  },
+  "reddit-directory.com": {
+    "id": "reddit-directory",
+    "domain": "reddit-directory.com",
+    "name": "Reddit Directory",
+    "startingUrl": "https://reddit-directory.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "manualRadio": {
+      "name": "LINK_TYPE",
+      "value": "normal"
+    },
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/reddit-directory.ts",
+    "source_sha256": "95cb30ecb107526a27bd3b0f053da9dcf1f6ed7c784bb73d44b07342cbf7cae1",
+    "provisional": false
+  },
+  "relateddirectory.org": {
+    "id": "related-directory",
+    "domain": "relateddirectory.org",
+    "name": "Related Directory",
+    "startingUrl": "http://relateddirectory.org/",
+    "protocols": [
+      "http:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/related-directory.ts",
+    "source_sha256": "1932352e1018a47e1f93ad3ba25282c0052498193df1dcfa8284f47321664796",
+    "provisional": true
+  },
+  "relevantdirectories.com": {
+    "id": "relevant-directories",
+    "domain": "relevantdirectories.com",
+    "name": "Relevant Directories",
+    "startingUrl": "https://relevantdirectories.com/",
+    "submitValue": "Submit",
+    "protocols": [
+      "http:",
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "source": "extSource/source/extension/src/automation/relevant-directories.ts",
+    "source_sha256": "710b561cfd3e10c1710f185bc04c370f616a6482cca2da9b98b98629d2957ae6",
+    "provisional": false,
+    "optionalReciprocal": true
+  },
+  "relevantdirectory.biz": {
+    "id": "relevant-directory",
+    "domain": "relevantdirectory.biz",
+    "name": "Relevant Directory",
+    "startingUrl": "https://relevantdirectory.biz/",
+    "protocols": [
+      "http:",
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Link"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/relevant-directory.ts",
+    "source_sha256": "04edfcaa20188790ed4d151cffddf3635e70617e3faa9f2ccc258490283f1d63",
+    "provisional": false,
+    "optionalReciprocal": true
+  },
+  "searchdomainhere.com": {
+    "id": "search-domain-here",
+    "domain": "searchdomainhere.com",
+    "name": "Search Domain Here",
+    "startingUrl": "http://searchdomainhere.com/",
+    "submitValue": "Submit",
+    "protocols": [
+      "http:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "source": "extSource/source/extension/src/automation/search-domain-here.ts",
+    "source_sha256": "68300e4925e12d198967a1076b01d1ac75edfb8c641e5799006b4e5cdde30261",
+    "provisional": false
+  },
+  "smartdir.org": {
+    "id": "smartdir",
+    "domain": "smartdir.org",
+    "name": "Smartdir",
+    "startingUrl": "https://smartdir.org/",
+    "protocols": [
+      "http:",
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/smartdir.ts",
+    "source_sha256": "2a87976f6d14728ea8551417f7110436a5030b0db15c62229915a9bc585ac825",
+    "provisional": false
+  },
+  "toptendir.net": {
+    "id": "toptendir",
+    "domain": "toptendir.net",
+    "name": "Toptendir",
+    "startingUrl": "https://toptendir.net/",
+    "protocols": [
+      "http:",
+      "https:"
+    ],
+    "entryLabels": [
+      "Add Site"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/toptendir.ts",
+    "source_sha256": "fc8ae3cebf06fdc6ab72db43ae06fd0475af22b8b1bc658dcac3532168241972",
+    "provisional": false
+  },
+  "unique-listing.com": {
+    "id": "unique-listing",
+    "domain": "unique-listing.com",
+    "name": "Unique Listing",
+    "startingUrl": "https://unique-listing.com/",
+    "protocols": [
+      "https:"
+    ],
+    "entryLabels": [
+      "Submit Links"
+    ],
+    "submitValue": "Continue",
+    "source": "extSource/source/extension/src/automation/unique-listing.ts",
+    "source_sha256": "b149de5fec91857ac30a3c25be6b09be5898d9baea2e56362e02e3f59ddd96b0",
+    "provisional": false,
+    "optionalReciprocal": true
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "domain": "lemon-directory.com",
+  "checked_utc": "2026-10-23T18:39:12.033451+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://lemon-directory.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "lemon-directory.com",
+      "startingUrl": "https://lemon-directory.com/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Submit",
+      "optionalReciprocal": true
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "lemon-directory.com",
+      "url": "https://lemon-directory.com/submit.php",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://lemon-directory.com/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://lemon-directory.com/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |___Antiques",
+                "|   |___Architecture",
+                "|   |___Art History",
+                "|   |___Artists",
+                "|   |___Awards",
+                "|   |___Bodyart",
+                "|   |___Booksellers",
+                "|   |___Censorship",
+                "|   |___Classical Studies",
+                "|   |___Costumes",
+                "|   |___Crafts",
+                "|   |___Cultures and Groups",
+                "|   |___Dance",
+                "|   |___Digital",
+                "|   |___Education",
+                "|   |___Events",
+                "|   |___Humanities",
+                "|   |___Illustration",
+                "|   |___Institutes",
+                "|   |___Literature",
+                "|   |___Movies",
+                "|   |___Museums and Galleries",
+                "|   |___Music",
+                "|   |___Organizations",
+                "|   |___Painting",
+                "|   |___People",
+                "|   |___Performing Arts",
+                "|   |___Photography",
+                "|   |___Television",
+                "|   |___Video",
+                "|   |___Visual Arts",
+                "|   |___Writing",
+                "|___Blogs",
+                "|   |___Advertising and Marketing",
+                "|   |___Arts",
+                "|   |___Automotive",
+                "|   |___Blogging"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "RECPR_URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"RECPR_URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_TEXT",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"RECPR_TEXT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://lemon-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://lemon-directory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://lemon-directory.com/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "By clicking Submit you Accept Terms of Agreement",
+          "url": "http://www.lemon-directory.com/guidelines.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://lemon-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://lemon-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://lemon-directory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "By clicking Submit you Accept Terms of Agreement",
+          "url": "http://www.lemon-directory.com/guidelines.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://lemon-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": true,
+      "submit_label": "Submit"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://lemon-directory.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://lemon-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://lemon-directory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://lemon-directory.com/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "By clicking Submit you Accept Terms of Agreement",
+          "url": "http://www.lemon-directory.com/guidelines.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://lemon-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:39:11.686053+00:00",
+    "page": "https://lemon-directory.com/submit.php",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://lemon-directory.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://lemon-directory.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Submit",
+        "url": "",
+        "selector": "[name=\"submit\"]",
+        "tag": "input",
+        "role": "",
+        "page": "https://lemon-directory.com/submit.php",
+        "navigation_only": false
+      },
+      {
+        "label": "By clicking Submit you Accept Terms of Agreement",
+        "url": "http://www.lemon-directory.com/guidelines.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://lemon-directory.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "limits": {
+    "TITLE": 255,
+    "URL": 255,
+    "OWNER_NAME": 255,
+    "OWNER_EMAIL": 255,
+    "DESCRIPTION": "No HTML maxlength observed; server limit unverified"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:39:29.545346+00:00",
+    "page": "https://lemon-directory.com/submit.php",
+    "evidence": "Confirmed Add Site and Submit controls on final title/URL/description/name/email/category form. Native free-form guard passed with optional reciprocal allowed. Reciprocal field label has no required asterisk. reCAPTCHA and Submit present. Guidelines link observed. Site says links active at least one year and no removal during that period.",
+    "scope": "No listing filled or submitted in this mapping pass. Leave reciprocal URL empty; no invented reciprocal links. Server acceptance untested by this pass. Required Your Name needs approved value; no invented personal contact."
+  },
+  "final_form_controls": {
+    "submit": "[name=submit]",
+    "label": "Submit",
+    "verification": "Operator completes reCAPTCHA during publishing",
+    "reciprocal_policy": "Leave optional RECPR_URL empty",
+    "terms_url": "http://www.lemon-directory.com/guidelines.php",
+    "terms": "Clicking Submit accepts Terms of Agreement"
+  }
+}

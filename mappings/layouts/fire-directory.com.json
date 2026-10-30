@@ -1,0 +1,369 @@
+{
+  "domain": "fire-directory.com",
+  "checked_utc": "2026-10-27T11:40:59.423179+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://fire-directory.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "id": "fire-directory",
+      "domain": "fire-directory.com",
+      "name": "Fire Directory",
+      "startingUrl": "https://fire-directory.com/",
+      "submitValue": "Submit",
+      "protocols": [
+        "https:"
+      ],
+      "entryLabels": [
+        "Add Site"
+      ],
+      "manualRadio": {
+        "name": "LINK_TYPE",
+        "value": "normal"
+      },
+      "source": "extSource/source/extension/src/automation/fire-directory.ts",
+      "source_sha256": "da0ce0f4156b2e04055e8eaba6c8a47b3ad6443ecd1164b99bf996389ae09fa7",
+      "provisional": false,
+      "optionalReciprocal": true,
+      "inspected_date": "2026-10-27",
+      "fixture": "mappings/fixtures/fire-directory.com.contract.html",
+      "source_layout": "mappings/layouts/fire-directory.com.json",
+      "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": false
+    }
+  },
+  "pages": [
+    {
+      "host": "fire-directory.com",
+      "url": "https://fire-directory.com/submit.php",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://fire-directory.com/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://fire-directory.com/submit.php",
+          "fields": [
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |___Architecture",
+                "|   |___Art History",
+                "|   |___Awards",
+                "|   |___Bodyart",
+                "|   |___Chats and Forums",
+                "|   |___Classical Studies",
+                "|   |___Comics",
+                "|   |___Contests",
+                "|   |___Costumes",
+                "|   |___Crafts",
+                "|   |___Cultures and Groups",
+                "|   |___Design",
+                "|   |___Digital",
+                "|   |___Directories",
+                "|   |___Education",
+                "|   |___Entertainment",
+                "|   |___Events",
+                "|   |___Genres",
+                "|   |___Graphic Design",
+                "|   |___Humanities",
+                "|   |___Illustration",
+                "|   |___Literature",
+                "|   |___Magazines and E-zines",
+                "|   |___Movies",
+                "|   |___Music",
+                "|   |___News and Media",
+                "|   |___Online Writing",
+                "|   |___Organizations",
+                "|   |___Others (Arts)",
+                "|   |___People",
+                "|   |___Performing Arts",
+                "|   |___Periods and Movements",
+                "|   |___Photography",
+                "|   |___Radio",
+                "|   |___Television",
+                "|   |___Video",
+                "|   |___Visual Arts"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "RECPR_URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"RECPR_URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_TEXT",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"RECPR_TEXT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://fire-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://fire-directory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://fire-directory.com/submit.php",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://fire-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://fire-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": true,
+      "submit_label": "Submit"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://fire-directory.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://fire-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://fire-directory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://fire-directory.com/submit.php",
+          "navigation_only": false
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:18:45.460137+00:00",
+    "page": "https://fire-directory.com/submit.php",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://fire-directory.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://fire-directory.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Submit",
+        "url": "",
+        "selector": "[name=\"submit\"]",
+        "tag": "input",
+        "role": "",
+        "page": "https://fire-directory.com/submit.php",
+        "navigation_only": false
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "limits": {
+    "TITLE": 255,
+    "URL": 255,
+    "OWNER_NAME": 255,
+    "OWNER_EMAIL": 255,
+    "DESCRIPTION": "No HTML maxlength observed; server limit unverified"
+  },
+  "plan_mapping": {
+    "selector": "input[name=LINK_TYPE][value=normal]",
+    "label": "Regular links",
+    "price": "free",
+    "observed_choices": [
+      {
+        "value": "normal",
+        "checked": false,
+        "label": "Regular linksfree"
+      }
+    ],
+    "action": "Guard live free label and select normal radio before future authorized submission"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:19:03.767933+00:00",
+    "page": "https://fire-directory.com/submit.php",
+    "evidence": "Confirmed Add Site and Submit controls on final title/URL/description/name/email/category form. Native structural guard passed; free radio not yet selected. Regular links free plan, reciprocal field without required asterisk, reCAPTCHA and Submit present. Site says listings active at least one year and no removal during that period.",
+    "scope": "No listing filled or submitted. Free radio must be selected with live label guard in publishing. Leave reciprocal URL empty; server acceptance untested. Required Your Name needs approved value; no invented personal contact."
+  },
+  "final_form_controls": {
+    "submit": "[name=submit]",
+    "label": "Submit",
+    "verification": "Operator completes reCAPTCHA during publishing",
+    "reciprocal_policy": "Leave RECPR_URL empty; appears optional from label, server acceptance untested"
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json",
+  "review_note": "2026-10-27 live optional reciprocal guard passed; blank reciprocal field allowed. Publication remains untested and requires live guards."
+}

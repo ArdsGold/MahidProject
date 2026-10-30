@@ -1,0 +1,32 @@
+{
+  "domain": "dicedirectory.com",
+  "status": "Inspection error",
+  "reason": "Browser loading/blocking error; read-only HTTPS probe returned 403",
+  "checked_utc": "2026-10-23T14:49:49.671206+00:00",
+  "publishing_enabled_by_inventory": false,
+  "review_reason": "Operator confirms browser error; homepage request returned HTTP 403 Forbidden",
+  "access": "Page could not be loaded or inspected in Chrome",
+  "completion_level": "Incomplete; website controls unavailable",
+  "verification_level": "Operator confirms browser error; independent HEAD request returned 403",
+  "final_output_status": "error",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:51:29.588445+00:00",
+    "pages_attempted": [
+      "https://dicedirectory.com/submit.php",
+      "https://dicedirectory.com/"
+    ],
+    "http_probe": {
+      "method": "HEAD",
+      "url": "https://dicedirectory.com/",
+      "status": 403
+    },
+    "operator_confirmation": "Chrome shows a loading, blocked or connection error",
+    "scope": "Observed access failure; precise blocking cause and posting controls unconfirmed. No Access gap conclusion."
+  },
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:51:29.588459+00:00",
+    "confirmed_by": "operator",
+    "controls": [],
+    "scope": "Operator sees browser error; no claim about controls on a working website"
+  }
+}

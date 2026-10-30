@@ -1,0 +1,327 @@
+{
+  "domain": "freeweblink.org",
+  "checked_utc": "2026-10-23T15:39:07.086804+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://freeweblink.org/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "freeweblink.org",
+      "startingUrl": "https://freeweblink.org/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Continue",
+      "optionalReciprocal": false
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "freeweblink.org",
+      "url": "https://freeweblink.org/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://freeweblink.org/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://freeweblink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://freeweblink.org/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://freeweblink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://freeweblink.org/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "freeweblink.org",
+      "url": "https://freeweblink.org/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://freeweblink.org/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://freeweblink.org/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts & Humanities",
+                "|   |___Art History",
+                "|   |___Art Weblogs",
+                "|   |___Artists",
+                "|   |___Awards",
+                "|   |___Booksellers",
+                "|   |___Censorship",
+                "|   |___Chats and Forums",
+                "|   |___Crafts",
+                "|   |___Criticism and Theory",
+                "|   |___Cultural Policy",
+                "|   |___Cultures and Groups",
+                "|   |___Design Arts",
+                "|   |___Education",
+                "|   |___Events",
+                "|   |___Humanities",
+                "|   |___Institutes",
+                "|   |___Job and Employment Resources",
+                "|   |___Local History",
+                "|   |___Museums, Galleries, and Centers",
+                "|   |___News and Media",
+                "|   |___Organizations",
+                "|   |___Performing Arts",
+                "|   |___Photography",
+                "|   |___Reference",
+                "|   |___Shopping and Services",
+                "|   |___Visual Arts",
+                "|___Blogs",
+                "|   |___Blog Hosting",
+                "|   |___Business",
+                "|   |___Computer",
+                "|   |___Eclectic",
+                "|   |___Education",
+                "|   |___Home and Garden",
+                "|   |___Internet",
+                "|   |___Law",
+                "|   |___Library",
+                "|   |___Making Money",
+                "|   |___Money"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://freeweblink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://freeweblink.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://freeweblink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://freeweblink.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://freeweblink.org/",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://freeweblink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://freeweblink.org/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://freeweblink.org/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://freeweblink.org/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://freeweblink.org/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T15:39:03.741925+00:00",
+    "page": "https://freeweblink.org/",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://freeweblink.org/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://freeweblink.org/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T15:39:25.102432+00:00",
+    "page": "https://freeweblink.org/submit.php",
+    "evidence": "Confirmed Add Site control; native form guard passed without reciprocal configuration. Page advertises sponsored/featured links and states links remain active at least one year with no removal during that period.",
+    "scope": "Advertisements do not establish a required submission fee. Structural mapping only; no fields filled or form submitted. Server acceptance and public backlink untested by this inspection."
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json"
+}

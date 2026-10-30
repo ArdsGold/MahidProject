@@ -1,0 +1,330 @@
+{
+  "domain": "groovy-directory.com",
+  "checked_utc": "2026-10-27T11:40:59.421662+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://groovy-directory.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "id": "groovy-directory",
+      "domain": "groovy-directory.com",
+      "name": "Groovy Directory",
+      "startingUrl": "https://groovy-directory.com/",
+      "protocols": [
+        "https:"
+      ],
+      "entryLabels": [
+        "Submit Link"
+      ],
+      "submitValue": "Continue",
+      "source": "extSource/source/extension/src/automation/groovy-directory.ts",
+      "source_sha256": "8424b615dade1d676d36e64fd476d6b3e65829c9a7f1ac9c661279daddfa082b",
+      "provisional": false,
+      "optionalReciprocal": true,
+      "inspected_date": "2026-10-27",
+      "fixture": "mappings/fixtures/groovy-directory.com.contract.html",
+      "source_layout": "mappings/layouts/groovy-directory.com.json",
+      "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "groovy-directory.com",
+      "url": "https://groovy-directory.com/submit.php",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://groovy-directory.com/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://groovy-directory.com/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |___Architecture",
+                "|   |___Art History",
+                "|   |___Awards",
+                "|   |___Bodyart",
+                "|   |___Chats and Forums",
+                "|   |___Classical Studies",
+                "|   |___Comics",
+                "|   |___Contests",
+                "|   |___Costumes",
+                "|   |___Crafts",
+                "|   |___Cultures and Groups",
+                "|   |___Design",
+                "|   |___Digital",
+                "|   |___Directories",
+                "|   |___Education",
+                "|   |___Entertainment",
+                "|   |___Events",
+                "|   |___Genres",
+                "|   |___Graphic Design",
+                "|   |___Humanities",
+                "|   |___Illustration",
+                "|   |___Literature",
+                "|   |___Magazines and E-zines",
+                "|   |___Movies",
+                "|   |___Music",
+                "|   |___News and Media",
+                "|   |___Online Writing",
+                "|   |___Organizations",
+                "|   |___Others (Arts)",
+                "|   |___People",
+                "|   |___Performing Arts",
+                "|   |___Periods and Movements",
+                "|   |___Photography",
+                "|   |___Radio",
+                "|   |___Television",
+                "|   |___Video",
+                "|   |___Visual Arts"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "RECPR_URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"RECPR_URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_TEXT",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"RECPR_TEXT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://groovy-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://groovy-directory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://groovy-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://groovy-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://groovy-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://groovy-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": true,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://groovy-directory.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://groovy-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://groovy-directory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://groovy-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://groovy-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:32:54.409831+00:00",
+    "page": "https://groovy-directory.com/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://groovy-directory.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://groovy-directory.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Submit Link",
+        "url": "https://groovy-directory.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://groovy-directory.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "limits": {
+    "TITLE": 255,
+    "URL": 255,
+    "OWNER_NAME": 255,
+    "OWNER_EMAIL": 255,
+    "DESCRIPTION": "No HTML maxlength observed; server limit unverified"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:33:10.333499+00:00",
+    "page": "https://groovy-directory.com/submit.php",
+    "evidence": "Confirmed Submit Link opens final TITLE, URL, DESCRIPTION, OWNER_NAME, OWNER_EMAIL, CATEGORY_ID form. Native structural guard passed. Reciprocal field present with no required asterisk. reCAPTCHA and Continue present. Sponsored offers separate from form.",
+    "scope": "No listing filled or submitted in this mapping pass. Leave reciprocal URL empty; no invented reciprocal links. Server acceptance of empty reciprocal field untested. Required Name needs approved value; no invented personal contact."
+  },
+  "final_form_controls": {
+    "submit": "[name=submit]",
+    "label": "Continue",
+    "verification": "Operator completes reCAPTCHA during publishing",
+    "reciprocal_policy": "Leave RECPR_URL empty; appears optional from label, server acceptance untested"
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json",
+  "review_note": "2026-10-27 live optional reciprocal guard passed; blank reciprocal field allowed. Publication remains untested and requires live guards."
+}

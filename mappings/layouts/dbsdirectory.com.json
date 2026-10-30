@@ -1,0 +1,28 @@
+{
+  "domain": "dbsdirectory.com",
+  "status": "Inspection error",
+  "reason": "Browser loading or connection error",
+  "checked_utc": "2026-10-23T14:47:35.031526+00:00",
+  "publishing_enabled_by_inventory": false,
+  "review_reason": "Chrome page unavailable; operator confirms loading or connection error",
+  "access": "Page could not be loaded or inspected",
+  "completion_level": "Incomplete; website controls unavailable",
+  "verification_level": "Operator confirms browser error; Ui.Vision cannot attach to tab",
+  "final_output_status": "error",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:48:58.579082+00:00",
+    "pages_attempted": [
+      "https://dbsdirectory.com/submit.php",
+      "https://dbsdirectory.com/"
+    ],
+    "evidence": "Ui.Vision reports no working content-script connection to this tab; one homepage navigation retry did not restore inspection.",
+    "operator_confirmation": "Chrome shows a loading or connection error",
+    "scope": "Loading/connection failure observed; exact network cause and posting controls unconfirmed"
+  },
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:48:58.579096+00:00",
+    "confirmed_by": "operator",
+    "controls": [],
+    "scope": "Operator sees browser error; no claim about controls on a working website"
+  }
+}

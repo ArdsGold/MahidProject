@@ -1,0 +1,250 @@
+{
+  "domain": "a2place.com",
+  "checked_utc": "2026-10-23T17:15:54.812774+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://a2place.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "a2place.com",
+      "url": "https://a2place.com/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://a2place.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 75,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://a2place.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://a2place.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://a2place.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://a2place.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "a2place.com",
+      "url": "https://a2place.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://a2place.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 75,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://a2place.com/submit",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://a2place.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://a2place.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://a2place.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://a2place.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Posting entry confirmed; final posting form not reached",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://a2place.com/",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://a2place.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://a2place.com/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://a2place.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://a2place.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://a2place.com/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:14:49.710931+00:00",
+    "page": "https://a2place.com/",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://a2place.com/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://a2place.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Operator reports category picker missing or unusable; skipped for now",
+  "verification_level": "Live category-step inspection and operator confirmation; final posting form not reached",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:15:07.594790+00:00",
+    "page": "https://a2place.com/submit",
+    "evidence": "Step One Choose a Category, Please select a category, hidden ADD_CATEGORY_ID[] select and #ok Go To Step Two. No #hierarchy control observed.",
+    "scope": "Operator confirms category picker missing or unusable. Final posting form not reached. No listing submitted; not classified as Access gap."
+  },
+  "operator_observation": {
+    "checked_utc": "2026-10-23T17:15:54.812788+00:00",
+    "evidence": "Picker missing or does not work; skip this site for now.",
+    "deferred": true
+  }
+}

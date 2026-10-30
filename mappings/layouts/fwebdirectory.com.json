@@ -1,0 +1,44 @@
+{
+  "domain": "fwebdirectory.com",
+  "checked_utc": "2026-10-23T18:30:20.509155+00:00",
+  "status": "Inspection error",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Submission route not found",
+  "entry_url": "https://fwebdirectory.com/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "fwebdirectory.com",
+      "url": "https://fwebdirectory.com/submit.php",
+      "page_error": "",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Error page observed; final posting form not reached",
+  "remaining": [],
+  "button_candidates": [],
+  "reason": "File not found",
+  "review_reason": "Submission page displays File not found; automatically skipped",
+  "error_page": "https://fwebdirectory.com/submit.php",
+  "verification_level": "Live explicit error page; skipped per operator preference",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:30:20.509170+00:00",
+    "page": "https://fwebdirectory.com/submit.php",
+    "evidence": "After operator verification, page has empty title, body File not found., no forms or links.",
+    "scope": "Observed route error; no account or listing submitted. Not an Access gap. Operator error-confirmation prompt intentionally omitted."
+  }
+}

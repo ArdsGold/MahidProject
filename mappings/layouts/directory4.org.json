@@ -1,0 +1,328 @@
+{
+  "domain": "directory4.org",
+  "checked_utc": "2026-10-23T15:15:21.443867+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://directory4.org/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "directory4.org",
+      "url": "https://directory4.org/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://directory4.org/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory4.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory4.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory4.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory4.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "directory4.org",
+      "url": "https://directory4.org/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://directory4.org/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://directory4.org/submit",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory4.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory4.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory4.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory4.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "directory4.org",
+      "url": "https://directory4.org/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://directory4.org/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://directory4.org/submit",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory4.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory4.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory4.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory4.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Posting entry confirmed; final posting form not reached",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://directory4.org/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory4.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory4.org/submit.php",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://directory4.org/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory4.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory4.org/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T15:15:19.271994+00:00",
+    "page": "https://directory4.org/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://directory4.org/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://directory4.org/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Category chooser does not work; operator corrected earlier accidental Done response",
+  "verification_level": "Automated category-step inspection and corrected operator confirmation",
+  "observed_workflow_variant": "PHP Link Directory; category-first submission",
+  "workflow_steps": [
+    {
+      "step": 1,
+      "page": "https://directory4.org/submit",
+      "label": "Submit Link",
+      "action": "Follow observed link"
+    },
+    {
+      "step": 2,
+      "label": "Choose a Category",
+      "observed_state": "Selection prompt shown; category chooser requires review"
+    },
+    {
+      "step": 3,
+      "selector": "#ok",
+      "label": "Go To Step Two",
+      "type": "button",
+      "observed_outcome": "One normal click did not reveal listing fields"
+    }
+  ],
+  "assistant_review": {
+    "checked_utc": "2026-10-23T15:15:56.423985+00:00",
+    "page": "https://directory4.org/submit",
+    "evidence": "Step One Choose a Category with #ok type=button Go To Step Two. After one normal click, inspected forms still contain search and #ok only.",
+    "scope": "Category selection remains unresolved. No claim of final-form access, account failure or Access gap. Nothing published.",
+    "operator_confirmation": "Earlier Done was a misclick; operator cannot choose a category",
+    "operator_confirmed_utc": "2026-10-23T15:16:48.732786+00:00"
+  }
+}

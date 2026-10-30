@@ -1,0 +1,120 @@
+{
+  "domain": "ampedpages.com",
+  "checked_utc": "2026-10-27T19:26:45.832977+00:00",
+  "status": "Skipped banned/suspended",
+  "runtime": "Needs adapter",
+  "family": "blog-network-reference",
+  "access": "Accessible",
+  "entry_url": "https://ampedpages.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "ampedpages.com",
+      "url": "https://ampedpages.com/",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Sign Up",
+          "url": "https://ampedpages.com/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://ampedpages.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://ampedpages.com/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://ampedpages.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Sign Up",
+          "url": "https://ampedpages.com/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://ampedpages.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://ampedpages.com/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://ampedpages.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Account restriction observed after supplied-credential sign-in; no posting attempted",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "button_candidates": [
+    {
+      "label": "Sign Up",
+      "url": "https://ampedpages.com/signup",
+      "selector": "",
+      "tag": "a",
+      "role": "",
+      "page": "https://ampedpages.com/",
+      "navigation_only": true
+    },
+    {
+      "label": "Login",
+      "url": "https://ampedpages.com/login",
+      "selector": "",
+      "tag": "a",
+      "role": "",
+      "page": "https://ampedpages.com/",
+      "navigation_only": true
+    }
+  ],
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-27T19:25:41.722752+00:00",
+    "confirmed_by": "operator",
+    "page": "https://ampedpages.com/login",
+    "controls": [
+      {
+        "label": "Login",
+        "url": "https://ampedpages.com/login",
+        "navigation_only": true
+      },
+      {
+        "label": "Sign Up",
+        "url": "https://ampedpages.com/signup",
+        "navigation_only": true
+      },
+      {
+        "label": "Sign in",
+        "selector": "[name=login]",
+        "navigation_only": false
+      }
+    ]
+  },
+  "review_reason": "Website reports a banned, suspended or disabled account after supplied-credential sign-in. Skipped per operator preference; no replacement account or backlink created."
+}

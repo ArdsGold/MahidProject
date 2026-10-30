@@ -1,0 +1,1527 @@
+{
+  "domain": "blog-ezine.com",
+  "checked_utc": "2026-10-30T10:43:43.144009+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "blog-network-reference",
+  "access": "No recognized free registration entry point",
+  "entry_url": "https://blog-ezine.com/sign-in",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "blog-ezine.com",
+      "url": "https://blog-ezine.com/",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "LOGIN",
+          "url": "https://blog-ezine.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "REGISTER",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Get Started",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "LOGIN",
+          "url": "https://blog-ezine.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog-ezine.com",
+      "url": "https://blog-ezine.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog-ezine.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog-ezine.com",
+      "url": "https://blog-ezine.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog-ezine.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog-ezine.com",
+      "url": "https://blog-ezine.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog-ezine.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog-ezine.com",
+      "url": "https://blog-ezine.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog-ezine.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog-ezine.com",
+      "url": "https://blog-ezine.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog-ezine.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog-ezine.com",
+      "url": "https://blog-ezine.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog-ezine.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog-ezine.com",
+      "url": "https://blog-ezine.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog-ezine.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final form inspected; observed policy prevents this campaign",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://blog-ezine.com/",
+      "observed_controls": [
+        {
+          "label": "LOGIN",
+          "url": "https://blog-ezine.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "REGISTER",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Get Started",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://blog-ezine.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "page": "https://blog-ezine.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "page": "https://blog-ezine.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "page": "https://blog-ezine.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "page": "https://blog-ezine.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "page": "https://blog-ezine.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "page": "https://blog-ezine.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog-ezine.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog-ezine.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-30T10:40:10.919819+00:00",
+    "page": "https://blog-ezine.com/",
+    "controls": [
+      {
+        "label": "LOGIN",
+        "url": "https://blog-ezine.com/sign-in",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog-ezine.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "REGISTER",
+        "url": "https://blog-ezine.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog-ezine.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Get Started",
+        "url": "https://blog-ezine.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog-ezine.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create a free website",
+        "url": "https://blog-ezine.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog-ezine.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create a business website",
+        "url": "https://blog-ezine.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog-ezine.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create an online store",
+        "url": "https://blog-ezine.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog-ezine.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Account temporarily suspended after one username login; no replacement account or retry",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://blog-ezine.com/",
+      "https://blog-ezine.com/sign-in",
+      "https://blog-ezine.com/sign-in",
+      "https://blog-ezine.com/sign-in",
+      "https://blog-ezine.com/sign-in",
+      "https://blog-ezine.com/sign-in",
+      "https://blog-ezine.com/sign-in",
+      "https://blog-ezine.com/sign-in"
+    ],
+    "observed_form_count": 7,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable"
+}

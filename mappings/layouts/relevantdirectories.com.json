@@ -1,0 +1,12 @@
+{
+  "domain": "relevantdirectories.com",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "php-directory",
+    "website_type": "Directory",
+    "basis": "Configured route"
+  },
+  "saved_structure": {},
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

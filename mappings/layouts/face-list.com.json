@@ -1,0 +1,340 @@
+{
+  "domain": "face-list.com",
+  "checked_utc": "2026-10-23T17:32:13.102821+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://face-list.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "face-list.com",
+      "startingUrl": "https://face-list.com/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Continue",
+      "optionalReciprocal": false
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "face-list.com",
+      "url": "https://face-list.com/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://face-list.com/index.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://face-list.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://face-list.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://face-list.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://face-list.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "face-list.com",
+      "url": "https://face-list.com/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://face-list.com/index.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://face-list.com/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |   |___Animated Graphics",
+                "|   |   |___Animation Art Galleries",
+                "|   |   |___Animation Companies",
+                "|   |   |___Anime",
+                "|   |   |___Artists",
+                "|   |   |___Audio",
+                "|   |   |___Awards",
+                "|   |   |___Cartoons",
+                "|   |   |___Chats and Forums",
+                "|   |   |___Collectibles",
+                "|   |   |___Computer",
+                "|   |   |___Contests",
+                "|   |   |___DVD",
+                "|   |   |___Experimental",
+                "|   |   |___Festivals",
+                "|   |   |___Movies",
+                "|   |   |___News and Media",
+                "|   |   |___Organizations",
+                "|   |   |___Puppetry",
+                "|   |   |___Shopping",
+                "|   |   |___Stop-Motion",
+                "|   |   |___Studios",
+                "|   |   |___Training",
+                "|   |   |___Video Games",
+                "|   |   |___Voice Actors",
+                "|   |   |___Web",
+                "|   |   |___Web Rings",
+                "|   |   |___Writers",
+                "|   |___Antiques",
+                "|   |   |___Appliances",
+                "|   |   |___Auctions",
+                "|   |   |___Autos",
+                "|   |   |___Bicycles",
+                "|   |   |___Books",
+                "|   |   |___Bottles",
+                "|   |   |___Cameras",
+                "|   |   |___Cash Registers"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://face-list.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://face-list.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://face-list.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://face-list.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://face-list.com/",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://face-list.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://face-list.com/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://face-list.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://face-list.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://face-list.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:32:09.360807+00:00",
+    "page": "https://face-list.com/",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://face-list.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://face-list.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "limits": {
+    "TITLE": 255,
+    "URL": 255,
+    "OWNER_NAME": 255,
+    "OWNER_EMAIL": 255,
+    "DESCRIPTION": "No HTML maxlength observed; server limit unverified"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:32:27.928434+00:00",
+    "page": "https://face-list.com/submit.php",
+    "evidence": "Confirmed Add Site opens final TITLE, URL, DESCRIPTION, OWNER_NAME, OWNER_EMAIL, CATEGORY_ID form. Native free-form guard passed; no reciprocal field observed. reCAPTCHA and Continue present. Site states links remain active at least one year and no removal during that period.",
+    "scope": "Publication untested. No listing filled or submitted. Required Your Name needs an approved value; no invented personal contact. Terms and server validation need review before publishing."
+  },
+  "final_form_controls": {
+    "submit": "[name=submit]",
+    "label": "Continue",
+    "verification": "Operator completes reCAPTCHA during publishing",
+    "terms": "Page states clicking Continue accepts Terms of Agreement"
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json"
+}

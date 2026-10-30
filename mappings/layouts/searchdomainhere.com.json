@@ -1,0 +1,322 @@
+{
+  "domain": "searchdomainhere.com",
+  "checked_utc": "2026-10-27T11:51:50.833262+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://searchdomainhere.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "id": "search-domain-here",
+      "domain": "searchdomainhere.com",
+      "name": "Search Domain Here",
+      "startingUrl": "https://searchdomainhere.com/",
+      "submitValue": "Submit",
+      "protocols": [
+        "https:"
+      ],
+      "entryLabels": [
+        "Add Site"
+      ],
+      "source": "extSource/source/extension/src/automation/search-domain-here.ts",
+      "source_sha256": "68300e4925e12d198967a1076b01d1ac75edfb8c641e5799006b4e5cdde30261",
+      "provisional": false,
+      "optionalReciprocal": true,
+      "inspected_date": "2026-10-27",
+      "fixture": "mappings/fixtures/searchdomainhere.com.contract.html",
+      "source_layout": "mappings/layouts/searchdomainhere.com.json",
+      "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "searchdomainhere.com",
+      "url": "https://searchdomainhere.com/submit.php",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://searchdomainhere.com/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://searchdomainhere.com/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |___Antiques",
+                "|   |___Architecture",
+                "|   |___Archives",
+                "|   |___Art History",
+                "|   |___Awards",
+                "|   |___Bodyart",
+                "|   |___Chats and Forums",
+                "|   |___Classical Studies",
+                "|   |___Comics",
+                "|   |___Costumes",
+                "|   |___Crafts",
+                "|   |___Cultures and Groups",
+                "|   |___Dance",
+                "|   |___Design",
+                "|   |___Digital",
+                "|   |___Directories",
+                "|   |___Education",
+                "|   |___Entertainment",
+                "|   |___Events",
+                "|   |___Genres",
+                "|   |___Graphic Design",
+                "|   |___Humanities",
+                "|   |___Illustration",
+                "|   |___Libraries",
+                "|   |___Literature",
+                "|   |___Magazines and E-zines",
+                "|   |___Movies",
+                "|   |___Museums",
+                "|   |___Music",
+                "|   |___Myths and Folktales",
+                "|   |___Native and Tribal",
+                "|   |___News and Media",
+                "|   |___Online Writing",
+                "|   |___Organizations",
+                "|   |___People",
+                "|   |___Performing Arts",
+                "|   |___Periods and Movements"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "RECPR_URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"RECPR_URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_TEXT",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"RECPR_TEXT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://searchdomainhere.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://searchdomainhere.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://searchdomainhere.com/submit.php",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://searchdomainhere.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://searchdomainhere.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": true,
+      "submit_label": "Submit"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://searchdomainhere.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://searchdomainhere.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://searchdomainhere.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://searchdomainhere.com/submit.php",
+          "navigation_only": false
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-27T11:51:29.404992+00:00",
+    "page": "https://searchdomainhere.com/submit.php",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://searchdomainhere.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://searchdomainhere.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Submit",
+        "url": "",
+        "selector": "[name=\"submit\"]",
+        "tag": "input",
+        "role": "",
+        "page": "https://searchdomainhere.com/submit.php",
+        "navigation_only": false
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json",
+  "review_note": "2026-10-27 live optional reciprocal guard passed; blank reciprocal field allowed. Publication remains untested and requires live guards."
+}

@@ -1,0 +1,91 @@
+{
+  "domain": "single.goarticles.info",
+  "checked_utc": "2026-10-23T13:39:06.742219+00:00",
+  "status": "Entry points saved; form incomplete",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://single.goarticles.info/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "single.goarticles.info",
+      "url": "https://single.goarticles.info/",
+      "forms": [],
+      "links": [
+        {
+          "label": "SignUp",
+          "url": "https://single.goarticles.info/signup"
+        },
+        {
+          "label": "Login",
+          "url": "https://single.goarticles.info/login"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "single.goarticles.info",
+      "url": "https://single.goarticles.info/login",
+      "forms": [],
+      "links": [
+        {
+          "label": "Signup",
+          "url": "https://single.goarticles.info/signup"
+        },
+        {
+          "label": "Login",
+          "url": "https://single.goarticles.info/login"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "single.goarticles.info",
+      "url": "https://single.goarticles.info/signup",
+      "forms": [],
+      "links": [
+        {
+          "label": "SignUp",
+          "url": "https://single.goarticles.info/signup"
+        },
+        {
+          "label": "Login",
+          "url": "https://single.goarticles.info/login"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

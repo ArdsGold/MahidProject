@@ -1,0 +1,468 @@
+{
+  "domain": "authorizeddir.com",
+  "checked_utc": "2026-10-30T15:10:06.835691+00:00",
+  "status": "Policy excludes approved URL",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Account flow already inspected; no automatic login retry",
+  "entry_url": "https://authorizeddir.com/login",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "authorizeddir.com",
+      "url": "https://authorizeddir.com/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://authorizeddir.com/search",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://authorizeddir.com/login",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://authorizeddir.com/login",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.authorizeddir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://authorizeddir.com/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://authorizeddir.com/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://authorizeddir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://authorizeddir.com/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://authorizeddir.com/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://authorizeddir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://authorizeddir.com/login",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.authorizeddir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://authorizeddir.com/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "https://authorizeddir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://authorizeddir.com/login",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "authorizeddir.com",
+      "url": "https://www.authorizeddir.com/submit",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.authorizeddir.com/search",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.authorizeddir.com/login",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.authorizeddir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.authorizeddir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.authorizeddir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.authorizeddir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.authorizeddir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.authorizeddir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.authorizeddir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.authorizeddir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.authorizeddir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.authorizeddir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.authorizeddir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Submission policy inspected; approved location URL excluded",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:45:19.472924+00:00",
+    "page": "https://authorizeddir.com/user/register",
+    "evidence": "Visible /captcha.php image reports complete=true, naturalWidth=0 and naturalHeight=0, unchanged after one image-only reload.",
+    "account_submission_made": false,
+    "scope": "Observed image-loading failure; underlying cause unconfirmed, no Access gap conclusion"
+  },
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:44:29.194985+00:00",
+    "page": "https://authorizeddir.com/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "http://www.authorizeddir.com/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://authorizeddir.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Login",
+        "url": "",
+        "selector": "[name=\"submit\"]",
+        "tag": "input",
+        "role": "",
+        "page": "https://authorizeddir.com/submit.php",
+        "navigation_only": false
+      },
+      {
+        "label": "Register",
+        "url": "https://authorizeddir.com/user/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://authorizeddir.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Live submission policy: Do not submit subfolder, use the top-level domain or maximum sub domain.",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://authorizeddir.com/login",
+      "https://www.authorizeddir.com/submit"
+    ],
+    "observed_form_count": 5,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  }
+}

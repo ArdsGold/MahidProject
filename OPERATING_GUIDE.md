@@ -1,6 +1,6 @@
 # Operating the Windows backlink publisher
 
-This guide describes the existing private Windows project. This repository currently distributes documentation, not a complete runnable installation. Obtain the full private project from its trusted owner; cloning this repository alone does not include the runner, workbook, website pool, credentials, or campaign history.
+This repository contains the Windows tool source, saved mappings, tests, a blank workbook template, and a clean website pool. Client credentials, campaign history, raw browser diagnostics, and recovery files are excluded. For an existing campaign, obtain its private files separately from the trusted owner.
 
 ## Prepare a client workbook
 
@@ -10,7 +10,7 @@ This guide describes the existing private Windows project. This repository curre
 4. In Hours, use one weekday per row. Put `Open` in Status and separate 24-hour values such as `15:00` and `21:00` in Opens and Closes. For Closed, 24 hours, or By appointment, leave the time cells empty. Blank status means unknown. Do not paste a combined range such as `3-9 PM` into a time cell.
 5. In Sites, enter the listing hostname and supplied account credentials, plus Enabled = Yes/No. Credentials remain private; they are never public listing content.
 
-`templates/Cheer_Athletics_Example.xlsx` is a public-data example with no login credentials. For the existing campaign, continue using `.local/workbooks/Cheer_Athletics_St_Louis.xlsx` and preserve its campaign identity and output folder.
+The private project may also contain `templates/Cheer_Athletics_Example.xlsx`, a public-data example with no login credentials. It is not part of the source distribution. For the existing campaign, continue using `.local/workbooks/Cheer_Athletics_St_Louis.xlsx` and preserve its campaign identity and output folder.
 
 The expandable website pool is `websites/Website_Pool.xlsx`, sheet Websites. Edit Website, Enabled, and Notes. Set Enabled to No to exclude a site, and explain why in Notes. Adding a URL does not create a publishing workflow. Close Excel before running the tool so reports and pool labels can update.
 
@@ -24,7 +24,7 @@ python -m playwright install chromium
 npm install --prefix .local/uivision-bridge --no-audit --no-fund --ignore-scripts uivision-mcp-bridge@1.7.20
 ```
 
-These commands require the project source files from the private transfer. Chrome sessions, extensions, Python environments, and running bridge processes do not transfer automatically between computers.
+Run these commands in the cloned project folder. Chrome sessions, extensions, Python environments, and running bridge processes do not transfer automatically between computers.
 
 ## Connect the browser
 
@@ -74,7 +74,7 @@ To select one enabled website:
 .\Start_Browser_Automation.ps1 -Workbook ".local\workbooks\Your_Client.xlsx" -Only example.com
 ```
 
-Only run one publisher per campaign. The current supervised workflow uses Ui.Vision in regular Chrome; the separate Windows GUI is deferred in the operator's current workflow. The launcher executes registered adapters. Additional supervised blog helpers and new or changed mappings still require a maintainer; the launcher is not a universal publisher for every pool row.
+Only run one publisher per campaign. The current supervised workflow uses Ui.Vision in regular Chrome; the separate Windows GUI is deferred in the operator's current workflow. The launcher executes registered adapters. The supervised helpers in `tools/` and new or changed mappings still require a maintainer; the launcher is not a universal publisher for every pool row.
 
 ## Respond to prompts and pause safely
 
@@ -111,6 +111,6 @@ Several inspected Localzz sites require payment for clickable website links. Oth
 
 ## Private transfer and maintenance
 
-Keep credentials, client workbooks, raw authenticated diagnostics, edit tokens, and campaign output private. Preserve the entire `.local/` and `output/` folders during a trusted private handoff. Do not publish them to GitHub. The website pool and template XLSX files are currently excluded by the project's Git ignore rules; obtain them through the private transfer or regenerate templates using the full project's workbook utility.
+Keep credentials, client workbooks, raw authenticated diagnostics, edit tokens, and campaign output private. Preserve the entire `.local/` and `output/` folders during a trusted private handoff. Do not publish them to GitHub. The repository includes only `templates/Backlink_Template.xlsx` and a clean `websites/Website_Pool.xlsx`. Other XLSX files remain ignored. Existing client files and campaign progress require a separate private transfer.
 
 The saved workflows run without a model API. Assistant help is currently used to inspect unsupported layouts, repair mappings, and resolve unexpected results. It is not evidence of unattended reliability across all 286 sites.

@@ -1,0 +1,318 @@
+{
+  "domain": "onecooldir.com",
+  "checked_utc": "2026-10-23T15:04:25.673784+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://onecooldir.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "onecooldir.com",
+      "startingUrl": "https://onecooldir.com/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Continue",
+      "optionalReciprocal": true
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "onecooldir.com",
+      "url": "https://onecooldir.com/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://onecooldir.com/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://onecooldir.com/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |   |___Animated Graphics",
+                "|   |   |___Animation Art Galleries",
+                "|   |   |___Animation Companies",
+                "|   |   |___Anime",
+                "|   |   |___Artists",
+                "|   |   |___Audio",
+                "|   |   |___Awards",
+                "|   |   |___Cartoons",
+                "|   |   |___Chats and Forums",
+                "|   |   |___Collectibles",
+                "|   |   |___Computer",
+                "|   |   |___Contests",
+                "|   |   |___DVD",
+                "|   |   |___Experimental",
+                "|   |   |___Festivals",
+                "|   |   |___Movies",
+                "|   |   |___News and Media",
+                "|   |   |___Organizations",
+                "|   |   |___Puppetry",
+                "|   |   |___Shopping",
+                "|   |   |___Stop-Motion",
+                "|   |   |___Studios",
+                "|   |   |___Training",
+                "|   |   |___Video Games",
+                "|   |   |___Voice Actors",
+                "|   |   |___Web",
+                "|   |   |___Web Rings",
+                "|   |   |___Writers",
+                "|   |___Antiques",
+                "|   |   |___Appliances",
+                "|   |   |___Auctions",
+                "|   |   |___Autos",
+                "|   |   |___Bicycles",
+                "|   |   |___Books",
+                "|   |   |___Bottles",
+                "|   |   |___Cameras",
+                "|   |   |___Cash Registers"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "RECPR_URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"RECPR_URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_TEXT",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"RECPR_TEXT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Links",
+          "url": "https://onecooldir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://onecooldir.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Links",
+          "url": "https://onecooldir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://onecooldir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Links",
+          "url": "https://onecooldir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://onecooldir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": true,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://onecooldir.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Links",
+          "url": "https://onecooldir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://onecooldir.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Links",
+          "url": "https://onecooldir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://onecooldir.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T15:04:25.292667+00:00",
+    "page": "https://onecooldir.com/submit.php",
+    "controls": [
+      {
+        "label": "Submit Links",
+        "url": "https://onecooldir.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://onecooldir.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Submit Links",
+        "url": "https://onecooldir.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://onecooldir.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T15:05:03.991038+00:00",
+    "page": "https://onecooldir.com/submit.php",
+    "evidence": "Confirmed Submit Links controls; native form guard passed, including optional reciprocal-field checks. Page includes reciprocal-link instructions and reCAPTCHA.",
+    "scope": "Reciprocal field is structurally optional; server acceptance untested. Unrelated news text excluded from policy conclusions. No fields filled and no form submitted."
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json"
+}

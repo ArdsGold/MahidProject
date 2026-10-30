@@ -1,0 +1,323 @@
+{
+  "domain": "aurora-directory.com",
+  "checked_utc": "2026-10-23T17:58:10.748184+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://aurora-directory.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "id": "aurora-directory",
+      "domain": "aurora-directory.com",
+      "name": "Aurora Directory",
+      "startingUrl": "https://aurora-directory.com/",
+      "protocols": [
+        "https:"
+      ],
+      "entryLabels": [
+        "Submit Link"
+      ],
+      "submitValue": "Continue",
+      "source": "extSource/source/extension/src/automation/aurora-directory.ts",
+      "source_sha256": "ae78822b30e60b8ffb57ebcd59ced956b5c57e0e911d73a5f5bb41b780e3db7b",
+      "provisional": false,
+      "optionalReciprocal": true
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "aurora-directory.com",
+      "url": "https://aurora-directory.com/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://aurora-directory.com/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 100,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://aurora-directory.com/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |___Antiques",
+                "|   |___Architecture",
+                "|   |___Archives",
+                "|   |___Art History",
+                "|   |___Awards",
+                "|   |___Bodyart",
+                "|   |___Chats and Forums",
+                "|   |___Classical Studies",
+                "|   |___Comics",
+                "|   |___Costumes",
+                "|   |___Crafts",
+                "|   |___Cultures and Groups",
+                "|   |___Dance",
+                "|   |___Design",
+                "|   |___Digital",
+                "|   |___Directories",
+                "|   |___Education",
+                "|   |___Entertainment",
+                "|   |___Events",
+                "|   |___Genres",
+                "|   |___Graphic Design",
+                "|   |___Humanities",
+                "|   |___Illustration",
+                "|   |___Libraries",
+                "|   |___Literature",
+                "|   |___Magazines and E-zines",
+                "|   |___Movies",
+                "|   |___Museums",
+                "|   |___Music",
+                "|   |___Myths and Folktales",
+                "|   |___Native and Tribal",
+                "|   |___News and Media",
+                "|   |___Online Writing",
+                "|   |___Organizations",
+                "|   |___People",
+                "|   |___Performing Arts",
+                "|   |___Periods and Movements"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "RECPR_URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"RECPR_URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_TEXT",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"RECPR_TEXT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://aurora-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aurora-directory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://aurora-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aurora-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://aurora-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aurora-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": true,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://aurora-directory.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://aurora-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aurora-directory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://aurora-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aurora-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:58:10.337471+00:00",
+    "page": "https://aurora-directory.com/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://aurora-directory.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://aurora-directory.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Submit Link",
+        "url": "https://aurora-directory.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://aurora-directory.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "limits": {
+    "TITLE": 255,
+    "URL": 255,
+    "OWNER_NAME": 255,
+    "OWNER_EMAIL": 255,
+    "DESCRIPTION": "No HTML maxlength observed; server limit unverified"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:58:28.333972+00:00",
+    "page": "https://aurora-directory.com/submit.php",
+    "evidence": "Confirmed Submit Link opens final TITLE, URL, DESCRIPTION, OWNER_NAME, OWNER_EMAIL, CATEGORY_ID form. Native free-form guard passed with optional reciprocal field allowed. Reciprocal label has no required asterisk. reCAPTCHA and Continue present. Sidebar sponsored offers are separate from the free form.",
+    "scope": "No listing filled or submitted in this mapping pass. Leave optional reciprocal URL empty; do not invent reciprocal links. Required Your Name needs an approved value; no invented personal contact. Server acceptance remains untested by this mapping pass."
+  },
+  "final_form_controls": {
+    "submit": "[name=submit]",
+    "label": "Continue",
+    "verification": "Operator completes reCAPTCHA during publishing",
+    "reciprocal_policy": "Leave optional RECPR_URL empty"
+  }
+}

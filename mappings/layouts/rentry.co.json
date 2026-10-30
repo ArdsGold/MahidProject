@@ -1,0 +1,17 @@
+{
+  "domain": "rentry.co",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "platform:rentry.co",
+    "website_type": "Individual platform",
+    "basis": "Configured route"
+  },
+  "saved_structure": {
+    "family": "unmatched-form",
+    "fingerprint": "bbc3d9463387d8ce",
+    "basis": "Live HTTP",
+    "source": "https://rentry.co"
+  },
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

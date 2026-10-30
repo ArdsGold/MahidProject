@@ -1,0 +1,21 @@
+{
+  "name": "extension",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backlink Autofill 2.0 Chrome Extension (Manifest V3)",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:engine": "node test/run-smoke.mjs"
+  },
+  "dependencies": {
+    "@backlink-autofill/shared": "*"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "@types/node": "^24.19.0",
+    "esbuild": "^0.25.0",
+    "happy-dom": "^20.14.5",
+    "typescript": "^5.9.0"
+  }
+}

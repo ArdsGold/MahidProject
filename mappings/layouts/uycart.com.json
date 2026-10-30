@@ -1,0 +1,12 @@
+{
+  "domain": "uycart.com",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "xzero-classifieds",
+    "website_type": "Classifieds",
+    "basis": "Configured route"
+  },
+  "saved_structure": {},
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

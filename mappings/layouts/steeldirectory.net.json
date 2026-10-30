@@ -1,0 +1,265 @@
+{
+  "domain": "steeldirectory.net",
+  "checked_utc": "2026-10-30T15:08:25.526806+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Needs adapter",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://steeldirectory.net/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "steeldirectory.net",
+      "startingUrl": "https://steeldirectory.net/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Continue",
+      "optionalReciprocal": true
+    },
+    "result": {
+      "ok": false,
+      "reason": "Optional reciprocal field changed or became required; no reciprocal link supplied"
+    }
+  },
+  "pages": [
+    {
+      "host": "steeldirectory.net",
+      "url": "https://steeldirectory.net/submit.php",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://steeldirectory.net/gosearch.php",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://steeldirectory.net/submit.php",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "label": "",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]"
+              ],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_URL",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"RECPR_URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_TEXT",
+              "tag": "textarea",
+              "label": "",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"RECPR_TEXT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://steeldirectory.net/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://steeldirectory.net/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://steeldirectory.net/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://steeldirectory.net/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": true,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Buttons confirmed; final posting form not validated",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://steeldirectory.net/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://steeldirectory.net/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://steeldirectory.net/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T15:36:02.508026+00:00",
+    "page": "https://steeldirectory.net/submit.php",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://steeldirectory.net/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://steeldirectory.net/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T15:36:31.565645+00:00",
+    "page": "https://steeldirectory.net/submit.php",
+    "evidence": "Reciprocal field label is *Reciprocal Link URL. Native guard returned: Optional reciprocal field changed or became required; no reciprocal link supplied. Page includes reciprocal-link installation instructions.",
+    "scope": "No reciprocal URL invented or supplied; no external site changes or submission performed. Server enforcement untested; form is marked as requiring reciprocal review, not Access gap."
+  }
+}

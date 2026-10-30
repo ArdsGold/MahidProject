@@ -1,0 +1,38 @@
+{
+  "domain": "localadvertised.com",
+  "checked_utc": "2026-10-30T15:16:52.246564+00:00",
+  "status": "Deferred by operator",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Browser verification",
+  "entry_url": "https://localadvertised.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "localadvertised.com",
+      "url": "https://localadvertised.com/",
+      "page_error": "",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Browser verification",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; requires operator button confirmation and final form inspection",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "deferred_utc": "2026-10-30T15:17:16.504128+00:00"
+}

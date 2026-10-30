@@ -1,0 +1,206 @@
+{
+  "domain": "abstractdirectory.net",
+  "checked_utc": "2026-10-23T17:17:27.776448+00:00",
+  "status": "Submissions closed",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Posting currently closed by website",
+  "entry_url": "https://abstractdirectory.net/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "abstractdirectory.net",
+      "url": "https://abstractdirectory.net/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://abstractdirectory.net/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://abstractdirectory.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://abstractdirectory.net/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://abstractdirectory.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://abstractdirectory.net/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "abstractdirectory.net",
+      "url": "https://abstractdirectory.net/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://abstractdirectory.net/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://abstractdirectory.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://abstractdirectory.net/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://abstractdirectory.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://abstractdirectory.net/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Posting entry confirmed; final posting form not reached",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://abstractdirectory.net/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://abstractdirectory.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://abstractdirectory.net/submit.php",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://abstractdirectory.net/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://abstractdirectory.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://abstractdirectory.net/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:16:58.812332+00:00",
+    "page": "https://abstractdirectory.net/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://abstractdirectory.net/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://abstractdirectory.net/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Submission page explicitly states link submissions are closed",
+  "verification_level": "Live explicit closure message",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:17:27.776472+00:00",
+    "page": "https://abstractdirectory.net/submit",
+    "evidence": "Closed. We are sorry but link submissions are closed. We will be back in 24 hours. No posting form, category picker or next-step button present.",
+    "scope": "Reopening time is a website claim, not independently confirmed. No account or listing submission attempted. Not classified as Access gap."
+  }
+}

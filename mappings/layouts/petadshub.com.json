@@ -1,0 +1,160 @@
+{
+  "domain": "petadshub.com",
+  "checked_utc": "2026-10-23T18:50:40.554143+00:00",
+  "status": "Deferred by operator",
+  "runtime": "Mapped; live guards required",
+  "family": "xzero-classifieds",
+  "access": "Accessible",
+  "entry_url": "https://www.petadshub.com/?view=selectcity&cityid=0&lang=en",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "petadshub.com",
+      "url": "https://www.petadshub.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.petadshub.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "catid",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"catid\"]",
+              "visible": true,
+              "choices": [
+                "- All -",
+                "Digital Items",
+                "Community",
+                "Services",
+                "Entertainment",
+                "For Sale",
+                "Property",
+                "Tickets",
+                "Pets and Livestock",
+                "Jobs",
+                "Personals",
+                "Vehicles & Motoring"
+              ],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://www.petadshub.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.petadshub.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        },
+        {
+          "label": "Post Free Ad",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.petadshub.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": false
+        },
+        {
+          "label": "Post Smart Ads",
+          "url": "",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.petadshub.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://www.petadshub.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.petadshub.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Posting entry observed; controls not operator-confirmed",
+  "remaining": [],
+  "button_candidates": [
+    {
+      "label": "Post Free Ad",
+      "url": "https://www.petadshub.com/index.php?view=post&cityid=0&lang=en",
+      "selector": "",
+      "tag": "a",
+      "role": "",
+      "page": "https://www.petadshub.com/?view=selectcity&cityid=0&lang=en",
+      "navigation_only": true
+    },
+    {
+      "label": "Post Free Ad",
+      "url": "",
+      "selector": "",
+      "tag": "a",
+      "role": "",
+      "page": "https://www.petadshub.com/?view=selectcity&cityid=0&lang=en",
+      "navigation_only": false
+    },
+    {
+      "label": "Post Smart Ads",
+      "url": "",
+      "selector": "",
+      "tag": "a",
+      "role": "",
+      "page": "https://www.petadshub.com/?view=selectcity&cityid=0&lang=en",
+      "navigation_only": false
+    }
+  ],
+  "review_reason": "Operator requested skip during first-mapping control confirmation",
+  "verification_level": "Operator deferred after browser verification",
+  "operator_observation": {
+    "checked_utc": "2026-10-23T18:50:40.554157+00:00",
+    "evidence": "Skip this site.",
+    "deferred": true
+  }
+}

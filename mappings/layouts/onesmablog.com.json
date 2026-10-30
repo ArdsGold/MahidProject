@@ -1,0 +1,211 @@
+{
+  "domain": "onesmablog.com",
+  "checked_utc": "2026-10-30T14:01:35.900643+00:00",
+  "status": "Skipped banned/suspended",
+  "runtime": "Needs adapter",
+  "family": "blog-network-reference",
+  "access": "Account restriction confirmed in live response",
+  "entry_url": "https://onesmablog.com/login",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "onesmablog.com",
+      "url": "https://onesmablog.com/",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Sign Up",
+          "url": "https://onesmablog.com/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://onesmablog.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://onesmablog.com/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://onesmablog.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Sign Up",
+          "url": "https://onesmablog.com/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://onesmablog.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://onesmablog.com/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://onesmablog.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "onesmablog.com",
+      "url": "https://onesmablog.com/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://onesmablog.com/login",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Sign in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://onesmablog.com/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Sign in with Facebook",
+          "url": "",
+          "selector": "",
+          "tag": "button",
+          "role": "",
+          "page": "https://onesmablog.com/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Sign in with Google",
+          "url": "",
+          "selector": "",
+          "tag": "button",
+          "role": "",
+          "page": "https://onesmablog.com/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Sign in with Twitter",
+          "url": "",
+          "selector": "",
+          "tag": "button",
+          "role": "",
+          "page": "https://onesmablog.com/login",
+          "navigation_only": false
+        }
+      ],
+      "links": [],
+      "account_restricted": true,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; requires operator button confirmation and final form inspection",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-30T14:00:10.681770+00:00",
+    "page": "https://onesmablog.com/",
+    "controls": [
+      {
+        "label": "Sign Up",
+        "url": "https://onesmablog.com/signup",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://onesmablog.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Login",
+        "url": "https://onesmablog.com/login",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://onesmablog.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Confirmed restriction; no replacement account"
+}

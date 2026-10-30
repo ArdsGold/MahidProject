@@ -1,0 +1,52 @@
+{
+  "domain": "craigslistdir.org",
+  "checked_utc": "2026-10-23T17:42:25.461736+00:00",
+  "status": "Inspection error",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Website resource limit error",
+  "entry_url": "https://craigslistdir.org/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "craigslistdir.org",
+      "url": "https://craigslistdir.org/submit.php",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": true,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Error page confirmed; final posting form not reached",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "button_candidates": [],
+  "review_reason": "508 Resource Limit Is Reached; operator confirmed",
+  "verification_level": "Live error page and operator confirmation",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:42:25.461751+00:00",
+    "page": "https://craigslistdir.org/submit.php",
+    "controls": [],
+    "confirmed_by": "operator",
+    "evidence": "Operator sees the same 508 resource limit error; no posting or account controls visible."
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:42:25.461755+00:00",
+    "page": "https://craigslistdir.org/submit.php",
+    "evidence": "508 Resource Limit Is Reached. Website says it exceeded its resource limit. Operator confirmed the same page.",
+    "scope": "Site error; not a credential failure or Access gap. No listing submitted."
+  }
+}

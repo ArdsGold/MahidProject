@@ -1,0 +1,12 @@
+{
+  "domain": "telegra.ph",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "platform:telegra.ph",
+    "website_type": "Individual platform",
+    "basis": "Configured route"
+  },
+  "saved_structure": {},
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

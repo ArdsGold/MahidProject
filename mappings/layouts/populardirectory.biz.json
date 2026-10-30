@@ -1,0 +1,208 @@
+{
+  "domain": "populardirectory.biz",
+  "checked_utc": "2026-10-23T14:40:01.427658+00:00",
+  "status": "Submissions closed",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Posting disabled by website at time of inspection",
+  "entry_url": "https://populardirectory.biz/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "populardirectory.biz",
+      "url": "https://populardirectory.biz/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://populardirectory.biz/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://populardirectory.biz/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://populardirectory.biz/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://populardirectory.biz/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://populardirectory.biz/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "populardirectory.biz",
+      "url": "https://populardirectory.biz/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://populardirectory.biz/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://populardirectory.biz/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://populardirectory.biz/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://populardirectory.biz/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://populardirectory.biz/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; submission form unavailable while site reports closure",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://populardirectory.biz/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://populardirectory.biz/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://populardirectory.biz/submit.php",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://populardirectory.biz/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://populardirectory.biz/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://populardirectory.biz/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:39:59.370524+00:00",
+    "page": "https://populardirectory.biz/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://populardirectory.biz/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://populardirectory.biz/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "reason": "Website explicitly says link submissions are closed",
+  "review_reason": "Submit Listing page says submissions are closed and to return in 24 hours",
+  "verification_level": "Live posting-page closure notice observed",
+  "final_output_status": "error",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:40:24.672407+00:00",
+    "page": "https://populardirectory.biz/submit",
+    "evidence": "Closed. We are sorry but link submissions are closed. We will be back in 24 hours.",
+    "scope": "Observed notice; reopening time is not independently confirmed. No form filled or submitted."
+  }
+}

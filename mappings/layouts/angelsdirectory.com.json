@@ -1,0 +1,55 @@
+{
+  "domain": "angelsdirectory.com",
+  "checked_utc": "2026-10-23T14:38:03.302062+00:00",
+  "status": "Inspection error",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Website temporarily unavailable due to bandwidth limit",
+  "entry_url": "https://angelsdirectory.com/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "angelsdirectory.com",
+      "url": "https://angelsdirectory.com/submit.php",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; server error confirmed by operator",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "button_candidates": [],
+  "reason": "509 Bandwidth Limit Exceeded",
+  "review_reason": "Website server reports exhausted bandwidth; no posting controls visible",
+  "verification_level": "Live error page observed and confirmed by operator",
+  "final_output_status": "error",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:39:28.171662+00:00",
+    "page": "https://angelsdirectory.com/submit.php",
+    "evidence": "509 Bandwidth Limit Exceeded; server says site bandwidth limit has been reached. No links visible.",
+    "operator_confirmation": "Same error ? save error and continue",
+    "scope": "Observed server error; registration and posting routes remain unmapped"
+  },
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:39:28.171676+00:00",
+    "page": "https://angelsdirectory.com/submit.php",
+    "controls": [],
+    "confirmed_by": "operator",
+    "scope": "No controls visible on error page; does not establish absence on an accessible site"
+  }
+}

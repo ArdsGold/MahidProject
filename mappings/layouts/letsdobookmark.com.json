@@ -1,0 +1,148 @@
+{
+  "domain": "letsdobookmark.com",
+  "checked_utc": "2026-10-23T13:11:26.086895+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Account form is not supported by the current adapter; access has not been ruled out",
+  "entry_url": "https://letsdobookmark.com/login",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "letsdobookmark.com",
+      "url": "https://letsdobookmark.com/",
+      "forms": [],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://letsdobookmark.com/register"
+        },
+        {
+          "label": "Login",
+          "url": "https://letsdobookmark.com/login"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "letsdobookmark.com",
+      "url": "https://letsdobookmark.com/login",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://letsdobookmark.com/login",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "",
+          "fields": [
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "email",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://letsdobookmark.com/register"
+        },
+        {
+          "label": "Login",
+          "url": "https://letsdobookmark.com/login"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable",
+  "review_reason": "Unsupported account form",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://letsdobookmark.com/",
+      "https://letsdobookmark.com/login"
+    ],
+    "observed_form_count": 2,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  }
+}

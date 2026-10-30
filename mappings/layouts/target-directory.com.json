@@ -1,0 +1,23 @@
+{
+  "domain": "target-directory.com",
+  "status": "Inspection error",
+  "reason": "BridgeError",
+  "checked_utc": "2026-10-23T17:36:13.960312+00:00",
+  "publishing_enabled_by_inventory": false,
+  "review_reason": "Operator confirms Chrome loading or connection error after homepage retry",
+  "access": "Website loading or connection error",
+  "completion_level": "Error confirmed; final posting form not reached",
+  "verification_level": "Browser retries, independent request failure and operator confirmation",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:36:13.960328+00:00",
+    "page": "https://target-directory.com/",
+    "controls": [],
+    "confirmed_by": "operator",
+    "evidence": "Chrome shows loading or connection error; no controls available to inspect."
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:36:13.960331+00:00",
+    "evidence": "Browser inspection failed at submission page and homepage retry (BridgeError). Separate homepage request failed (URLError). Operator confirms loading or connection error.",
+    "scope": "Underlying network/server cause unconfirmed. Not a credential failure or Access gap. No listing submitted."
+  }
+}

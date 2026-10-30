@@ -1,0 +1,2433 @@
+{
+  "domain": "blog2freedom.com",
+  "checked_utc": "2026-10-30T12:58:11.557123+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Supervised guarded publication; automatic queue adapter not enabled",
+  "family": "wordpress-classic-blog",
+  "access": "Account and publication independently verified",
+  "entry_url": "https://blog2freedom.com/register",
+  "field_map": {
+    "name": "[name=post_title]",
+    "body": "#content",
+    "html_tab": "#content-html",
+    "publish": "#publish[name=publish][type=submit]"
+  },
+  "native_guard": {
+    "ok": true
+  },
+  "pages": [
+    {
+      "host": "blog2freedom.com",
+      "url": "https://blog2freedom.com/",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "LOGIN",
+          "url": "https://blog2freedom.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "REGISTER",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Get Started",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "LOGIN",
+          "url": "https://blog2freedom.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog2freedom.com",
+      "url": "https://blog2freedom.com/register",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog2freedom.com/register",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "signup",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"signup\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Register & Create",
+          "url": "",
+          "selector": "[name=\"signup\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": false
+        },
+        {
+          "label": "Log in",
+          "url": "https://blog2freedom.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "https://blog2freedom.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog2freedom.com",
+      "url": "https://blog2freedom.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog2freedom.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog2freedom.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog2freedom.com",
+      "url": "https://blog2freedom.com/register",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog2freedom.com/register",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "signup",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"signup\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://blog2freedom.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog2freedom.com",
+      "url": "https://blog2freedom.com/Dashboard",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog2freedom.com/Dashboard",
+          "fields": [
+            {
+              "name": "dashboard_right_now-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"dashboard_right_now-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "dashboard_activity-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"dashboard_activity-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "dashboard_quick_press-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"dashboard_quick_press-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "dashboard_primary-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"dashboard_primary-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "wp_welcome_panel-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"wp_welcome_panel-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://blog2freedom.com/Dashboard",
+          "fields": [
+            {
+              "name": "newcomment_author",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"newcomment_author\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "newcomment_author_email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"newcomment_author_email\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "newcomment_author_url",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"newcomment_author_url\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_strong",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_strong\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_em",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_em\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_link",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_link\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_block",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_block\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_del",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_del\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_ins",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_ins\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_img",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_img\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_ul",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_ul\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_ol",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_ol\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_li",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_li\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_code",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_code\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_close",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_close\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "replycontent",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"replycontent\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "New Post",
+          "url": "https://blog2freedom.com/new-post",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/Dashboard",
+          "navigation_only": true
+        },
+        {
+          "label": "Write your first blog post",
+          "url": "https://blog2freedom.com/new-post",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/Dashboard",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Write your first blog post",
+          "url": "https://blog2freedom.com/new-post",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/Dashboard",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "tinymce",
+        "wordpress"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog2freedom.com",
+      "url": "https://blog2freedom.com/new-post",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog2freedom.com/new-post",
+          "fields": [
+            {
+              "name": "formatdiv-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"formatdiv-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "categorydiv-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"categorydiv-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "tagsdiv-post_tag-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"tagsdiv-post_tag-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "theme-layouts-post-meta-box-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"theme-layouts-post-meta-box-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "postimagediv-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"postimagediv-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "postexcerpt-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"postexcerpt-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "trackbacksdiv-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"trackbacksdiv-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "postcustom-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"postcustom-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "commentstatusdiv-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"commentstatusdiv-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "slugdiv-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"slugdiv-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "authordiv-hide",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"authordiv-hide\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "screen_columns",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"screen_columns\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "screen_columns",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"screen_columns\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "editor-expand-toggle",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"editor-expand-toggle\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://blog2freedom.com/new-post",
+          "fields": [
+            {
+              "name": "post_title",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_title\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "insert-media-button",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"insert-media-button\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "content-tmce",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"content-tmce\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "content-html",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"content-html\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_strong",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_strong\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_em",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_em\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_link",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_link\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_block",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_block\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_del",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_del\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_ins",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_ins\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_img",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_img\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_ul",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_ul\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_ol",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_ol\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_li",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_li\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_code",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_code\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_more",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_more\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_close",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_close\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_content_dfw",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_content_dfw\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "mceu_15-open",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"mceu_15-open\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "content",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"content\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "save",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"save\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "save",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"save\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_status",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_status\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "hidden_post_sticky",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"hidden_post_sticky\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"visibility\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "sticky",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"sticky\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"visibility\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_password",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 20,
+              "selector": "[name=\"post_password\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"visibility\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "mm",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"mm\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "jj",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 2,
+              "selector": "[name=\"jj\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "aa",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 4,
+              "selector": "[name=\"aa\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "hh",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 2,
+              "selector": "[name=\"hh\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "mn",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 2,
+              "selector": "[name=\"mn\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "publish",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"publish\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_format",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_format\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "in-popular-category-1",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"in-popular-category-1\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_category[]",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_category[]\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "newcategory",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"newcategory\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "newcategory_parent",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"newcategory_parent\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "category-add-submit",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"category-add-submit\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "tax_input[post_tag]",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"tax_input[post_tag]\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "newtag[post_tag]",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"newtag[post_tag]\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post-layout",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post-layout\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post-layout",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post-layout\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post-layout",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post-layout\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post-layout",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post-layout\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post-layout",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post-layout\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "excerpt",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"excerpt\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "trackback_url",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"trackback_url\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "metakeyselect",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"metakeyselect\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "metakeyinput",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"metakeyinput\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "metavalue",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"metavalue\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "addmeta",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"addmeta\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "comment_status",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"comment_status\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ping_status",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ping_status\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_name",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_name\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "post_author_override",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"post_author_override\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://blog2freedom.com/new-post",
+          "fields": [
+            {
+              "name": "newcomment_author",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"newcomment_author\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "newcomment_author_email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"newcomment_author_email\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "newcomment_author_url",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"newcomment_author_url\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_strong",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_strong\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_em",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_em\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_link",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_link\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_block",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_block\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_del",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_del\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_ins",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_ins\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_img",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_img\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_ul",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_ul\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_ol",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_ol\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_li",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_li\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_code",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_code\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "qt_replycontent_close",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"qt_replycontent_close\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "replycontent",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"replycontent\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://blog2freedom.com/new-post",
+          "fields": [
+            {
+              "name": "wp-link-close",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"wp-link-close\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "wp-link-url",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"wp-link-url\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "wp-link-text",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"wp-link-text\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "wp-link-target",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"wp-link-target\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "wp-link-search",
+              "tag": "input",
+              "type": "search",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"wp-link-search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "wp-link-submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"wp-link-submit\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "New Post",
+          "url": "https://blog2freedom.com/new-post",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/new-post",
+          "navigation_only": true
+        },
+        {
+          "label": "Publish",
+          "url": "",
+          "selector": "[id=\"publish\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://blog2freedom.com/new-post",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "New Post",
+          "url": "https://blog2freedom.com/new-post",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog2freedom.com/new-post",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "tinymce",
+        "wordpress"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Published backlink independently verified for current campaign",
+  "remaining": [],
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-30T12:58:05.867903+00:00",
+    "page": "https://blog2freedom.com/",
+    "controls": [
+      {
+        "label": "LOGIN",
+        "url": "https://blog2freedom.com/sign-in",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog2freedom.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "REGISTER",
+        "url": "https://blog2freedom.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog2freedom.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Get Started",
+        "url": "https://blog2freedom.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog2freedom.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create a free website",
+        "url": "https://blog2freedom.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog2freedom.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create a business website",
+        "url": "https://blog2freedom.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog2freedom.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create an online store",
+        "url": "https://blog2freedom.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog2freedom.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "validated_template",
+    "source_domain": "bleepblogs.com",
+    "evidence": "Live navigation and form structure match an operator-confirmed completed workflow; publishing still requires live guards"
+  },
+  "review_reason": "",
+  "verification_level": "Live guarded final form, receipt and independently verified public detail page",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://blog2freedom.com/",
+      "https://blog2freedom.com/register",
+      "https://blog2freedom.com/sign-in"
+    ],
+    "observed_form_count": 2,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "publishing_contract": {
+    "guard": "mappings/wordpress_classic_guard.js",
+    "route": "/new-post",
+    "form_action": "Absent action attribute resolves to current editor route; hidden action input must not shadow DOM inspection",
+    "visibility": "Public",
+    "initial_status": "Draft",
+    "public_hostname": "Observed Visit Site business subdomain; recorded as publication_host in campaign journal",
+    "receipt_link": "View your post",
+    "verification": "Independent cookies; exact business name and clickable exact approved website URL",
+    "content": "All approved public fields; HTML escaped through existing article_html formatter",
+    "omitted_fields": [],
+    "publish_selector": "css=#publishing-action #publish",
+    "publish_label": "Publish",
+    "publish_panel": "#publishing-action",
+    "ready_checks": [
+      "HTML enabled",
+      "No disabled CSS class",
+      "No aria-disabled or aria-busy state",
+      "Valid form",
+      "Approved content and exact public destination link"
+    ],
+    "input_action": "uiv.browser.click(uiv.$(\"css=#publishing-action #publish\"))",
+    "content_guard": "mappings/wordpress_classic_content_guard.js",
+    "receipt_wait": {
+      "locator": "xpath=//a[normalize-space(.)=\"View your post\"]",
+      "timeout_seconds": 20,
+      "encoding": "Build the locator argument with JSON encoding, then inspect the receipt without another click"
+    }
+  },
+  "posting_button_confirmation": {
+    "confirmed_by": "validated_template",
+    "source_domain": "blog-gold.com",
+    "confirmed_utc": "2026-10-30T13:06:55.246934+00:00",
+    "controls": [
+      {
+        "label": "New Post",
+        "url": "https://blog2freedom.com/new-post",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog2freedom.com/Dashboard",
+        "navigation_only": true
+      },
+      {
+        "label": "Write your first blog post",
+        "url": "https://blog2freedom.com/new-post",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog2freedom.com/Dashboard",
+        "navigation_only": true
+      }
+    ],
+    "evidence": "Exact observed New Post labels/routes match confirmed classic template; actual editor passed current guard"
+  }
+}

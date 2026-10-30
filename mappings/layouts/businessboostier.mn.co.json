@@ -1,0 +1,56 @@
+{
+  "domain": "businessboostier.mn.co",
+  "checked_utc": "2026-10-23T12:45:16.267560+00:00",
+  "status": "Entry points saved; form incomplete",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://businessboostier.mn.co/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "businessboostier.mn.co",
+      "url": "https://businessboostier.mn.co/",
+      "forms": [],
+      "links": [
+        {
+          "label": "Sign In",
+          "url": "https://businessboostier.mn.co/sign_in"
+        }
+      ],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "mighty networks"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessboostier.mn.co",
+      "url": "https://businessboostier.mn.co/sign_in",
+      "forms": [],
+      "links": [],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "mighty networks"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

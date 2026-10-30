@@ -1,0 +1,3116 @@
+{
+  "domain": "bestdirectory4you.com",
+  "checked_utc": "2026-10-23T16:31:54.590796+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Needs adapter",
+  "family": "php-link-directory-multistep",
+  "access": "Posting form accessible; account login permission outcome recorded separately",
+  "entry_url": "https://bestdirectory4you.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "keywords": "[name=\"META_KEYWORDS\"]",
+    "meta_description": "[name=\"META_DESCRIPTION\"]"
+  },
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/submit.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/submit.php",
+          "fields": [
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|Â Â Â |___Animation",
+                "|Â Â Â |___Architecture",
+                "|Â Â Â |___Art History",
+                "|Â Â Â |___Awards",
+                "|Â Â Â |___Bodyart",
+                "|Â Â Â |___Chats and Forums",
+                "|Â Â Â |___Classical Studies",
+                "|Â Â Â |___Comics",
+                "|Â Â Â |___Costumes",
+                "|Â Â Â |___Crafts",
+                "|Â Â Â |___Cultures and Groups",
+                "|Â Â Â |___Design",
+                "|Â Â Â |___Digital",
+                "|Â Â Â |___Directories",
+                "|Â Â Â |___Education",
+                "|Â Â Â |___Entertainment",
+                "|Â Â Â |___Events",
+                "|Â Â Â |___Graphic Design",
+                "|Â Â Â |___Humanities",
+                "|Â Â Â |___Illustration",
+                "|Â Â Â |___Literature",
+                "|Â Â Â |___Magazines and E-zines",
+                "|Â Â Â |___Music",
+                "|Â Â Â |___News and Media",
+                "|Â Â Â |___Online Writing",
+                "|Â Â Â |___Organizations",
+                "|Â Â Â |___People",
+                "|Â Â Â |___Performing Arts",
+                "|Â Â Â |___Photography",
+                "|Â Â Â |___Radio",
+                "|Â Â Â |___Television",
+                "|Â Â Â |___Video",
+                "|Â Â Â |___Visual Arts",
+                "|Â Â Â |___Weblogs",
+                "|Â Â Â |___Writers Resources",
+                "|___Business",
+                "|Â Â Â |___Accounting",
+                "|Â Â Â |___Aerospace and Defense"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/profile.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/profile.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/profile.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/profile.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/profile.php",
+          "fields": [
+            {
+              "name": "LOGIN",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"LOGIN\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORD",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORD\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORDC",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORDC\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LANGUAGE",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LANGUAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 5,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "send",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"send\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"send\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "fields": [
+            {
+              "name": "LOGIN",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"LOGIN\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORD",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORD\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORDC",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORDC\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LANGUAGE",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LANGUAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 5,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "send",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"send\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"send\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "fields": [
+            {
+              "name": "LOGIN",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"LOGIN\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORD",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORD\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORDC",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORDC\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LANGUAGE",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LANGUAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 5,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "send",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"send\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"send\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "fields": [
+            {
+              "name": "LOGIN",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"LOGIN\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORD",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORD\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORDC",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORDC\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LANGUAGE",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LANGUAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 5,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "send",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"send\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"send\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/login.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/login.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/login.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/login.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/login.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/login.php",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/login.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/login.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/submit.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/submit.php",
+          "fields": [
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|Â Â Â |___Animation",
+                "|Â Â Â |___Architecture",
+                "|Â Â Â |___Art History",
+                "|Â Â Â |___Awards",
+                "|Â Â Â |___Bodyart",
+                "|Â Â Â |___Chats and Forums",
+                "|Â Â Â |___Classical Studies",
+                "|Â Â Â |___Comics",
+                "|Â Â Â |___Costumes",
+                "|Â Â Â |___Crafts",
+                "|Â Â Â |___Cultures and Groups",
+                "|Â Â Â |___Design",
+                "|Â Â Â |___Digital",
+                "|Â Â Â |___Directories",
+                "|Â Â Â |___Education",
+                "|Â Â Â |___Entertainment",
+                "|Â Â Â |___Events",
+                "|Â Â Â |___Graphic Design",
+                "|Â Â Â |___Humanities",
+                "|Â Â Â |___Illustration",
+                "|Â Â Â |___Literature",
+                "|Â Â Â |___Magazines and E-zines",
+                "|Â Â Â |___Music",
+                "|Â Â Â |___News and Media",
+                "|Â Â Â |___Online Writing",
+                "|Â Â Â |___Organizations",
+                "|Â Â Â |___People",
+                "|Â Â Â |___Performing Arts",
+                "|Â Â Â |___Photography",
+                "|Â Â Â |___Radio",
+                "|Â Â Â |___Television",
+                "|Â Â Â |___Video",
+                "|Â Â Â |___Visual Arts",
+                "|Â Â Â |___Weblogs",
+                "|Â Â Â |___Writers Resources",
+                "|___Business",
+                "|Â Â Â |___Accounting",
+                "|Â Â Â |___Aerospace and Defense"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/submit.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/submit.php",
+          "fields": [
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|Â Â Â |___Animation",
+                "|Â Â Â |___Architecture",
+                "|Â Â Â |___Art History",
+                "|Â Â Â |___Awards",
+                "|Â Â Â |___Bodyart",
+                "|Â Â Â |___Chats and Forums",
+                "|Â Â Â |___Classical Studies",
+                "|Â Â Â |___Comics",
+                "|Â Â Â |___Costumes",
+                "|Â Â Â |___Crafts",
+                "|Â Â Â |___Cultures and Groups",
+                "|Â Â Â |___Design",
+                "|Â Â Â |___Digital",
+                "|Â Â Â |___Directories",
+                "|Â Â Â |___Education",
+                "|Â Â Â |___Entertainment",
+                "|Â Â Â |___Events",
+                "|Â Â Â |___Graphic Design",
+                "|Â Â Â |___Humanities",
+                "|Â Â Â |___Illustration",
+                "|Â Â Â |___Literature",
+                "|Â Â Â |___Magazines and E-zines",
+                "|Â Â Â |___Music",
+                "|Â Â Â |___News and Media",
+                "|Â Â Â |___Online Writing",
+                "|Â Â Â |___Organizations",
+                "|Â Â Â |___People",
+                "|Â Â Â |___Performing Arts",
+                "|Â Â Â |___Photography",
+                "|Â Â Â |___Radio",
+                "|Â Â Â |___Television",
+                "|Â Â Â |___Video",
+                "|Â Â Â |___Visual Arts",
+                "|Â Â Â |___Weblogs",
+                "|Â Â Â |___Writers Resources",
+                "|___Business",
+                "|Â Â Â |___Accounting",
+                "|Â Â Â |___Aerospace and Defense"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/submit.php?c=432",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/submit.php?c=432",
+          "fields": [
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "choicemade",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"choicemade\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/submit.php?c=432",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/submit.php?c=432",
+          "fields": [
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "choicemade",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"choicemade\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bestdirectory4you.com",
+      "url": "https://bestdirectory4you.com/submit.php?c=432",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://bestdirectory4you.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://bestdirectory4you.com/submit.php?c=432",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "selectCategBtnOk",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"selectCategBtnOk\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ADD_CATEGORY_ID[]",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ADD_CATEGORY_ID[]\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NEWSLETTER_ALLOW",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"OWNER_NEWSLETTER_ALLOW\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "META_KEYWORDS",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"META_KEYWORDS\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "META_DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"META_DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "META_DESCRIPTION_limit",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"META_DESCRIPTION_limit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 5,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "AGREERULES",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"AGREERULES\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "continue",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"continue\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://bestdirectory4you.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://bestdirectory4you.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bestdirectory4you.com/submit.php?c=432",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Implement and offline-test per-host category/type navigation with waits for visible expected step controls",
+    "Review /rules.php, optional field handling and live validation before publishing",
+    "Preserve private uncertain registration checkpoint; do not recreate account blindly",
+    "Independently verify any later public backlink"
+  ],
+  "review_reason": "",
+  "verification_level": "Confirmed controls; normal category and verified free-type navigation reached visible listing form",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://bestdirectory4you.com/submit.php",
+      "https://bestdirectory4you.com/profile.php"
+    ],
+    "observed_form_count": 5,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T16:31:52.676638+00:00",
+    "page": "https://bestdirectory4you.com/submit.php",
+    "controls": [
+      {
+        "label": "Login",
+        "url": "",
+        "selector": "[name=\"login\"]",
+        "tag": "input",
+        "role": "",
+        "page": "https://bestdirectory4you.com/submit.php",
+        "navigation_only": false
+      },
+      {
+        "label": "Register",
+        "url": "https://bestdirectory4you.com/profile.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://bestdirectory4you.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Submit Link",
+        "url": "https://bestdirectory4you.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://bestdirectory4you.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "account_review_outcome": "One operator-confirmed CAPTCHA registration submission made; result requires verification. Protected from repeat registration.",
+  "registration_terms_step": {
+    "page": "https://bestdirectory4you.com/profile.php",
+    "label": "I Agree to these terms",
+    "selector": "xpath=//a[normalize-space(.)=\"I Agree to these terms\"]",
+    "scope": "Normal same-origin link followed to reveal registration form; account not created by this step"
+  },
+  "registration_contract": {
+    "action": "https://bestdirectory4you.com/profile.php?mode=register&agreed=true",
+    "values": {
+      "[name=\"LOGIN\"]": "username",
+      "[name=\"NAME\"]": "business_name",
+      "[name=\"EMAIL\"]": "email",
+      "[name=\"PASSWORD\"]": "password",
+      "[name=\"PASSWORDC\"]": "password"
+    },
+    "submit": "[name=\"send\"]",
+    "captcha_selector": "[name=\"CAPTCHA\"]"
+  },
+  "registration_result_flags": {
+    "success": false,
+    "activation": false,
+    "emailSent": false,
+    "captchaRejected": false,
+    "duplicate": false,
+    "registrationFieldsPresent": true,
+    "validationFields": []
+  },
+  "account_recovery_flags": {
+    "identity": false,
+    "authenticated_navigation": false,
+    "account_restricted": false,
+    "email_verification": false,
+    "captcha": false,
+    "custom_captcha": false,
+    "standard_captcha": false,
+    "payment": false,
+    "wrong_password": false,
+    "registration_rejected": false
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T16:44:48.644243+00:00",
+    "page": "https://bestdirectory4you.com/submit.php?c=432",
+    "evidence": "Visible CATEGORY_ID select offered Cheerleading value 432. Normal category selection opened Step Two. Regular Link value 2 was labelled free; other types were priced and unavailable. Normal free-type navigation reached TITLE, URL, DESCRIPTION, metadata, CAPTCHA and rules controls.",
+    "account_observation": "One registration submission produced no clear receipt; recovery login returned No permissions set for this user. Registration remains protected as uncertain in private checkpoint; no further registration attempted.",
+    "scope": "Posting form is accessible despite unconfirmed sign-in. Sidebar password form is not evidence that posting navigation requires login. No listing details filled, listing CAPTCHA solved, listing terms accepted or final posting submission made."
+  },
+  "category_navigation": {
+    "page": "https://bestdirectory4you.com/submit.php",
+    "selector": "select[name=\"CATEGORY_ID\"]",
+    "observed_category": {
+      "value": "432",
+      "label": "Cheerleading"
+    },
+    "next_selector": "#ok",
+    "next_label": "Go To Step Two",
+    "scope": "Normal visible category selection and navigation only; no listing details submitted"
+  },
+  "link_type_navigation": {
+    "page": "https://bestdirectory4you.com/submit.php?c=432",
+    "selector": "input[name=\"LINK_TYPE\"][value=\"2\"]",
+    "label": "Regular Link - free",
+    "next_selector": "[name=\"choicemade\"]",
+    "next_label": "Go To Step Three",
+    "scope": "Observed live free choice; paid/unavailable types not selected. Normal navigation only, no listing details submitted."
+  },
+  "form_limits": {
+    "name": 150,
+    "owner_name": 50,
+    "public_email": 255,
+    "captcha_input": 5,
+    "meta_description_observed_counter": 250,
+    "description": "No HTML maxlength observed; live server/JavaScript limits not established"
+  },
+  "final_form_controls": {
+    "submit_selector": "[name=\"continue\"][type=\"submit\"]",
+    "submit_label": "Continue",
+    "captcha_selector": "[name=\"CAPTCHA\"]",
+    "rules_checkbox": "[name=\"AGREERULES\"]",
+    "rules_url": "https://bestdirectory4you.com/rules.php",
+    "newsletter_checkbox": "[name=\"OWNER_NEWSLETTER_ALLOW\"]"
+  },
+  "supervised_publication": {
+    "checked_utc": "2026-10-27T12:19:48.981564+00:00",
+    "status": "Prepared; operator verification required; no submission made",
+    "steps": [
+      {
+        "label": "Submit Link",
+        "url": "https://bestdirectory4you.com/submit.php"
+      },
+      {
+        "label": "Cheerleading",
+        "control": "category picker",
+        "category_id": "432"
+      },
+      {
+        "label": "Go To Step Two",
+        "selector": "#ok"
+      },
+      {
+        "label": "Regular Link - free",
+        "selector": "[name=LINK_TYPE][value=2]"
+      },
+      {
+        "label": "Go To Step Three",
+        "selector": "[name=choicemade]"
+      },
+      {
+        "label": "Continue",
+        "selector": "[name=continue][type=submit]",
+        "final_submission": true
+      }
+    ],
+    "verification_field": "[name=CAPTCHA]",
+    "newsletter": "Unchecked",
+    "terms": "[name=AGREERULES]",
+    "content": "All approved public fields included in DESCRIPTION; no omissions",
+    "runtime": "Supervised final-form actions only; automatic queue adapter not yet enabled"
+  }
+}

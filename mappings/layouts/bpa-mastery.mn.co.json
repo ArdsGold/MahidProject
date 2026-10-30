@@ -1,0 +1,35 @@
+{
+  "domain": "bpa-mastery.mn.co",
+  "checked_utc": "2026-10-23T12:45:11.259412+00:00",
+  "status": "Needs deeper inspection",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://bpa-mastery.mn.co/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "bpa-mastery.mn.co",
+      "url": "https://bpa-mastery.mn.co/",
+      "forms": [],
+      "links": [],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "mighty networks"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

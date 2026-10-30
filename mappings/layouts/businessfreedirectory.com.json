@@ -1,0 +1,2218 @@
+{
+  "domain": "businessfreedirectory.com",
+  "checked_utc": "2026-10-23T17:50:39.567589+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Sign-in required",
+  "entry_url": "https://businessfreedirectory.com/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/submit.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/submit.php",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/profile.php?mode=register",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/profile.php?mode=register",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/profile.php?mode=register",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/profile.php?mode=register",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/profile.php?mode=register",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/profile.php?mode=register",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/submit_article.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit_article.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit_article.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit_article.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit_article.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit_article.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit_article.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit_article.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/profile.php?mode=register",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "fields": [
+            {
+              "name": "LOGIN",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"LOGIN\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORD",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORD\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORDC",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORDC\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LANGUAGE",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LANGUAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 5,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "send",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"send\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"send\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "fields": [
+            {
+              "name": "LOGIN",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"LOGIN\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORD",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORD\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORDC",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORDC\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LANGUAGE",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LANGUAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 5,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "send",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"send\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit",
+          "url": "",
+          "selector": "[name=\"send\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Register",
+          "url": "https://businessfreedirectory.com/profile.php?mode=register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Article",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/profile.php?mode=register&agreed=true",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessfreedirectory.com",
+      "url": "https://businessfreedirectory.com/submit.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/login.php",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://businessfreedirectory.com/index.php",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://businessfreedirectory.com/submit.php",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Neni",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://businessfreedirectory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Submit Neni",
+          "url": "https://businessfreedirectory.com/submit_article.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessfreedirectory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Posting category step reached; final posting form not reached",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:44:21.109941+00:00",
+    "page": "https://businessfreedirectory.com/submit.php",
+    "controls": [
+      {
+        "label": "Login",
+        "url": "",
+        "selector": "[name=\"login\"]",
+        "tag": "input",
+        "role": "",
+        "page": "https://businessfreedirectory.com/submit.php",
+        "navigation_only": false
+      },
+      {
+        "label": "Register",
+        "url": "https://businessfreedirectory.com/profile.php?mode=register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://businessfreedirectory.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Submit Link",
+        "url": "https://businessfreedirectory.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://businessfreedirectory.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Submit Article",
+        "url": "https://businessfreedirectory.com/submit_article.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://businessfreedirectory.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Operator confirms category picker missing or unusable; registration outcome remains uncertain; skipped for now",
+  "verification_level": "Live category-step inspection and operator confirmation; final posting form not reached",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:50:04.425906+00:00",
+    "page": "https://businessfreedirectory.com/submit.php",
+    "evidence": "Registration form submitted once after operator CAPTCHA confirmation. Subsequent checks found no signed-in navigation, email activation message or explicit rejection; private registration state uncertain, protected from repetition. Submit Link is accessible and displays Step One Choose a Category and #ok Go To Step Two. No select, #hierarchy or Dynatree controls detected. Page labels partly changed language after registration.",
+    "scope": "Operator confirms category picker missing or unusable. Registration outcome remains uncertain and private record is protected from repetition. Final posting form not reached; no backlink submitted. Not classified as Access gap."
+  },
+  "operator_observation": {
+    "checked_utc": "2026-10-23T17:50:39.567603+00:00",
+    "evidence": "Picker missing or does not work; skip this site for now.",
+    "deferred": true
+  }
+}

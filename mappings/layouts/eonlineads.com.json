@@ -1,0 +1,991 @@
+{
+  "domain": "eonlineads.com",
+  "checked_utc": "2026-10-23T18:12:07.897750+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "xzero-classifieds",
+  "access": "Accessible",
+  "entry_url": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+  "field_map": {
+    "name": "[name=adtitle]",
+    "body": "[name=addesc]",
+    "public_email": "[name=email]",
+    "location": "[name=arealist]"
+  },
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&lang=en",
+          "navigation_only": true
+        },
+        {
+          "label": "Make a Post",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&lang=en",
+          "navigation_only": true
+        },
+        {
+          "label": "Make a Post",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "fields": [
+            {
+              "name": "adtitle",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 100,
+              "selector": "[name=\"adtitle\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "arealist",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"arealist\"]",
+              "visible": true,
+              "choices": [
+                "(Select)",
+                "joplin",
+                "kansas city",
+                "columbia / jeff city",
+                "springfield",
+                "southeast missouri",
+                "st louis",
+                "(Other)"
+              ],
+              "choices_truncated": false
+            },
+            {
+              "name": "area",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"area\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "addesc",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"addesc\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "navigation_only": true
+        },
+        {
+          "label": "Make a Post",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "navigation_only": true
+        },
+        {
+          "label": "Make a Post",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "eonlineads.com",
+      "url": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "fields": [
+            {
+              "name": "adtitle",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 100,
+              "selector": "[name=\"adtitle\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "arealist",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"arealist\"]",
+              "visible": true,
+              "choices": [
+                "(Select)",
+                "joplin",
+                "kansas city",
+                "columbia / jeff city",
+                "springfield",
+                "southeast missouri",
+                "st louis",
+                "(Other)"
+              ],
+              "choices_truncated": false
+            },
+            {
+              "name": "area",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"area\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "addesc",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"addesc\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "showemail",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"showemail\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "showemail",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"showemail\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "showemail",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"showemail\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pic[1]",
+              "tag": "input",
+              "type": "file",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"pic[1]\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pic[2]",
+              "tag": "input",
+              "type": "file",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"pic[2]\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pic[3]",
+              "tag": "input",
+              "type": "file",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"pic[3]\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "othercontactok",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"othercontactok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "agree",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"agree\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "promote[featured]",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"promote[featured]\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "promote[extended]",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"promote[extended]\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "navigation_only": true
+        },
+        {
+          "label": "Make a Post",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "navigation_only": true
+        },
+        {
+          "label": "Post Now",
+          "url": "",
+          "selector": "",
+          "tag": "button",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "navigation_only": true
+        },
+        {
+          "label": "Make a Post",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=475",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Validate existing classifieds runtime against live route and guards",
+    "Review terms and content limits",
+    "Independently verify any future public listing"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "observed_controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "observed_controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "observed_controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "observed_controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "observed_controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "observed_controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "observed_controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+      "observed_controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:11:12.027446+00:00",
+    "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+    "controls": [
+      {
+        "label": "Post Free Ad",
+        "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://eonlineads.com/?view=selectcity&cityid=0&lang=en",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "",
+  "verification_level": "Operator-confirmed posting control and live city/category/final-form inspection",
+  "workflow_steps": [
+    {
+      "step": 1,
+      "label": "Post Free Ad",
+      "url": "https://eonlineads.com/index.php?view=post&cityid=0&lang=en"
+    },
+    {
+      "step": 2,
+      "label": "Missouri",
+      "cityid": "475"
+    },
+    {
+      "step": 3,
+      "label": "Services",
+      "catid": "3"
+    },
+    {
+      "step": 4,
+      "label": "Health & Fitness",
+      "subcatid": "29"
+    },
+    {
+      "step": 5,
+      "label": "Location st louis",
+      "selector": "[name=arealist]",
+      "value": "st louis",
+      "action": "Select at publishing time using live label guard"
+    }
+  ],
+  "limits": {
+    "adtitle": 100,
+    "area": 50,
+    "email": 50,
+    "addesc": "No HTML maxlength observed; server limit unverified",
+    "image_max_filesize": "200KB displayed",
+    "image_controls": [
+      "pic[1]",
+      "pic[2]",
+      "pic[3]"
+    ]
+  },
+  "free_plan": {
+    "duration_days": 30,
+    "evidence": "Page explicitly says regular ads free and viewable for 30 days",
+    "promotion_guards": {
+      "promote[featured]": {
+        "value": "0",
+        "label": "None"
+      },
+      "promote[extended]": {
+        "value": "0",
+        "label": "None"
+      }
+    }
+  },
+  "final_form_controls": {
+    "submit": "xpath=//button[@type=\"submit\" and normalize-space(.)=\"Post Now\"]",
+    "terms": "[name=agree]",
+    "marketing": "[name=othercontactok] leave unchecked",
+    "verification": "Browser verification completed by operator; no submission CAPTCHA observed, recheck before publishing"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:12:07.897773+00:00",
+    "page": "https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en",
+    "evidence": "Normal Missouri, Services, Health & Fitness navigation reached adtitle/addesc/email form with st louis location. Delayed second inspection confirmed all fields loaded. Both paid promotion selectors default None value 0. Page says free 30-day regular ads, emailed recovery details and 200KB images.",
+    "scope": "No client content filled, terms accepted or Post Now clicked. No account created. Include exact website whole in suitable body; independently verify public clickable destination. Similar/substantially similar ads prohibited; inspect campaign journal before any future attempt."
+  }
+}

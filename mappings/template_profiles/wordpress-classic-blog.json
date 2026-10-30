@@ -1,0 +1,36 @@
+{
+  "profile_id": "wordpress-classic-blog",
+  "basis": "Live validated Bleepblogs and Blog-gold editor workflows; Blog-gold live test explicitly requested by operator",
+  "evidence_hosts": [
+    "bleepblogs.com",
+    "blog-gold.com",
+    "blog2freedom.com",
+    "bloggadores.com"
+  ],
+  "blueprints": [
+    "mappings/layouts/bleepblogs.com.json",
+    "mappings/layouts/blog-gold.com.json",
+    "mappings/layouts/blog2freedom.com.json",
+    "mappings/layouts/bloggadores.com.json"
+  ],
+  "editor_route": "/new-post",
+  "guard": "mappings/wordpress_classic_guard.js",
+  "content_guard": "mappings/wordpress_classic_content_guard.js",
+  "publish_selector": "css=#publishing-action #publish",
+  "input_action": "uiv.browser.click(uiv.$(\"css=#publishing-action #publish\"))",
+  "receipt_locator": "xpath=//a[normalize-space(.)=\"View your post\"]",
+  "receipt_timeout_seconds": 20,
+  "guardrails": [
+    "Inspect the actual live account and free posting route per hostname",
+    "Wait until Publish has no disabled HTML, CSS or ARIA state; never force-enable it",
+    "Preserve approved text with block boundaries and exact href values when the editor normalizes HTML",
+    "Journal before Publish; never repeat an uncertain final click without an explicitly authorized and inspected continuation",
+    "Wait for the actual receipt using a correctly encoded locator; do not infer success from click return",
+    "Observe and validate the public business subdomain from Visit Site",
+    "Independently verify the eligible detail page in a fresh browser context",
+    "Diagnostic test URLs do not add another counted hostname",
+    "Template observations do not enable a general queue adapter"
+  ],
+  "account_response_wait": "Bounded state-based read-only polling, up to 20 seconds / 20 reads; never repeats the account action",
+  "account_registration_match": "Actual labels blog name / your email / password and inspected HTTPS same-origin POST /register schema; no per-host source allow-list"
+}

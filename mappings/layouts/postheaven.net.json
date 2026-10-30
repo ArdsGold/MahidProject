@@ -1,0 +1,17 @@
+{
+  "domain": "postheaven.net",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "platform:postheaven.net",
+    "website_type": "Individual platform",
+    "basis": "Configured route"
+  },
+  "saved_structure": {
+    "family": "unknown",
+    "fingerprint": "",
+    "basis": "Live HTTP",
+    "source": "https://postheaven.net"
+  },
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

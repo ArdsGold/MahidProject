@@ -1,0 +1,55 @@
+{
+  "domain": "locals101.com",
+  "checked_utc": "2026-10-23T14:23:03.764688+00:00",
+  "status": "Inspection error",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Website error; registration and posting controls not inspectable",
+  "entry_url": "https://locals101.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "locals101.com",
+      "url": "https://locals101.com/",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; site error confirmed by operator",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "button_candidates": [],
+  "reason": "Website server database failure",
+  "review_reason": "Homepage displays Server Error in application / Cannot open database",
+  "verification_level": "Live error observed and confirmed by operator",
+  "final_output_status": "error",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:23:51.539460+00:00",
+    "page": "https://locals101.com/",
+    "evidence": "Homepage displays Server Error in application and Cannot open database. No registration or posting controls visible.",
+    "operator_confirmation": "Same error ? save error and continue",
+    "scope": "Website database error, not a rejection of campaign credentials; posting routes remain unmapped"
+  },
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:23:51.539474+00:00",
+    "page": "https://locals101.com/",
+    "controls": [],
+    "confirmed_by": "operator",
+    "scope": "No controls visible on the error page; does not establish absence on a working site"
+  }
+}

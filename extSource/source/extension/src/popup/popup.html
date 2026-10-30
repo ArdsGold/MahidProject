@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Backlink Autofill 2.0</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header><h1>BACKLINK AUTOFILL</h1></header>
+    <section class="card">
+      <h2>Active Profile</h2>
+      <p id="profile-status" class="profile-status">No active profile</p>
+      <p id="profile-synced" class="muted"></p>
+      <p id="current-site" class="muted">Current Site: unavailable</p>
+      <p id="flow-status" class="muted"></p>
+    </section>
+    <section class="card">
+      <button id="autofill-button" class="primary" type="button">AUTOFILL</button>
+      <p class="muted safety">Family 1/2: AUTOFILL fills the current form only; navigate and submit manually. Family 2 Profile Update selects your saved Business Logo; click Update Profile manually. Supported directories retain their existing navigation and autofill; CAPTCHA and final Continue/Submit stay manual.</p>
+      <button id="dashboard-button" type="button">Open Dashboard</button>
+      <button id="sync-button" type="button">Refresh from dashboard</button>
+    </section>
+    <section class="card"><h2>Result</h2><div id="result" class="result muted">No action run yet.</div></section>
+    <section class="card"><details><summary>Auto Visit trace (read-only)</summary><pre id="publication-trace" style="white-space:pre-wrap;overflow-wrap:anywhere">Trace not loaded.</pre></details></section>
+    <script src="popup.js"></script>
+  </body>
+</html>

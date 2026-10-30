@@ -1,0 +1,118 @@
+{
+  "domain": "flipboard.com",
+  "checked_utc": "2026-10-23T13:09:10.501524+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Account form is not supported by the current adapter; access has not been ruled out",
+  "entry_url": "https://flipboard.com/login",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "flipboard.com",
+      "url": "https://flipboard.com/",
+      "forms": [],
+      "links": [
+        {
+          "label": "Sign up",
+          "url": "https://flipboard.com/signup"
+        },
+        {
+          "label": "Log in",
+          "url": "https://flipboard.com/login"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "wordpress"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "flipboard.com",
+      "url": "https://flipboard.com/login",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://flipboard.com/login",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Sign Up",
+          "url": "https://flipboard.com/signup"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable",
+  "review_reason": "Unsupported account form",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://flipboard.com/",
+      "https://flipboard.com/login"
+    ],
+    "observed_form_count": 1,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  }
+}

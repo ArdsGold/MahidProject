@@ -1,0 +1,58 @@
+{
+  "domain": "israelafrica.mn.co",
+  "checked_utc": "2026-10-23T13:10:54.300961+00:00",
+  "status": "Entry points saved; form incomplete",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://israelafrica.mn.co/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "israelafrica.mn.co",
+      "url": "https://israelafrica.mn.co/",
+      "forms": [],
+      "links": [
+        {
+          "label": "Sign In",
+          "url": "https://israelafrica.mn.co/sign_in"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "mighty networks"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "israelafrica.mn.co",
+      "url": "https://israelafrica.mn.co/sign_in",
+      "forms": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "mighty networks"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

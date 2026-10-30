@@ -1,0 +1,705 @@
+{
+  "domain": "businessizze.com",
+  "checked_utc": "2026-10-30T14:29:19.429414+00:00",
+  "status": "Free plan excludes backlink",
+  "runtime": "Needs adapter",
+  "family": "business-listing-reference",
+  "access": "Signed in; observed listing plan selector",
+  "entry_url": "https://businessizze.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "businessizze.com",
+      "url": "https://businessizze.com/",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessizze.com/",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$DIQSHome$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$DIQSHome$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$DIQSHome$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$DIQSHome$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$DIQSHome$CityLookup",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$DIQSHome$CityLookup\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$DIQSHome$Proximity",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$DIQSHome$Proximity\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearchVertical$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearchVertical$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearchVertical$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearchVertical$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearchVertical$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearchVertical$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearchVertical$Button_QuickSearch",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearchVertical$Button_QuickSearch\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Sign Up",
+          "url": "https://businessizze.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://businessizze.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://businessizze.com/directory/listingedit.aspx",
+          "selector": "[id=\"AddLinkDI\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Sign Up",
+          "url": "https://businessizze.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://businessizze.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://businessizze.com/directory/listingedit.aspx",
+          "selector": "[id=\"AddLinkDI\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessizze.com",
+      "url": "https://businessizze.com/directory/register.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessizze.com/directory/register.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$FirstName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$LastName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Email",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Password",
+              "tag": "input",
+              "label": "password",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$ReEnterPassword\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SourceId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SourceId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Terms",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Terms\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$AddButton",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$AddButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Sign Up",
+          "url": "https://businessizze.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://businessizze.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "",
+          "selector": "[id=\"PageContent_RegistrationForm_AddButton\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": false
+        },
+        {
+          "label": "Login",
+          "url": "https://businessizze.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Sign Up",
+          "url": "https://businessizze.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://businessizze.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://businessizze.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://businessizze.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://businessizze.com/directory/listingedit.aspx",
+          "selector": "[id=\"AddLinkDI\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessizze.com",
+      "url": "https://businessizze.com/directory/register.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessizze.com/directory/register.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$FirstName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$LastName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Email",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Password",
+              "tag": "input",
+              "label": "password",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$ReEnterPassword\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SourceId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SourceId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Terms",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Terms\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$AddButton",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$AddButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Sign Up",
+          "url": "https://businessizze.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://businessizze.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "",
+          "selector": "[id=\"PageContent_RegistrationForm_AddButton\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": false
+        },
+        {
+          "label": "Login",
+          "url": "https://businessizze.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Sign Up",
+          "url": "https://businessizze.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://businessizze.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://businessizze.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "businessizze.com",
+      "url": "https://businessizze.com/directory/listingedit.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://businessizze.com/directory/listingedit.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Plans inspected; no free website link available",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-30T14:29:12.328718+00:00",
+    "page": "https://businessizze.com/",
+    "controls": [
+      {
+        "label": "Sign Up",
+        "url": "https://businessizze.com/directory/register.aspx",
+        "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://businessizze.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Login",
+        "url": "https://businessizze.com/directory/login.aspx",
+        "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://businessizze.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Add Listing",
+        "url": "https://businessizze.com/directory/listingedit.aspx",
+        "selector": "[id=\"AddLinkDI\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://businessizze.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Free trial explicitly excludes website/URL links; link-enabled Basic plan costs $3",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://businessizze.com/",
+      "https://businessizze.com/directory/register.aspx",
+      "https://businessizze.com/directory/register.aspx"
+    ],
+    "observed_form_count": 3,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "plan_evidence": {
+    "page": "https://businessizze.com/directory/listingedit.aspx",
+    "free_plan": "60 day listing WITHOUT website link or images",
+    "website_link_plan": "Basic Listing $3",
+    "checked_utc": "2026-10-30T14:29:53.002735+00:00"
+  }
+}

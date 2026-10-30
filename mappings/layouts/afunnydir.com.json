@@ -1,0 +1,546 @@
+{
+  "domain": "afunnydir.com",
+  "checked_utc": "2026-10-27T13:55:09.611275+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://afunnydir.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "domain": "afunnydir.com",
+      "startingUrl": "https://afunnydir.com/",
+      "protocols": [
+        "https:"
+      ],
+      "submitValue": "Continue",
+      "optionalReciprocal": false,
+      "manualRadio": {
+        "name": "LINK_TYPE",
+        "value": "normal",
+        "otherValues": [
+          "reciprocal"
+        ]
+      },
+      "inspected_date": "2026-10-27",
+      "fixture": "mappings/fixtures/afunnydir.com.contract.html",
+      "source_layout": "mappings/layouts/afunnydir.com.json",
+      "fixture_basis": "Synthetic offline fixture from observed live controls; category value is test-only"
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": false
+    }
+  },
+  "pages": [
+    {
+      "host": "afunnydir.com",
+      "url": "https://afunnydir.com/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://afunnydir.com/index.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://afunnydir.com/submit.php",
+          "fields": [
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts & Humanities",
+                "|   |___Art History",
+                "|   |___Art Weblogs",
+                "|   |___Artists",
+                "|   |___Awards",
+                "|   |___Booksellers",
+                "|   |___Censorship",
+                "|   |___Chats and Forums",
+                "|   |___Crafts",
+                "|   |___Criticism and Theory",
+                "|   |___Cultural Policy",
+                "|   |___Cultures and Groups",
+                "|   |___Design Arts",
+                "|   |___Education",
+                "|   |___Events",
+                "|   |___Humanities",
+                "|   |___Institutes",
+                "|   |___Job and Employment Resources",
+                "|   |___Local History",
+                "|   |___Museums, Galleries, and Centers",
+                "|   |___News and Media",
+                "|   |___Organizations",
+                "|   |___Performing Arts",
+                "|   |___Photography",
+                "|   |___Reference",
+                "|   |___Shopping and Services",
+                "|   |___Visual Arts",
+                "|___Blogs",
+                "|   |___Blog Hosting",
+                "|   |___Business",
+                "|   |___Computer",
+                "|   |___Eclectic",
+                "|   |___Education",
+                "|   |___Home and Garden",
+                "|   |___Internet",
+                "|   |___Law",
+                "|   |___Library",
+                "|   |___Making Money",
+                "|   |___Money"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://afunnydir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://afunnydir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://afunnydir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://afunnydir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": "Continue"
+    },
+    {
+      "host": "afunnydir.com",
+      "url": "https://afunnydir.com/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://afunnydir.com/index.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://afunnydir.com/submit.php",
+          "fields": [
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts & Humanities",
+                "|   |___Art History",
+                "|   |___Art Weblogs",
+                "|   |___Artists",
+                "|   |___Awards",
+                "|   |___Booksellers",
+                "|   |___Censorship",
+                "|   |___Chats and Forums",
+                "|   |___Crafts",
+                "|   |___Criticism and Theory",
+                "|   |___Cultural Policy",
+                "|   |___Cultures and Groups",
+                "|   |___Design Arts",
+                "|   |___Education",
+                "|   |___Events",
+                "|   |___Humanities",
+                "|   |___Institutes",
+                "|   |___Job and Employment Resources",
+                "|   |___Local History",
+                "|   |___Museums, Galleries, and Centers",
+                "|   |___News and Media",
+                "|   |___Organizations",
+                "|   |___Performing Arts",
+                "|   |___Photography",
+                "|   |___Reference",
+                "|   |___Shopping and Services",
+                "|   |___Visual Arts",
+                "|___Blogs",
+                "|   |___Blog Hosting",
+                "|   |___Business",
+                "|   |___Computer",
+                "|   |___Eclectic",
+                "|   |___Education",
+                "|   |___Home and Garden",
+                "|   |___Internet",
+                "|   |___Law",
+                "|   |___Library",
+                "|   |___Making Money",
+                "|   |___Money"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Site",
+          "url": "https://afunnydir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://afunnydir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Site",
+          "url": "https://afunnydir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://afunnydir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://afunnydir.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Add Site",
+          "url": "https://afunnydir.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://afunnydir.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:36:44.416626+00:00",
+    "page": "https://afunnydir.com/submit.php",
+    "controls": [
+      {
+        "label": "Add Site",
+        "url": "https://afunnydir.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://afunnydir.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "verification_level": "Operator-confirmed Add Site and live final-form/pricing inspection",
+  "review_reason": "Existing runtime rejects additional LINK_TYPE control; blueprint saved for adapter update. Website URL validator warning also observed.",
+  "limits": {
+    "TITLE": 255,
+    "URL": 255,
+    "OWNER_NAME": 255,
+    "OWNER_EMAIL": 255,
+    "DESCRIPTION": "No HTML maxlength observed; server limit unverified"
+  },
+  "plan_mapping": {
+    "selector": "input[name=LINK_TYPE][value=normal]",
+    "label": "Regular Reviews",
+    "price": "free",
+    "guard": "Live row text Regular Reviewsfree",
+    "avoid": "reciprocal plan",
+    "observed_choices": [
+      {
+        "value": "normal",
+        "label": "Regular Reviews",
+        "price": "free"
+      },
+      {
+        "value": "reciprocal",
+        "label": "Regular Reviews with reciprocal",
+        "price": "free"
+      }
+    ]
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:37:17.191835+00:00",
+    "page": "https://afunnydir.com/submit.php",
+    "evidence": "Final listing form reached. Two LINK_TYPE radios: normal Regular Reviews free and reciprocal Regular Reviews with reciprocal free. Normal free option selected with live label guard. Site warns v_URL_ONLINE validator not registered and says no removal for at least one year.",
+    "scope": "Existing runtime guard correctly refuses unmapped pricing controls; no runtime enabled or guard bypassed. Read-only blueprint plus normal free plan selection only; no listing filled or submitted. Terms/server validation and approved Your Name value still need review."
+  },
+  "final_form_controls": {
+    "submit": "[name=submit]",
+    "label": "Continue",
+    "verification": "Operator completes reCAPTCHA during publishing"
+  },
+  "runtime_mapping": "mappings/confirmed_directories.json"
+}

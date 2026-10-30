@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Backlink Autofill 2.0",
+  "version": "0.1.0",
+  "description": "Autofill business directory and listing forms from your active Business Profile.",
+  "permissions": ["storage", "tabs", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*", "file:///*", "http://127.0.0.1:3210/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Backlink Autofill 2.0"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file:///*"],
+      "js": ["content/content.js"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ]
+}

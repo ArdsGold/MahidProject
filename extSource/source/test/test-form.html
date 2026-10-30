@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Backlink Autofill 2.0 - Test Form</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        max-width: 720px;
+        margin: 32px auto;
+        padding: 0 16px;
+        color: #1c2430;
+      }
+      h1 { font-size: 1.3rem; }
+      section { border: 1px solid #d9dee5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+      h2 { font-size: 1rem; margin-top: 0; }
+      label { display: block; font-weight: 600; margin: 10px 0 4px; font-size: 0.9rem; }
+      input[type="text"], input[type="email"], input[type="tel"], input[type="url"] {
+        width: 100%; padding: 8px 10px; border: 1px solid #d9dee5; border-radius: 6px; font: inherit;
+      }
+      .row { margin-bottom: 4px; }
+      button { font: inherit; padding: 8px 16px; border-radius: 6px; border: 1px solid #1456d9; background: #1456d9; color: #fff; cursor: pointer; }
+      #submit-log { margin-top: 12px; font-weight: 600; color: #b3261e; }
+      .hint { color: #5c6b7a; font-size: 0.85rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Business Listing Submission Form (test page)</h1>
+    <p class="hint">
+      Load this page in Chrome with the Backlink Autofill 2.0 extension enabled, open the extension
+      popup, and press AUTOFILL. Expected: the five labelled fields below are filled from the active
+      Business Profile, everything in "must NOT be auto-filled" stays empty, and nothing is submitted
+      until you press Post Listing yourself.
+    </p>
+
+    <form id="listing-form" action="#" method="post">
+      <section>
+        <h2>1. Standard labelled fields (expected: all five filled)</h2>
+        <div class="row">
+          <label for="business_name">Business Name</label>
+          <input id="business_name" name="business_name" type="text" />
+        </div>
+        <div class="row">
+          <label for="contact_name">Contact Name</label>
+          <input id="contact_name" name="contact_name" type="text" />
+        </div>
+        <div class="row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" />
+        </div>
+        <div class="row">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" />
+        </div>
+        <div class="row">
+          <label for="website">Website</label>
+          <input id="website" name="website" type="url" />
+        </div>
+      </section>
+
+      <section>
+        <h2>2. Fields that must NOT be auto-filled</h2>
+        <div class="row">
+          <label for="fax">Fax</label>
+          <input id="fax" name="fax" type="text" />
+          <p class="hint">No fax mapping in Milestone 1 - must stay empty.</p>
+        </div>
+        <div class="row">
+          <label for="captcha">Enter the code shown (CAPTCHA)</label>
+          <input id="captcha" name="captcha" type="text" />
+          <p class="hint">CAPTCHA - must stay empty.</p>
+        </div>
+        <div class="row">
+          <label><input type="checkbox" name="newsletter" /> Subscribe to newsletter</label>
+        </div>
+        <div class="row">
+          <label><input type="checkbox" name="terms" /> I agree to the Terms and Conditions</label>
+        </div>
+        <div class="row">
+          <label for="search">Search listings</label>
+          <input id="search" name="search" type="text" />
+          <p class="hint">Blocked pattern - must stay empty.</p>
+        </div>
+      </section>
+
+      <button id="submit-button" type="submit">Post Listing</button>
+      <div id="submit-log"></div>
+    </form>
+
+    <script>
+      document.getElementById("listing-form").addEventListener("submit", function (event) {
+        event.preventDefault();
+        document.getElementById("submit-log").textContent =
+          "Form submitted at " + new Date().toLocaleTimeString() + " (manual submit only).";
+      });
+    </script>
+  </body>
+</html>

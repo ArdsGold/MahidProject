@@ -1,0 +1,156 @@
+{
+  "domain": "4shared.com",
+  "checked_utc": "2026-10-23T12:17:39.370532+00:00",
+  "status": "Needs deeper inspection",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://www.4shared.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "4shared.com",
+      "url": "https://www.4shared.com/",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://www.4shared.com/web/login%22",
+          "fields": []
+        },
+        {
+          "method": "get",
+          "action": "https://www.4shared.com/",
+          "fields": [
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": 200,
+              "selector": "[name=\"email\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "firstName",
+              "tag": "input",
+              "type": "text",
+              "required": true,
+              "maxlength": 200,
+              "selector": "[name=\"firstName\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "policy",
+              "tag": "input",
+              "type": "checkbox",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"policy\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "isAdult",
+              "tag": "input",
+              "type": "checkbox",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"isAdult\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "",
+          "fields": [
+            {
+              "name": "fff0",
+              "tag": "input",
+              "type": "file",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"fff0\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "get",
+          "action": "https://www.4shared.com/",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "search",
+              "required": false,
+              "maxlength": 200,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "doSearch",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"doSearch\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

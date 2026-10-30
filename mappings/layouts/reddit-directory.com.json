@@ -1,0 +1,17 @@
+{
+  "domain": "reddit-directory.com",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "php-directory",
+    "website_type": "Directory",
+    "basis": "Configured route"
+  },
+  "saved_structure": {
+    "family": "php-directory",
+    "fingerprint": "45dd01c83133f564",
+    "basis": "Saved form",
+    "source": "extSource/source/extension/test/family3/fixtures/reddit-directory.html"
+  },
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

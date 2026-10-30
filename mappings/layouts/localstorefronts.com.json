@@ -1,0 +1,316 @@
+{
+  "domain": "localstorefronts.com",
+  "checked_utc": "2026-10-30T15:00:30.114009+00:00",
+  "status": "Operator deferred",
+  "runtime": "Needs adapter",
+  "family": "business-listing-reference",
+  "access": "Accessible",
+  "entry_url": "https://localstorefronts.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "localstorefronts.com",
+      "url": "https://localstorefronts.com/",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://localstorefronts.com/",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$DIQSHome$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$DIQSHome$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$DIQSHome$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$DIQSHome$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$DIQSHome$CityLookup",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$DIQSHome$CityLookup\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$DIQSHome$Proximity",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$DIQSHome$Proximity\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearchVertical$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearchVertical$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearchVertical$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearchVertical$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearchVertical$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearchVertical$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearchVertical$Button_QuickSearch",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearchVertical$Button_QuickSearch\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "sl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"sl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "tl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"tl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "query",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"query\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "gtrans",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"gtrans\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "vote",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"vote\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Sign Up",
+          "url": "https://localstorefronts.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localstorefronts.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://localstorefronts.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localstorefronts.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://localstorefronts.com/directory/listingedit.aspx",
+          "selector": "[id=\"AddLinkDI\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localstorefronts.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Sign Up",
+          "url": "https://localstorefronts.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localstorefronts.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://localstorefronts.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localstorefronts.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://localstorefronts.com/directory/listingedit.aspx",
+          "selector": "[id=\"AddLinkDI\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localstorefronts.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; requires operator button confirmation and final form inspection",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "button_candidates": [
+    {
+      "label": "Sign Up",
+      "url": "https://localstorefronts.com/directory/register.aspx",
+      "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+      "tag": "a",
+      "role": "",
+      "page": "https://localstorefronts.com/",
+      "navigation_only": true
+    },
+    {
+      "label": "Login",
+      "url": "https://localstorefronts.com/directory/login.aspx",
+      "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+      "tag": "a",
+      "role": "",
+      "page": "https://localstorefronts.com/",
+      "navigation_only": true
+    },
+    {
+      "label": "Add Listing",
+      "url": "https://localstorefronts.com/directory/listingedit.aspx",
+      "selector": "[id=\"AddLinkDI\"]",
+      "tag": "a",
+      "role": "",
+      "page": "https://localstorefronts.com/",
+      "navigation_only": true
+    }
+  ],
+  "assistant_review": {
+    "checked_utc": "2026-10-23T13:30:38.014698+00:00",
+    "observed_pages": [
+      "https://localstorefronts.com/",
+      "https://localstorefronts.com/directory/login.aspx"
+    ],
+    "visible_password_controls": 1,
+    "login_contract_supported": true,
+    "conclusion": "Observed login controls; authenticated posting access has not yet been confirmed"
+  },
+  "review_reason": "Operator requested skip at control confirmation; no submission"
+}

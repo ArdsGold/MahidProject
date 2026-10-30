@@ -1,0 +1,69 @@
+{
+  "domain": "localbranded.com",
+  "checked_utc": "2026-10-30T15:10:13.380844+00:00",
+  "status": "Deferred by operator",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Browser verification",
+  "entry_url": "https://localbranded.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "localbranded.com",
+      "url": "https://localbranded.com/",
+      "page_error": "",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Browser verification",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; requires operator button confirmation and final form inspection",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:19:10.592842+00:00",
+    "posting_route": "https://localbranded.com/directory/listingedit.aspx",
+    "observed_heading": "Create Directory Listing / Select Plan",
+    "plans": [
+      {
+        "price_usd": 0.99,
+        "website_link_included": false,
+        "plan_id": "31"
+      },
+      {
+        "price_usd": 3,
+        "website_link_included": true,
+        "plan_id": "32"
+      },
+      {
+        "price_usd": 5,
+        "website_link_included": true,
+        "plan_id": "33"
+      }
+    ],
+    "conclusion": "No free option on the observed listing plan selector; no payment plan selected; other unobserved routes are not ruled out"
+  },
+  "button_confirmation": null,
+  "route_checks": {
+    "post": {
+      "outcome": "paid plans only observed",
+      "page": "https://localbranded.com/directory/listingedit.aspx",
+      "evidence": "Three Select Plan options priced $0.99, $3.00 and $5.00; no free option observed"
+    }
+  },
+  "deferred_utc": "2026-10-30T15:10:37.455828+00:00"
+}

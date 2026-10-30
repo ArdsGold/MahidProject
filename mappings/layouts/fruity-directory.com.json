@@ -1,0 +1,297 @@
+{
+  "domain": "fruity-directory.com",
+  "checked_utc": "2026-10-23T18:29:28.597198+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Accessible",
+  "entry_url": "https://fruity-directory.com/submit.php",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "category": "[name=\"CATEGORY_ID\"]"
+  },
+  "native_guard": {
+    "config": {
+      "id": "fruity-directory",
+      "domain": "fruity-directory.com",
+      "name": "Fruity Directory",
+      "startingUrl": "https://fruity-directory.com/",
+      "protocols": [
+        "https:"
+      ],
+      "entryLabels": [
+        "Submit Link"
+      ],
+      "submitValue": "Continue",
+      "source": "extSource/source/extension/src/automation/fruity-directory.ts",
+      "source_sha256": "7e6d31709176d0c129750f8baf7c6d63aa8cdd2a64da56af3be5c83117be847f",
+      "provisional": false,
+      "optionalReciprocal": true
+    },
+    "result": {
+      "ok": true,
+      "freeSelected": true
+    }
+  },
+  "pages": [
+    {
+      "host": "fruity-directory.com",
+      "url": "https://fruity-directory.com/submit.php",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://fruity-directory.com/gosearch.php",
+          "fields": [
+            {
+              "name": "q",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"q\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://fruity-directory.com/submit.php",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CATEGORY_ID",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CATEGORY_ID\"]",
+              "visible": true,
+              "choices": [
+                "[Top]",
+                "|___Arts",
+                "|   |___Animation",
+                "|   |___Antiques",
+                "|   |___Architecture",
+                "|   |___Art History",
+                "|   |___Artists",
+                "|   |___Awards",
+                "|   |___Bodyart",
+                "|   |___Booksellers",
+                "|   |___Censorship",
+                "|   |___Classical Studies",
+                "|   |___Costumes",
+                "|   |___Crafts",
+                "|   |___Cultures and Groups",
+                "|   |___Dance",
+                "|   |___Digital",
+                "|   |___Education",
+                "|   |___Events",
+                "|   |___Humanities",
+                "|   |___Illustration",
+                "|   |___Institutes",
+                "|   |___Literature",
+                "|   |___Movies",
+                "|   |___Museums and Galleries",
+                "|   |___Music",
+                "|   |___Organizations",
+                "|   |___Painting",
+                "|   |___People",
+                "|   |___Performing Arts",
+                "|   |___Photography",
+                "|   |___Television",
+                "|   |___Video",
+                "|   |___Visual Arts",
+                "|   |___Writing",
+                "|___Blogs",
+                "|   |___Advertising and Marketing",
+                "|   |___Arts",
+                "|   |___Automotive",
+                "|   |___Blogging"
+              ],
+              "choices_truncated": true
+            },
+            {
+              "name": "RECPR_URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"RECPR_URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "RECPR_TEXT",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"RECPR_TEXT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://fruity-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://fruity-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://fruity-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://fruity-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": true,
+      "submit_label": "Continue"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://fruity-directory.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://fruity-directory.com/submit.php",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://fruity-directory.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:29:28.169369+00:00",
+    "page": "https://fruity-directory.com/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://fruity-directory.com/submit.php",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://fruity-directory.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "limits": {
+    "TITLE": 255,
+    "URL": 255,
+    "OWNER_NAME": 255,
+    "OWNER_EMAIL": 255,
+    "DESCRIPTION": "No HTML maxlength observed; server limit unverified"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:29:43.404889+00:00",
+    "page": "https://fruity-directory.com/submit.php",
+    "evidence": "Confirmed Submit Link opens final TITLE, URL, DESCRIPTION, OWNER_NAME, OWNER_EMAIL, CATEGORY_ID form. Native free-form guard passed with optional reciprocal allowed. Reciprocal label has no required asterisk. reCAPTCHA and Continue present. News feed and sponsored offers are unrelated to submission controls.",
+    "scope": "No listing filled or submitted in this mapping pass. Leave reciprocal URL empty; no invented reciprocal links. Server acceptance untested by this pass. Required Your Name needs approved value; no invented personal contact."
+  },
+  "final_form_controls": {
+    "submit": "[name=submit]",
+    "label": "Continue",
+    "verification": "Operator completes reCAPTCHA during publishing",
+    "reciprocal_policy": "Leave optional RECPR_URL empty"
+  }
+}

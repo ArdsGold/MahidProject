@@ -1,0 +1,437 @@
+{
+  "domain": "blog5.net",
+  "checked_utc": "2026-10-30T14:22:02.356740+00:00",
+  "status": "Skipped banned/suspended",
+  "runtime": "Needs adapter",
+  "family": "blog-network-reference",
+  "access": "Account restriction confirmed in live response",
+  "entry_url": "https://blog5.net/signup",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "blog5.net",
+      "url": "https://blog5.net/",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Log In",
+          "url": "https://blog5.net/login",
+          "selector": "[id=\"login-button\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Get Started",
+          "url": "https://blog5.net/signup",
+          "selector": "[id=\"sign-up-button\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Log In",
+          "url": "https://blog5.net/login",
+          "selector": "[id=\"login-button\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Get Started",
+          "url": "https://blog5.net/signup",
+          "selector": "[id=\"sign-up-button\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog5.net",
+      "url": "https://blog5.net/signup",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog5.net/signup",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "usr",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"usr\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "email",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ckb",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ckb\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "signup",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"signup\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Sign Up Free",
+          "url": "",
+          "selector": "[name=\"signup\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://blog5.net/signup",
+          "navigation_only": false
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://blog5.net/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/signup",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "",
+          "selector": "",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog5.net/signup",
+          "navigation_only": false
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://blog5.net/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/signup",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "",
+          "selector": "",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog5.net/signup",
+          "navigation_only": false
+        },
+        {
+          "label": "Log in",
+          "url": "https://blog5.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/signup",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Sign Up",
+          "url": "https://blog5.net/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/signup",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "https://blog5.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/signup",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "https://blog5.net/login",
+          "selector": "[id=\"login-button\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Get Started",
+          "url": "https://blog5.net/signup",
+          "selector": "[id=\"sign-up-button\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "blog5.net",
+      "url": "https://blog5.net/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://blog5.net/login",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "usr",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"usr\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberme",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberme\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://blog5.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Log In",
+          "url": "https://blog5.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog5.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Log In",
+          "url": "https://blog5.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "",
+          "tag": "button",
+          "role": "",
+          "page": "https://blog5.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Sign up",
+          "url": "https://blog5.net/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/login",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Log In",
+          "url": "https://blog5.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign up",
+          "url": "https://blog5.net/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://blog5.net/login",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; requires operator button confirmation and final form inspection",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "review_reason": "Confirmed restriction; no replacement account",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://blog5.net/",
+      "https://blog5.net/signup"
+    ],
+    "observed_form_count": 1,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account submission did not establish access; saved for inspection, no repeat registration",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-30T14:21:59.353667+00:00",
+    "page": "https://blog5.net/",
+    "controls": [
+      {
+        "label": "Log In",
+        "url": "https://blog5.net/login",
+        "selector": "[id=\"login-button\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog5.net/",
+        "navigation_only": true
+      },
+      {
+        "label": "Get Started",
+        "url": "https://blog5.net/signup",
+        "selector": "[id=\"sign-up-button\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://blog5.net/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  }
+}

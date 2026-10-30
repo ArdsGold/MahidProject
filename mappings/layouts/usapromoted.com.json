@@ -1,0 +1,217 @@
+{
+  "domain": "usapromoted.com",
+  "checked_utc": "2026-10-30T15:15:52.432450+00:00",
+  "status": "Operator deferred",
+  "runtime": "Needs adapter",
+  "family": "business-listing-reference",
+  "access": "Accessible",
+  "entry_url": "https://usapromoted.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "usapromoted.com",
+      "url": "https://usapromoted.com/",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://usapromoted.com/",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch1$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://usapromoted.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://usapromoted.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://usapromoted.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://usapromoted.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://usapromoted.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://usapromoted.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://usapromoted.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://usapromoted.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://usapromoted.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://usapromoted.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://usapromoted.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://usapromoted.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [
+        "wordpress"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; requires operator button confirmation and final form inspection",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "button_candidates": [
+    {
+      "label": "Add Listing",
+      "url": "https://usapromoted.com/directory/listingedit.aspx",
+      "selector": "[id=\"HyperLink1\"]",
+      "tag": "a",
+      "role": "",
+      "page": "https://usapromoted.com/",
+      "navigation_only": true
+    },
+    {
+      "label": "Sign Up",
+      "url": "https://usapromoted.com/directory/register.aspx",
+      "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+      "tag": "a",
+      "role": "",
+      "page": "https://usapromoted.com/",
+      "navigation_only": true
+    },
+    {
+      "label": "Login",
+      "url": "https://usapromoted.com/directory/login.aspx",
+      "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+      "tag": "a",
+      "role": "",
+      "page": "https://usapromoted.com/",
+      "navigation_only": true
+    }
+  ],
+  "review_reason": "Operator requested skip at control confirmation; no submission"
+}

@@ -1,0 +1,778 @@
+{
+  "domain": "aweblist.org",
+  "checked_utc": "2026-10-23T17:19:03.315715+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Needs adapter",
+  "family": "php-link-directory-multistep",
+  "access": "Accessible",
+  "entry_url": "https://aweblist.org/submit",
+  "field_map": {
+    "business_name": "TITLE",
+    "website": "URL",
+    "body": "DESCRIPTION",
+    "public_email": "OWNER_EMAIL",
+    "address": "ADDRESS",
+    "city": "CITY",
+    "state": "STATE",
+    "postal_code": "ZIP",
+    "phone": "PHONE_NUMBER"
+  },
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "aweblist.org",
+      "url": "https://aweblist.org/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://aweblist.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "aweblist.org",
+      "url": "https://aweblist.org/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://aweblist.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://aweblist.org/submit",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "aweblist.org",
+      "url": "https://aweblist.org/submit?c=291",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://aweblist.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://aweblist.org/submit?c=291",
+          "fields": [
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "choicemade",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"choicemade\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/submit?c=291",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/submit?c=291",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "aweblist.org",
+      "url": "https://aweblist.org/submit?c=291",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://aweblist.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://aweblist.org/submit?c=291",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 100,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NEWSLETTER_ALLOW",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"OWNER_NEWSLETTER_ALLOW\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ADDRESS",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ADDRESS\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CITY",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CITY\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "STATE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"STATE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ZIP",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ZIP\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PHONE_NUMBER",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"PHONE_NUMBER\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "FAX_NUMBER",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"FAX_NUMBER\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "IMAGE",
+              "tag": "input",
+              "type": "file",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"IMAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "IMAGE_SUBMIT",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"IMAGE_SUBMIT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DO_MATH",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DO_MATH\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "AGREERULES",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"AGREERULES\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "continue",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"continue\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/submit?c=291",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/submit?c=291",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Review site rules and server-side limits",
+    "Implement and offline-test guarded multistep adapter",
+    "Independently verify any future public listing"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://aweblist.org/",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://aweblist.org/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://aweblist.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://aweblist.org/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:18:12.545938+00:00",
+    "page": "https://aweblist.org/",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://aweblist.org/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://aweblist.org/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "",
+  "verification_level": "Operator-confirmed entry controls and live free final-form inspection",
+  "workflow_steps": [
+    {
+      "step": 1,
+      "label": "Submit Link",
+      "url": "https://aweblist.org/submit"
+    },
+    {
+      "step": 2,
+      "label": "Recreation & Sports",
+      "selector": "xpath=//a[contains(@class,\"dynatree-title\") and normalize-space(.)=\"Recreation & Sports\"]",
+      "action": "Normal category click; do not set hidden category data"
+    },
+    {
+      "step": 3,
+      "label": "Go To Step Two",
+      "selector": "#ok",
+      "result": "https://aweblist.org/submit?c=291"
+    },
+    {
+      "step": 4,
+      "label": "Business - free",
+      "selector": "input[name=LINK_TYPE][value=\"2\"]",
+      "guard": "Live closest .phpld-columnar text exactly Business - free; avoid premium value 7 mentioning $1.50"
+    },
+    {
+      "step": 5,
+      "label": "Go To Step Three",
+      "selector": "[name=choicemade]",
+      "result": "Final TITLE, URL, DESCRIPTION and business contact form; allow asynchronous navigation"
+    }
+  ],
+  "limits": {
+    "TITLE": 100,
+    "OWNER_NAME": 50,
+    "OWNER_EMAIL": 255,
+    "DESCRIPTION": "No HTML maxlength observed; server limit unverified"
+  },
+  "final_form_controls": {
+    "submit": "[name=continue]",
+    "human_verification": "[name=DO_MATH]",
+    "verification_policy": "Operator completes human verification during publishing; not solved during mapping",
+    "rules": "[name=AGREERULES]",
+    "newsletter": "[name=OWNER_NEWSLETTER_ALLOW]",
+    "newsletter_policy": "Leave unchecked",
+    "contact_name_policy": "No invented personal contact name"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:19:03.315745+00:00",
+    "page": "https://aweblist.org/submit?c=291",
+    "evidence": "Normal Recreation & Sports category click and Go To Step Two reached c=291. Guarded Business - free choice then Go To Step Three reached final contact form. DO_MATH field differs from image CAPTCHA on related layouts.",
+    "scope": "No listing content filled, human verification solved, terms accepted or final submission clicked. Rules, server validation and public verification remain untested."
+  },
+  "supervised_publication": {
+    "checked_utc": "2026-10-27T12:05:31.426140+00:00",
+    "status": "Submission receipt observed; public listing pending",
+    "steps": [
+      {
+        "label": "Submit Link",
+        "url": "https://aweblist.org/submit"
+      },
+      {
+        "label": "Recreation & Sports",
+        "control": "category picker",
+        "category_id": "291"
+      },
+      {
+        "label": "Go To Step Two",
+        "selector": "#ok"
+      },
+      {
+        "label": "Business - free",
+        "selector": "[name=LINK_TYPE][value=2]"
+      },
+      {
+        "label": "Go To Step Three",
+        "selector": "[name=choicemade]"
+      },
+      {
+        "label": "Continue",
+        "selector": "[name=continue][type=submit]",
+        "final_submission": true
+      }
+    ],
+    "verification_field": "[name=DO_MATH]",
+    "newsletter": "Unchecked",
+    "terms": "[name=AGREERULES]",
+    "content": "All approved public fields included in DESCRIPTION; no omissions",
+    "runtime": "Supervised final-form actions only; automatic queue adapter not yet enabled",
+    "receipt_text": "Link submitted"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "domain": "earthlydirectory.com",
+  "status": "Inspection error",
+  "reason": "Browser loading/server error; HTTPS homepage returned 500",
+  "checked_utc": "2026-10-23T14:52:44.298587+00:00",
+  "publishing_enabled_by_inventory": false,
+  "review_reason": "Operator confirms browser error; independent homepage GET returned HTTP 500 with an empty body",
+  "access": "Page could not be loaded or inspected in Chrome",
+  "completion_level": "Incomplete; website controls unavailable",
+  "verification_level": "Operator confirms browser error; independent homepage request returned 500",
+  "final_output_status": "error",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:53:41.414457+00:00",
+    "pages_attempted": [
+      "https://earthlydirectory.com/submit.php",
+      "https://earthlydirectory.com/"
+    ],
+    "http_probe": {
+      "method": "GET",
+      "url": "https://earthlydirectory.com/",
+      "status": 500,
+      "body_empty": true
+    },
+    "operator_confirmation": "Chrome shows a loading, server or connection error",
+    "scope": "Observed website response and browser error; precise underlying cause and posting controls unconfirmed. Asklink responded HTTP 200 as a connectivity comparison."
+  },
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:53:41.414472+00:00",
+    "confirmed_by": "operator",
+    "controls": [],
+    "scope": "Operator sees browser error; no claim about controls on a working website"
+  }
+}

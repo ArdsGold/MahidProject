@@ -1,0 +1,48 @@
+{
+  "domain": "bing-directory.com",
+  "checked_utc": "2026-10-23T18:00:03.181673+00:00",
+  "status": "Inspection error",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Website bandwidth limit error",
+  "entry_url": "https://bing-directory.com/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "bing-directory.com",
+      "url": "https://bing-directory.com/submit.php",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Error page confirmed; final posting form not reached",
+  "remaining": [],
+  "button_candidates": [],
+  "review_reason": "509 Bandwidth Limit Exceeded; operator confirmed",
+  "verification_level": "Live error page and operator confirmation",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:00:03.181689+00:00",
+    "page": "https://bing-directory.com/submit.php",
+    "controls": [],
+    "confirmed_by": "operator",
+    "evidence": "Operator sees the same 509 error; no posting or account controls visible."
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:00:03.181692+00:00",
+    "page": "https://bing-directory.com/submit.php",
+    "evidence": "509 Bandwidth Limit Exceeded. Website says site bandwidth limit has been reached. Operator independently confirmed the same error.",
+    "scope": "Site error; not a credential failure or Access gap. No listing submitted."
+  }
+}

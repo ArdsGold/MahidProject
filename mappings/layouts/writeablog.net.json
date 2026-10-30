@@ -1,0 +1,17 @@
+{
+  "domain": "writeablog.net",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "platform:writeablog.net",
+    "website_type": "Individual platform",
+    "basis": "Configured route"
+  },
+  "saved_structure": {
+    "family": "unmatched-form",
+    "fingerprint": "8af759064c39cec0",
+    "basis": "Live HTTP",
+    "source": "https://writeablog.net"
+  },
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

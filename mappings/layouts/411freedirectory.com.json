@@ -1,0 +1,31 @@
+{
+  "domain": "411freedirectory.com",
+  "checked_utc": "2026-10-23T17:53:46.156358+00:00",
+  "status": "Deferred by operator",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "External sign-in / redirect",
+  "entry_url": "",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Target website not confirmed in controlled tab",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "review_reason": "Operator corrected prior reply: website not visible; skip for now",
+  "verification_level": "Operator confirms navigation remains unconfirmed",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:53:46.156375+00:00",
+    "evidence": "Navigation did not establish a confirmed 411 Free Directory page. Operator corrected visible-page reply and requested skip.",
+    "scope": "No confirmed website availability error or Access gap. No account or listing submitted. Do not infer any posting controls from the previous website."
+  },
+  "operator_observation": {
+    "checked_utc": "2026-10-23T17:53:46.156372+00:00",
+    "evidence": "Earlier website-visible response was a misclick. 411 Free Directory still not visible; skip.",
+    "deferred": true
+  }
+}

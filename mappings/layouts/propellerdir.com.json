@@ -1,0 +1,2404 @@
+{
+  "domain": "propellerdir.com",
+  "checked_utc": "2026-10-23T14:29:28.083982+00:00",
+  "status": "Inspection error",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Registration CAPTCHA unavailable in inspected browser session",
+  "entry_url": "https://propellerdir.com/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "propellerdir.com",
+      "url": "https://propellerdir.com/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://propellerdir.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://propellerdir.com/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://propellerdir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://propellerdir.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "https://propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://propellerdir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/user/register",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/user/register",
+          "fields": [
+            {
+              "name": "LOGIN",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"LOGIN\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORD",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORD\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORDC",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORDC\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LANGUAGE",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LANGUAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ANONYMOUS",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ANONYMOUS\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 7,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "send",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"send\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "",
+          "selector": "[name=\"send\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    },
+    {
+      "host": "propellerdir.com",
+      "url": "https://www.propellerdir.com/user/register",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.propellerdir.com/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/login",
+          "fields": [
+            {
+              "name": "user",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"user\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "pass",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"pass\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "rememberMe",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"rememberMe\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://www.propellerdir.com/user/register",
+          "fields": [
+            {
+              "name": "LOGIN",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"LOGIN\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORD",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORD\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PASSWORDC",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 25,
+              "selector": "[name=\"PASSWORDC\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LANGUAGE",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LANGUAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ANONYMOUS",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ANONYMOUS\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 7,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "send",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"send\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "",
+          "selector": "[name=\"send\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": false
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/user/register",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Login"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; registration not submitted; posting editor and pricing unverified",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://propellerdir.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://propellerdir.com/submit.php",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://propellerdir.com/submit.php",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://propellerdir.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://www.propellerdir.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "page": "https://www.propellerdir.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "page": "https://www.propellerdir.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "page": "https://www.propellerdir.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "page": "https://www.propellerdir.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "page": "https://www.propellerdir.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "page": "https://www.propellerdir.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "http://www.propellerdir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Register",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one",
+          "url": "https://www.propellerdir.com/user/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.propellerdir.com/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:29:17.199207+00:00",
+    "page": "https://propellerdir.com/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "http://www.propellerdir.com/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://propellerdir.com/submit.php",
+        "navigation_only": true
+      },
+      {
+        "label": "Login",
+        "url": "",
+        "selector": "[name=\"submit\"]",
+        "tag": "input",
+        "role": "",
+        "page": "https://propellerdir.com/submit.php",
+        "navigation_only": false
+      },
+      {
+        "label": "Register",
+        "url": "https://propellerdir.com/user/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://propellerdir.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Visible captcha.php image has zero intrinsic dimensions after initial load and one image-only reload",
+  "verification_level": "Operator reported image failure; DOM failure independently checked",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://propellerdir.com/submit.php",
+      "https://www.propellerdir.com/submit",
+      "https://www.propellerdir.com/submit",
+      "https://www.propellerdir.com/submit",
+      "https://www.propellerdir.com/submit",
+      "https://www.propellerdir.com/submit",
+      "https://www.propellerdir.com/submit",
+      "https://www.propellerdir.com/submit",
+      "https://www.propellerdir.com/submit",
+      "https://www.propellerdir.com/user/register"
+    ],
+    "observed_form_count": 21,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:28:41.918567+00:00",
+    "observed_posting_route": "https://propellerdir.com/submit",
+    "incorrect_initial_route": "https://propellerdir.com/submit.php",
+    "initial_route_outcome": "Page Not Found",
+    "posting_route_evidence": "You must be logged in to submit a new link. No account yet? Create one.",
+    "platform_evidence": "Footer says Powered By: PHP Link Directory",
+    "visible_paid_advertising": {
+      "price_usd": 0.8,
+      "scope": "Sidebar sponsored links across 32 directories; not verified as listing submission pricing"
+    },
+    "operator_report": "Website is paywalled and has plans",
+    "pricing_verification": "Actual listing plan selector not observed; user-reported paywall remains unverified",
+    "policy_evidence": "Submission page says use top-level domain or maximum subdomain; do not submit subfolder. Exact approved St. Louis URL contains a location path.",
+    "conclusion": "Needs posting-route/account and plan inspection; no plan selected, no account or publication action performed in this review",
+    "captcha_image_review": {
+      "checked_utc": "2026-10-23T14:33:14.750861+00:00",
+      "page": "https://www.propellerdir.com/user/register",
+      "image_path": "/captcha.php",
+      "image_complete": true,
+      "natural_width": 0,
+      "natural_height": 0,
+      "image_only_reload_attempts": 1,
+      "cause": "Unconfirmed; no valid image rendered",
+      "account_submission_made": false
+    }
+  },
+  "account_review_outcome": "Login did not establish authenticated navigation; supplied registration fields filled, awaiting operator image CAPTCHA. Account creation not submitted.",
+  "registration_contract": {
+    "action": "https://www.propellerdir.com/user/register",
+    "values": {
+      "[name=\"LOGIN\"]": "username",
+      "[name=\"EMAIL\"]": "email",
+      "[name=\"PASSWORD\"]": "password",
+      "[name=\"PASSWORDC\"]": "password"
+    },
+    "submit": "[name=\"send\"]",
+    "captcha_selector": "[name=\"CAPTCHA\"]"
+  },
+  "reason": "Registration CAPTCHA image failed to load",
+  "final_output_status": "error"
+}

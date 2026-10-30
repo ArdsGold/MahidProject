@@ -1,0 +1,41 @@
+{
+  "profile_id": "php-link-directory-multistep",
+  "basis": "Live observed Directory6.org workflow; operator-assisted category selection",
+  "evidence_host": "directory6.org",
+  "blueprint": "mappings/layouts/directory6.org.json",
+  "steps": [
+    "Submit Link to /submit",
+    "Select Category via #hierarchy opens Dynatree #tree; select appropriate live category",
+    "Go To Step Two via #ok; wait for LINK_TYPE controls",
+    "Choose a live verified free appropriate listing type; Business was value 2 here",
+    "Go To Step Three via [name=\"choicemade\"]; wait for TITLE, URL and DESCRIPTION controls",
+    "Inspect final form; stop before Continue submission in mapping-only mode"
+  ],
+  "variants_requiring_recheck": [
+    "directory4.org",
+    "directory10.biz"
+  ],
+  "guardrails": [
+    "Do not reuse category or type IDs without checking live labels",
+    "Immediate snapshots can show previous step while the next step loads asynchronously",
+    "Operator could not use chooser on Directory4/Directory10; working Directory6 does not establish their accessibility",
+    "Blueprint does not enable a publishing adapter or prove publication",
+    "A sidebar login form does not establish that category/type posting navigation needs authentication; inspect the actual posting step first."
+  ],
+  "evidence_hosts": [
+    "directory6.org",
+    "bestdirectory4you.com"
+  ],
+  "variants": {
+    "directory6.org": {
+      "category": "Select Category / Dynatree; operator assisted",
+      "type": "Business - free",
+      "blueprint": "mappings/layouts/directory6.org.json"
+    },
+    "bestdirectory4you.com": {
+      "category": "Visible CATEGORY_ID select; Cheerleading observed",
+      "type": "Regular Link - free",
+      "blueprint": "mappings/layouts/bestdirectory4you.com.json"
+    }
+  }
+}

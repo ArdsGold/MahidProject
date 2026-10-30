@@ -1,0 +1,7 @@
+{
+  "domain": "privatebin.net",
+  "status": "Inspection error",
+  "reason": "BridgeError",
+  "checked_utc": "2026-10-23T13:38:27.102497+00:00",
+  "publishing_enabled_by_inventory": false
+}

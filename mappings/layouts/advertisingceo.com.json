@@ -1,0 +1,298 @@
+{
+  "domain": "advertisingceo.com",
+  "checked_utc": "2026-10-23T12:23:53.545042+00:00",
+  "status": "Deferred by operator",
+  "runtime": "Needs adapter",
+  "family": "business-listing-reference",
+  "access": "Sign-in required",
+  "entry_url": "https://advertisingceo.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "advertisingceo.com",
+      "url": "https://advertisingceo.com/",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://advertisingceo.com/",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch1$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://advertisingceo.com/directory/listingedit.aspx"
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://advertisingceo.com/directory/register.aspx"
+        },
+        {
+          "label": "Login",
+          "url": "https://advertisingceo.com/directory/login.aspx"
+        }
+      ],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "advertisingceo.com",
+      "url": "https://advertisingceo.com/directory/register.aspx",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://advertisingceo.com/directory/register.aspx",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$FirstName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$LastName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$ReEnterPassword\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SourceId",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SourceId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Terms",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Terms\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$AddButton",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$AddButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://advertisingceo.com/directory/listingedit.aspx"
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://advertisingceo.com/directory/register.aspx"
+        },
+        {
+          "label": "Login",
+          "url": "https://advertisingceo.com/directory/login.aspx"
+        }
+      ],
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "deferred_utc": "2026-10-23T12:29:09.577611+00:00",
+  "authentication_note": "Shared workbook credentials attempted once at operator request; site rejected the login and reported no registered account. Operator deferred this site. Credentials are not retained here."
+}

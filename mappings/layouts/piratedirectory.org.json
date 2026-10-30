@@ -1,0 +1,48 @@
+{
+  "domain": "piratedirectory.org",
+  "checked_utc": "2026-10-23T15:10:38.699137+00:00",
+  "status": "Deferred by operator",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Browser verification",
+  "entry_url": "https://piratedirectory.org/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "piratedirectory.org",
+      "url": "https://piratedirectory.org/submit.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://piratedirectory.org/.lsrecap/recaptcha",
+          "fields": []
+        }
+      ],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Browser verification",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; requires operator button confirmation and final form inspection",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "deferred_utc": "2026-10-23T15:11:28.094046+00:00",
+  "operator_deferral": {
+    "checked_utc": "2026-10-23T15:11:35.047946+00:00",
+    "reason": "Browser bot verification stuck loading; operator requested skipping for now",
+    "scope": "Posting and registration controls not reached; no account or publication failure inferred"
+  }
+}

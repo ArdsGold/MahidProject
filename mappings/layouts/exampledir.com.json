@@ -1,0 +1,228 @@
+{
+  "domain": "exampledir.com",
+  "checked_utc": "2026-10-23T17:39:19.832187+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://exampledir.com/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "exampledir.com",
+      "url": "https://exampledir.com/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://exampledir.com/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://exampledir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://exampledir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://exampledir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://exampledir.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "exampledir.com",
+      "url": "https://exampledir.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://exampledir.com/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://exampledir.com/submit",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://exampledir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://exampledir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://exampledir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://exampledir.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Posting entry confirmed; final posting form not reached",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://exampledir.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://exampledir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://exampledir.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://exampledir.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://exampledir.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://exampledir.com/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:37:40.394020+00:00",
+    "page": "https://exampledir.com/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://exampledir.com/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://exampledir.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Operator reports category picker missing or unusable; skipped for now",
+  "verification_level": "Live category-step inspection and operator confirmation; final posting form not reached",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:37:57.830578+00:00",
+    "page": "https://exampledir.com/submit",
+    "evidence": "Step One Choose a Category, Please select a category, hidden ADD_CATEGORY_ID[] select and #ok Go To Step Two. No #hierarchy control observed.",
+    "scope": "Operator confirms category picker missing or unusable. Final posting form not reached. No listing submitted; not classified as Access gap."
+  },
+  "operator_observation": {
+    "checked_utc": "2026-10-23T17:39:19.832201+00:00",
+    "evidence": "Picker missing or does not work; skip this site for now.",
+    "deferred": true
+  }
+}

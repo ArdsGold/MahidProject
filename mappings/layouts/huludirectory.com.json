@@ -1,0 +1,229 @@
+{
+  "domain": "huludirectory.com",
+  "checked_utc": "2026-10-23T17:26:28.673554+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://huludirectory.com/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "huludirectory.com",
+      "url": "https://huludirectory.com/submit.php",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://huludirectory.com/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://huludirectory.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://huludirectory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://huludirectory.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://huludirectory.com/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "huludirectory.com",
+      "url": "https://huludirectory.com/submit",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://huludirectory.com/search/basic",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://huludirectory.com/submit",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://huludirectory.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://huludirectory.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://huludirectory.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://huludirectory.com/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Posting entry confirmed; final posting form not reached",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://huludirectory.com/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://huludirectory.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://huludirectory.com/submit.php",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://huludirectory.com/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://huludirectory.com/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://huludirectory.com/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:23:56.469032+00:00",
+    "page": "https://huludirectory.com/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://huludirectory.com/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://huludirectory.com/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Operator confirms category picker not working; skipped for now",
+  "verification_level": "Live category-step inspection and operator correction; final posting form not reached",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:24:14.557535+00:00",
+    "page": "https://huludirectory.com/submit",
+    "evidence": "Step One Choose a Category, Please select a category, hidden ADD_CATEGORY_ID[] select and #ok Go To Step Two. No #hierarchy control observed. Sidebar category links not confirmed posting-category controls.",
+    "scope": "Operator confirms category picker not working. Earlier Step Two report corrected. No final posting form reached or listing submitted; not classified as Access gap."
+  },
+  "operator_observation": {
+    "checked_utc": "2026-10-23T17:26:28.673568+00:00",
+    "evidence": "Earlier Step Two reply was a misclick. Operator confirms category picker was not working.",
+    "confirmed_step_two": false,
+    "deferred": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "domain": "businessesceo.com",
+  "checked_utc": "2026-10-23T14:25:32.857888+00:00",
+  "status": "Inspection error",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Cloudflare blocked page; site controls unavailable",
+  "entry_url": "https://businessesceo.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "businessesceo.com",
+      "url": "https://businessesceo.com/",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Browser verification",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; security block confirmed by operator",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "deferred_utc": "2026-10-23T14:26:08.184400+00:00",
+  "reason": "Cloudflare explicit security block",
+  "review_reason": "Cloudflare says Sorry, you have been blocked; no challenge available",
+  "verification_level": "Live blocked page observed and confirmed by operator",
+  "final_output_status": "error",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:26:17.935783+00:00",
+    "page": "https://businessesceo.com/",
+    "evidence": "Attention Required | Cloudflare: Sorry, you have been blocked; no visible verification iframe or Register/Add Listing controls.",
+    "operator_confirmation": "Same blocked page ? record error and continue",
+    "scope": "Observed security block; account access and posting routes not evaluated"
+  },
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T14:26:17.935796+00:00",
+    "page": "https://businessesceo.com/",
+    "controls": [],
+    "confirmed_by": "operator",
+    "scope": "No controls visible on the blocked page; does not establish absence on an accessible site"
+  }
+}

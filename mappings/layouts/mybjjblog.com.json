@@ -1,0 +1,211 @@
+{
+  "domain": "mybjjblog.com",
+  "checked_utc": "2026-10-30T13:58:30.416055+00:00",
+  "status": "Skipped banned/suspended",
+  "runtime": "Needs adapter",
+  "family": "blog-network-reference",
+  "access": "Account restriction confirmed in live response",
+  "entry_url": "https://mybjjblog.com/login",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "mybjjblog.com",
+      "url": "https://mybjjblog.com/",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Log In",
+          "url": "https://mybjjblog.com/login",
+          "selector": "[id=\"login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://mybjjblog.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a Blog",
+          "url": "https://mybjjblog.com/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://mybjjblog.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a Blog",
+          "url": "https://mybjjblog.com/signup",
+          "selector": "[id=\"create_blog_button_big\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://mybjjblog.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Log In",
+          "url": "https://mybjjblog.com/login",
+          "selector": "[id=\"login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://mybjjblog.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a Blog",
+          "url": "https://mybjjblog.com/signup",
+          "selector": "[id=\"create_blog_button_big\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://mybjjblog.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "mybjjblog.com",
+      "url": "https://mybjjblog.com/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://mybjjblog.com/login",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://mybjjblog.com/login",
+          "navigation_only": false
+        },
+        {
+          "label": "New user? Create an account!",
+          "url": "https://mybjjblog.com/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://mybjjblog.com/login",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "New user? Create an account!",
+          "url": "https://mybjjblog.com/signup",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://mybjjblog.com/login",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": true,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; requires operator button confirmation and final form inspection",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-30T13:58:25.502710+00:00",
+    "page": "https://mybjjblog.com/",
+    "controls": [
+      {
+        "label": "Log In",
+        "url": "https://mybjjblog.com/login",
+        "selector": "[id=\"login\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://mybjjblog.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create a Blog",
+        "url": "https://mybjjblog.com/signup",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://mybjjblog.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create a Blog",
+        "url": "https://mybjjblog.com/signup",
+        "selector": "[id=\"create_blog_button_big\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://mybjjblog.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "validated_template",
+    "source_domain": "blogminds.com",
+    "evidence": "Live navigation and form structure match an operator-confirmed completed workflow; publishing still requires live guards"
+  },
+  "review_reason": "Confirmed restriction; no replacement account"
+}

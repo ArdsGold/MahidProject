@@ -1,0 +1,17 @@
+{
+  "domain": "arcticdirectory.com",
+  "status": "Not inspected",
+  "known_template": {
+    "family": "php-directory",
+    "website_type": "Directory",
+    "basis": "Configured route"
+  },
+  "saved_structure": {
+    "family": "php-directory",
+    "fingerprint": "53be544444d9a83d",
+    "basis": "Live HTTP",
+    "source": "https://arcticdirectory.com/submit.php"
+  },
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false
+}

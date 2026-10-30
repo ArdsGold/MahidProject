@@ -1,0 +1,1190 @@
+{
+  "domain": "directory6.org",
+  "checked_utc": "2026-10-23T15:17:34.323338+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Needs adapter",
+  "family": "php-link-directory-multistep",
+  "access": "Accessible",
+  "entry_url": "https://directory6.org/submit",
+  "field_map": {
+    "name": "[name=\"TITLE\"]",
+    "website": "[name=\"URL\"]",
+    "body": "[name=\"DESCRIPTION\"]",
+    "public_email": "[name=\"OWNER_EMAIL\"]",
+    "address": "[name=\"ADDRESS\"]",
+    "city": "[name=\"CITY\"]",
+    "state": "[name=\"STATE\"]",
+    "postal_code": "[name=\"ZIP\"]",
+    "phone": "[name=\"PHONE_NUMBER\"]"
+  },
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "directory6.org",
+      "url": "https://directory6.org/submit.php",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://directory6.org/login",
+          "fields": []
+        },
+        {
+          "method": "get",
+          "action": "https://directory6.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit.php",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "directory6.org",
+      "url": "https://directory6.org/submit",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://directory6.org/login",
+          "fields": []
+        },
+        {
+          "method": "get",
+          "action": "https://directory6.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://directory6.org/submit",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "directory6.org",
+      "url": "https://directory6.org/submit",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://directory6.org/login",
+          "fields": []
+        },
+        {
+          "method": "get",
+          "action": "https://directory6.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://directory6.org/submit",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "directory6.org",
+      "url": "https://directory6.org/submit?c=0",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://directory6.org/login",
+          "fields": []
+        },
+        {
+          "method": "get",
+          "action": "https://directory6.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://directory6.org/submit?c=0",
+          "fields": [
+            {
+              "name": "ok",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"ok\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit?c=0",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit?c=0",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "directory6.org",
+      "url": "https://directory6.org/submit?c=15",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://directory6.org/login",
+          "fields": []
+        },
+        {
+          "method": "get",
+          "action": "https://directory6.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://directory6.org/submit?c=15",
+          "fields": [
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "choicemade",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"choicemade\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit?c=15",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit?c=15",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "directory6.org",
+      "url": "https://directory6.org/submit?c=15",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://directory6.org/login",
+          "fields": []
+        },
+        {
+          "method": "get",
+          "action": "https://directory6.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://directory6.org/submit?c=15",
+          "fields": [
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "LINK_TYPE",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"LINK_TYPE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "choicemade",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"choicemade\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit?c=15",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit?c=15",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "directory6.org",
+      "url": "https://directory6.org/submit?c=15",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://directory6.org/login",
+          "fields": []
+        },
+        {
+          "method": "get",
+          "action": "https://directory6.org/search",
+          "fields": [
+            {
+              "name": "search",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 150,
+              "selector": "[name=\"search\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://directory6.org/submit?c=15",
+          "fields": [
+            {
+              "name": "TITLE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 200,
+              "selector": "[name=\"TITLE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "URL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"URL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "DESCRIPTION",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"DESCRIPTION\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NAME",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"OWNER_NAME\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_EMAIL",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"OWNER_EMAIL\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "OWNER_NEWSLETTER_ALLOW",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"OWNER_NEWSLETTER_ALLOW\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ADDRESS",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ADDRESS\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CITY",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"CITY\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "STATE",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"STATE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ZIP",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ZIP\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "PHONE_NUMBER",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"PHONE_NUMBER\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "FAX_NUMBER",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"FAX_NUMBER\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "IMAGE",
+              "tag": "input",
+              "type": "file",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"IMAGE\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "IMAGE_SUBMIT",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"IMAGE_SUBMIT\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "CAPTCHA",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 5,
+              "selector": "[name=\"CAPTCHA\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "AGREERULES",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"AGREERULES\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "continue",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"continue\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit?c=15",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit?c=15",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": true,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Implement and offline-test category/type navigation with waits for visible expected controls",
+    "Review /rules and live JavaScript/server limits before publishing",
+    "Independently verify any later public listing; do not count this blueprint as a publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://directory6.org/submit.php",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit.php",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://directory6.org/submit",
+      "observed_controls": [
+        {
+          "label": "Submit Link",
+          "url": "https://directory6.org/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://directory6.org/submit",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T15:17:31.350455+00:00",
+    "page": "https://directory6.org/submit.php",
+    "controls": [
+      {
+        "label": "Submit Link",
+        "url": "https://directory6.org/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://directory6.org/submit.php",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "",
+  "verification_level": "Operator-assisted category selection; free Business type and final form independently observed",
+  "observed_workflow_variant": "PHP Link Directory; category-first submission",
+  "workflow_steps": [
+    {
+      "step": 1,
+      "page": "https://directory6.org/submit",
+      "label": "Submit Link",
+      "action": "Follow observed link"
+    },
+    {
+      "step": 2,
+      "label": "Choose a Category",
+      "observed_state": "Category data exists in hidden #categ; chooser requires review"
+    },
+    {
+      "step": 3,
+      "selector": "#ok",
+      "label": "Go To Step Two",
+      "type": "button",
+      "observed_outcome": "One normal click did not reveal listing fields"
+    }
+  ],
+  "assistant_review": {
+    "checked_utc": "2026-10-23T15:25:21.185851+00:00",
+    "page": "https://directory6.org/submit?c=15",
+    "operator_confirmation": "Website is on step two right now; it is asking a question. Earlier operator confirmed chooser works.",
+    "evidence": "Step Two lists Link, Business, Article, Picture, Video and Coupon as free. Business radio value 2 was guarded by its exact Business - free label before normal clicks. A later snapshot showed final TITLE, URL, DESCRIPTION, contacts/address fields, CAPTCHA, rules checkbox and Continue submit.",
+    "scope": "Mapping fallback reached with operator assistance; no listing details filled, CAPTCHA solved, rules accepted, or final submission clicked. Full submission rules and server validation remain to be reviewed for an implementation."
+  },
+  "category_navigation": {
+    "trigger": {
+      "selector": "#hierarchy",
+      "label": "Select Category",
+      "href": "#CATEGORIES"
+    },
+    "tree": "#tree",
+    "node_label_selector": "a.dynatree-title",
+    "expander_selector": ".dynatree-expander",
+    "observed_active_category": {
+      "label": "Sports",
+      "node_selector": "#dynatree-id-15"
+    },
+    "next": {
+      "selector": "#ok",
+      "label": "Go To Step Two",
+      "type": "button"
+    },
+    "route_after_next": "https://directory6.org/submit?c=0",
+    "scope": "Normal category control selectors observed; Sports selection was operator-assisted and led to /submit?c=15. No hidden field manipulation."
+  },
+  "link_type_navigation": {
+    "page": "https://directory6.org/submit?c=15",
+    "selector": "input[name=\"LINK_TYPE\"][value=\"2\"]",
+    "label": "Business - free",
+    "next_selector": "[name=\"choicemade\"]",
+    "next_label": "Go To Step Three",
+    "scope": "Listing type selection only; no business details submitted",
+    "result": "Business free choice followed by asynchronous Step Three loading; final form observed on subsequent snapshot"
+  },
+  "form_limits": {
+    "name": 200,
+    "owner_name": 50,
+    "public_email": 255,
+    "captcha_input": 5,
+    "description": "No HTML maxlength observed; server/JavaScript limits not established"
+  },
+  "final_form_controls": {
+    "submit_selector": "[name=\"continue\"][type=\"submit\"]",
+    "submit_label": "Continue",
+    "captcha_selector": "[name=\"CAPTCHA\"]",
+    "rules_checkbox": "[name=\"AGREERULES\"]",
+    "rules_url": "https://directory6.org/rules",
+    "newsletter_checkbox": "[name=\"OWNER_NEWSLETTER_ALLOW\"]"
+  },
+  "supervised_publication": {
+    "checked_utc": "2026-10-27T12:17:06.130609+00:00",
+    "status": "Operator submission receipt observed; public listing pending",
+    "steps": [
+      {
+        "label": "Submit Link",
+        "url": "https://directory6.org/submit"
+      },
+      {
+        "label": "Sports",
+        "control": "category picker",
+        "category_id": "15"
+      },
+      {
+        "label": "Go To Step Two",
+        "selector": "#ok"
+      },
+      {
+        "label": "Business - free",
+        "selector": "[name=LINK_TYPE][value=2]"
+      },
+      {
+        "label": "Go To Step Three",
+        "selector": "[name=choicemade]"
+      },
+      {
+        "label": "Continue",
+        "selector": "[name=continue][type=submit]",
+        "final_submission": true
+      }
+    ],
+    "verification_field": "[name=CAPTCHA]",
+    "newsletter": "Unchecked",
+    "terms": "[name=AGREERULES]",
+    "content": "All approved public fields included in DESCRIPTION; no omissions",
+    "runtime": "Supervised final-form actions only; automatic queue adapter not yet enabled",
+    "receipt_text": "Link submitted"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "domain": "youtube.com",
+  "checked_utc": "2026-10-23T13:42:34.576991+00:00",
+  "status": "Needs deeper inspection",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://www.youtube.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "youtube.com",
+      "url": "https://www.youtube.com/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://www.youtube.com/results",
+          "fields": [
+            {
+              "name": "search_query",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"search_query\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

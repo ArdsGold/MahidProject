@@ -1,0 +1,30 @@
+{
+  "name": "backlink-autofill",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Backlink Autofill 2.0 - business profile dashboard and Chrome extension autofill engine",
+  "workspaces": [
+    "shared",
+    "web",
+    "extension"
+  ],
+  "scripts": {
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "build:web": "npm run build --workspace web",
+    "build:extension": "npm run build --workspace extension",
+    "dev:web": "npm run dev --workspace web",
+    "test:extension": "npm run test:engine --workspace extension",
+    "test:sheets": "node test/run-sheets.mjs",
+    "test:ampblogs": "node --test playwright-worker/test/ampblogs-preflight.test.mjs playwright-worker/test/human-auth.test.mjs playwright-worker/test/worker-isolation.test.mjs playwright-worker/test/dev-launcher.test.mjs playwright-worker/test/resident-launcher.test.mjs",
+    "test:profile-editor": "node --experimental-strip-types --test test/profile-editor.test.mjs",
+    "playwright:worker": "node playwright-worker/server.mjs",
+    "playwright:browser": "node playwright-worker/browser.mjs"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  }
+}

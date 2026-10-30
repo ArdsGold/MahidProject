@@ -1,0 +1,876 @@
+{
+  "domain": "localbrowsed.com",
+  "checked_utc": "2026-10-30T15:12:02.267623+00:00",
+  "status": "Paid plans only",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Signed in; live listing plans inspected",
+  "entry_url": "https://localbrowsed.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "localbrowsed.com",
+      "url": "https://localbrowsed.com/",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://localbrowsed.com/",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch1$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://localbrowsed.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://localbrowsed.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://localbrowsed.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://localbrowsed.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://localbrowsed.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://localbrowsed.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "localbrowsed.com",
+      "url": "https://localbrowsed.com/directory/register.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://localbrowsed.com/directory/register.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$FirstName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$LastName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Email",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Password",
+              "tag": "input",
+              "label": "password",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$ReEnterPassword\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SourceId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SourceId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Terms",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Terms\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$AddButton",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$AddButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://localbrowsed.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://localbrowsed.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://localbrowsed.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "",
+          "selector": "[id=\"PageContent_RegistrationForm_AddButton\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": false
+        },
+        {
+          "label": "Login",
+          "url": "https://localbrowsed.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://localbrowsed.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://localbrowsed.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://localbrowsed.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://localbrowsed.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://localbrowsed.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://localbrowsed.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "localbrowsed.com",
+      "url": "https://localbrowsed.com/directory/register.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://localbrowsed.com/directory/register.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$FirstName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$LastName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Email",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Password",
+              "tag": "input",
+              "label": "password",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$ReEnterPassword\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SourceId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SourceId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Terms",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Terms\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$AddButton",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$AddButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://localbrowsed.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://localbrowsed.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://localbrowsed.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "",
+          "selector": "[id=\"PageContent_RegistrationForm_AddButton\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": false
+        },
+        {
+          "label": "Login",
+          "url": "https://localbrowsed.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://localbrowsed.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://localbrowsed.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://localbrowsed.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "localbrowsed.com",
+      "url": "https://localbrowsed.com/directory/listingedit.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://localbrowsed.com/directory/listingedit.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://localbrowsed.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/listingedit.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://localbrowsed.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://localbrowsed.com/directory/listingedit.aspx",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; requires operator button confirmation and final form inspection",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "assistant_review": {
+    "checked_utc": "2026-10-23T14:21:19.250591+00:00",
+    "posting_route": "https://localbrowsed.com/directory/listingedit.aspx",
+    "observed_heading": "Create Directory Listing / Select Plan",
+    "plans": [
+      {
+        "price_usd": 0.99,
+        "website_link_included": false,
+        "plan_id": "30"
+      },
+      {
+        "price_usd": 3,
+        "website_link_included": true,
+        "plan_id": "32"
+      },
+      {
+        "price_usd": 5,
+        "website_link_included": true,
+        "plan_id": "33"
+      }
+    ],
+    "conclusion": "No free option on the observed listing plan selector; no payment plan selected; other unobserved routes are not ruled out"
+  },
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-30T15:11:44.804810+00:00",
+    "page": "https://localbrowsed.com/",
+    "controls": [
+      {
+        "label": "Add Listing",
+        "url": "https://localbrowsed.com/directory/listingedit.aspx",
+        "selector": "[id=\"HyperLink1\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://localbrowsed.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Sign Up",
+        "url": "https://localbrowsed.com/directory/register.aspx",
+        "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://localbrowsed.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Login",
+        "url": "https://localbrowsed.com/directory/login.aspx",
+        "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://localbrowsed.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "route_checks": {
+    "post": {
+      "outcome": "paid plans only observed",
+      "page": "https://localbrowsed.com/directory/listingedit.aspx",
+      "evidence": "Three Select Plan options priced $0.99, $3.00 and $5.00; no free option observed"
+    }
+  },
+  "review_reason": "No free plan displayed; Starter $0.99 excludes website link; Basic $3 includes link",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://localbrowsed.com/",
+      "https://localbrowsed.com/directory/register.aspx",
+      "https://localbrowsed.com/directory/register.aspx"
+    ],
+    "observed_form_count": 3,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "plan_evidence": {
+    "page": "https://localbrowsed.com/directory/listingedit.aspx",
+    "plans": [
+      "Starter $0.99 without website link",
+      "Basic $3 with website link",
+      "Surge $5"
+    ],
+    "checked_utc": "2026-10-30T15:12:36.208576+00:00"
+  }
+}

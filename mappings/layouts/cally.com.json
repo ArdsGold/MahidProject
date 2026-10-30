@@ -1,0 +1,121 @@
+{
+  "domain": "cally.com",
+  "checked_utc": "2026-10-23T12:46:32.245602+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Account form is not supported by the current adapter; access has not been ruled out",
+  "entry_url": "https://cally.com/account/login",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "cally.com",
+      "url": "https://cally.com/",
+      "forms": [],
+      "links": [
+        {
+          "label": "Sign in",
+          "url": "https://cally.com/account/login"
+        }
+      ],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "cally.com",
+      "url": "https://cally.com/account/login",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://cally.com/content/blank.html",
+          "fields": [
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "email",
+              "required": false,
+              "maxlength": 100,
+              "selector": "[id=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[id=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "setCookie",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"setCookie\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login_submit",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"login_submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Sign in",
+          "url": "https://cally.com/account/login"
+        }
+      ],
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable",
+  "review_reason": "Unsupported account form",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://cally.com/",
+      "https://cally.com/account/login"
+    ],
+    "observed_form_count": 1,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "domain": "directory5.org",
+  "checked_utc": "2026-10-23T15:35:01.554149+00:00",
+  "status": "Skipped banned/suspended",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Hosting provider displays suspended-account page; campaign login not attempted",
+  "entry_url": "https://directory5.org/cgi-sys/suspendedpage.cgi",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "directory5.org",
+      "url": "https://directory5.org/cgi-sys/suspendedpage.cgi",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": true,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Incomplete; website unavailable due to hosting suspension",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "reason": "Website hosting account suspended",
+  "review_reason": "Redirects to /cgi-sys/suspendedpage.cgi with hosting suspension notice",
+  "verification_level": "Live hosting suspension notice independently inspected",
+  "final_output_status": "error",
+  "assistant_review": {
+    "checked_utc": "2026-10-23T15:35:27.045623+00:00",
+    "page": "https://directory5.org/cgi-sys/suspendedpage.cgi",
+    "evidence": "Account Suspended. This Account has been suspended. Contact your hosting provider for more information.",
+    "scope": "Website hosting suspension, not evidence of campaign credential/account restriction. Skipped per standing suspension preference; no login or registration attempted."
+  }
+}

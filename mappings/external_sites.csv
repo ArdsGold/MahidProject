@@ -1,0 +1,101 @@
+﻿domain,family,integration_status,source,notes
+ad-links.org,directory,integrated,extSource/source/extension/src/automation/f03-directory.ts,Playwright and Ui.Vision; live form validation required.
+adbritedirectory.com,directory,integrated,extSource/source/extension/src/automation/adbrite-directory.ts,Playwright and Ui.Vision; live form validation required.
+addgoodsites.com,directory,integrated,extSource/source/extension/src/automation/f03-directory.ts,Playwright and Ui.Vision; live form validation required.
+advancedseodirectory.com,directory,integrated,extSource/source/extension/src/automation/advanced-seo-directory.ts,Playwright and Ui.Vision; live form validation required.
+advertisingceo.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+affiliatblogger.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+ampblogs.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+ampedpages.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+aurora-directory.com,directory,integrated,extSource/source/extension/src/automation/aurora-directory.ts,Playwright and Ui.Vision; live form validation required.
+backpagedir.com,directory,integrated,extSource/source/extension/src/automation/f03-directory.ts,Playwright and Ui.Vision; live form validation required.
+bizz-directory.com,directory,integrated,extSource/source/extension/src/automation/bizz-directory.ts,Playwright and Ui.Vision; live form validation required.
+bleepblogs.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blog-ezine.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blog-gold.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blog2freedom.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blog5.net,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+bloggadores.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+bloggin-ads.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blogminds.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blogocial.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blogolize.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blogoscience.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blogs-service.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blogtov.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+bloguetechno.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+blogzet.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+bluebook-directory.com,directory,integrated,extSource/source/extension/src/automation/bluebook-directory.ts,Playwright and Ui.Vision; live form validation required.
+bluxeblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+businessfreedirectory.biz,directory,integrated,extSource/source/extension/src/automation/f03-directory.ts,Playwright and Ui.Vision; live form validation required.
+businessizze.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+canariblogs.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+citiezz.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+cityadvertised.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+citycategories.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+cityizze.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+citypromoted.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+collectblogs.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+dailyizze.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+daneblogger.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+dbblog.net,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+designertoblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+develop-blog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+diowebhost.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+directory3.org,directory,integrated,extSource/source/extension/src/automation/directory3.ts,Playwright and Ui.Vision; live form validation required.
+eedblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+efdir.com,directory,integrated,extSource/source/extension/src/automation/efdir.ts,Playwright and Ui.Vision; live form validation required.
+expansiondirectory.com,directory,integrated,extSource/source/extension/src/automation/expansion-directory.ts,Playwright and Ui.Vision; live form validation required.
+ezblogz.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+familydir.com,directory,integrated,extSource/source/extension/src/automation/familydir.ts,Playwright and Ui.Vision; live form validation required.
+featureizze.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+featurezz.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+fire-directory.com,directory,integrated,extSource/source/extension/src/automation/fire-directory.ts,Playwright and Ui.Vision; live form validation required.
+fitnell.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+freewebads.biz,classifieds,already_supported,extSource/source/extension/src/automation/adapters.ts,Already covered by our classifieds workflow.
+fruity-directory.com,directory,integrated,extSource/source/extension/src/automation/fruity-directory.ts,Playwright and Ui.Vision; live form validation required.
+full-design.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+goabroadblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+greenydirectory.com,directory,integrated,extSource/source/extension/src/automation/greeny-directory.ts,Playwright and Ui.Vision; live form validation required.
+groovy-directory.com,directory,integrated,extSource/source/extension/src/automation/groovy-directory.ts,Playwright and Ui.Vision; live form validation required.
+ifidir.com,directory,integrated,extSource/source/extension/src/automation/ifidir.ts,Playwright and Ui.Vision; live form validation required.
+jet-links.com,directory,integrated,extSource/source/extension/src/automation/jet-links.ts,Playwright and Ui.Vision; live form validation required.
+linkedin-directory.com,directory,integrated,extSource/source/extension/src/automation/linkedin-directory.ts,Playwright and Ui.Vision; live form validation required.
+localcategories.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+localdisplayed.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+localfeatured.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+localsdaily.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+localstorefronts.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+mybjjblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+nationpromoted.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+nizarblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+onesmablog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+pages10.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+pointblog.net,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+postingzz.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+postizze.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+reddit-directory.com,directory,integrated,extSource/source/extension/src/automation/reddit-directory.ts,Playwright and Ui.Vision; live form validation required.
+relateddirectory.org,directory,integrated,extSource/source/extension/src/automation/related-directory.ts,Playwright and Ui.Vision; live form validation required.
+relevantdirectories.com,directory,integrated,extSource/source/extension/src/automation/relevant-directories.ts,Playwright and Ui.Vision; live form validation required.
+relevantdirectory.biz,directory,integrated,extSource/source/extension/src/automation/relevant-directory.ts,Playwright and Ui.Vision; live form validation required.
+searchdomainhere.com,directory,integrated,extSource/source/extension/src/automation/search-domain-here.ts,Playwright and Ui.Vision; live form validation required.
+shotblogs.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+shoutmyblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+smartdir.org,directory,integrated,extSource/source/extension/src/automation/smartdir.ts,Playwright and Ui.Vision; live form validation required.
+smblogsites.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+spintheblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+suomiblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+tblogz.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+theideasblog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+theobloggers.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+thezenweb.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+tinyblogging.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+toptendir.net,directory,integrated,extSource/source/extension/src/automation/toptendir.ts,Playwright and Ui.Vision; live form validation required.
+tribunablog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+unique-listing.com,directory,integrated,extSource/source/extension/src/automation/unique-listing.ts,Playwright and Ui.Vision; live form validation required.
+usacategories.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+usafeatured.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+usapromoted.com,business_listing,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+uzblog.net,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+vidublog.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.
+worldblogged.com,blog,reference_only,extSource/source/extension/src/manual-autofill-policy.ts,Family membership/shared autofill; not a complete adapter ported into this app.

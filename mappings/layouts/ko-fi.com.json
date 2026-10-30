@@ -1,0 +1,225 @@
+{
+  "domain": "ko-fi.com",
+  "checked_utc": "2026-10-23T13:11:19.576567+00:00",
+  "status": "Needs review",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Account form is not supported by the current adapter; access has not been ruled out",
+  "entry_url": "https://ko-fi.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "ko-fi.com",
+      "url": "https://ko-fi.com/",
+      "forms": [
+        {
+          "method": "get",
+          "action": "https://ko-fi.com/",
+          "fields": [
+            {
+              "name": "txtHandle",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"txtHandle\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Log in",
+          "url": "https://ko-fi.com/account/login"
+        },
+        {
+          "label": "Get started",
+          "url": "https://ko-fi.com/account/register"
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [
+        "wordpress"
+      ],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "ko-fi.com",
+      "url": "https://ko-fi.com/account/register",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://ko-fi.com/Account/Register",
+          "fields": [
+            {
+              "name": "DisplayName",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 40,
+              "selector": "[name=\"DisplayName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "Email",
+              "tag": "input",
+              "type": "email",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "Password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 300,
+              "selector": "[name=\"Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "showPass",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"showPass\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "AcceptTerms",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"AcceptTerms\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submitButton",
+              "tag": "input",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"submitButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "https://ko-fi.com/Account/ExternalLogin",
+          "fields": [
+            {
+              "name": "provider",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"provider\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "provider",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"provider\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "provider",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"provider\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "provider",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"provider\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "links": [],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable",
+  "review_reason": "Unsupported account form",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://ko-fi.com/",
+      "https://ko-fi.com/account/register"
+    ],
+    "observed_form_count": 3,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  }
+}

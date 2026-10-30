@@ -1,0 +1,2 @@
+# Preserve imported reference bytes: provenance tests hash these files.
+extSource/** -text

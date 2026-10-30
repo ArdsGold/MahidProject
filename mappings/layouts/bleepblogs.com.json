@@ -1,0 +1,1568 @@
+{
+  "domain": "bleepblogs.com",
+  "checked_utc": "2026-10-27T19:40:11.497212+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Supervised publication verified; automatic queue adapter not enabled",
+  "family": "wordpress-classic-blog",
+  "access": "Account form is not supported by the current adapter; access has not been ruled out",
+  "entry_url": "https://bleepblogs.com/sign-in",
+  "field_map": {
+    "name": "[name=post_title]",
+    "body": "#content",
+    "html_tab": "#content-html",
+    "publish": "#publish[name=publish][type=submit]"
+  },
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "bleepblogs.com",
+      "url": "https://bleepblogs.com/",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "LOGIN",
+          "url": "https://bleepblogs.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "REGISTER",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Get Started",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "LOGIN",
+          "url": "https://bleepblogs.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bleepblogs.com",
+      "url": "https://bleepblogs.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bleepblogs.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bleepblogs.com",
+      "url": "https://bleepblogs.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bleepblogs.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bleepblogs.com",
+      "url": "https://bleepblogs.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bleepblogs.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bleepblogs.com",
+      "url": "https://bleepblogs.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bleepblogs.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bleepblogs.com",
+      "url": "https://bleepblogs.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bleepblogs.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bleepblogs.com",
+      "url": "https://bleepblogs.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bleepblogs.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "bleepblogs.com",
+      "url": "https://bleepblogs.com/sign-in",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://bleepblogs.com/sign-in",
+          "fields": [
+            {
+              "name": "username",
+              "tag": "input",
+              "type": "email",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"username\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": true,
+              "maxlength": null,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "login",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"login\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Published backlink independently verified for current campaign",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://bleepblogs.com/",
+      "observed_controls": [
+        {
+          "label": "LOGIN",
+          "url": "https://bleepblogs.com/sign-in",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "REGISTER",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Get Started",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://bleepblogs.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "page": "https://bleepblogs.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "page": "https://bleepblogs.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "page": "https://bleepblogs.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "page": "https://bleepblogs.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "page": "https://bleepblogs.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "page": "https://bleepblogs.com/sign-in",
+      "observed_controls": [
+        {
+          "label": "Create a Website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Log in",
+          "url": "",
+          "selector": "[name=\"login\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": false
+        },
+        {
+          "label": "Register now",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a business website",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        },
+        {
+          "label": "Create an online store",
+          "url": "https://bleepblogs.com/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://bleepblogs.com/sign-in",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-27T19:27:06.163877+00:00",
+    "page": "https://bleepblogs.com/",
+    "controls": [
+      {
+        "label": "LOGIN",
+        "url": "https://bleepblogs.com/sign-in",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://bleepblogs.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "REGISTER",
+        "url": "https://bleepblogs.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://bleepblogs.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Get Started",
+        "url": "https://bleepblogs.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://bleepblogs.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create a free website",
+        "url": "https://bleepblogs.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://bleepblogs.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create a business website",
+        "url": "https://bleepblogs.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://bleepblogs.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create an online store",
+        "url": "https://bleepblogs.com/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://bleepblogs.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://bleepblogs.com/",
+      "https://bleepblogs.com/sign-in",
+      "https://bleepblogs.com/sign-in",
+      "https://bleepblogs.com/sign-in",
+      "https://bleepblogs.com/sign-in",
+      "https://bleepblogs.com/sign-in",
+      "https://bleepblogs.com/sign-in",
+      "https://bleepblogs.com/sign-in"
+    ],
+    "observed_form_count": 7,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable",
+  "posting_control_candidates": [
+    {
+      "label": "New Post",
+      "url": "https://bleepblogs.com/new-post"
+    },
+    {
+      "label": "Write your first blog post",
+      "url": "https://bleepblogs.com/new-post"
+    }
+  ],
+  "posting_button_confirmation": {
+    "confirmed_by": "operator",
+    "confirmed_utc": "2026-10-27T19:35:28.234516+00:00",
+    "controls": [
+      {
+        "label": "New Post",
+        "url": "https://bleepblogs.com/new-post"
+      },
+      {
+        "label": "Write your first blog post",
+        "url": "https://bleepblogs.com/new-post"
+      }
+    ]
+  },
+  "publishing_contract": {
+    "guard": "mappings/wordpress_classic_guard.js",
+    "route": "/new-post",
+    "form_action": "Absent action attribute resolves to current editor route; hidden action input must not shadow DOM inspection",
+    "visibility": "Public",
+    "initial_status": "Draft",
+    "public_hostname": "Observed Visit Site business subdomain; recorded as publication_host in campaign journal",
+    "receipt_link": "View your post",
+    "verification": "Independent cookies; exact business name and clickable exact approved website URL",
+    "content": "All approved public fields; HTML escaped through existing article_html formatter",
+    "omitted_fields": []
+  }
+}

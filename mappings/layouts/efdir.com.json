@@ -1,0 +1,15 @@
+{
+  "domain": "efdir.com",
+  "status": "Inspection error",
+  "known_template": {
+    "family": "php-directory",
+    "website_type": "Directory",
+    "basis": "Configured route"
+  },
+  "saved_structure": {},
+  "runtime": "Mapped; live guards required",
+  "publishing_enabled_by_inventory": false,
+  "reason": "BridgeError",
+  "checked_utc": "2026-10-23T18:10:19.815519+00:00",
+  "completion_level": "Inspection failed; final posting form not validated"
+}

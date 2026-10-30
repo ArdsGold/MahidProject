@@ -1,0 +1,22 @@
+<!doctype html>
+<html><head><title>Signup ampblogs.com</title></head><body>
+  <main>
+    <a href="/">Homepage</a>
+    <form class="sign-in-new" method="post">
+      <input name="username" type="text" placeholder="Username">
+      <input name="password" type="password" placeholder="Password">
+      <input name="email" type="text" placeholder="Email">
+      <input name="security_id" type="hidden">
+      <div class="captcha-register">
+        <input name="captcha" type="text" placeholder="Captcha">
+        <img id="captcha" src="/plugins/cool-php-captcha-0.3.1/captcha.php">
+        <a id="change-image" href="#">Change image</a>
+      </div>
+      <input id="agreement" name="agree" type="checkbox">
+      <button class="butt green register-button" id="register" name="register" type="submit">Register</button>
+      <button class="butt blue sign-in-facebook-v2" type="button">Sign in with Facebook</button>
+      <button class="butt red sign-in-google-new" type="button">Sign in with Google</button>
+      <button class="butt blue-light sign-in-twitter" type="button">Sign in with Twitter</button>
+    </form>
+  </main>
+</body></html>

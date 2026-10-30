@@ -1,0 +1,2347 @@
+{
+  "domain": "pastelink.net",
+  "checked_utc": "2026-10-23T18:47:55.769941+00:00",
+  "status": "Form blueprint saved",
+  "runtime": "Mapped; live guards required",
+  "family": "pastelink",
+  "access": "Accessible guest creation form",
+  "entry_url": "https://pastelink.net/submit",
+  "field_map": {
+    "name": "[name=title]",
+    "body": "[name=body_raw]"
+  },
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "pastelink.net",
+      "url": "https://pastelink.net/",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free account",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free account",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "pastelink.net",
+      "url": "https://pastelink.net/submit",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://pastelink.net/submit",
+          "fields": [
+            {
+              "name": "title",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 80,
+              "selector": "[name=\"title\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font_name",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"font_name\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "font_weight",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"font_weight\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font_size",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"font_size\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font-more-options",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"font-more-options\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font-prev",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"font-prev\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font-next",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"font-next\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font-default-set",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"font-default-set\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "clear-filter-button",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"clear-filter-button\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "body_raw",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": 180000,
+              "selector": "[name=\"body_raw\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"visibility\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"visibility\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"visibility\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility_password",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 40,
+              "selector": "[name=\"visibility_password\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "expiry",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"expiry\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "expiry",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"expiry\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "expiry_number",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"expiry_number\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "expiry_qualifier",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"expiry_qualifier\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "passcode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"passcode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "generate",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"generate\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "link_options",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"link_options\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "security",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"security\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "referrer",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"referrer\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "stripped",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"stripped\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "custom",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 240,
+              "selector": "[name=\"custom\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Publish path { stroke: white; }",
+          "url": "",
+          "selector": "[id=\"submitbtn\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Publish"
+    },
+    {
+      "host": "pastelink.net",
+      "url": "https://pastelink.net/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://pastelink.net/login",
+          "fields": [
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Log In"
+    },
+    {
+      "host": "pastelink.net",
+      "url": "https://pastelink.net/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://pastelink.net/login",
+          "fields": [
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Log In"
+    },
+    {
+      "host": "pastelink.net",
+      "url": "https://pastelink.net/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://pastelink.net/login",
+          "fields": [
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Log In"
+    },
+    {
+      "host": "pastelink.net",
+      "url": "https://pastelink.net/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://pastelink.net/login",
+          "fields": [
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Log In"
+    },
+    {
+      "host": "pastelink.net",
+      "url": "https://pastelink.net/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://pastelink.net/login",
+          "fields": [
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Log In"
+    },
+    {
+      "host": "pastelink.net",
+      "url": "https://pastelink.net/login",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://pastelink.net/login",
+          "fields": [
+            {
+              "name": "email",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "password",
+              "tag": "input",
+              "type": "password",
+              "required": false,
+              "maxlength": 255,
+              "selector": "[name=\"password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "input",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Log In"
+    },
+    {
+      "host": "pastelink.net",
+      "url": "https://pastelink.net/submit",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://pastelink.net/submit",
+          "fields": [
+            {
+              "name": "title",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 80,
+              "selector": "[name=\"title\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font_name",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"font_name\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "font_weight",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"font_weight\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font_size",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"font_size\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font-more-options",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"font-more-options\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font-prev",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"font-prev\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font-next",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"font-next\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "font-default-set",
+              "tag": "input",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"font-default-set\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "clear-filter-button",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"clear-filter-button\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "body_raw",
+              "tag": "textarea",
+              "type": "textarea",
+              "required": false,
+              "maxlength": 180000,
+              "selector": "[name=\"body_raw\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"visibility\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"visibility\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"visibility\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "visibility_password",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 40,
+              "selector": "[name=\"visibility_password\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "expiry",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"expiry\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "expiry",
+              "tag": "input",
+              "type": "radio",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"expiry\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "expiry_number",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"expiry_number\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "expiry_qualifier",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"expiry_qualifier\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "passcode",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"passcode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "generate",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "[id=\"generate\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "link_options",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"link_options\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "security",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"security\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "referrer",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"referrer\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "stripped",
+              "tag": "select",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"stripped\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "custom",
+              "tag": "input",
+              "type": "text",
+              "required": false,
+              "maxlength": 240,
+              "selector": "[name=\"custom\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "submit",
+              "tag": "button",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"submit\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Publish path { stroke: white; }",
+          "url": "",
+          "selector": "[id=\"submitbtn\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": "Publish"
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Final posting form reached; publication untested",
+  "remaining": [
+    "Validate existing platform runtime against current form and privacy/link guards",
+    "Independently verify any future public paste"
+  ],
+  "navigation_recipe": [
+    {
+      "step": 1,
+      "page": "https://pastelink.net/",
+      "observed_controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create a free account",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "page": "https://pastelink.net/submit",
+      "observed_controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        },
+        {
+          "label": "Publish path { stroke: white; }",
+          "url": "",
+          "selector": "[id=\"submitbtn\"]",
+          "tag": "button",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/submit",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "page": "https://pastelink.net/login",
+      "observed_controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "page": "https://pastelink.net/login",
+      "observed_controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "page": "https://pastelink.net/login",
+      "observed_controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "page": "https://pastelink.net/login",
+      "observed_controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "page": "https://pastelink.net/login",
+      "observed_controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "page": "https://pastelink.net/login",
+      "observed_controls": [
+        {
+          "label": "Create",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://pastelink.net/login",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Create one here.",
+          "url": "https://pastelink.net/register",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        },
+        {
+          "label": "Log In",
+          "url": "",
+          "selector": "[name=\"submit\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": false
+        },
+        {
+          "label": "Create New Paste",
+          "url": "https://pastelink.net/submit",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pastelink.net/login",
+          "navigation_only": true
+        }
+      ]
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:46:59.691859+00:00",
+    "page": "https://pastelink.net/",
+    "controls": [
+      {
+        "label": "Create",
+        "url": "https://pastelink.net/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://pastelink.net/",
+        "navigation_only": true
+      },
+      {
+        "label": "Login",
+        "url": "https://pastelink.net/login",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://pastelink.net/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create a free account",
+        "url": "https://pastelink.net/register",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://pastelink.net/",
+        "navigation_only": true
+      },
+      {
+        "label": "Create New Paste",
+        "url": "https://pastelink.net/submit",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://pastelink.net/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "",
+  "verification_level": "Operator-confirmed controls and live guest-creation form inspection",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://pastelink.net/",
+      "https://pastelink.net/submit",
+      "https://pastelink.net/login",
+      "https://pastelink.net/login",
+      "https://pastelink.net/login",
+      "https://pastelink.net/login",
+      "https://pastelink.net/login",
+      "https://pastelink.net/login"
+    ],
+    "observed_form_count": 7,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "limits": {
+    "title": 80,
+    "body_raw": 180000,
+    "visibility_password": 40,
+    "custom": 240
+  },
+  "workflow_steps": [
+    {
+      "step": 1,
+      "label": "Create / Create New Paste",
+      "url": "https://pastelink.net/submit"
+    },
+    {
+      "step": 2,
+      "label": "Title and body",
+      "selectors": [
+        "[name=title]",
+        "[name=body_raw]"
+      ],
+      "action": "Use all public workbook fields, exact website whole; exclude credentials"
+    },
+    {
+      "step": 3,
+      "label": "Public visibility and Never Expire",
+      "observed_defaults": {
+        "visibility": "public",
+        "expiry": "0",
+        "link_options": "show",
+        "security": "none",
+        "referrer": "public",
+        "stripped": "0"
+      }
+    },
+    {
+      "step": 4,
+      "label": "Publish",
+      "selector": "#submitbtn",
+      "action": "Not clicked during mapping"
+    }
+  ],
+  "final_form_controls": {
+    "submit": "#submitbtn",
+    "label": "Publish",
+    "verification": "CAPTCHA observed; operator completes during publishing",
+    "private_recovery": "Edit code is private; store only in .local recovery, never public mappings or chat",
+    "terms": "Publish accepts terms and conditions"
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T18:47:55.770191+00:00",
+    "page": "https://pastelink.net/submit",
+    "evidence": "Direct confirmed Create route opens guest form with title maxlength80, body_raw maxlength180000, Publish #submitbtn. Public visibility and Never Expire default selected. Link display Show Link, security None, referrer Public, stripped Off. CAPTCHA widget observed.",
+    "scope": "Earlier unsupported-login limitation does not prevent guest form inspection. No credentials entered, client content filled, edit code generated, options changed or paste published. Preserve existing campaign publication; no repost authorized by mapping pass."
+  }
+}

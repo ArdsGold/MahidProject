@@ -1,0 +1,1273 @@
+{
+  "domain": "localfeatured.com",
+  "checked_utc": "2026-10-30T14:58:51.334255+00:00",
+  "status": "Free plan excludes backlink",
+  "runtime": "Needs adapter",
+  "family": "business-listing-reference",
+  "access": "Signed in; observed listing plan selector",
+  "entry_url": "https://www.localfeatured.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "localfeatured.com",
+      "url": "https://www.localfeatured.com/",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://www.localfeatured.com/",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$CatId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch1$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$Keywords\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch1$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch1$PostalCode\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "sl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"sl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "tl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"tl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "query",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"query\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "gtrans",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"gtrans\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "vote",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"vote\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.localfeatured.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.localfeatured.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.localfeatured.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.localfeatured.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "localfeatured.com",
+      "url": "https://www.localfeatured.com/directory/register.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://www.localfeatured.com/directory/register.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$FirstName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$LastName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Email",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Password",
+              "tag": "input",
+              "label": "password",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$ReEnterPassword\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SourceId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SourceId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Terms",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Terms\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$AddButton",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$AddButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "sl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"sl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "tl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"tl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "query",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"query\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "gtrans",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"gtrans\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "vote",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"vote\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.localfeatured.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.localfeatured.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "",
+          "selector": "[id=\"PageContent_RegistrationForm_AddButton\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": false
+        },
+        {
+          "label": "Login",
+          "url": "https://www.localfeatured.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.localfeatured.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.localfeatured.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.localfeatured.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.localfeatured.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "localfeatured.com",
+      "url": "https://www.localfeatured.com/directory/register.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://www.localfeatured.com/directory/register.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$FirstName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$FirstName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$LastName",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$LastName\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Email",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": 250,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Email\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Password",
+              "tag": "input",
+              "label": "password",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Password\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$ReEnterPassword",
+              "tag": "input",
+              "label": "",
+              "type": "password",
+              "required": false,
+              "maxlength": 50,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$ReEnterPassword\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$SourceId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$SourceId\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$Terms",
+              "tag": "input",
+              "label": "",
+              "type": "checkbox",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$Terms\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$PageContent$RegistrationForm$AddButton",
+              "tag": "input",
+              "label": "",
+              "type": "submit",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$PageContent$RegistrationForm$AddButton\"]",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "sl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"sl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "tl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"tl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "query",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"query\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "gtrans",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"gtrans\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "vote",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"vote\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.localfeatured.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.localfeatured.com/directory/login.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Register",
+          "url": "",
+          "selector": "[id=\"PageContent_RegistrationForm_AddButton\"]",
+          "tag": "input",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": false
+        },
+        {
+          "label": "Login",
+          "url": "https://www.localfeatured.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Sign Up",
+          "url": "https://www.localfeatured.com/directory/register.aspx",
+          "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        },
+        {
+          "label": "Login",
+          "url": "https://www.localfeatured.com/directory/login.aspx",
+          "selector": "[id=\"PageContent_L_Login\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/register.aspx",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Sign-in required",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "localfeatured.com",
+      "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "sl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"sl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "tl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"tl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "query",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"query\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "gtrans",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"gtrans\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "vote",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"vote\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "localfeatured.com",
+      "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+      "page_error": "",
+      "forms": [
+        {
+          "method": "post",
+          "action": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "ctl00$QuickSearch$CatId",
+              "tag": "select",
+              "label": "",
+              "type": "select",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$CatId\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": true
+            },
+            {
+              "name": "ctl00$QuickSearch$Keywords",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$Keywords\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "ctl00$QuickSearch$PostalCode",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"ctl00$QuickSearch$PostalCode\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "",
+              "tag": "button",
+              "label": "",
+              "type": "button",
+              "required": false,
+              "maxlength": null,
+              "selector": "",
+              "visible": true,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        },
+        {
+          "method": "post",
+          "action": "",
+          "account_family": "",
+          "fields": [
+            {
+              "name": "sl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"sl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "tl",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"tl\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "query",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"query\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "gtrans",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"gtrans\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            },
+            {
+              "name": "vote",
+              "tag": "input",
+              "label": "",
+              "type": "text",
+              "required": false,
+              "maxlength": null,
+              "selector": "[name=\"vote\"]",
+              "visible": false,
+              "choices": [],
+              "choices_truncated": false
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Add Listing",
+          "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "selector": "[id=\"HyperLink1\"]",
+          "tag": "a",
+          "role": "",
+          "page": "https://www.localfeatured.com/directory/listingedit.aspx",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": true,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Plans inspected; no free website link available",
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "previous_status": "Account access gap",
+  "previous_access_reason": "Account form needs a mapping or required information is unavailable",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-30T14:58:46.203174+00:00",
+    "page": "https://www.localfeatured.com/",
+    "controls": [
+      {
+        "label": "Add Listing",
+        "url": "https://www.localfeatured.com/directory/listingedit.aspx",
+        "selector": "[id=\"HyperLink1\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://www.localfeatured.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Sign Up",
+        "url": "https://www.localfeatured.com/directory/register.aspx",
+        "selector": "[id=\"TopNavLogin_HL_top_Register\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://www.localfeatured.com/",
+        "navigation_only": true
+      },
+      {
+        "label": "Login",
+        "url": "https://www.localfeatured.com/directory/login.aspx",
+        "selector": "[id=\"TopNavLogin_HL_top_Login\"]",
+        "tag": "a",
+        "role": "",
+        "page": "https://www.localfeatured.com/",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Live free trial excludes website links; link-enabled Basic plan costs $3",
+  "verification_level": "Automated checks only; access not independently confirmed",
+  "missing_evidence": "A confirmed signed-in posting page or an explicit site rejection explaining the block",
+  "review_evidence": {
+    "observed_pages": [
+      "https://www.localfeatured.com/",
+      "https://www.localfeatured.com/directory/register.aspx",
+      "https://www.localfeatured.com/directory/register.aspx"
+    ],
+    "observed_form_count": 6,
+    "fields_and_selectors": "See saved pages/forms; no field values retained"
+  },
+  "plan_evidence": {
+    "page": "https://www.localfeatured.com/directory/listingedit.aspx",
+    "free_plan": "60 day listing WITHOUT website link or images",
+    "website_link_plan": "Basic Listing $3",
+    "checked_utc": "2026-10-30T14:59:08.275838+00:00"
+  }
+}

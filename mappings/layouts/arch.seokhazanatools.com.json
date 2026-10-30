@@ -1,0 +1,56 @@
+{
+  "domain": "arch.seokhazanatools.com",
+  "checked_utc": "2026-10-23T12:39:34.514795+00:00",
+  "status": "Entry points saved; form incomplete",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Accessible",
+  "entry_url": "https://arch.seokhazanatools.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "arch.seokhazanatools.com",
+      "url": "https://arch.seokhazanatools.com/",
+      "forms": [],
+      "links": [
+        {
+          "label": "SignUp",
+          "url": "https://arch.seokhazanatools.com/signup"
+        },
+        {
+          "label": "Login",
+          "url": "https://arch.seokhazanatools.com/login"
+        }
+      ],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    },
+    {
+      "host": "arch.seokhazanatools.com",
+      "url": "https://arch.seokhazanatools.com/login",
+      "forms": [],
+      "links": [],
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ]
+}

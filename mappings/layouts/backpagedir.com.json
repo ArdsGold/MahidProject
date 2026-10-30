@@ -1,0 +1,47 @@
+{
+  "domain": "backpagedir.com",
+  "checked_utc": "2026-10-23T17:59:22.778552+00:00",
+  "status": "Inspection error",
+  "runtime": "Mapped; live guards required",
+  "family": "php-directory",
+  "access": "Website denies homepage access",
+  "entry_url": "https://backpagedir.com/submit.php",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "backpagedir.com",
+      "url": "https://backpagedir.com/submit.php",
+      "forms": [],
+      "controls": [],
+      "links": [],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": true,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Error pages confirmed; final posting form not reached",
+  "remaining": [],
+  "button_candidates": [],
+  "review_reason": "Submission route 404; homepage 403 Forbidden; operator confirmed",
+  "verification_level": "Live submission/homepage errors and operator confirmation",
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T17:59:22.778569+00:00",
+    "page": "https://backpagedir.com/",
+    "controls": [],
+    "confirmed_by": "operator",
+    "evidence": "Operator confirms same forbidden page; no posting/account controls visible."
+  },
+  "assistant_review": {
+    "checked_utc": "2026-10-23T17:59:22.778573+00:00",
+    "evidence": "https://backpagedir.com/submit.php displays 404 Not Found. Homepage displays 403 Forbidden. Operator confirms same error.",
+    "scope": "Site/route errors; underlying reason unconfirmed. Not a credential failure or Access gap. No listing submitted."
+  }
+}

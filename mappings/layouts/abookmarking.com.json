@@ -1,0 +1,35 @@
+{
+  "domain": "abookmarking.com",
+  "checked_utc": "2026-10-23T12:17:41.058386+00:00",
+  "status": "Deferred by operator",
+  "runtime": "Needs adapter",
+  "family": "unknown",
+  "access": "Browser verification",
+  "entry_url": "https://abookmarking.com/",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "abookmarking.com",
+      "url": "https://abookmarking.com/",
+      "forms": [],
+      "links": [],
+      "access": "Browser verification",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "remaining": [
+    "Inspect free plan/category and publication receipt",
+    "Implement and offline-test a per-host route",
+    "Independently verify any later publication"
+  ],
+  "deferred_utc": "2026-10-23T12:19:47.517278+00:00",
+  "note": "Operator requested skipping this access check for the current mapping pass. Use --reinspect --only abookmarking.com to revisit."
+}

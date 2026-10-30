@@ -1,0 +1,13 @@
+.local/
+output/
+__pycache__/
+*.xlsx
+.venv/
+
+# Clean distribution workbooks only; client copies remain private.
+!templates/Backlink_Template.xlsx
+!websites/Website_Pool.xlsx
+node_modules/
+.env
+.env.*
+*.log

@@ -1,0 +1,82 @@
+{
+  "domain": "pixolinks.com",
+  "checked_utc": "2026-10-23T18:51:46.590513+00:00",
+  "status": "Needs review",
+  "runtime": "Mapped; live guards required",
+  "family": "xzero-classifieds",
+  "access": "Accessible",
+  "entry_url": "https://pixolinks.com/?view=selectcity&cityid=0&lang=en",
+  "field_map": {},
+  "native_guard": null,
+  "pages": [
+    {
+      "host": "pixolinks.com",
+      "url": "https://pixolinks.com/?view=selectcity&cityid=0&lang=en",
+      "page_error": "",
+      "forms": [],
+      "controls": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://pixolinks.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pixolinks.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Post Free Ad",
+          "url": "https://pixolinks.com/index.php?view=post&cityid=0&lang=en",
+          "selector": "",
+          "tag": "a",
+          "role": "",
+          "page": "https://pixolinks.com/?view=selectcity&cityid=0&lang=en",
+          "navigation_only": true
+        }
+      ],
+      "account_restricted": false,
+      "access": "Accessible",
+      "identity_check": false,
+      "captcha": false,
+      "technologies": [],
+      "unavailable": false,
+      "native_present": false,
+      "reciprocal_present": false,
+      "submit_label": ""
+    }
+  ],
+  "publishing_enabled_by_inventory": false,
+  "completion_level": "Buttons confirmed; final posting form not validated",
+  "remaining": [],
+  "button_candidates": [
+    {
+      "label": "Post Free Ad",
+      "url": "https://pixolinks.com/index.php?view=post&cityid=0&lang=en",
+      "selector": "",
+      "tag": "a",
+      "role": "",
+      "page": "https://pixolinks.com/?view=selectcity&cityid=0&lang=en",
+      "navigation_only": true
+    }
+  ],
+  "button_confirmation": {
+    "confirmed_utc": "2026-10-23T18:51:46.590498+00:00",
+    "page": "https://pixolinks.com/?view=selectcity&cityid=0&lang=en",
+    "controls": [
+      {
+        "label": "Post Free Ad",
+        "url": "https://pixolinks.com/index.php?view=post&cityid=0&lang=en",
+        "selector": "",
+        "tag": "a",
+        "role": "",
+        "page": "https://pixolinks.com/?view=selectcity&cityid=0&lang=en",
+        "navigation_only": true
+      }
+    ],
+    "confirmed_by": "operator"
+  },
+  "review_reason": "Posting control confirmed after pause; form inspection awaits resume",
+  "verification_level": "Operator-confirmed posting route; no additional browser operation"
+}
