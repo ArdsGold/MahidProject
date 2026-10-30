@@ -2429,5 +2429,10 @@
       }
     ],
     "evidence": "Exact observed New Post labels/routes match confirmed classic template; actual editor passed current guard"
+  },
+  "publication_verification": {
+    "campaign_url": "https://CLIENT_USERNAMEa.blog2freedom.com/43377546/cheer-athletics-st-louis",
+    "checked_utc": "2026-10-30T13:11:27.396407+00:00",
+    "recovery_note": "A busy pre-click guard proved the first click was not executed; the same prepared post completed after ready-state validation"
   }
 }

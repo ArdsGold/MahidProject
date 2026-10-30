@@ -8,7 +8,7 @@ function readPage(code, args = []) {
 function pageState() {
   return readPage(`function () {
     const challengeTitle = /just a moment|bot verification|access denied|attention required/i.test(document.title);
-    const widgets = document.querySelector('iframe[src*="recaptcha"],iframe[src*="hcaptcha"],iframe[src*="challenges.cloudflare"],.g-recaptcha,.h-captcha,.cf-turnstile');
+    const widgets = [...document.querySelectorAll('iframe[src*="recaptcha"],iframe[src*="hcaptcha"],iframe[src*="challenges.cloudflare"],.g-recaptcha,.h-captcha,.cf-turnstile')].some(e => e.getClientRects().length && !e.closest(".grecaptcha-badge") && e.getAttribute("data-size") !== "invisible" && getComputedStyle(e).visibility !== "hidden");
     const solved = [...document.querySelectorAll('[name="g-recaptcha-response"],[name="h-captcha-response"],[name="cf-turnstile-response"]')].some(e => e.value.trim());
     return {host: location.hostname.toLowerCase().replace(/^www\\./, ''), challenge: challengeTitle || (!!widgets && !solved)};
   }`);
@@ -58,6 +58,23 @@ function clickLink(text) {
   uiv.run('click', locator);
 }
 
+function categoryLink(label) {
+  try { uiv.$(`xpath=//a[normalize-space(.)=${JSON.stringify(label)}]`, {timeout:20}); }
+  catch (error) { /* Capture the actual alternatives even when the expected label is missing. */ }
+  const inventory = readPage(`function () {
+    return [...document.querySelectorAll('a[href]')].filter(a => {
+      try { const u=new URL(a.href);return u.origin===location.origin&&u.searchParams.get('view')==='post'&&!!u.searchParams.get('catid')&&[...u.searchParams.keys()].every(k=>['view','postevent','cityid','lang','catid','subcatid','shortcutregion'].includes(k)); }
+      catch {return false;}
+    }).map(a=>({label:a.textContent.trim(),value:a.href}));
+  }`);
+  const matches = inventory.filter(o=>o.label===label);
+  job.category_navigation = job.category_navigation || [];
+  job.category_navigation.push({options:inventory, selected:matches.length===1?matches[0]:null});
+  if (matches.length !== 1) return false;
+  clickLink(label);
+  return true;
+}
+
 function normalized(value) {
   return value.toLowerCase().replace(/[^a-z0-9]/g, '').replace('saint', 'st');
 }
@@ -74,14 +91,24 @@ function navigate(url) {
 
 function prepare() {
   if (job.workflow === 'classifieds') {
-    if (!job.state_name || !job.city || !job.email || !/sport|cheer|fitness/i.test(job.category + job.description)) {
-      throw new Error('This classifieds mapping needs a US location, public email and a sports/fitness business');
+    if (!job.state_name || !job.city || !job.email) {
+      throw new Error('This classifieds workflow needs a US location and public business email');
     }
-    navigate(`https://${job.domain}/index.php?view=post&cityid=0&lang=en`);
+    const currentChooser = pageState().host === job.domain && !pageState().challenge && readPage(`function (state) {
+      return [...document.querySelectorAll('a[href]')].filter(a=>{
+        try {const u=new URL(a.href);return a.textContent.trim()===state&&u.origin===location.origin&&u.searchParams.get('view')==='post'&&!u.searchParams.get('catid');}
+        catch{return false;}
+      }).length===1;
+    }`, [job.state_name]);
+    if (!currentChooser) navigate(`https://${job.domain}/index.php?view=post&cityid=0&lang=en`);
     if (pageState().challenge) return {status: 'access_challenge'};
     clickLink(job.state_name);
-    clickLink('Services');
-    clickLink('Health & Fitness');
+    if (!job.classified_route) return {status:'needs_mapping',reason:'Classifieds category route needs mapping for this business type'};
+    for (const label of job.classified_route.labels) {
+      const found = categoryLink(label);
+      if (pageState().challenge && !readPage(`function () {return !!document.querySelector('#adtitle');}`)) return {status:'access_challenge'};
+      if (!found) return {status:'category_review',reason:'Classifieds category route changed or is ambiguous; mapping review required'};
+    }
     if (pageState().host !== job.domain) throw new Error('Unexpected listing domain');
     fill('#adtitle', job.name);
     if (combinedBody('[name="addesc"]', true) === null) return {status: 'needs_attention', reason: 'Text limit or source damage prevents including the complete business name and website'};
@@ -116,6 +143,8 @@ function prepare() {
     }
     const categories = fields('[name="CATEGORY_ID"] option');
     const category = readPage(categoryMatcher, [{options: categories, business: job}]);
+    job.category_evidence = {option_count: categories.length, selector: '[name="CATEGORY_ID"] option', selected: category, page: job.submission_url || `https://${job.domain}/submit.php`};
+    if (!category) return {status: 'category_review', reason: 'Category mapping review needed; complete available options saved'};
     choose('[name="CATEGORY_ID"]', category);
     if (readPage(`function () { return !!document.querySelector('[name="agree"]'); }`)) {
       uiv.run('check', 'css=[name="agree"]');
@@ -127,6 +156,14 @@ function prepare() {
 function submit() {
   const state = pageState();
   if (state.host !== job.domain || state.challenge) throw new Error('Complete verification on the filled form first');
+  if (job.workflow === 'classifieds') {
+    const sameCategory = readPage(`function (j) {
+      if (!j.selected_category || !j.selected_category.value) return false;
+      const selected=new URL(j.selected_category.value), current=new URL(location.href);
+      return selected.origin===current.origin && ['cityid','catid','subcatid'].every(k=>selected.searchParams.get(k)===current.searchParams.get(k));
+    }`, [job]);
+    if (!sameCategory) throw new Error('Selected classifieds category changed; no submission made');
+  }
   if (job.directory) {
     const inspected = readPage(importedDirectoryInspector, [job.directory]);
     if (!inspected.ok || !inspected.freeSelected) throw new Error(inspected.reason || 'Free listing option changed');
@@ -198,6 +235,8 @@ else if (stage === 'submit') result = submit();
 else if (stage === 'check') result = {status: 'ready', challenge: pageState().challenge};
 else if (stage === 'receipt') result = receipt();
 else throw new Error('Unknown workflow stage');
+if (job.category_navigation) result.category_navigation = job.category_navigation;
+if (job.category_evidence) result.category_evidence = job.category_evidence;
 if (job.omitted_fields) Object.assign(result, {omitted_fields: job.omitted_fields, content_notes: job.content_notes, content_limit: job.content_limit});
 if (stage === 'prepare' && typeof templateCollector !== 'undefined') result.template_structure = readPage(templateCollector);
 uiv.log(`BACKLINK_RESULT:${JSON.stringify(result)}`, 'green');

@@ -1,0 +1,1725 @@
+{
+  "domain": "azure-directory.com",
+  "latest_fingerprint": "cc0da7647697320c",
+  "versions": {
+    "cc0da7647697320c": {
+      "page": "https://azure-directory.com/submit.php",
+      "options": [
+        {
+          "label": "[Top]",
+          "value": "0",
+          "disabled": false
+        },
+        {
+          "label": "|___Arts",
+          "value": "1",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Animation",
+          "value": "19",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Antiques",
+          "value": "20",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Architecture",
+          "value": "21",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Celebrities",
+          "value": "22",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Comics",
+          "value": "23",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Crafts",
+          "value": "24",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Design",
+          "value": "25",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Entertainment",
+          "value": "26",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Graphic Design",
+          "value": "27",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Humanities",
+          "value": "28",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Literature",
+          "value": "29",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Museums",
+          "value": "31",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Music",
+          "value": "32",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Arts)",
+          "value": "33",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Painting",
+          "value": "34",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Photography",
+          "value": "35",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Television",
+          "value": "36",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Video",
+          "value": "37",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Visual Arts",
+          "value": "38",
+          "disabled": false
+        },
+        {
+          "label": "|___Automotive",
+          "value": "16",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Driving Schools",
+          "value": "39",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Financing",
+          "value": "40",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Makes and Models",
+          "value": "41",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Motorcycles",
+          "value": "42",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News and Media",
+          "value": "43",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Automotive)",
+          "value": "65",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Parts",
+          "value": "44",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Repair and Service",
+          "value": "45",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Sales",
+          "value": "46",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Transport",
+          "value": "47",
+          "disabled": false
+        },
+        {
+          "label": "|___Business",
+          "value": "2",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Accounting",
+          "value": "48",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Arts and Entertainment",
+          "value": "49",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Automotive",
+          "value": "50",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bad Credit Loans",
+          "value": "51",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Business Services",
+          "value": "52",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Construction and Maintenance",
+          "value": "53",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consumer Goods and Services",
+          "value": "54",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Coupons and Discounts",
+          "value": "55",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Electronics and Electrical",
+          "value": "56",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Employment",
+          "value": "57",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Financial Services",
+          "value": "58",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Food and Related Products",
+          "value": "59",
+          "disabled": false
+        },
+        {
+          "label": "|   |___High Risk Loans",
+          "value": "60",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hospitality",
+          "value": "61",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Industrial Goods and Services",
+          "value": "62",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Information Technology",
+          "value": "63",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Business)",
+          "value": "64",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Payday Loans",
+          "value": "66",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Publishing and Printing",
+          "value": "67",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Real Estate",
+          "value": "68",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Retail Trade",
+          "value": "69",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Risk Management",
+          "value": "70",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Telecommunications",
+          "value": "71",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Tenant Loans",
+          "value": "72",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Transportation and Logistics",
+          "value": "73",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Unsecured Cash Loans",
+          "value": "74",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Unsecured Credit",
+          "value": "75",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Unsecured Loans",
+          "value": "76",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Wholesale Trade",
+          "value": "77",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Work at Home",
+          "value": "78",
+          "disabled": false
+        },
+        {
+          "label": "|___Computers",
+          "value": "3",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Advertising and Marketing",
+          "value": "79",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Companies",
+          "value": "80",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consultants",
+          "value": "81",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Domain Registration",
+          "value": "82",
+          "disabled": false
+        },
+        {
+          "label": "|   |___E-Books",
+          "value": "83",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Games",
+          "value": "84",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Graphics",
+          "value": "85",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hardware",
+          "value": "86",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Internet",
+          "value": "87",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Multimedia",
+          "value": "88",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Open Source",
+          "value": "89",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Operating Systems",
+          "value": "90",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Computers)",
+          "value": "91",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Programming",
+          "value": "92",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Security",
+          "value": "93",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Shopping",
+          "value": "94",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Software",
+          "value": "95",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Systems",
+          "value": "96",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Web Design",
+          "value": "97",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Web Directory",
+          "value": "98",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Web Hosting",
+          "value": "99",
+          "disabled": false
+        },
+        {
+          "label": "|___Games",
+          "value": "4",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Board Games",
+          "value": "100",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Card Games",
+          "value": "101",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Computer Games",
+          "value": "102",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Console Games",
+          "value": "103",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Fantasy Sports",
+          "value": "104",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Online",
+          "value": "106",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Games)",
+          "value": "107",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Video Games",
+          "value": "108",
+          "disabled": false
+        },
+        {
+          "label": "|___Health",
+          "value": "5",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Addictions",
+          "value": "109",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Animal",
+          "value": "110",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Beauty",
+          "value": "111",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Child Health",
+          "value": "112",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Dentistry",
+          "value": "113",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Disabilities",
+          "value": "114",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education",
+          "value": "115",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Fitness",
+          "value": "116",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Health Insurance",
+          "value": "117",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hemorrhoids",
+          "value": "118",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Home Health",
+          "value": "119",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Mens Health",
+          "value": "120",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Nutrition",
+          "value": "121",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Health)",
+          "value": "122",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pharmacy",
+          "value": "123",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Products and Shopping",
+          "value": "124",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Public Health and Safety",
+          "value": "125",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Resources",
+          "value": "126",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Senior Health",
+          "value": "127",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Services",
+          "value": "128",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Weight Loss",
+          "value": "129",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Womens Health",
+          "value": "130",
+          "disabled": false
+        },
+        {
+          "label": "|___Home",
+          "value": "6",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Apartment Living",
+          "value": "131",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consumer Information",
+          "value": "132",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cooking",
+          "value": "133",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Do It Yourself",
+          "value": "134",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Domestic Services",
+          "value": "135",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Entertaining",
+          "value": "136",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Family",
+          "value": "137",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Gardens",
+          "value": "138",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Home Business",
+          "value": "139",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Homeowners",
+          "value": "140",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Moving and Relocating",
+          "value": "141",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Home)",
+          "value": "142",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Personal Finance",
+          "value": "143",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pets",
+          "value": "144",
+          "disabled": false
+        },
+        {
+          "label": "|___Internet",
+          "value": "7",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Abuse",
+          "value": "145",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Access Providers",
+          "value": "146",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Blog",
+          "value": "147",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Broadcasting",
+          "value": "148",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bulletin Board Services",
+          "value": "149",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chat",
+          "value": "150",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Child Safety",
+          "value": "151",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Commercial Services",
+          "value": "152",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consultants",
+          "value": "153",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Domain Names",
+          "value": "154",
+          "disabled": false
+        },
+        {
+          "label": "|   |___E-mail",
+          "value": "155",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education",
+          "value": "156",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Etiquette",
+          "value": "157",
+          "disabled": false
+        },
+        {
+          "label": "|   |___FAQs, Help, and Tutorials",
+          "value": "158",
+          "disabled": false
+        },
+        {
+          "label": "|   |___File Sharing",
+          "value": "159",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Fraud",
+          "value": "160",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Free Web Space",
+          "value": "161",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Games",
+          "value": "162",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Internet Fax",
+          "value": "163",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Internet Marketing",
+          "value": "164",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News and Media",
+          "value": "165",
+          "disabled": false
+        },
+        {
+          "label": "|   |___On the Web",
+          "value": "166",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Online Communities",
+          "value": "167",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Online Teaching and Learning",
+          "value": "168",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Internet)",
+          "value": "169",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Programming",
+          "value": "170",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Proxying and Filtering",
+          "value": "171",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Publications",
+          "value": "172",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Radio",
+          "value": "173",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Resources",
+          "value": "174",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Searching",
+          "value": "175",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Security",
+          "value": "176",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Software",
+          "value": "177",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Telephony",
+          "value": "178",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Training",
+          "value": "179",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Web Design and Development",
+          "value": "180",
+          "disabled": false
+        },
+        {
+          "label": "|   |___WWW",
+          "value": "181",
+          "disabled": false
+        },
+        {
+          "label": "|___Kids and Teens",
+          "value": "8",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Entertainment",
+          "value": "182",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Kids and Teens)",
+          "value": "183",
+          "disabled": false
+        },
+        {
+          "label": "|   |___People and Society",
+          "value": "184",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pre School",
+          "value": "185",
+          "disabled": false
+        },
+        {
+          "label": "|   |___School Time",
+          "value": "186",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Sports and Hobbies",
+          "value": "187",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Teen Life",
+          "value": "188",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Your Family",
+          "value": "189",
+          "disabled": false
+        },
+        {
+          "label": "|___News",
+          "value": "9",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Analysis and Opinion",
+          "value": "190",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Breaking News",
+          "value": "191",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chats and Forums",
+          "value": "192",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Colleges and Universities",
+          "value": "193",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Current Events",
+          "value": "194",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Journals",
+          "value": "195",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Magazines and E-zines",
+          "value": "196",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Media",
+          "value": "197",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (News)",
+          "value": "198",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Weather",
+          "value": "199",
+          "disabled": false
+        },
+        {
+          "label": "|___Recreation",
+          "value": "10",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Antiques",
+          "value": "200",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Audio",
+          "value": "201",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Autos",
+          "value": "202",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Aviation",
+          "value": "203",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Boating",
+          "value": "204",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "205",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Food",
+          "value": "206",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Gardens",
+          "value": "207",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Horoscopes",
+          "value": "208",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Humor",
+          "value": "209",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Motorcycles",
+          "value": "210",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Recreation)",
+          "value": "211",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Outdoors",
+          "value": "212",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Parties",
+          "value": "213",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pets",
+          "value": "214",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Sports",
+          "value": "215",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Travel",
+          "value": "216",
+          "disabled": false
+        },
+        {
+          "label": "|___Reference",
+          "value": "11",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Ask an Expert",
+          "value": "217",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Blogs",
+          "value": "218",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Books",
+          "value": "219",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "220",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education",
+          "value": "221",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Knowledge Management",
+          "value": "222",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Maps",
+          "value": "223",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Open Access Resources",
+          "value": "224",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Reference)",
+          "value": "225",
+          "disabled": false
+        },
+        {
+          "label": "|___Science",
+          "value": "12",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Astronomy",
+          "value": "226",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Biology",
+          "value": "227",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chemistry",
+          "value": "228",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Earth Sciences",
+          "value": "229",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Educational Resources",
+          "value": "230",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Environment",
+          "value": "231",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Instruments and Supplies",
+          "value": "232",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Math",
+          "value": "233",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Science)",
+          "value": "234",
+          "disabled": false
+        },
+        {
+          "label": "|___Shopping",
+          "value": "13",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Antiques and Collectibles",
+          "value": "235",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Auctions",
+          "value": "236",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Autos",
+          "value": "237",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Beauty Products",
+          "value": "238",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Books",
+          "value": "239",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Children",
+          "value": "240",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Classifieds",
+          "value": "241",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Clothing",
+          "value": "242",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Computers",
+          "value": "243",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consumer Electronics",
+          "value": "244",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Crafts",
+          "value": "245",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "246",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Entertainment",
+          "value": "247",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Flowers",
+          "value": "248",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Food and Related Products",
+          "value": "249",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Furniture",
+          "value": "250",
+          "disabled": false
+        },
+        {
+          "label": "|   |___General Merchandise",
+          "value": "251",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Gifts",
+          "value": "252",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Home and Garden",
+          "value": "253",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Jewelry",
+          "value": "254",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Mobile Phone Deals",
+          "value": "255",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Music",
+          "value": "256",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Shopping)",
+          "value": "257",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pets",
+          "value": "258",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Sports",
+          "value": "259",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Toys and Games",
+          "value": "260",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Travel",
+          "value": "261",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Weddings",
+          "value": "262",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Wholesale",
+          "value": "263",
+          "disabled": false
+        },
+        {
+          "label": "|___Society",
+          "value": "14",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Advice",
+          "value": "264",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Crime",
+          "value": "265",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Disabled",
+          "value": "266",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Economics",
+          "value": "267",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education",
+          "value": "268",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Holidays",
+          "value": "269",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Laws",
+          "value": "270",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Society)",
+          "value": "271",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Paranormal",
+          "value": "272",
+          "disabled": false
+        },
+        {
+          "label": "|   |___People",
+          "value": "273",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Relationships",
+          "value": "274",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Work",
+          "value": "275",
+          "disabled": false
+        },
+        {
+          "label": "|___Sports",
+          "value": "15",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Adventure Racing",
+          "value": "276",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Baseball",
+          "value": "277",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Basketball",
+          "value": "278",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Billiards",
+          "value": "279",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Boxing",
+          "value": "280",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cycling",
+          "value": "281",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Equestrian",
+          "value": "282",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Extreme Sports",
+          "value": "283",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Fishing",
+          "value": "284",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Football",
+          "value": "285",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Golf",
+          "value": "286",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hockey",
+          "value": "287",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Horse Racing",
+          "value": "288",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Martial Arts",
+          "value": "289",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Motorsports",
+          "value": "290",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Sports)",
+          "value": "291",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Soccer",
+          "value": "292",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Water Sports",
+          "value": "293",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Wrestling",
+          "value": "294",
+          "disabled": false
+        },
+        {
+          "label": "|___Travel and Tourism",
+          "value": "17",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Accommodations",
+          "value": "295",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Coffeehouse",
+          "value": "296",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Food Wine Restaurant",
+          "value": "297",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Free Wireless",
+          "value": "298",
+          "disabled": false
+        },
+        {
+          "label": "|   |___German Restaurants",
+          "value": "299",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Holidays",
+          "value": "300",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (Travel and Tourism)",
+          "value": "301",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Tours",
+          "value": "302",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Transportation",
+          "value": "303",
+          "disabled": false
+        },
+        {
+          "label": "|___World",
+          "value": "18",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Afrikaans",
+          "value": "304",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Arabic",
+          "value": "305",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Armenian",
+          "value": "306",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Azerbaijani",
+          "value": "307",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bangla",
+          "value": "308",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Belarusian",
+          "value": "309",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Belgium",
+          "value": "310",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bulgarian",
+          "value": "311",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chinese Simplified",
+          "value": "312",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chinese Traditional",
+          "value": "313",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Czech",
+          "value": "314",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Dansk",
+          "value": "315",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Deutsch",
+          "value": "316",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Espanol",
+          "value": "317",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Francais",
+          "value": "318",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Greek",
+          "value": "319",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hindi",
+          "value": "320",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hrvatski",
+          "value": "321",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Indonesia",
+          "value": "322",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Islanda",
+          "value": "323",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Italiano",
+          "value": "324",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Japanese",
+          "value": "325",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Korean",
+          "value": "326",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Magyar",
+          "value": "327",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Nederlands",
+          "value": "328",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Norsk",
+          "value": "329",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Other (World)",
+          "value": "330",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Polska",
+          "value": "331",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Portugues",
+          "value": "332",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Romana",
+          "value": "333",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Russian",
+          "value": "334",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Svenska",
+          "value": "335",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Telugu",
+          "value": "336",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Thai",
+          "value": "337",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Turkce",
+          "value": "338",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Ukrainian",
+          "value": "339",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Vietnamese",
+          "value": "340",
+          "disabled": false
+        }
+      ],
+      "option_count": 339,
+      "checked_utc": "2026-10-30T16:33:35.780308+00:00"
+    }
+  },
+  "decisions": {
+    "2f5a420fd9466f77:cc0da7647697320c": {
+      "topic": {
+        "category": "sports",
+        "fallbacks": []
+      },
+      "selected": {
+        "label": "|___Sports",
+        "value": "15",
+        "disabled": false
+      },
+      "reason": "Matched approved categories or clear business evidence",
+      "source": "automatic",
+      "options_fingerprint": "cc0da7647697320c",
+      "checked_utc": "2026-10-30T16:33:35.780308+00:00"
+    }
+  }
+}

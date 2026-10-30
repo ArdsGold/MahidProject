@@ -419,7 +419,7 @@
   },
   "addgoodsites.com": {
     "basis": "Live browser",
-    "checked_utc": "2026-10-23T17:56:01.358066+00:00",
+    "checked_utc": "2026-10-30T16:11:39.036933+00:00",
     "family": "php-directory",
     "fingerprint": "8e5b5c23a7714357",
     "match": 100,
@@ -1238,8 +1238,8 @@
     "website_type": "Unknown"
   },
   "arcticdirectory.com": {
-    "basis": "Live HTTP",
-    "checked_utc": "2026-10-23T12:04:08.098213+00:00",
+    "basis": "Live browser",
+    "checked_utc": "2026-10-30T16:16:13.453125+00:00",
     "family": "php-directory",
     "fingerprint": "53be544444d9a83d",
     "match": 100,
@@ -1312,7 +1312,7 @@
       ],
       "method": "post"
     },
-    "source": "https://arcticdirectory.com/submit.php",
+    "source": "Rendered form controls",
     "status": "Matched form",
     "website_type": "Directory"
   },
@@ -1647,8 +1647,8 @@
     "website_type": "Unknown"
   },
   "azure-directory.com": {
-    "basis": "Live HTTP",
-    "checked_utc": "2026-10-23T12:04:08.362276+00:00",
+    "basis": "Live browser",
+    "checked_utc": "2026-10-30T16:18:59.138714+00:00",
     "family": "php-directory",
     "fingerprint": "53be544444d9a83d",
     "match": 100,
@@ -1721,7 +1721,7 @@
       ],
       "method": "post"
     },
-    "source": "https://azure-directory.com/submit.php",
+    "source": "Rendered form controls",
     "status": "Matched form",
     "website_type": "Directory"
   },
@@ -2060,8 +2060,8 @@
     "website_type": "Directory"
   },
   "blackandbluedirectory.com": {
-    "basis": "Live HTTP",
-    "checked_utc": "2026-10-23T12:04:05.201935+00:00",
+    "basis": "Live browser",
+    "checked_utc": "2026-10-30T16:13:50.962756+00:00",
     "family": "php-directory",
     "fingerprint": "53be544444d9a83d",
     "match": 100,
@@ -2134,7 +2134,7 @@
       ],
       "method": "post"
     },
-    "source": "https://blackandbluedirectory.com/submit.php",
+    "source": "Rendered form controls",
     "status": "Matched form",
     "website_type": "Directory"
   },
@@ -3903,8 +3903,8 @@
     "website_type": "Unknown"
   },
   "brownedgedirectory.com": {
-    "basis": "Live HTTP",
-    "checked_utc": "2026-10-23T12:04:09.004221+00:00",
+    "basis": "Live browser",
+    "checked_utc": "2026-10-30T16:14:53.448025+00:00",
     "family": "php-directory",
     "fingerprint": "105ffac06b85b7d5",
     "match": 100,
@@ -3977,7 +3977,7 @@
       ],
       "method": "post"
     },
-    "source": "https://brownedgedirectory.com/submit.php",
+    "source": "Rendered form controls",
     "status": "Matched form",
     "website_type": "Directory"
   },
@@ -4744,39 +4744,13 @@
   },
   "classifiedonlineads.net": {
     "basis": "Live browser",
-    "checked_utc": "2026-10-23T18:07:16.232259+00:00",
-    "family": "unmatched-form",
-    "fingerprint": "bff0b27bbe693ab6",
+    "checked_utc": "2026-10-30T16:43:57.169399+00:00",
+    "family": "unknown",
+    "fingerprint": "",
     "match": null,
-    "reason": "Form observed; may be login/search. Publishing workflow needs inspection.",
-    "signature": {
-      "fields": [
-        {
-          "maxlength": null,
-          "name": "",
-          "required": false,
-          "tag": "button",
-          "type": "submit"
-        },
-        {
-          "maxlength": null,
-          "name": "catid",
-          "required": false,
-          "tag": "select",
-          "type": "select"
-        },
-        {
-          "maxlength": null,
-          "name": "search",
-          "required": false,
-          "tag": "input",
-          "type": "text"
-        }
-      ],
-      "method": "get"
-    },
+    "reason": "No form in returned HTML; browser rendering or another route may be needed",
     "source": "Rendered form controls",
-    "status": "Unmatched form",
+    "status": "No form observed",
     "website_type": "Unknown"
   },
   "cleangreendirectory.com": {
@@ -5080,7 +5054,7 @@
   },
   "comadz.com": {
     "basis": "Live browser",
-    "checked_utc": "2026-10-23T18:09:15.934120+00:00",
+    "checked_utc": "2026-10-30T16:46:27.578309+00:00",
     "family": "unknown",
     "fingerprint": "",
     "match": null,
@@ -8653,7 +8627,7 @@
   },
   "getadsonline.com": {
     "basis": "Live browser",
-    "checked_utc": "2026-10-23T18:31:28.000703+00:00",
+    "checked_utc": "2026-10-30T16:35:29.515556+00:00",
     "family": "unmatched-form",
     "fingerprint": "bff0b27bbe693ab6",
     "match": null,
@@ -10665,13 +10639,34 @@
   },
   "letspostfree.com": {
     "basis": "Live browser",
-    "checked_utc": "2026-10-23T18:40:06.728381+00:00",
-    "family": "unmatched-form",
-    "fingerprint": "bff0b27bbe693ab6",
-    "match": null,
-    "reason": "Form observed; may be login/search. Publishing workflow needs inspection.",
+    "checked_utc": "2026-10-30T16:43:14.015854+00:00",
+    "family": "xzero-classifieds",
+    "fingerprint": "be85d0188fdb7afc",
+    "match": 100,
+    "reason": "Required family controls occur together in one POST form",
     "signature": {
       "fields": [
+        {
+          "maxlength": 100,
+          "name": "adtitle",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "maxlength": 50,
+          "name": "area",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "maxlength": 50,
+          "name": "email",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
         {
           "maxlength": null,
           "name": "",
@@ -10681,24 +10676,94 @@
         },
         {
           "maxlength": null,
-          "name": "catid",
+          "name": "addesc",
+          "required": false,
+          "tag": "textarea",
+          "type": "textarea"
+        },
+        {
+          "maxlength": null,
+          "name": "agree",
+          "required": false,
+          "tag": "input",
+          "type": "checkbox"
+        },
+        {
+          "maxlength": null,
+          "name": "arealist",
           "required": false,
           "tag": "select",
           "type": "select"
         },
         {
           "maxlength": null,
-          "name": "search",
+          "name": "othercontactok",
           "required": false,
           "tag": "input",
-          "type": "text"
+          "type": "checkbox"
+        },
+        {
+          "maxlength": null,
+          "name": "pic[1]",
+          "required": false,
+          "tag": "input",
+          "type": "file"
+        },
+        {
+          "maxlength": null,
+          "name": "pic[2]",
+          "required": false,
+          "tag": "input",
+          "type": "file"
+        },
+        {
+          "maxlength": null,
+          "name": "pic[3]",
+          "required": false,
+          "tag": "input",
+          "type": "file"
+        },
+        {
+          "maxlength": null,
+          "name": "promote[extended]",
+          "required": false,
+          "tag": "select",
+          "type": "select"
+        },
+        {
+          "maxlength": null,
+          "name": "promote[featured]",
+          "required": false,
+          "tag": "select",
+          "type": "select"
+        },
+        {
+          "maxlength": null,
+          "name": "showemail",
+          "required": false,
+          "tag": "input",
+          "type": "radio"
+        },
+        {
+          "maxlength": null,
+          "name": "showemail",
+          "required": false,
+          "tag": "input",
+          "type": "radio"
+        },
+        {
+          "maxlength": null,
+          "name": "showemail",
+          "required": false,
+          "tag": "input",
+          "type": "radio"
         }
       ],
-      "method": "get"
+      "method": "post"
     },
     "source": "Rendered form controls",
-    "status": "Unmatched form",
-    "website_type": "Unknown"
+    "status": "Matched form",
+    "website_type": "Classifieds"
   },
   "link-boy.org": {
     "basis": "Live browser",
@@ -12857,13 +12922,13 @@
     "status": "HTTP / network error"
   },
   "postheaven.net": {
-    "basis": "Live HTTP",
-    "checked_utc": "2026-10-23T12:03:44.565958+00:00",
+    "basis": "Live browser",
+    "checked_utc": "2026-10-30T16:12:42.593479+00:00",
     "family": "unknown",
     "fingerprint": "",
     "match": null,
     "reason": "No form in returned HTML; browser rendering or another route may be needed",
-    "source": "https://postheaven.net",
+    "source": "Rendered form controls",
     "status": "No form observed",
     "website_type": "Unknown"
   },
@@ -13381,8 +13446,8 @@
     "website_type": "Directory"
   },
   "rentry.co": {
-    "basis": "Live HTTP",
-    "checked_utc": "2026-10-23T12:03:48.155438+00:00",
+    "basis": "Live browser",
+    "checked_utc": "2026-10-30T16:12:47.056215+00:00",
     "family": "unmatched-form",
     "fingerprint": "bbc3d9463387d8ce",
     "match": null,
@@ -13455,7 +13520,7 @@
       ],
       "method": "post"
     },
-    "source": "https://rentry.co",
+    "source": "Rendered form controls",
     "status": "Unmatched form",
     "website_type": "Unknown"
   },
@@ -13472,7 +13537,7 @@
   },
   "royaldirectory.biz": {
     "basis": "Live browser",
-    "checked_utc": "2026-10-23T15:25:51.198314+00:00",
+    "checked_utc": "2026-10-30T16:21:09.159205+00:00",
     "family": "php-directory",
     "fingerprint": "8e5b5c23a7714357",
     "match": 100,
@@ -16887,8 +16952,8 @@
     "website_type": "Unknown"
   },
   "toptendir.net": {
-    "basis": "Live HTTP",
-    "checked_utc": "2026-10-23T12:03:55.367138+00:00",
+    "basis": "Live browser",
+    "checked_utc": "2026-10-30T16:12:58.880349+00:00",
     "family": "php-directory",
     "fingerprint": "8e5b5c23a7714357",
     "match": 100,
@@ -16947,7 +17012,7 @@
       ],
       "method": "post"
     },
-    "source": "https://toptendir.net/submit.php",
+    "source": "Rendered form controls",
     "status": "Matched form",
     "website_type": "Directory"
   },
@@ -18167,33 +18232,14 @@
     "website_type": "Unknown"
   },
   "writeablog.net": {
-    "basis": "Live HTTP",
-    "checked_utc": "2026-10-23T12:03:57.021455+00:00",
-    "family": "unmatched-form",
-    "fingerprint": "8af759064c39cec0",
+    "basis": "Live browser",
+    "checked_utc": "2026-10-30T16:13:27.778162+00:00",
+    "family": "unknown",
+    "fingerprint": "",
     "match": null,
-    "reason": "Form observed; may be login/search. Publishing workflow needs inspection.",
-    "signature": {
-      "fields": [
-        {
-          "maxlength": null,
-          "name": "",
-          "required": false,
-          "tag": "button",
-          "type": "submit"
-        },
-        {
-          "maxlength": null,
-          "name": "email",
-          "required": false,
-          "tag": "input",
-          "type": "email"
-        }
-      ],
-      "method": "post"
-    },
-    "source": "https://writeablog.net",
-    "status": "Unmatched form",
+    "reason": "No form in returned HTML; browser rendering or another route may be needed",
+    "source": "Rendered form controls",
+    "status": "No form observed",
     "website_type": "Unknown"
   },
   "youtube.com": {

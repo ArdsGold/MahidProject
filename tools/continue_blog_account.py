@@ -17,7 +17,7 @@ try:
         assert page['host'] == host
         assert private_load(host).get('account_attempts', {}).get('login') == 'rejected'
         page, reason = automate_access(client, host, page,
-            shared_credentials('.local/workbooks/Cheer_Athletics_St_Louis.xlsx'), snapshot)
+            shared_credentials('.local/workbooks/Cheer_Athletics_St_Louis.xlsx', host), snapshot)
         Path('.local/' + host + '-account-result.json').write_text(json.dumps(page), encoding='utf-8')
         layout = read_record(host)
         layout.setdefault('pages', []).append(page)

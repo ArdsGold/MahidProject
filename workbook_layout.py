@@ -103,13 +103,37 @@ def template_hours(value):
     return result
 
 
+def format_hours(hours):
+    return '\n'.join(day + ': ' + (opening + '-' + closing + (' (closes next day)' if closing < opening else '') if status == 'Open' else status)
+                     for day in DAYS if day in hours for status, opening, closing in [hours[day]])
+
+
+def read_account(w):
+    result = {'username': '', 'login_email': '', 'password': ''}
+    if 'Account' not in w.sheetnames:
+        return result
+    labels = {'username': 'username', 'login email': 'login_email', 'password': 'password'}
+    seen = set()
+    for row in w['Account'].iter_rows(min_row=2):
+        label = cell_text(row[0], f'Account!A{row[0].row}').lower()
+        if not label:
+            continue
+        if label not in labels or label in seen:
+            raise ValueError(f'Account!A{row[0].row}: unknown or duplicate account field.')
+        seen.add(label)
+        result[labels[label]] = cell_text(row[1], f'Account!B{row[1].row}', strip=label != 'password')
+    return result
+
+
 def read_standard(w, normalize_domain):
     """Read the named sheets even when rows/columns move or another tab is active."""
     s = w['Business']
+    simple = 'Account' in w.sheetnames
     labels = {label.lower(): key for label, key, _, _ in FIELDS}
+    labels.update({'address': 'address', 'business hours': 'hours', 'fallback categories': 'category_fallbacks', 'catagory': 'category', 'services': 'services'})
     b = {}
-    for row in s.iter_rows(min_row=2):
-        label = cell_text(row[0], f'Business!A{row[0].row}').lower()
+    for row in s.iter_rows(min_row=1 if simple else 2):
+        label = cell_text(row[0], f'Business!A{row[0].row}').lower().rstrip(':').strip()
         if not label:
             continue
         if label not in labels:
@@ -133,7 +157,19 @@ def read_standard(w, normalize_domain):
             normalize_domain(b[key])
     street = ' '.join(filter(None, [b.get('street'), b.get('address_line_2')]))
     region_postal = ' '.join(filter(None, [b.get('region'), b.get('postal_code')]))
-    b['address'] = ', '.join(filter(None, [street, b.get('city'), region_postal, b.get('country')]))
+    b['address'] = b.get('address') or ', '.join(filter(None, [street, b.get('city'), region_postal, b.get('country')]))
+    address = re.fullmatch(r'(.+),\s*([^,]+),\s*([A-Z]{2})\s+(\d{5}(?:-\d{4})?)(?:,\s*(.+))?', b['address'])
+    if address:
+        for key, value in zip(('street', 'city', 'region', 'postal_code', 'country'), address.groups()):
+            if value and not b.get(key):
+                b[key] = value.strip()
+    b['category_fallbacks'] = list(dict.fromkeys(x.strip() for x in re.split(r'[;\n]', b.get('category_fallbacks', '')) if x.strip() and x.strip().lower() != b.get('category', '').lower()))
+    if 'Hours' not in w.sheetnames:
+        try:
+            parsed = template_hours(b.get('hours'))
+        except ValueError as error:
+            raise ValueError('Business hours: ' + str(error)) from None
+        b['hours'] = format_hours(parsed)
 
     if 'Hours' in w.sheetnames:
         h = w['Hours']
@@ -174,28 +210,61 @@ def read_standard(w, normalize_domain):
                 raise ValueError(f'Hours!{cells["status"].coordinate}: choose Open, Closed, 24 hours, or By appointment.')
         b['hours'] = '\n'.join(day + ': ' + hours[day] for day in DAYS if hours.get(day))
 
-    s = w['Sites']
-    headers = {cell_text(c, c.coordinate).lower(): c.column - 1 for c in s[1] if c.value is not None}
-    if len(headers) != len([c for c in s[1] if c.value is not None]):
-        raise ValueError('Sites: duplicate column headers.')
-    if set(h.lower() for h in SITE_HEADERS) - headers.keys():
-        raise ValueError('Sites: keep all five template column headers in row 1.')
+    shared = read_account(w) if simple else {'username': '', 'password': '', 'login_email': ''}
     entries = []
-    for row in s.iter_rows(min_row=2):
-        values = {name: cell_text(row[index], f'Sites!{row[index].coordinate}', strip=name != 'password') for name, index in headers.items()}
-        site = values['listing site']
-        if not site:
-            if any(values.get(k) for k in ('username', 'password', 'login email')):
-                raise ValueError(f'Sites row {row[0].row}: account details need a Listing site.')
-            continue
-        enabled = values['enabled'].lower()
-        if enabled not in ('yes', 'no'):
-            raise ValueError(f'Sites row {row[0].row}: Enabled must be Yes or No.')
-        if enabled == 'no':
-            continue
-        entries.append({'row': row[0].row, 'domain': normalize_domain(site), 'username': values['username'],
-                        'password': values['password'], 'login_email': values['login email']})
-    if not entries:
+    if 'Sites' in w.sheetnames:
+        s = w['Sites']
+        headers = {cell_text(c, c.coordinate).lower(): c.column - 1 for c in s[1] if c.value is not None}
+        if len(headers) != sum(c.value is not None for c in s[1]):
+            raise ValueError('Sites: duplicate column headers.')
+        required = {'listing site', 'enabled'} if simple else {h.lower() for h in SITE_HEADERS}
+        if required - headers.keys():
+            raise ValueError('Sites: keep Listing site and Enabled headers.' if simple else 'Sites: keep all five template column headers in row 1.')
+        seen = set()
+        for row in s.iter_rows(min_row=2):
+            values = {name: cell_text(row[index], f'Sites!{row[index].coordinate}', strip=name != 'password') for name, index in headers.items()}
+            site = values['listing site']
+            if not site:
+                if any(values.get(k) for k in ('username', 'password', 'login email')):
+                    raise ValueError(f'Sites row {row[0].row}: account details need a Listing site.')
+                continue
+            enabled = values['enabled'].lower() or ('yes' if simple else '')
+            if enabled not in ('yes', 'no'):
+                raise ValueError(f'Sites row {row[0].row}: Enabled must be Yes or No.')
+            if enabled == 'no':
+                continue
+            host = normalize_domain(site)
+            if simple and host in seen:
+                raise ValueError(f'Sites!{row[0].coordinate}: duplicate website {host}. Keep one row per website.')
+            seen.add(host)
+            entries.append({'row': row[0].row, 'domain': host,
+                            **{key: values.get(label) or shared[key] for label, key in
+                               [('username', 'username'), ('password', 'password'), ('login email', 'login_email')]}})
+    if simple and 'Overrides' in w.sheetnames:
+        sheet = w['Overrides']
+        headers = {cell_text(c, c.coordinate).lower(): c.column - 1 for c in sheet[1] if c.value}
+        if (set(('listing site', 'username', 'login email', 'password')) != headers.keys()
+                or len(headers) != sum(c.value is not None for c in sheet[1])):
+            raise ValueError('Overrides: keep Listing site, Username, Login email and Password headers.')
+        seen = set()
+        for row in sheet.iter_rows(min_row=2):
+            values = {key: cell_text(row[index], f'Overrides!{row[index].coordinate}', strip=key != 'password') for key,index in headers.items()}
+            if not any(values.values()):
+                continue
+            if not values['listing site']:
+                raise ValueError(f'Overrides!A{row[0].row}: enter a Listing site for these credentials.')
+            host = normalize_domain(values['listing site'])
+            if host in seen:
+                raise ValueError(f'Overrides!A{row[0].row}: duplicate website override.')
+            seen.add(host)
+            target = next((entry for entry in entries if entry['domain'] == host), None)
+            if target is None:
+                target = {'row': row[0].row, 'domain': host, **shared}
+                entries.append(target)
+            for label,key in [('username','username'),('login email','login_email'),('password','password')]:
+                if values[label]:
+                    target[key] = values[label]
+    if not simple and not entries:
         raise ValueError('Sites: enter at least one listing site with Enabled = Yes.')
     return b, entries
 
@@ -314,6 +383,87 @@ def create_template(path, sites, business=None):
     w.close()
 
 
+SIMPLE_FIELDS = [
+    ('Business name', 'name', 'Required. Paste the official business name.'),
+    ('Address', 'address', 'Paste the complete address as one value.'),
+    ('Phone', 'phone', 'Paste the public business phone, including country code if supplied.'),
+    ('Website', 'website', 'Required. Exact approved destination, including https://.'),
+    ('Description', 'description', 'Required. Paste the approved description.'),
+    ('Category', 'category', 'Primary category; one category here.'),
+    ('Business hours', 'hours', 'Paste all weekday lines into this ONE cell. Example: Monday 7 AM-8 PM. Unknown days stay unknown.'),
+    ('Keywords', 'keywords', 'Paste the supplied keywords.'),
+    ('Fallback categories', 'category_fallbacks', 'Optional. One alternative per line, in priority order; semicolons also work.'),
+    ('Business email', 'email', 'Optional PUBLIC contact email. Login email goes on Account.'),
+    ('Time zone', 'timezone', 'Optional business local time zone, e.g. America/Chicago.'),
+    ('Services', 'services', 'Optional approved services; separate with semicolons.'),
+] + [(label, key, guide) for label,key,_,guide in FIELDS
+     if key in ('short_description','logo','facebook','instagram','linkedin','youtube','tiktok','twitter',
+                'street','address_line_2','city','region','postal_code','country')]
+
+
+def create_simple_template(path, sites=(), business=None, account=None, entries=()):
+    """Paste-ready business block and one shared account; credentials only copied explicitly."""
+    b = business or {}
+    w = openpyxl.Workbook()
+    sheet = w.active
+    sheet.title = 'Business'
+    for label,key,guide in SIMPLE_FIELDS:
+        value = b.get(key, '')
+        if key == 'category_fallbacks' and isinstance(value,list):
+            value = '\n'.join(value)
+        sheet.append([label,value,guide])
+        sheet.cell(sheet.max_row,2).comment = Comment(guide,'Template')
+        sheet.row_dimensions[sheet.max_row].height = 120 if key in ('description','hours') else 34
+    sheet.freeze_panes = 'B1'
+    sheet.column_dimensions['A'].width = 25
+    sheet.column_dimensions['B'].width = 85
+    sheet.column_dimensions['C'].width = 65
+    a = w.create_sheet('Account')
+    a.append(['Shared login - enter once','Value','Used on all enabled sites unless overridden'])
+    for label,key in [('Username','username'),('Login email','login_email'),('Password','password')]:
+        a.append([label,(account or {}).get(key,''),'Private; never included in published content.'])
+    s = w.create_sheet('Sites')
+    s.append(['Listing site','Enabled'])
+    for host in dict.fromkeys(sites):
+        s.append([host,'Yes'])
+    if s.max_row == 1:
+        s.append(['','Yes'])
+    enabled = DataValidation(type='list',formula1='"Yes,No"',allow_blank=True)
+    enabled.showErrorMessage = True
+    s.add_data_validation(enabled)
+    enabled.add('B2:B10001')
+    o = w.create_sheet('Overrides')
+    o.append(['Listing site','Username','Login email','Password'])
+    for entry in entries:
+        if any(entry.get(key) and entry.get(key)!=(account or {}).get(key,'') for key in ('username','login_email','password')):
+            o.append([entry['domain'],entry.get('username',''),entry.get('login_email',''),entry.get('password','')])
+    o.append(['','','',''])
+    s['A1'].comment = Comment('Optional client-specific sites and exclusions. Leave blank to use websites/Website_Pool.xlsx. No credentials belong here.', 'Template')
+    o['A1'].comment = Comment('Optional exceptions only. Blank credential cells inherit Account. Leave this sheet blank when all sites use the shared account.', 'Template')
+    a['A1'].comment = Comment('Enter the shared login once in B2:B4. These fields are private, separate from the public business email.', 'Template')
+    for row in range(12, sheet.max_row+1):
+        sheet.row_dimensions[row].outlineLevel = 1
+        sheet.row_dimensions[row].hidden = True
+    sheet.sheet_properties.outlinePr.summaryBelow = False
+    for tab in (a,s,o):
+        tab.freeze_panes = 'A2'
+        for col in range(1,tab.max_column+1):
+            tab.column_dimensions[openpyxl.utils.get_column_letter(col)].width = 38
+    for tab in w:
+        tab.sheet_view.showGridLines = False
+        for row in tab:
+            for cell in row:
+                editable = (cell.column == 2 and (tab.title == 'Business' or cell.row > 1)) if tab.title in ('Business','Account') else cell.row > 1
+                cell.number_format = '@'
+                cell.fill = PatternFill('solid',fgColor='EAF4FF' if editable else 'F3F5F7')
+                cell.font = Font(name='Calibri',size=11,color='174A7E' if editable else '344054')
+                cell.alignment = Alignment(vertical='top',wrap_text=True)
+    path = Path(path)
+    path.parent.mkdir(parents=True,exist_ok=True)
+    w.save(path)
+    w.close()
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, help='Prefill source domains and create a public business example; never copy credentials')
@@ -328,7 +478,7 @@ if __name__ == '__main__':
         if match:
             example.update(dict(zip(('street', 'address_line_2', 'city', 'region', 'postal_code', 'country'), match.groups(default=''))))
     args.output.mkdir(parents=True, exist_ok=True)
-    create_template(args.output / 'Backlink_Template.xlsx', sites)
+    create_simple_template(args.output / 'Backlink_Template.xlsx', sites)
     if example:
-        create_template(args.output / 'Cheer_Athletics_Example.xlsx', sites, example)
+        create_simple_template(args.output / 'Business_Example.xlsx', sites, example)
     print('Created template files in ' + str(args.output.resolve()) + '; no credentials copied.')

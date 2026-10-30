@@ -3075,5 +3075,25 @@
       ".local/blog-gold-visible-editor-result.json",
       ".local/blog-gold-public-recheck.json"
     ]
+  },
+  "publication_verification": {
+    "campaign_url": "https://CLIENT_USERNAMEa.blog-gold.com/1542489/cheer-athletics-st-louis",
+    "operator_completed_original_publication": true,
+    "test_url": "https://CLIENT_USERNAMEa.blog-gold.com/1542520/cheer-athletics-st-louis-publishing-workflow-test",
+    "explicit_live_test_requested_by_operator": true,
+    "test_counted_as_additional_website": false,
+    "test_trace": [
+      {
+        "event": "click",
+        "trusted": true,
+        "target": "publish"
+      },
+      {
+        "event": "submit",
+        "trusted": true,
+        "defaultPrevented": false
+      }
+    ],
+    "checked_utc": "2026-10-30T12:51:19.991634+00:00"
   }
 }

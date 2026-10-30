@@ -14,12 +14,23 @@
     const preferred = matches.filter(o => o.depth === shallowest);
     return preferred.length === 1 ? preferred[0].option : null;
   };
+  const saved = business.category_rule && business.category_rule.selected;
+  if (saved) {
+    const matches = choices.filter(o => String(o.option.value) === String(saved.value) && o.label === normalize(saved.label));
+    if (matches.length === 1) return matches[0].option;
+  }
+  const fallbacks = Array.isArray(business.category_fallbacks) ? business.category_fallbacks : String(business.category_fallbacks || '').split(/[;\n]/);
   const category = normalize(business.category);
   const sportsCategory = /\b(sport|sports|cheer|cheerleading)\b/.test(category);
   const exact = choices.filter(o => category && o.label === category);
   if (exact.length) {
     const match = unique(exact);
     if (match || !sportsCategory) return match;
+  }
+  // Explicit operator-approved alternatives take precedence over inferred matches.
+  for (const fallback of fallbacks) {
+    const matches = choices.filter(o => o.label === normalize(fallback));
+    if (matches.length) return unique(matches);
   }
   if (sportsCategory) {
     const labels = ['sports', 'sports and recreation', 'recreation and sports'];
@@ -31,8 +42,8 @@
     }
   }
   const services = Array.isArray(business.services) ? business.services : String(business.services || '').split(/[,;\n]/);
-  const desired = [business.category, ...services, business.description, business.short_description].filter(Boolean).map(words);
-  const evidence = words([business.category, ...services, business.description, business.short_description].filter(Boolean).join(' '));
+  const desired = [business.category, ...fallbacks, ...services, business.description, business.short_description].filter(Boolean).map(words);
+  const evidence = words([business.category, ...fallbacks, ...services, business.description, business.short_description].filter(Boolean).join(' '));
   const generic = new Set(['business', 'services', 'service', 'contractor', 'contractors']);
   const ranked = choices.map(choice => {
     const label = words(choice.label);

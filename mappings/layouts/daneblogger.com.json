@@ -5599,5 +5599,9 @@
       }
     ],
     "evidence": "Exact observed labels/routes match the confirmed classic workflow; live final form passed its guard"
+  },
+  "publication_verification": {
+    "campaign_url": "https://CLIENT_USERNAMEa.daneblogger.com/42166712/cheer-athletics-st-louis",
+    "checked_utc": "2026-10-30T13:49:42.927565+00:00"
   }
 }

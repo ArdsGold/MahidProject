@@ -2,6 +2,8 @@
 
 Read [HANDOFF.md](HANDOFF.md) before operating this project. Use repository-relative paths; the next operator is on another Windows computer. This file preserves project decisions, while the current user's instructions control the task.
 
+Current workbook layout: `templates/Backlink_Template.xlsx` is paste-ready. Business A1:B8 matches the original citation workbook (name, full address, phone, website, description, category, multiline hours, keywords); B9 is ordered fallback categories. Account B2:B4 stores shared username, login email, password once; Sites contains only website/exclusion rows, and Overrides contains optional per-site account differences. Blank Sites uses the shared pool. Use `create_simple_template` for new templates; retain `create_template` and the old reader for legacy compatibility. Read OPERATING_GUIDE.md for the exact cells. Keep generated examples free of credentials and do not change an active campaign workbook during a template update.
+
 Read [WORKFLOW.md](WORKFLOW.md) for the simplified current process. Its 2026-10-30 decisions supersede older handoff preferences about confirming every hostname and logging in with a taken blog name.
 
 Final product requirement: no AI model, AI API key, paid AI subscription or coding-assistant session may be required to operate the tool. Implement deterministic saved workflows and explicit handling of unsupported/changed pages. AI-assisted development does not make AI a runtime dependency. Do not describe a layout inventory or supervised helper as a complete unattended publishing adapter.

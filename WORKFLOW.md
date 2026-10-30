@@ -76,3 +76,15 @@ flowchart LR
 ## Legacy account checkpoint resolution (2026-10-30)
 
 The operator authorized one fresh login on sites with older unresolved login checkpoints and unexplained rejected registrations. Preserve the old checkpoint and journal the new action separately before submitting. This exception applies once per site, never repeats a fresh uncertain action, pauses for CAPTCHA, and skips confirmed bans or suspensions.
+
+## Paste-ready client workbook
+
+The default generated template now matches the citation source's first eight rows on Business (A1:B8), with shared credentials once on Account and optional per-site differences on Overrides. Sites has only Listing site and Enabled. Leave Sites blank to use the project pool. Business B7 accepts multiline source hours; B9 contains optional ordered fallback categories. Legacy workbooks remain supported. The reader validates hours and formulas before publishing; shared credentials are applied to new pool sites without appearing in public content. See OPERATING_GUIDE.md for the exact cells.
+
+## Category review and reusable choices (2026-10-31)
+
+Capture every available dropdown option, including hierarchy labels, values, disabled flags and placeholders. Save versioned inventories and the selected option with its reason under `mappings/category_options/`. Clear matches proceed automatically. If deterministic matching is ambiguous, stop before final submission for assistant AI review of the actual choices; the operator permits an accurate broader category when no specific one exists. Save approved decisions in `mappings/category_rules.json`, scoped to the primary category and ordered fallbacks, and validate the chosen label/value against live enabled options on reuse. No AI model is required in the runtime. The single campaign results.csv includes selected_category, category_value, category_reason and category_options_file. No category selection is evidence of publication.
+
+## Multi-business classifieds routes (2026-10-31)
+
+The shared classifieds adapter selects a business-topic route, rather than assuming sports. Automotive/battery/roadside categories use Services > Motors, confirmed on the live GetAdsOnline form. Sports retains Services > Health & Fitness. Both Ui.Vision and Playwright validate each actual link before navigation; missing or ambiguous links require mapping instead of publishing under an unrelated category. Structured City, State/Region and Country fields are supported even when the full address omits the country. Complete category-link inventories and the selected path are saved in mappings/category_routes/. No paid promotion is selected.

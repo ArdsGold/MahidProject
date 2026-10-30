@@ -1,574 +1,287 @@
-﻿domain,layout_status,family,runtime,entry_url,access,blueprint,review_reason,verification_level,completion_level,buttons_confirmed
-
+domain,layout_status,family,runtime,entry_url,access,blueprint,review_reason,verification_level,completion_level,buttons_confirmed
 4shared.com,Needs deeper inspection,unknown,Needs adapter,https://www.4shared.com/,Accessible,4shared.com.json,,,Legacy inspection; button confirmation required,No
-
 abookmarking.com,Deferred by operator,unknown,Needs adapter,https://abookmarking.com/,Browser verification,abookmarking.com.json,,,Legacy inspection; button confirmation required,No
-
 ad-links.org,Form blueprint saved,php-directory,Mapped; live guards required,https://ad-links.org/submit.php,Accessible,ad-links.org.json,,,Final posting form reached; publication untested,Yes
-
 adbritedirectory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://www.adbritedirectory.com/submit.php,Accessible,adbritedirectory.com.json,,,Final posting form reached; publication untested,Yes
-
 addgoodsites.com,Form blueprint saved,php-directory,Mapped; live guards required,https://addgoodsites.com/submit.php,Accessible,addgoodsites.com.json,,,Final posting form reached; publication untested,Yes
-
 advancedseodirectory.com,Inspection error,php-directory,Mapped; live guards required,,Website loading or server error,advancedseodirectory.com.json,Operator confirms loading/server/connection error; independent homepage HTTP 500,"Browser retries, independent HTTP 500 and operator confirmation",Error confirmed; final posting form not reached,Yes
-
 advertisingceo.com,Deferred by operator,business-listing-reference,Needs adapter,https://advertisingceo.com/,Sign-in required,advertisingceo.com.json,,,Legacy inspection; button confirmation required,No
-
 affiliatblogger.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://affiliatblogger.com/signup,Account restriction confirmed in live response,affiliatblogger.com.json,Confirmed restriction; no replacement account,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 ampblogs.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://ampblogs.com/login,Account form is not supported by the current adapter; access has not been ruled out,ampblogs.com.json,"Website reports a banned, suspended or disabled account after supplied-credential sign-in. Skipped per operator preference; no replacement account or backlink created.",Automated checks only; access not independently confirmed,Account restriction observed after supplied-credential sign-in; no posting attempted,Yes
-
 ampedpages.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://ampedpages.com/,Accessible,ampedpages.com.json,"Website reports a banned, suspended or disabled account after supplied-credential sign-in. Skipped per operator preference; no replacement account or backlink created.",,Account restriction observed after supplied-credential sign-in; no posting attempted,Yes
-
 arch.seokhazanatools.com,Entry points saved; form incomplete,unknown,Needs adapter,https://arch.seokhazanatools.com/,Accessible,arch.seokhazanatools.com.json,,,Legacy inspection; button confirmation required,No
-
 aurora-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://aurora-directory.com/submit.php,Accessible,aurora-directory.com.json,,,Final posting form reached; publication untested,Yes
-
 backpagedir.com,Inspection error,php-directory,Mapped; live guards required,https://backpagedir.com/submit.php,Website denies homepage access,backpagedir.com.json,Submission route 404; homepage 403 Forbidden; operator confirmed,Live submission/homepage errors and operator confirmation,Error pages confirmed; final posting form not reached,Yes
-
 bing-directory.com,Inspection error,php-directory,Mapped; live guards required,https://bing-directory.com/submit.php,Website bandwidth limit error,bing-directory.com.json,509 Bandwidth Limit Exceeded; operator confirmed,Live error page and operator confirmation,Error page confirmed; final posting form not reached,Yes
-
 bizz-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://bizz-directory.com/submit.php,Accessible,bizz-directory.com.json,,,Final posting form reached; publication untested,Yes
-
 bleepblogs.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://bleepblogs.com/sign-in,Account form is not supported by the current adapter; access has not been ruled out,bleepblogs.com.json,,Automated checks only; access not independently confirmed,Published backlink independently verified for current campaign,Yes
-
 blog-ezine.com,Needs review,blog-network-reference,Needs adapter,https://blog-ezine.com/sign-in,No recognized free registration entry point,blog-ezine.com.json,Account temporarily suspended after one username login; no replacement account or retry,Automated checks only; access not independently confirmed,Final form inspected; observed policy prevents this campaign,Yes
-
 blog-gold.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://blog-gold.com/sign-in,Account registered; original post and explicit test independently verified,blog-gold.com.json,,"Live signed-in access, final form, receipt and independently verified public pages",Published backlink independently verified for current campaign,Yes
-
 blog2freedom.com,Form blueprint saved,wordpress-classic-blog,Supervised guarded publication; automatic queue adapter not enabled,https://blog2freedom.com/register,Account and publication independently verified,blog2freedom.com.json,,"Live guarded final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 blog5.net,Skipped banned/suspended,blog-network-reference,Needs adapter,https://blog5.net/signup,Account restriction confirmed in live response,blog5.net.json,Confirmed restriction; no replacement account,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 bloggadores.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://bloggadores.com/register,Account and post independently verified,bloggadores.com.json,,Live editor and independently verified public detail page,Published backlink independently verified for current campaign,Yes
-
 bloggin-ads.com,Operator deferred,blog-network-reference,Needs adapter,https://bloggin-ads.com/signup,Login result unresolved after completed browser verification,bloggin-ads.com.json,Operator requested skip after unresolved login response,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 blogminds.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://blogminds.com/login,Signed in; publication independently verified,blogminds.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 blogocial.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://blogocial.com/login,Banned or suspended account; website skipped per operator preference,blogocial.com.json,,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 blogolize.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://blogolize.com/login,Banned or suspended account; website skipped per operator preference,blogolize.com.json,,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 blogoscience.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://blogoscience.com/Dashboard,Signed in; publication independently verified,blogoscience.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 blogs-service.com,Needs review,blog-network-reference,Needs adapter,https://blogs-service.com/signup,Account action already attempted; inspect saved result before continuing,blogs-service.com.json,Account outcome unconfirmed,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 blogtov.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://blogtov.com/Dashboard,Signed in; publication independently verified,blogtov.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 bloguetechno.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://bloguetechno.com/login,Banned or suspended account; website skipped per operator preference,bloguetechno.com.json,,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 blogzet.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://blogzet.com/login,Explicit suspension after login,blogzet.com.json,Your site has been suspended for violating our Terms of Service,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 bluebook-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://bluebook-directory.com/submit.php,Accessible,bluebook-directory.com.json,Visible rules mention yearly billing despite no payment selector; free eligibility must be verified before publishing,,Final posting form reached; publication untested,Yes
-
 bluxeblog.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://bluxeblog.com/signup,Your blog has been suspended by our moderators,bluxeblog.com.json,Explicit suspension after operator-authorized login,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 bpa-mastery.mn.co,Needs deeper inspection,unknown,Needs adapter,https://bpa-mastery.mn.co/,Accessible,bpa-mastery.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 businessboostier.mn.co,Entry points saved; form incomplete,unknown,Needs adapter,https://businessboostier.mn.co/,Accessible,businessboostier.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 businessfreedirectory.biz,Form blueprint saved,php-directory,Mapped; live guards required,https://businessfreedirectory.biz/submit.php,Accessible,businessfreedirectory.biz.json,,,Final posting form reached; publication untested,Yes
-
 businessizze.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://businessizze.com/,Signed in; observed listing plan selector,businessizze.com.json,Free trial explicitly excludes website/URL links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 cakeresume.com,Needs review,unknown,Needs adapter,,External sign-in requires a provider-specific mapping,cakeresume.com.json,Unsupported external sign-in,Automated checks only; access not independently confirmed,Not inspected,No
-
 cally.com,Needs review,unknown,Needs adapter,https://cally.com/account/login,Account form is not supported by the current adapter; access has not been ruled out,cally.com.json,Unsupported account form,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 canariblogs.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://canariblogs.com/login,Banned or suspended account; website skipped per operator preference,canariblogs.com.json,,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 cargodirectory.co,Needs deeper inspection,unknown,Needs adapter,https://www.cargodirectory.co/,Accessible,cargodirectory.co.json,,,Legacy inspection; button confirmation required,No
-
 citiezz.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://citiezz.com/,Signed in; observed listing plan selector,citiezz.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 cityadvertised.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://cityadvertised.com/,Signed in; observed listing plan selector,cityadvertised.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 citycategories.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://citycategories.com/,Signed in; observed listing plan selector,citycategories.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 cityizze.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://cityizze.com/,Signed in; observed listing plan selector,cityizze.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 citypromoted.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://citypromoted.com/,Signed in; observed listing plan selector,citypromoted.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 classifiedonlineads.net,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://classifiedonlineads.net/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,classifiedonlineads.net.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 collectblogs.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://collectblogs.com/signup,Your blog has been suspended by our moderators,collectblogs.com.json,Explicit suspension after operator-authorized login,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 comadz.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://www.comadz.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,comadz.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 core.seokhazanatools.com,Entry points saved; form incomplete,unknown,Needs adapter,https://www.core.seokhazanatools.com/,Accessible,core.seokhazanatools.com.json,,,Legacy inspection; button confirmation required,No
-
 dailyizze.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://dailyizze.com/,Signed in; observed listing plan selector,dailyizze.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 daneblogger.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://daneblogger.com/Dashboard,Signed in; publication independently verified,daneblogger.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 dbblog.net,Skipped banned/suspended,blog-network-reference,Needs adapter,https://dbblog.net/signup,Account restriction confirmed after authorized login,dbblog.net.json,Suspension/restriction detected in live response,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 designertoblog.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://designertoblog.com/signup,Account restriction confirmed in live response,designertoblog.com.json,Confirmed restriction; no replacement account,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 detroitbusinesscenter.com,Inspection error,unknown,Needs adapter,,,detroitbusinesscenter.com.json,,,Not inspected,No
-
 develop-blog.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://develop-blog.com/register,Signed in; publication independently verified,develop-blog.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 diowebhost.com,Needs review,blog-network-reference,Needs adapter,https://diowebhost.com/signup,"Account submission did not establish access; saved for inspection, no repeat registration",diowebhost.com.json,Account outcome unconfirmed,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 directory3.org,Inspection error,php-directory,Mapped; live guards required,,,directory3.org.json,,,Inspection failed; final posting form not validated,No
-
 eedblog.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://eedblog.com/Dashboard,Signed in; publication independently verified,eedblog.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 efdir.com,Inspection error,php-directory,Mapped; live guards required,,,efdir.com.json,,,Inspection failed; final posting form not validated,No
-
 eonlineads.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://eonlineads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,eonlineads.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 expansiondirectory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://expansiondirectory.com/submit.php,Accessible,expansiondirectory.com.json,,,Final posting form reached; publication untested,Yes
-
 expatriates.com,Needs deeper inspection,unknown,Needs adapter,https://www.expatriates.com/,Accessible,expatriates.com.json,,,Legacy inspection; button confirmation required,No
-
 ezblogz.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://ezblogz.com/signup,Account restriction confirmed in live response,ezblogz.com.json,Confirmed restriction; no replacement account,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 ezclassifiedads.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://ezclassifiedads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,ezclassifiedads.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 familydir.com,Form blueprint saved,php-directory,Mapped; live guards required,https://familydir.com/submit.php,Accessible,familydir.com.json,,,Final posting form reached; publication untested,Yes
-
 fdlclassifieds.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://fdlclassifieds.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,fdlclassifieds.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 featureizze.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://featureizze.com/,Signed in; observed listing plan selector,featureizze.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 featurezz.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://featurezz.com/,Signed in; observed listing plan selector,featurezz.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 filcanonline.com,Inspection error,unknown,Needs adapter,,,filcanonline.com.json,,,Not inspected,No
-
 fire-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://fire-directory.com/submit.php,Accessible,fire-directory.com.json,,,Final posting form reached; publication untested,Yes
-
 fitnell.com,Needs review,blog-network-reference,Needs adapter,https://fitnell.com/signup,"Account submission did not establish access; saved for inspection, no repeat registration",fitnell.com.json,Account outcome unconfirmed,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 flipboard.com,Needs review,unknown,Needs adapter,https://flipboard.com/login,Account form is not supported by the current adapter; access has not been ruled out,flipboard.com.json,Unsupported account form,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 flipmyyard.com,Inspection error,unknown,Needs adapter,,,flipmyyard.com.json,,,Not inspected,No
-
 foldads.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://foldads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,foldads.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 freeadshome.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://freeadshome.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,freeadshome.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 freeadsonline.biz,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://freeadsonline.biz/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,freeadsonline.biz.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 freelistingaustralia.com,Needs review,unknown,Needs adapter,https://www.freelistingaustralia.com/,Account form is not supported by the current adapter; access has not been ruled out,freelistingaustralia.com.json,Unsupported account form,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 freesaloneducation.mn.co,Entry points saved; form incomplete,unknown,Needs adapter,https://freesaloneducation.mn.co/,Accessible,freesaloneducation.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 freewebads.biz,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://freewebads.biz/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,freewebads.biz.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 freewebads.us,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://freewebads.us/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,freewebads.us.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 friendtalk.mn.co,Entry points saved; form incomplete,unknown,Needs adapter,https://friendtalk.mn.co/,Accessible,friendtalk.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 fruity-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://fruity-directory.com/submit.php,Accessible,fruity-directory.com.json,,,Final posting form reached; publication untested,Yes
-
 full-design.com,Needs review,blog-network-reference,Needs adapter,https://full-design.com/login,Account form is not supported by the current adapter; access has not been ruled out,full-design.com.json,Unsupported account form,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 fwebdirectory.com,Inspection error,php-directory,Mapped; live guards required,https://fwebdirectory.com/submit.php,Submission route not found,fwebdirectory.com.json,Submission page displays File not found; automatically skipped,Live explicit error page; skipped per operator preference,Error page observed; final posting form not reached,No
-
 getadsonline.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://getadsonline.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,getadsonline.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 goabroadblog.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://goabroadblog.com/Dashboard,Signed in; publication independently verified,goabroadblog.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 greenydirectory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://greenydirectory.com/submit.php,Accessible,greenydirectory.com.json,,,Final posting form reached; publication untested,Yes
-
 groovy-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://groovy-directory.com/submit.php,Accessible,groovy-directory.com.json,,,Final posting form reached; publication untested,Yes
-
 helpsellmyfsbo.com,Needs deeper inspection,unknown,Needs adapter,https://helpsellmyfsbo.com/,Accessible,helpsellmyfsbo.com.json,,,Legacy inspection; button confirmation required,No
-
 ifidir.com,Inspection error,php-directory,Mapped; live guards required,,,ifidir.com.json,,,Inspection failed; final posting form not validated,No
-
 iformative.com,Needs deeper inspection,unknown,Needs adapter,https://www.iformative.com/,Accessible,iformative.com.json,,,Legacy inspection; button confirmation required,No
-
 ikeanded.com,Form blueprint saved,localzz-aspnet-directory,Mapped; live guards required,https://www.ikeanded.com/directory/listingedit.aspx,Signed-in navigation and free listing editor observed,ikeanded.com.json,,"Operator-confirmed controls; live Logout navigation, free-plan selection and final editor",Final posting form reached; publication untested,Yes
-
 instantadz.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://instantadz.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,instantadz.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 israelafrica.mn.co,Entry points saved; form incomplete,unknown,Needs adapter,https://israelafrica.mn.co/,Accessible,israelafrica.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 jasa-seo.mn.co,Entry points saved; form incomplete,unknown,Needs adapter,https://jasa-seo.mn.co/,Accessible,jasa-seo.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 jet-links.com,Form blueprint saved,php-directory,Mapped; live guards required,https://jet-links.com/submit.php,Accessible,jet-links.com.json,,,Final posting form reached; publication untested,Yes
-
 justpaste.it,Form blueprint saved,tinymce-editor,Mapped; live guards required,https://justpaste.it/,Accessible guest editor,justpaste.it.json,,Operator-confirmed editor controls and live title/TinyMCE/access inspection,Final posting form reached; publication untested,Yes
-
 ko-fi.com,Needs review,unknown,Needs adapter,https://ko-fi.com/,Account form is not supported by the current adapter; access has not been ruled out,ko-fi.com.json,Unsupported account form,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 lemon-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://lemon-directory.com/submit.php,Accessible,lemon-directory.com.json,,,Final posting form reached; publication untested,Yes
-
 letsdobookmark.com,Needs review,unknown,Needs adapter,https://letsdobookmark.com/login,Account form is not supported by the current adapter; access has not been ruled out,letsdobookmark.com.json,Unsupported account form,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 letspostfree.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://letspostfree.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,letspostfree.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 link-boy.org,Form blueprint saved,php-directory,Mapped; live guards required,https://link-boy.org/submit.php,Accessible,link-boy.org.json,,,Final posting form reached; publication untested,Yes
-
 linkedin-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://linkedin-directory.com/submit.php,Accessible,linkedin-directory.com.json,Imported runtime allows HTTP only; live form is HTTPS. Adapter origin/protocol guard needs review before publishing.,Operator-confirmed controls and live HTTPS final-form inspection,Final posting form reached; publication untested,Yes
-
 linkmate.mn.co,Entry points saved; form incomplete,unknown,Needs adapter,https://linkmate.mn.co/,Accessible,linkmate.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 livejournal.com,Inspection error,unknown,Needs adapter,,,livejournal.com.json,,,Not inspected,No
-
 localcategories.com,Operator deferred,business-listing-reference,Needs adapter,https://localcategories.com/,uncertain,localcategories.com.json,Operator deferred unresolved fresh login; observed posting route redirects to registration,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 localdisplayed.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://localdisplayed.com/,Signed in; observed listing plan selector,localdisplayed.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 localfeatured.com,Free plan excludes backlink,business-listing-reference,Needs adapter,https://www.localfeatured.com/,Signed in; observed listing plan selector,localfeatured.com.json,Live free trial excludes website links; link-enabled Basic plan costs $3,Automated checks only; access not independently confirmed,Plans inspected; no free website link available,Yes
-
 localsdaily.com,Deferred by operator,business-listing-reference,Needs adapter,https://localsdaily.com/,Browser verification,localsdaily.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 localstorefronts.com,Operator deferred,business-listing-reference,Needs adapter,https://localstorefronts.com/,Accessible,localstorefronts.com.json,Operator requested skip at control confirmation; no submission,,Incomplete; requires operator button confirmation and final form inspection,No
-
 lodgingowners.com,Needs deeper inspection,unknown,Needs adapter,https://www.lodgingowners.com/,Accessible,lodgingowners.com.json,,,Legacy inspection; button confirmation required,No
-
 mapfling.com,Entry points saved; form incomplete,unknown,Needs adapter,https://mapfling.com/,Accessible,mapfling.com.json,,,Legacy inspection; button confirmation required,No
-
 medium.com,Entry points saved; form incomplete,unknown,Needs adapter,https://medium.com/,Accessible,medium.com.json,,,Legacy inspection; button confirmation required,No
-
 mybjjblog.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://mybjjblog.com/login,Account restriction confirmed in live response,mybjjblog.com.json,Confirmed restriction; no replacement account,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 mypetads.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://mypetads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,mypetads.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 nationpromoted.com,Needs review,business-listing-reference,Needs adapter,https://nationpromoted.com/,Account form is not supported by the current adapter; access has not been ruled out,nationpromoted.com.json,Unsupported account form,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 nextfreeads.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://nextfreeads.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,nextfreeads.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 nizarblog.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://nizarblog.com/register,Signed in; publication independently verified,nizarblog.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 nova-driving-school.mn.co,Needs deeper inspection,unknown,Needs adapter,https://nova-driving-school.mn.co/home,Accessible,nova-driving-school.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 onesmablog.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://onesmablog.com/login,Account restriction confirmed in live response,onesmablog.com.json,Confirmed restriction; no replacement account,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 padzee.com,Deferred by operator,platform:padzee.com,Mapped; live guards required,https://padzee.com/,Accessible,padzee.com.json,Operator requested skip during first-mapping control confirmation,Live editor inspection; operator deferred,Editor observed; controls not operator-confirmed,No
-
 pages10.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://pages10.com/login,Account restriction confirmed in live response,pages10.com.json,Confirmed restriction; no replacement account,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 paste.laravel.io,Needs deeper inspection,unknown,Needs adapter,https://paste.laravel.io/,Accessible,paste.laravel.io.json,,,Legacy inspection; button confirmation required,No
-
 paste2.org,Needs deeper inspection,unknown,Needs adapter,https://paste2.org/,Accessible,paste2.org.json,,,Legacy inspection; button confirmation required,No
-
 pastelink.net,Form blueprint saved,pastelink,Mapped; live guards required,https://pastelink.net/submit,Accessible guest creation form,pastelink.net.json,,Operator-confirmed controls and live guest-creation form inspection,Final posting form reached; publication untested,Yes
-
 pclassified.com,Form blueprint saved,xzero-classifieds,Mapped; live guards required,https://pclassified.com/index.php?view=post&cityid=475&catid=3&subcatid=29&lang=en,Accessible,pclassified.com.json,,Operator-confirmed posting control and live city/category/final-form inspection,Final posting form reached; publication untested,Yes
-
 pearltrees.com,Needs review,unknown,Needs adapter,https://www.pearltrees.com/,Account form is not supported by the current adapter; access has not been ruled out,pearltrees.com.json,Unsupported account form,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 petadshub.com,Deferred by operator,xzero-classifieds,Mapped; live guards required,https://www.petadshub.com/?view=selectcity&cityid=0&lang=en,Accessible,petadshub.com.json,Operator requested skip during first-mapping control confirmation,Operator deferred after browser verification,Posting entry observed; controls not operator-confirmed,No
-
 phat4life.mn.co,Entry points saved; form incomplete,unknown,Needs adapter,https://phat4life.mn.co/,Accessible,phat4life.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 pininthemap.com,Needs deeper inspection,unknown,Needs adapter,https://pininthemap.com/,Accessible,pininthemap.com.json,,,Legacy inspection; button confirmation required,No
-
 pinterest.com,Inspection error,unknown,Needs adapter,,,pinterest.com.json,,,Not inspected,No
-
 pixolinks.com,Needs review,xzero-classifieds,Mapped; live guards required,https://pixolinks.com/?view=selectcity&cityid=0&lang=en,Accessible,pixolinks.com.json,Posting control confirmed after pause; form inspection awaits resume,Operator-confirmed posting route; no additional browser operation,Buttons confirmed; final posting form not validated,Yes
-
 place123.net,Inspection error,unknown,Needs adapter,,,place123.net.json,,,Not inspected,No
-
 pointblog.net,Skipped banned/suspended,blog-network-reference,Needs adapter,https://pointblog.net/login,Account restriction confirmed in live response,pointblog.net.json,Confirmed restriction; no replacement account,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 postezad.com,Not inspected,xzero-classifieds,Mapped; live guards required,,,postezad.com.json,,,Not inspected,No
-
 postezads.com,Not inspected,xzero-classifieds,Mapped; live guards required,,,postezads.com.json,,,Not inspected,No
-
 postheaven.net,Not inspected,platform:postheaven.net,Mapped; live guards required,,,postheaven.net.json,,,Not inspected,No
-
 postherefree.com,Not inspected,xzero-classifieds,Mapped; live guards required,,,postherefree.com.json,,,Not inspected,No
-
 postingzz.com,Deferred by operator,business-listing-reference,Needs adapter,https://postingzz.com/,Browser verification,postingzz.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 postizze.com,Deferred by operator,business-listing-reference,Needs adapter,https://postizze.com/,Browser verification,postizze.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 postquickads.com,Not inspected,xzero-classifieds,Mapped; live guards required,,,postquickads.com.json,,,Not inspected,No
-
 postsmartads.com,Not inspected,xzero-classifieds,Mapped; live guards required,,,postsmartads.com.json,,,Not inspected,No
-
 privatebin.net,Inspection error,unknown,Needs adapter,,,privatebin.net.json,,,Not inspected,No
-
 reddit-directory.com,Not inspected,php-directory,Mapped; live guards required,,,reddit-directory.com.json,,,Not inspected,No
-
 relateddirectory.org,Not inspected,php-directory,Mapped; live guards required,,,relateddirectory.org.json,,,Not inspected,No
-
 relevantdirectories.com,Not inspected,php-directory,Mapped; live guards required,,,relevantdirectories.com.json,,,Not inspected,No
-
 relevantdirectory.biz,Not inspected,php-directory,Mapped; live guards required,,,relevantdirectory.biz.json,,,Not inspected,No
-
 rentry.co,Not inspected,platform:rentry.co,Mapped; live guards required,,,rentry.co.json,,,Not inspected,No
-
 ripple-xrp-global-network.mn.co,Entry points saved; form incomplete,unknown,Needs adapter,https://ripple-xrp-global-network.mn.co/,Accessible,ripple-xrp-global-network.mn.co.json,,,Legacy inspection; button confirmation required,No
-
 searchdomainhere.com,Form blueprint saved,php-directory,Mapped; live guards required,https://searchdomainhere.com/submit.php,Accessible,searchdomainhere.com.json,,,Final posting form reached; publication untested,Yes
-
 seobalnd.seokhazanatools.com,Entry points saved; form incomplete,unknown,Needs adapter,https://seobalnd.seokhazanatools.com/,Accessible,seobalnd.seokhazanatools.com.json,,,Legacy inspection; button confirmation required,No
-
 shotblogs.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://shotblogs.com/login,Account restriction confirmed in live response,shotblogs.com.json,Confirmed restriction; no replacement account,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 shoutmyblog.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://shoutmyblog.com/register,Signed in; publication independently verified,shoutmyblog.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 single.goarticles.info,Entry points saved; form incomplete,unknown,Needs adapter,https://single.goarticles.info/,Accessible,single.goarticles.info.json,,,Legacy inspection; button confirmation required,No
-
 sites.google.com,Needs deeper inspection,unknown,Needs adapter,https://sites.google.com/,Accessible,sites.google.com.json,,,Legacy inspection; button confirmation required,No
-
 smartdir.org,Not inspected,php-directory,Mapped; live guards required,,,smartdir.org.json,,,Not inspected,No
-
 smblogsites.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://smblogsites.com/Dashboard,Signed in; publication independently verified,smblogsites.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 spintheblog.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://spintheblog.com/Dashboard,Signed in; publication independently verified,spintheblog.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 suomiblog.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://suomiblog.com/login,Account restriction confirmed in live response,suomiblog.com.json,Confirmed restriction; no replacement account,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 tblogz.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://tblogz.com/login,Account restriction confirmed in live response,tblogz.com.json,Confirmed restriction; no replacement account,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 telegra.ph,Not inspected,platform:telegra.ph,Mapped; live guards required,,,telegra.ph.json,,,Not inspected,No
-
 theideasblog.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://theideasblog.com/Dashboard,Signed in; publication independently verified,theideasblog.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 theobloggers.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://theobloggers.com/Dashboard,Signed in; publication independently verified,theobloggers.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 thezenweb.com,Needs review,blog-network-reference,Needs adapter,https://thezenweb.com/login,Account form is not supported by the current adapter; access has not been ruled out,thezenweb.com.json,Unsupported account form,Automated checks only; access not independently confirmed,Legacy inspection; button confirmation required,No
-
 tinyblogging.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://tinyblogging.com/login,Account restriction confirmed in live response,tinyblogging.com.json,Confirmed restriction; no replacement account,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 toptendir.net,Not inspected,php-directory,Mapped; live guards required,,,toptendir.net.json,,,Not inspected,No
-
 totads.com,Not inspected,xzero-classifieds,Mapped; live guards required,,,totads.com.json,,,Not inspected,No
-
 totalclassified.com,Not inspected,xzero-classifieds,Mapped; live guards required,,,totalclassified.com.json,,,Not inspected,No
-
 tribunablog.com,Skipped banned/suspended,blog-network-reference,Needs adapter,https://tribunablog.com/login,Account restriction confirmed in live response,tribunablog.com.json,Confirmed restriction; no replacement account,,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 unique-listing.com,Not inspected,php-directory,Mapped; live guards required,,,unique-listing.com.json,,,Not inspected,No
-
 ursads.com,Not inspected,xzero-classifieds,Mapped; live guards required,,,ursads.com.json,,,Not inspected,No
-
 usacategories.com,Deferred by operator,business-listing-reference,Needs adapter,https://usacategories.com/,Browser verification,usacategories.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 usafeatured.com,Deferred by operator,business-listing-reference,Needs adapter,https://usafeatured.com/,Browser verification,usafeatured.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 usapromoted.com,Operator deferred,business-listing-reference,Needs adapter,https://usapromoted.com/,Accessible,usapromoted.com.json,Operator requested skip at control confirmation; no submission,,Incomplete; requires operator button confirmation and final form inspection,No
-
 uycart.com,Not inspected,xzero-classifieds,Mapped; live guards required,,,uycart.com.json,,,Not inspected,No
-
 uzblog.net,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://uzblog.net/login,Signed in; publication independently verified,uzblog.net.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 vidublog.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://vidublog.com/Dashboard,Signed in; publication independently verified,vidublog.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 worldblogged.com,Form blueprint saved,wordpress-classic-blog,Supervised publication verified; automatic queue adapter not enabled,https://worldblogged.com/register,Signed in; publication independently verified,worldblogged.com.json,,"Live final form, receipt and independently verified public detail page",Published backlink independently verified for current campaign,Yes
-
 writeablog.net,Not inspected,platform:writeablog.net,Mapped; live guards required,,,writeablog.net.json,,,Not inspected,No
-
 youtube.com,Needs deeper inspection,unknown,Needs adapter,https://www.youtube.com/,Accessible,youtube.com.json,,,Legacy inspection; button confirmation required,No
-
 zerobin.net,Inspection error,unknown,Needs adapter,,,zerobin.net.json,,,Not inspected,No
-
 ecodir.net,Form blueprint saved,php-directory,Mapped; live guards required,https://ecodir.net/submit.php,Accessible,ecodir.net.json,,,Final posting form reached; publication untested,Yes
-
 listizze.com,Deferred by operator,unknown,Needs adapter,https://listizze.com/,Browser verification,listizze.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 localadvertised.com,Deferred by operator,unknown,Needs adapter,https://localadvertised.com/,Browser verification,localadvertised.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 localannounced.com,Access check required,unknown,Needs adapter,https://localannounced.com/,Browser verification,localannounced.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 localbranded.com,Deferred by operator,unknown,Needs adapter,https://localbranded.com/,Browser verification,localbranded.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 localbrowsed.com,Paid plans only,unknown,Needs adapter,https://localbrowsed.com/,Signed in; live listing plans inspected,localbrowsed.com.json,No free plan displayed; Starter $0.99 excludes website link; Basic $3 includes link,Automated checks only; access not independently confirmed,Incomplete; requires operator button confirmation and final form inspection,Yes
-
 localbundled.com,Deferred by operator,unknown,Needs adapter,https://localbundled.com/,Browser verification,localbundled.com.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 locals101.com,Inspection error,unknown,Needs adapter,https://locals101.com/,Website error; registration and posting controls not inspectable,locals101.com.json,Homepage displays Server Error in application / Cannot open database,Live error observed and confirmed by operator,Incomplete; site error confirmed by operator,Yes
-
 businessesceo.com,Inspection error,unknown,Needs adapter,https://businessesceo.com/,Cloudflare blocked page; site controls unavailable,businessesceo.com.json,"Cloudflare says Sorry, you have been blocked; no challenge available",Live blocked page observed and confirmed by operator,Incomplete; security block confirmed by operator,Yes
-
 propellerdir.com,Inspection error,unknown,Needs adapter,https://propellerdir.com/submit.php,Registration CAPTCHA unavailable in inspected browser session,propellerdir.com.json,Visible captcha.php image has zero intrinsic dimensions after initial load and one image-only reload,Operator reported image failure; DOM failure independently checked,Incomplete; registration not submitted; posting editor and pricing unverified,Yes
-
 alivelinks.org,Form blueprint saved,php-directory,Mapped; live guards required,https://alivelinks.org/submit.php,Accessible,alivelinks.org.json,,,Final posting form reached; publication untested,Yes
-
 asklink.org,Form blueprint saved,php-directory,Mapped; live guards required,https://asklink.org/submit.php,Accessible,asklink.org.json,,,Final posting form reached; publication untested,Yes
-
 prolink-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://prolink-directory.com/submit.php,Accessible,prolink-directory.com.json,,,Final posting form reached; publication untested,Yes
-
 angelsdirectory.com,Inspection error,unknown,Needs adapter,https://angelsdirectory.com/submit.php,Website temporarily unavailable due to bandwidth limit,angelsdirectory.com.json,Website server reports exhausted bandwidth; no posting controls visible,Live error page observed and confirmed by operator,Incomplete; server error confirmed by operator,Yes
-
 populardirectory.biz,Submissions closed,unknown,Needs adapter,https://populardirectory.biz/submit.php,Posting disabled by website at time of inspection,populardirectory.biz.json,Submit Listing page says submissions are closed and to return in 24 hours,Live posting-page closure notice observed,Incomplete; submission form unavailable while site reports closure,Yes
-
 populardirectory.org,Form blueprint saved,php-directory,Mapped; live guards required,https://populardirectory.org/submit.php,Accessible,populardirectory.org.json,,,Final posting form reached; publication untested,Yes
-
 directorydirect.net,Form blueprint saved,php-directory,Mapped; live guards required,https://directorydirect.net/submit.php,Accessible,directorydirect.net.json,,,Final posting form reached; publication untested,Yes
-
 homedirectory.biz,Needs review,php-directory,Needs adapter,https://homedirectory.biz/submit.php,Accessible,homedirectory.biz.json,Live final posting form marks Reciprocal Link URL as required. No approved reciprocal link is available. Skipped without submission.,,Final form inspected; observed policy prevents this campaign,Yes
-
 authorizeddir.com,Policy excludes approved URL,unknown,Needs adapter,https://authorizeddir.com/login,Account flow already inspected; no automatic login retry,authorizeddir.com.json,"Live submission policy: Do not submit subfolder, use the top-level domain or maximum sub domain.",Automated checks only; access not independently confirmed,Submission policy inspected; approved location URL excluded,Yes
-
 ecobluedirectory.com,Form blueprint saved,php-directory,Needs adapter,https://ecobluedirectory.com/submit.php,Accessible,ecobluedirectory.com.json,Form observed; stated URL policy restricts campaign location subfolder to featured submission,,Final posting form reached; publication untested,Yes
-
 dbsdirectory.com,Inspection error,unknown,Needs adapter,,Page could not be loaded or inspected,dbsdirectory.com.json,Chrome page unavailable; operator confirms loading or connection error,Operator confirms browser error; Ui.Vision cannot attach to tab,Incomplete; website controls unavailable,Yes
-
 deepbluedirectory.com,Inspection error,unknown,Needs adapter,,Page could not be loaded or inspected,deepbluedirectory.com.json,Chrome page unavailable; operator confirms loading or connection error,Operator confirms browser error; Ui.Vision cannot inspect tab,Incomplete; website controls unavailable,Yes
-
 dicedirectory.com,Inspection error,unknown,Needs adapter,,Page could not be loaded or inspected in Chrome,dicedirectory.com.json,Operator confirms browser error; homepage request returned HTTP 403 Forbidden,Operator confirms browser error; independent HEAD request returned 403,Incomplete; website controls unavailable,Yes
-
 direct-directory.com,Inspection error,unknown,Needs adapter,,Page could not be loaded or inspected in Chrome,direct-directory.com.json,Operator confirms browser error; homepage HEAD request returned HTTP 403 Forbidden,Operator confirms browser error; independent HEAD request returned 403,Incomplete; website controls unavailable,Yes
-
 earthlydirectory.com,Inspection error,unknown,Needs adapter,,Page could not be loaded or inspected in Chrome,earthlydirectory.com.json,Operator confirms browser error; independent homepage GET returned HTTP 500 with an empty body,Operator confirms browser error; independent homepage request returned 500,Incomplete; website controls unavailable,Yes
-
 celestialdirectory.com,Inspection error,unknown,Needs adapter,https://celestialdirectory.com/submit.php,Website temporarily unavailable due to resource limit,celestialdirectory.com.json,Website reports it exceeded its resource limit; no posting controls visible,Live error page observed and confirmed by operator,Incomplete; server error confirmed by operator,Yes
-
 cleangreendirectory.com,Inspection error,php-directory,Needs adapter,https://cleangreendirectory.com/submit.php,Accessible,cleangreendirectory.com.json,508 Resource Limit Is Reached on live inspection,,Final posting form reached; publication untested,Yes
-
 coles-directory.com,Inspection error,php-directory,Needs adapter,https://coles-directory.com/submit.php,Accessible,coles-directory.com.json,508 Resource Limit Is Reached on live inspection,,Final posting form reached; publication untested,Yes
-
 colorblossomdirectory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://colorblossomdirectory.com/submit.php,Accessible,colorblossomdirectory.com.json,,,Final posting form reached; publication untested,Yes
-
 darkschemedirectory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://darkschemedirectory.com/submit.php,Accessible,darkschemedirectory.com.json,,,Final posting form reached; publication untested,Yes
-
 blackandbluedirectory.com,Not inspected,php-directory,Mapped; live guards required,,,blackandbluedirectory.com.json,,,Not inspected,No
-
 blackgreendirectory.com,Not inspected,php-directory,Mapped; live guards required,,,blackgreendirectory.com.json,,,Not inspected,No
-
 bluesparkledirectory.com,Not inspected,php-directory,Mapped; live guards required,,,bluesparkledirectory.com.json,,,Not inspected,No
-
 brownedgedirectory.com,Not inspected,php-directory,Mapped; live guards required,,,brownedgedirectory.com.json,,,Not inspected,No
-
 alive2directory.com,Not inspected,php-directory,Mapped; live guards required,,,alive2directory.com.json,,,Not inspected,No
-
 arcticdirectory.com,Not inspected,php-directory,Mapped; live guards required,,,arcticdirectory.com.json,,,Not inspected,No
-
 azure-directory.com,Not inspected,php-directory,Mapped; live guards required,,,azure-directory.com.json,,,Not inspected,No
-
 gowwwlist.com,Form blueprint saved,php-directory,Mapped; live guards required,https://gowwwlist.com/submit.php,Accessible,gowwwlist.com.json,,,Final posting form reached; publication untested,Yes
-
 johnnylist.org,Form blueprint saved,php-directory,Mapped; live guards required,https://johnnylist.org/submit.php,Accessible,johnnylist.org.json,,,Final posting form reached; publication untested,Yes
-
 webguiding.net,Form blueprint saved,php-directory,Mapped; live guards required,https://webguiding.net/submit.php,Accessible,webguiding.net.json,,,Final posting form reached; publication untested,Yes
-
 onecooldir.com,Form blueprint saved,php-directory,Mapped; live guards required,https://onecooldir.com/submit.php,Accessible,onecooldir.com.json,,,Final posting form reached; publication untested,Yes
-
 1directory.org,Form blueprint saved,php-directory,Mapped; live guards required,https://1directory.org/submit.php,Accessible,1directory.org.json,,,Final posting form reached; publication untested,Yes
-
 targetlink.biz,Form blueprint saved,php-directory,Mapped; live guards required,https://targetlink.biz/submit.php,Accessible,targetlink.biz.json,,,Final posting form reached; publication untested,Yes
-
 sublimelink.org,Form blueprint saved,php-directory,Mapped; live guards required,https://sublimelink.org/submit.php,Accessible,sublimelink.org.json,,,Final posting form reached; publication untested,Yes
-
 hotlinks.biz,Form blueprint saved,php-directory,Mapped; live guards required,https://hotlinks.biz/submit.php,Accessible,hotlinks.biz.json,,,Final posting form reached; publication untested,Yes
-
 alivelink.org,Form blueprint saved,php-directory,Mapped; live guards required,https://alivelink.org/submit.php,Accessible,alivelink.org.json,,,Final posting form reached; publication untested,Yes
-
 justdirectory.org,Form blueprint saved,php-directory,Mapped; live guards required,https://justdirectory.org/submit.php,Accessible,justdirectory.org.json,,,Final posting form reached; publication untested,Yes
-
 trafficdirectory.org,Form blueprint saved,php-directory,Mapped; live guards required,https://trafficdirectory.org/submit.php,Accessible,trafficdirectory.org.json,,,Final posting form reached; publication untested,Yes
-
 piratedirectory.org,Deferred by operator,unknown,Needs adapter,https://piratedirectory.org/submit.php,Browser verification,piratedirectory.org.json,,,Incomplete; requires operator button confirmation and final form inspection,No
-
 directory10.biz,Needs review,unknown,Needs adapter,https://directory10.biz/submit.php,Accessible,directory10.biz.json,Category chooser does not work; confirmed by operator,Automated category-step inspection and operator confirmation,Posting entry confirmed; final posting form not reached,Yes
-
 directory4.org,Needs review,unknown,Needs adapter,https://directory4.org/submit.php,Accessible,directory4.org.json,Category chooser does not work; operator corrected earlier accidental Done response,Automated category-step inspection and corrected operator confirmation,Posting entry confirmed; final posting form not reached,Yes
-
 directory6.org,Form blueprint saved,php-link-directory-multistep,Needs adapter,https://directory6.org/submit,Accessible,directory6.org.json,,Operator-assisted category selection; free Business type and final form independently observed,Final posting form reached; publication untested,Yes
-
 royaldirectory.biz,Form blueprint saved,php-directory,Mapped; live guards required,https://royaldirectory.biz/submit.php,Accessible,royaldirectory.biz.json,,,Final posting form reached; publication untested,Yes
-
 directory8.org,Form blueprint saved,php-directory,Mapped; live guards required,https://directory8.org/submit.php,Accessible,directory8.org.json,,,Final posting form reached; publication untested,Yes
-
 directory10.org,Form blueprint saved,php-directory,Mapped; live guards required,https://directory10.org/submit.php,Accessible,directory10.org.json,,,Final posting form reached; publication untested,Yes
-
 directory9.biz,Form blueprint saved,php-directory,Mapped; live guards required,https://directory9.biz/submit.php,Accessible,directory9.biz.json,,,Final posting form reached; publication untested,Yes
-
 directory5.org,Skipped banned/suspended,unknown,Needs adapter,https://directory5.org/cgi-sys/suspendedpage.cgi,Hosting provider displays suspended-account page; campaign login not attempted,directory5.org.json,Redirects to /cgi-sys/suspendedpage.cgi with hosting suspension notice,Live hosting suspension notice independently inspected,Incomplete; website unavailable due to hosting suspension,No
-
 globaldir.org,Form blueprint saved,php-directory,Mapped; live guards required,https://globaldir.org/submit.php,Accessible,globaldir.org.json,,,Final posting form reached; publication untested,Yes
-
 nicedir.net,Form blueprint saved,php-directory,Mapped; live guards required,https://nicedir.net/submit.php,Accessible,nicedir.net.json,,,Final posting form reached; publication untested,Yes
-
 classdirectory.org,Form blueprint saved,php-directory,Mapped; live guards required,https://classdirectory.org/submit.php,Accessible,classdirectory.org.json,,,Final posting form reached; publication untested,Yes
-
 directdirectory.org,Needs review,php-directory,Needs adapter,https://directdirectory.org/submit.php,Accessible,directdirectory.org.json,Live posting form requires a reciprocal link; no approved reciprocal link supplied; skipped without submission,,Final form inspected; required reciprocal link prevents this campaign,Yes
-
 harddirectory.net,Needs review,php-directory,Needs adapter,https://harddirectory.net/submit.php,Accessible,harddirectory.net.json,Live final posting form marks Reciprocal Link URL as required. No approved reciprocal link is available. Skipped without submission.,,Final form inspected; observed policy prevents this campaign,Yes
-
 steeldirectory.net,Form blueprint saved,php-directory,Needs adapter,https://steeldirectory.net/submit.php,Accessible,steeldirectory.net.json,,,Buttons confirmed; final posting form not validated,Yes
-
 freeweblink.org,Form blueprint saved,php-directory,Mapped; live guards required,https://freeweblink.org/submit.php,Accessible,freeweblink.org.json,,,Final posting form reached; publication untested,Yes
-
 ask-dir.org,Form blueprint saved,php-directory,Mapped; live guards required,https://ask-dir.org/submit.php,Accessible,ask-dir.org.json,,,Final posting form reached; publication untested,Yes
-
 free-weblink.com,Form blueprint saved,php-directory,Mapped; live guards required,https://free-weblink.com/submit.php,Accessible,free-weblink.com.json,,,Final posting form reached; publication untested,Yes
-
 freeseolink.org,Form blueprint saved,php-directory,Mapped; live guards required,https://freeseolink.org/submit.php,Accessible,freeseolink.org.json,,,Final posting form reached; publication untested,Yes
-
 justlink.org,Form blueprint saved,php-directory,Mapped; live guards required,https://justlink.org/submit.php,Accessible,justlink.org.json,,,Final posting form reached; publication untested,Yes
-
 link-man.org,Form blueprint saved,php-directory,Mapped; live guards required,https://link-man.org/submit.php,Accessible,link-man.org.json,,,Final posting form reached; publication untested,Yes
-
 smartseolink.org,Form blueprint saved,php-directory,Mapped; live guards required,https://smartseolink.org/submit.php,Accessible,smartseolink.org.json,,,Final posting form reached; publication untested,Yes
-
 alive-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://alive-directory.com/submit.php,Accessible,alive-directory.com.json,,,Final posting form reached; publication untested,Yes
-
 acedirectory.org,Needs review,unknown,Needs adapter,https://acedirectory.org/submit.php,Accessible,acedirectory.org.json,Category chooser does not work; confirmed by operator,Live category-step inspection and operator confirmation,Posting entry confirmed; final posting form not reached,Yes
-
 bestdirectory4you.com,Form blueprint saved,php-link-directory-multistep,Needs adapter,https://bestdirectory4you.com/submit.php,Posting form accessible; account login permission outcome recorded separately,bestdirectory4you.com.json,,Confirmed controls; normal category and verified free-type navigation reached visible listing form,Final posting form reached; publication untested,Yes
-
 one-sublime-directory.com,Needs review,unknown,Needs adapter,https://one-sublime-directory.com/submit.php,Accessible,one-sublime-directory.com.json,Operator reports category picker missing; skipped for now,Live category-step inspection and operator confirmation; final posting form not reached,Posting entry confirmed; final posting form not reached,Yes
-
 activdirectory.net,Form blueprint saved,php-link-directory-multistep,Needs adapter,https://activdirectory.net/submit,Accessible,activdirectory.net.json,,Operator-confirmed entry controls and live free final-form inspection,Final posting form reached; publication untested,Yes
-
 a2place.com,Needs review,unknown,Needs adapter,https://a2place.com/,Accessible,a2place.com.json,Operator reports category picker missing or unusable; skipped for now,Live category-step inspection and operator confirmation; final posting form not reached,Posting entry confirmed; final posting form not reached,Yes
-
 abstractdirectory.net,Submissions closed,unknown,Needs adapter,https://abstractdirectory.net/submit.php,Posting currently closed by website,abstractdirectory.net.json,Submission page explicitly states link submissions are closed,Live explicit closure message,Posting entry confirmed; final posting form not reached,Yes
-
 aweblist.org,Form blueprint saved,php-link-directory-multistep,Needs adapter,https://aweblist.org/submit,Accessible,aweblist.org.json,,Operator-confirmed entry controls and live free final-form inspection,Final posting form reached; publication untested,Yes
-
 bedirectory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://bedirectory.com/submit.php,Accessible,bedirectory.com.json,,,Final posting form reached; publication untested,Yes
-
 hotdirectory.net,Needs review,unknown,Needs adapter,https://hotdirectory.net/submit.php,Accessible,hotdirectory.net.json,Operator reports category picker missing or unusable; skipped for now,Live category-step inspection and operator confirmation; final posting form not reached,Posting entry confirmed; final posting form not reached,Yes
-
 addirectory.org,Form blueprint saved,php-directory,Mapped; live guards required,https://addirectory.org/submit.php,Accessible,addirectory.org.json,,,Final posting form reached; publication untested,Yes
-
 beegdirectory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://beegdirectory.com/submit.php,Accessible,beegdirectory.com.json,,,Final posting form reached; publication untested,Yes
-
 clicksordirectory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://clicksordirectory.com/submit.php,Accessible,clicksordirectory.com.json,,,Final posting form reached; publication untested,Yes
-
 huludirectory.com,Needs review,unknown,Needs adapter,https://huludirectory.com/submit.php,Accessible,huludirectory.com.json,Operator confirms category picker not working; skipped for now,Live category-step inspection and operator correction; final posting form not reached,Posting entry confirmed; final posting form not reached,Yes
-
 sublimedir.net,Submissions closed,unknown,Needs adapter,https://sublimedir.net/submit.php,Posting currently closed by website,sublimedir.net.json,Submission page explicitly states link submissions are closed,Live explicit closure message,Posting entry confirmed; final posting form not reached,Yes
-
 poordirectory.com,Inspection error,unknown,Needs adapter,https://poordirectory.com/submit.php,Website bandwidth limit error,poordirectory.com.json,509 Bandwidth Limit Exceeded; operator confirmed,Live error page and operator confirmation,Error page confirmed; final posting form not reached,Yes
-
 ask-directory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://ask-directory.com/submit.php,Accessible,ask-directory.com.json,,,Final posting form reached; publication untested,Yes
-
 craigslistdirectory.net,Form blueprint saved,php-directory,Mapped; live guards required,https://craigslistdirectory.net/submit.php,Accessible,craigslistdirectory.net.json,,,Final posting form reached; publication untested,Yes
-
 upsdirectory.com,Needs review,unknown,Needs adapter,https://upsdirectory.com/submit.php,Accessible,upsdirectory.com.json,Operator reports category picker missing or unusable; skipped for now,Live category-step inspection and operator confirmation; final posting form not reached,Posting entry confirmed; final posting form not reached,Yes
-
 interesting-dir.com,Form blueprint saved,php-directory,Mapped; live guards required,https://interesting-dir.com/submit.php,Accessible,interesting-dir.com.json,,,Final posting form reached; publication untested,Yes
-
 aquarius-dir.com,Form blueprint saved,php-directory,Mapped; live guards required,https://aquarius-dir.com/submit.php,Accessible,aquarius-dir.com.json,,,Final posting form reached; publication untested,Yes
-
 face-list.com,Form blueprint saved,php-directory,Mapped; live guards required,https://face-list.com/submit.php,Accessible,face-list.com.json,,,Final posting form reached; publication untested,Yes
-
 ebay-dir.com,Inspection error,unknown,Needs adapter,https://ebay-dir.com/submit.php,Website bandwidth limit error,ebay-dir.com.json,509 Bandwidth Limit Exceeded; operator confirmed,Live error page and operator confirmation,Error page confirmed; final posting form not reached,Yes
-
 bestbuydir.com,Form blueprint saved,php-directory,Mapped; live guards required,https://bestbuydir.com/submit.php,Accessible,bestbuydir.com.json,"Final form reachable, but website displays unregistered URL validator warning; submission untested",,Final posting form reached; publication untested,Yes
-
 target-directory.com,Inspection error,unknown,Needs adapter,,Website loading or connection error,target-directory.com.json,Operator confirms Chrome loading or connection error after homepage retry,"Browser retries, independent request failure and operator confirmation",Error confirmed; final posting form not reached,Yes
-
 afunnydir.com,Form blueprint saved,php-directory,Mapped; live guards required,https://afunnydir.com/submit.php,Accessible,afunnydir.com.json,Existing runtime rejects additional LINK_TYPE control; blueprint saved for adapter update. Website URL validator warning also observed.,Operator-confirmed Add Site and live final-form/pricing inspection,Final posting form reached; publication untested,Yes
-
 exampledir.com,Needs review,unknown,Needs adapter,https://exampledir.com/submit.php,Accessible,exampledir.com.json,Operator reports category picker missing or unusable; skipped for now,Live category-step inspection and operator confirmation; final posting form not reached,Posting entry confirmed; final posting form not reached,Yes
-
 seooptimizationdirectory.com,Form blueprint saved,php-link-directory-multistep,Needs adapter,https://seooptimizationdirectory.com/submit,Accessible,seooptimizationdirectory.com.json,,Operator-confirmed entry controls and live free final-form inspection,Final posting form reached; publication untested,Yes
-
 domainnamesseo.com,Submissions closed,unknown,Needs adapter,https://domainnamesseo.com/,Posting currently closed by website,domainnamesseo.com.json,Submission page explicitly states link submissions are closed,Live explicit closure message,Posting entry confirmed; final posting form not reached,Yes
-
 craigslistdir.org,Inspection error,unknown,Needs adapter,https://craigslistdir.org/submit.php,Website resource limit error,craigslistdir.org.json,508 Resource Limit Is Reached; operator confirmed,Live error page and operator confirmation,Error page confirmed; final posting form not reached,Yes
-
 mediafiredirectlink.com,Form blueprint saved,php-link-directory-multistep,Needs adapter,https://mediafiredirectlink.com/submit,Accessible,mediafiredirectlink.com.json,,Operator-confirmed entry controls and live free final-form inspection,Final posting form reached; publication untested,Yes
-
 directoryanalytic.com,Needs review,php-directory,Needs adapter,https://directoryanalytic.com/submit.php,Accessible,directoryanalytic.com.json,Live policy allows only top-level domains on free listings; subfolders/internal pages require paid featured placement. Approved St. Louis URL cannot use this free route. Skipped without submission.,,Final form inspected; observed policy prevents this campaign,Yes
-
 apeopledirectory.com,Form blueprint saved,php-directory,Mapped; live guards required,https://apeopledirectory.com/submit.php,Accessible,apeopledirectory.com.json,,,Final posting form reached; publication untested,Yes
-
 businessfreedirectory.com,Needs review,unknown,Needs adapter,https://businessfreedirectory.com/submit.php,Sign-in required,businessfreedirectory.com.json,Operator confirms category picker missing or unusable; registration outcome remains uncertain; skipped for now,Live category-step inspection and operator confirmation; final posting form not reached,Posting category step reached; final posting form not reached,Yes
-
 411freedirectory.com,Deferred by operator,unknown,Needs adapter,,External sign-in / redirect,411freedirectory.com.json,Operator corrected prior reply: website not visible; skip for now,Operator confirms navigation remains unconfirmed,Target website not confirmed in controlled tab,No
-

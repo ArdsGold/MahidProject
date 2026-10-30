@@ -10,11 +10,11 @@ const contentFitter = fs.readFileSync(require('node:path').join(__dirname, 'mapp
 function fixture(workflow, reciprocal = false, loadEventMissing = false) {
   const job = {domain: 'fixture.test', workflow, name: 'Example Gym', website: 'https://business.example/',
     description: 'Approved description', category: 'Sports', email: 'public@example.com',
-    state_name: 'Missouri', city: 'St. Louis', markdown: '# Example Gym\n\n[Website](https://business.example/)'};
+    state_name: 'Missouri', city: 'St. Louis', classified_route: {labels:['Services','Health & Fitness'],reason:'Approved sports route'}, markdown: '# Example Gym\n\n[Website](https://business.example/)'};
   job.content_parts = {parts: [{key:'name',text:job.name},{key:'website',text:'Website: '+job.website},{key:'description',text:job.description},{key:'keywords',text:'Keywords: approved keyword'}]};
   const elements = {};
   const actions = [];
-  const location = {hostname: 'fixture.test', href: 'https://fixture.test/submit.php'};
+  const location = {hostname: 'fixture.test', origin: 'https://fixture.test', href: 'https://fixture.test/submit.php'};
   const field = selector => elements[selector] || (elements[selector] = {value: '', textContent: ''});
   for (const selector of ['#adtitle', '[name="addesc"]', '#email', '[name="agree"]',
                           '[name="TITLE"]', '[name="URL"]', '[name="DESCRIPTION"]', '[name="OWNER_NAME"]', '[name="OWNER_EMAIL"]']) field(selector);
@@ -29,7 +29,7 @@ function fixture(workflow, reciprocal = false, loadEventMissing = false) {
   if (reciprocal) field('[name="RECPR_URL"]');
   const document = {title: 'Submit', body: {innerText: 'Submit your business'},
     querySelector: selector => elements[selector] || null,
-    querySelectorAll: selector => selector === 'a' ? ['Missouri', 'Services', 'Health & Fitness'].map(textContent => ({textContent})) :
+    querySelectorAll: selector => (selector === 'a' || selector === 'a[href]') ? ['Missouri', 'Services', 'Health & Fitness', 'Motors'].map((textContent,i) => ({textContent,href:'https://fixture.test/index.php?view=post&catid=3&subcatid='+i})) :
       Array.isArray(elements[selector]) ? elements[selector] : []};
   const variables = {};
   let result;
@@ -48,6 +48,10 @@ function fixture(workflow, reciprocal = false, loadEventMissing = false) {
         elements[selector].value = option.value;
         elements[selector].selectedOptions = [option];
       }
+      if (command === 'click' && target.startsWith('xpath=//a')) {
+        const link=document.querySelectorAll('a').find(a=>target.includes(JSON.stringify(a.textContent)));
+        if(link) location.href=link.href;
+      }
       if (command === 'click' && (target.includes('Post Now') || target.includes('[name="submit"]'))) {
         location.href = 'https://fixture.test/posts/42/example-gym';
         document.body.innerText = 'Example Gym';
@@ -55,6 +59,7 @@ function fixture(workflow, reciprocal = false, loadEventMissing = false) {
     }};
   function run(stage) {
     vm.runInNewContext(`const contentFitter=${JSON.stringify(contentFitter)};const categoryMatcher=${JSON.stringify(categoryMatcher)};const job=${JSON.stringify(job)};const stage=${JSON.stringify(stage)};\n${source}`, {uiv});
+    if (stage === 'prepare' && result.category_navigation && result.category_navigation.every(s=>s.selected)) job.selected_category={value:result.category_navigation.at(-1).selected.value};
     if (stage === 'prepare') Object.assign(job, {content_limit: result.content_limit, omitted_fields: result.omitted_fields, content_notes: result.content_notes});
     return result;
   }
@@ -119,3 +124,53 @@ const changedLimit = fixture('directory');
 changedLimit.run('prepare');
 changedLimit.elements['[name="DESCRIPTION"]'].maxLength = 10;
 assert.throws(() => changedLimit.run('submit'), /limit changed/);
+
+const categoryReview = fixture('directory');
+categoryReview.job.category = 'Automotive';
+categoryReview.job.description = 'Battery replacement and roadside assistance';
+const review = categoryReview.run('prepare');
+assert.equal(review.status, 'category_review');
+assert.equal(review.category_evidence.option_count, 3);
+assert.equal(review.category_evidence.selected, null);
+assert.equal(categoryReview.actions.filter(a => a[0] === 'click').length, 0);
+const knownCategory = fixture('directory').run('prepare');
+assert.equal(knownCategory.category_evidence.selected.value, 'sports');
+
+const automotive = fixture('classifieds');
+automotive.job.category = 'Automotive';
+automotive.job.description = 'Battery replacement and roadside assistance';
+automotive.job.classified_route = {labels:['Services','Motors'],reason:'Approved automotive route'};
+assert.equal(automotive.run('prepare').status, 'ready');
+assert.ok(automotive.actions.some(a=>a[0]==='click' && a[1].includes('Motors')));
+assert.ok(!automotive.actions.some(a=>a[0]==='click' && a[1].includes('Health & Fitness')));
+assert.equal(automotive.run('prepare').category_navigation[1].selected.label, 'Motors');
+const unmappedIndustry = fixture('classifieds');
+unmappedIndustry.job.classified_route = null;
+assert.equal(unmappedIndustry.run('prepare').status, 'needs_mapping');
+assert.ok(!unmappedIndustry.actions.some(a=>a[0]==='click' && a[1].includes('Health & Fitness')));
+
+const missingAutomotiveRoute = fixture('classifieds');
+missingAutomotiveRoute.job.classified_route = {labels:['Services','Motors'],reason:'Automotive route'};
+const originalLinks = missingAutomotiveRoute.document.querySelectorAll;
+missingAutomotiveRoute.document.querySelectorAll = selector => originalLinks(selector).filter(e=>e.textContent!=='Motors');
+assert.equal(missingAutomotiveRoute.run('prepare').status, 'category_review');
+assert.ok(!missingAutomotiveRoute.actions.some(a=>a[0]==='click' && a[1].includes('Post Now')));
+
+const changedCategory = fixture('classifieds');
+changedCategory.run('prepare');
+changedCategory.location.href='https://fixture.test/index.php?view=post&catid=3&subcatid=999';
+assert.throws(()=>changedCategory.run('submit'),/category changed/);
+assert.ok(!changedCategory.actions.some(a=>a[0]==='click'&&a[1].includes('Post Now')));
+
+const invisibleVerification = fixture('classifieds');
+const normalQuery = invisibleVerification.document.querySelectorAll;
+invisibleVerification.document.querySelectorAll = selector => selector.includes('iframe[src') ? [{getClientRects:()=>[]}] : normalQuery(selector);
+assert.equal(invisibleVerification.run('prepare').status,'ready');
+const visibleVerification = fixture('classifieds');
+visibleVerification.document.title='Just a moment';
+assert.equal(visibleVerification.run('prepare').status,'access_challenge');
+
+const badgeOnly = fixture('classifieds');
+const badgeQuery = badgeOnly.document.querySelectorAll;
+badgeOnly.document.querySelectorAll = selector => selector.includes('iframe[src') ? [{getClientRects:()=>[{}],closest:s=>s==='.grecaptcha-badge'?{}:null}] : badgeQuery(selector);
+assert.equal(badgeOnly.run('prepare').status,'ready');

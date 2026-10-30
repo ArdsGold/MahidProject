@@ -161,10 +161,11 @@ class AccessChecks(unittest.TestCase):
             browser.close()
 
     def test_blog_name_uses_business_name_without_spaces_or_punctuation(self):
-        with patch('backlinks.load_workbook', return_value=(
+        with patch('openpyxl.load_workbook') as workbook, patch('backlinks.load_workbook', return_value=(
                 {'name': 'Cheer Athletics-St. Louis'},
                 [{'username': 'supplied-user', 'login_email': 'private@example.test', 'password': 'private-password'}])):
-            self.assertEqual(shared_credentials('fixture.xlsx')['blog_name'], 'CheerAthleticsStLouis')
+            workbook.return_value.sheetnames = []
+            self.assertEqual(shared_credentials('fixture.xlsx')['blog_name'], 'CLIENT_USERNAME')
 
     def test_bleepblogs_registration_maps_blog_name_despite_email_input_type(self):
         snap = page(True)

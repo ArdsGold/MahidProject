@@ -1,0 +1,35 @@
+{
+  "domain": "lemon-directory.com",
+  "latest_fingerprint": "c86625131ec6e7c9",
+  "versions": {
+    "c86625131ec6e7c9": {
+      "page": "https://lemon-directory.com/submit.php",
+      "options": [
+        {
+          "label": "Sports",
+          "value": "1",
+          "disabled": false
+        }
+      ],
+      "option_count": 1,
+      "checked_utc": "2026-10-30T16:33:27.234423+00:00"
+    }
+  },
+  "decisions": {
+    "2f5a420fd9466f77:c86625131ec6e7c9": {
+      "topic": {
+        "category": "sports",
+        "fallbacks": []
+      },
+      "selected": {
+        "label": "Sports",
+        "value": "1",
+        "disabled": false
+      },
+      "reason": "Matched approved categories or clear business evidence",
+      "source": "automatic",
+      "options_fingerprint": "c86625131ec6e7c9",
+      "checked_utc": "2026-10-30T16:33:27.234423+00:00"
+    }
+  }
+}

@@ -240,9 +240,13 @@ def merge_pool(entries, pool, workbook=None):
         raise ValueError('Website pool not found. Run python website_pool.py --refresh first.')
     # Per-business Enabled=No remains an exclusion even when the shared pool enables it.
     excluded = set()
+    shared_account = {'username': '', 'password': '', 'login_email': ''}
     if workbook:
         w = openpyxl.load_workbook(workbook, data_only=False)
         try:
+            if 'Account' in w.sheetnames:
+                from workbook_layout import read_account
+                shared_account = read_account(w)
             if 'Sites' in w.sheetnames:
                 sheet = w['Sites']
                 cols = {str(c.value).strip().lower(): c.column - 1 for c in sheet[1] if c.value}
@@ -256,7 +260,7 @@ def merge_pool(entries, pool, workbook=None):
     for entry in entries:
         existing.setdefault(entry['domain'], entry)
     return [{**existing.get(row['domain'], {'row': '', 'domain': row['domain'],
-                                           'username': '', 'password': '', 'login_email': ''}),
+                                           **shared_account}),
              'pool_url': row['website']}
             for row in read_pool(pool) if row['enabled'] == 'Yes' and row['domain'] not in excluded]
 

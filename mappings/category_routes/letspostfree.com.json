@@ -1,0 +1,210 @@
+{
+  "domain": "letspostfree.com",
+  "topics": {
+    "e98f16f51758e53f": {
+      "topic": {
+        "category": "automotive",
+        "fallbacks": [
+          "roadside assistance",
+          "auto repair and services",
+          "automotive services",
+          "business and services"
+        ]
+      },
+      "steps": [
+        {
+          "options": [
+            {
+              "label": "Digital Items",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=1&shortcutregion="
+            },
+            {
+              "label": "Community",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=2&shortcutregion="
+            },
+            {
+              "label": "Services",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&shortcutregion="
+            },
+            {
+              "label": "Entertainment",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=4&shortcutregion="
+            },
+            {
+              "label": "For Sale",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=5&shortcutregion="
+            },
+            {
+              "label": "Property",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=6&shortcutregion="
+            },
+            {
+              "label": "Tickets",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=7&shortcutregion="
+            },
+            {
+              "label": "Pets and Livestock",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=8&shortcutregion="
+            },
+            {
+              "label": "Jobs",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=9&shortcutregion="
+            },
+            {
+              "label": "Personals",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=10&shortcutregion="
+            },
+            {
+              "label": "Vehicles & Motoring",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=11&shortcutregion="
+            }
+          ],
+          "selected": {
+            "label": "Services",
+            "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&shortcutregion="
+          }
+        },
+        {
+          "options": [
+            {
+              "label": "Hair & Beauty",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=16&shortcutregion=0"
+            },
+            {
+              "label": "Chiropratic",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=17&shortcutregion=0"
+            },
+            {
+              "label": "Dental",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=18&shortcutregion=0"
+            },
+            {
+              "label": "Medical",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=19&shortcutregion=0"
+            },
+            {
+              "label": "Financial",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=20&shortcutregion=0"
+            },
+            {
+              "label": "Legal",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=21&shortcutregion=0"
+            },
+            {
+              "label": "Work From Home",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=22&shortcutregion=0"
+            },
+            {
+              "label": "Self Improvement",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=23&shortcutregion=0"
+            },
+            {
+              "label": "IT",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=24&shortcutregion=0"
+            },
+            {
+              "label": "Online Services",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=25&shortcutregion=0"
+            },
+            {
+              "label": "Motors",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=26&shortcutregion=0"
+            },
+            {
+              "label": "Other",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=27&shortcutregion=0"
+            },
+            {
+              "label": "Health & Fitness",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=29&shortcutregion=0"
+            },
+            {
+              "label": "DIY",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=39&shortcutregion=0"
+            },
+            {
+              "label": "Photography",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=43&shortcutregion=0"
+            },
+            {
+              "label": "Employment",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=64&shortcutregion=0"
+            },
+            {
+              "label": "Gardening/Landscape",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=72&shortcutregion=0"
+            },
+            {
+              "label": "AC & Heating",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=124&shortcutregion=0"
+            },
+            {
+              "label": "Building/Remodeling/Extensions",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=125&shortcutregion=0"
+            },
+            {
+              "label": "Carpentry/Joinery",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=126&shortcutregion=0"
+            },
+            {
+              "label": "Decorating",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=127&shortcutregion=0"
+            },
+            {
+              "label": "Plastering/Cementing",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=128&shortcutregion=0"
+            },
+            {
+              "label": "Childcare",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=129&shortcutregion=0"
+            },
+            {
+              "label": "Cleaning/Home Chores",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=130&shortcutregion=0"
+            },
+            {
+              "label": "Electrical",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=131&shortcutregion=0"
+            },
+            {
+              "label": "Removals/Packing",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=132&shortcutregion=0"
+            },
+            {
+              "label": "Plumbing/Pools",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=133&shortcutregion=0"
+            },
+            {
+              "label": "Roofing/Tiling",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=134&shortcutregion=0"
+            },
+            {
+              "label": "Telecommunications",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=135&shortcutregion=0"
+            },
+            {
+              "label": "Offline Marketing",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=136&shortcutregion=0"
+            },
+            {
+              "label": "Printing",
+              "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=137&shortcutregion=0"
+            }
+          ],
+          "selected": {
+            "label": "Motors",
+            "value": "https://letspostfree.com/index.php?view=post&cityid=463&lang=en&catid=3&subcatid=26&shortcutregion=0"
+          }
+        }
+      ],
+      "route": {
+        "labels": [
+          "Services",
+          "Motors"
+        ],
+        "reason": "Automotive and roadside services fit Services > Motors; live route confirmed on getadsonline.com"
+      },
+      "checked_utc": "2026-10-30T16:43:14.011054+00:00"
+    }
+  }
+}

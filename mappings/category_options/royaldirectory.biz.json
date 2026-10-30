@@ -1,0 +1,2730 @@
+{
+  "domain": "royaldirectory.biz",
+  "latest_fingerprint": "9bd3184d03abe1c7",
+  "versions": {
+    "9bd3184d03abe1c7": {
+      "page": "https://royaldirectory.biz/submit.php",
+      "options": [
+        {
+          "label": "[Top]",
+          "value": "0",
+          "disabled": false
+        },
+        {
+          "label": "|___Arts",
+          "value": "1",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Animation",
+          "value": "2",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Architecture",
+          "value": "3",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Art History",
+          "value": "4",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Awards",
+          "value": "5",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bodyart",
+          "value": "6",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chats and Forums",
+          "value": "7",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Classical Studies",
+          "value": "8",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Comics",
+          "value": "9",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Contests",
+          "value": "10",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Costumes",
+          "value": "11",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Crafts",
+          "value": "12",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cultures and Groups",
+          "value": "13",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Design",
+          "value": "14",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Digital",
+          "value": "15",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "16",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education",
+          "value": "17",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Entertainment",
+          "value": "18",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Events",
+          "value": "19",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Genres",
+          "value": "20",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Graphic Design",
+          "value": "21",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Humanities",
+          "value": "22",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Illustration",
+          "value": "23",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Literature",
+          "value": "24",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Magazines and E-zines",
+          "value": "25",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Movies",
+          "value": "26",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Music",
+          "value": "27",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News and Media",
+          "value": "28",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Online Writing",
+          "value": "29",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Organizations",
+          "value": "30",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Arts)",
+          "value": "676",
+          "disabled": false
+        },
+        {
+          "label": "|   |___People",
+          "value": "31",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Performing Arts",
+          "value": "32",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Periods and Movements",
+          "value": "33",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Photography",
+          "value": "34",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Radio",
+          "value": "35",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Television",
+          "value": "37",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Video",
+          "value": "38",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Visual Arts",
+          "value": "39",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Weblogs",
+          "value": "40",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Writers Resources",
+          "value": "41",
+          "disabled": false
+        },
+        {
+          "label": "|___Business",
+          "value": "42",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Accounting",
+          "value": "43",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Aerospace and Defense",
+          "value": "44",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Agriculture and Forestry",
+          "value": "45",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Arts and Entertainment",
+          "value": "46",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Associations",
+          "value": "47",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Automotive",
+          "value": "48",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Biotechnology and Pharmaceuticals",
+          "value": "49",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Business and Society",
+          "value": "51",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Business Services",
+          "value": "50",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chemicals",
+          "value": "52",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Construction and Maintenance",
+          "value": "53",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consumer Goods and Services",
+          "value": "54",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cooperatives",
+          "value": "55",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Customer Service",
+          "value": "56",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "57",
+          "disabled": false
+        },
+        {
+          "label": "|   |___E-Commerce",
+          "value": "58",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education and Training",
+          "value": "59",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Electronics and Electrical",
+          "value": "60",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Employment",
+          "value": "61",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Energy",
+          "value": "90",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Environment",
+          "value": "89",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Financial Services",
+          "value": "62",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Food and Related Products",
+          "value": "63",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Healthcare",
+          "value": "64",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hospitality",
+          "value": "65",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Human Resources",
+          "value": "66",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Industrial Goods and Services",
+          "value": "67",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Information Services",
+          "value": "68",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Information Technology",
+          "value": "69",
+          "disabled": false
+        },
+        {
+          "label": "|   |___International Business and Trade",
+          "value": "70",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Investing",
+          "value": "71",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Major Companies",
+          "value": "72",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Management",
+          "value": "73",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Marketing and Advertising",
+          "value": "74",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Materials",
+          "value": "75",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Mining and Drilling",
+          "value": "76",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News and Media",
+          "value": "77",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Opportunities",
+          "value": "78",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Business)",
+          "value": "678",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Publishing and Printing",
+          "value": "79",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Real Estate",
+          "value": "80",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Resources",
+          "value": "82",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Retail Trade",
+          "value": "83",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Small Business",
+          "value": "84",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Telecommunications",
+          "value": "85",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Textiles and Nonwovens",
+          "value": "86",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Transportation and Logistics",
+          "value": "87",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Wholesale Trade",
+          "value": "88",
+          "disabled": false
+        },
+        {
+          "label": "|___Computers",
+          "value": "91",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Algorithms",
+          "value": "92",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Artificial Intelligence",
+          "value": "93",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Artificial Life",
+          "value": "94",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bulletin Board Systems",
+          "value": "95",
+          "disabled": false
+        },
+        {
+          "label": "|   |___CAD and CAM",
+          "value": "96",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chats and Forums",
+          "value": "97",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Companies",
+          "value": "98",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Computer Science",
+          "value": "99",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Conferences",
+          "value": "100",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consultants",
+          "value": "101",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Data Communications",
+          "value": "102",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Data Formats",
+          "value": "103",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Desktop Publishing",
+          "value": "104",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "105",
+          "disabled": false
+        },
+        {
+          "label": "|   |___E-Books",
+          "value": "106",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education",
+          "value": "107",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Emulators",
+          "value": "108",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Ethics",
+          "value": "109",
+          "disabled": false
+        },
+        {
+          "label": "|   |___FAQs, Help, and Tutorials",
+          "value": "110",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Graphics",
+          "value": "111",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hacking",
+          "value": "112",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hardware",
+          "value": "113",
+          "disabled": false
+        },
+        {
+          "label": "|   |___History",
+          "value": "114",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Home Automation",
+          "value": "115",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Human-Computer Interaction",
+          "value": "116",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Internet",
+          "value": "117",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Intranet",
+          "value": "118",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Mailing Lists",
+          "value": "119",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Mobile Computing",
+          "value": "120",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Multimedia",
+          "value": "121",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News and Media",
+          "value": "122",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Open Source",
+          "value": "123",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Organizations",
+          "value": "124",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Computers)",
+          "value": "680",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Parallel Computing",
+          "value": "125",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Performance and Capacity",
+          "value": "126",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Programming",
+          "value": "127",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Robotics",
+          "value": "128",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Security",
+          "value": "129",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Shopping",
+          "value": "130",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Software",
+          "value": "131",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Speech Technology",
+          "value": "132",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Supercomputing",
+          "value": "133",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Systems",
+          "value": "134",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Usenet",
+          "value": "135",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Virtual Reality",
+          "value": "136",
+          "disabled": false
+        },
+        {
+          "label": "|___Games",
+          "value": "137",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Board Games",
+          "value": "138",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Card Games",
+          "value": "139",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Coin-Op",
+          "value": "140",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Conventions",
+          "value": "141",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Developers and Publishers",
+          "value": "142",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Game Studies",
+          "value": "145",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hand Games",
+          "value": "147",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hand-Eye Coordination",
+          "value": "146",
+          "disabled": false
+        },
+        {
+          "label": "|   |___History",
+          "value": "148",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Miniatures",
+          "value": "149",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Online",
+          "value": "150",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Games)",
+          "value": "682",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Paper and Pencil",
+          "value": "151",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Party Games",
+          "value": "152",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Play Groups",
+          "value": "154",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Play-By-Mail",
+          "value": "153",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Puzzles",
+          "value": "155",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Resources",
+          "value": "156",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Roleplaying",
+          "value": "157",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Tile Games",
+          "value": "158",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Trading Card Games",
+          "value": "159",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Video Games",
+          "value": "160",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Yard, Deck, and Table Games",
+          "value": "161",
+          "disabled": false
+        },
+        {
+          "label": "|___Health",
+          "value": "162",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Addictions",
+          "value": "163",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Aging",
+          "value": "164",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Alternative",
+          "value": "165",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Animal",
+          "value": "166",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Beauty",
+          "value": "167",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Child Health",
+          "value": "168",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Conditions and Diseases",
+          "value": "169",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Conferences",
+          "value": "170",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Dentistry",
+          "value": "171",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "172",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education",
+          "value": "173",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Fitness",
+          "value": "174",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Home Health",
+          "value": "175",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Medicine",
+          "value": "176",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Mens Health",
+          "value": "177",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Mental Health",
+          "value": "178",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News and Media",
+          "value": "179",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Nursing",
+          "value": "180",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Nutrition",
+          "value": "181",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Occupational Health and Safety",
+          "value": "182",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Organizations",
+          "value": "183",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Health)",
+          "value": "684",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pharmacy",
+          "value": "184",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Products and Shopping",
+          "value": "185",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Professions",
+          "value": "186",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Public Health and Safety",
+          "value": "187",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Reproductive Health",
+          "value": "189",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Resources",
+          "value": "190",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Search Engines",
+          "value": "191",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Senior Health",
+          "value": "192",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Senses",
+          "value": "193",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Services",
+          "value": "194",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Specific Substances",
+          "value": "195",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Support Groups",
+          "value": "196",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Teen Health",
+          "value": "197",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Weight Loss",
+          "value": "198",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Womens Health",
+          "value": "199",
+          "disabled": false
+        },
+        {
+          "label": "|___Home",
+          "value": "200",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Apartment Living",
+          "value": "201",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consumer Information",
+          "value": "202",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cooking",
+          "value": "203",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Do-It-Yourself",
+          "value": "204",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Domestic Services",
+          "value": "205",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Emergency Preparation",
+          "value": "206",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Entertaining",
+          "value": "207",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Family",
+          "value": "208",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Gardening",
+          "value": "209",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Home Improvement",
+          "value": "210",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Homemaking",
+          "value": "211",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Homeowners",
+          "value": "212",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Moving and Relocating",
+          "value": "213",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News and Media",
+          "value": "214",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Home)",
+          "value": "686",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Personal Finance",
+          "value": "215",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Personal Organization",
+          "value": "216",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Rural Living",
+          "value": "217",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Software",
+          "value": "218",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Urban Living",
+          "value": "219",
+          "disabled": false
+        },
+        {
+          "label": "|___Internet",
+          "value": "576",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Abuse",
+          "value": "578",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Access Providers",
+          "value": "580",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Broadcasting",
+          "value": "582",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bulletin Board Services",
+          "value": "584",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chat",
+          "value": "586",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Child Safety",
+          "value": "588",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Commercial Services",
+          "value": "590",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consultants",
+          "value": "660",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cybercafes",
+          "value": "592",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cyberspace",
+          "value": "594",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Domain Names",
+          "value": "596",
+          "disabled": false
+        },
+        {
+          "label": "|   |___E-mail",
+          "value": "598",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education",
+          "value": "662",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Etiquette",
+          "value": "600",
+          "disabled": false
+        },
+        {
+          "label": "|   |___FAQs, Help, and Tutorials",
+          "value": "664",
+          "disabled": false
+        },
+        {
+          "label": "|   |___File Sharing",
+          "value": "602",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Fraud",
+          "value": "604",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Free Web Space",
+          "value": "606",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Games",
+          "value": "608",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Gopher",
+          "value": "610",
+          "disabled": false
+        },
+        {
+          "label": "|   |___History",
+          "value": "666",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Humor",
+          "value": "612",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Internet Fax",
+          "value": "614",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Internet Marketing",
+          "value": "616",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Intranet",
+          "value": "618",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News and Media",
+          "value": "668",
+          "disabled": false
+        },
+        {
+          "label": "|   |___On the Web",
+          "value": "624",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Online Communities",
+          "value": "620",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Online Teaching and Learning",
+          "value": "622",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Organizations",
+          "value": "626",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Internet)",
+          "value": "688",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Policy",
+          "value": "628",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Programming",
+          "value": "630",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Protocols",
+          "value": "632",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Proxying and Filtering",
+          "value": "634",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Publications",
+          "value": "670",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Radio",
+          "value": "636",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Resources",
+          "value": "638",
+          "disabled": false
+        },
+        {
+          "label": "|   |___RFCs",
+          "value": "640",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Routers and Routing",
+          "value": "642",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Searching",
+          "value": "644",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Security",
+          "value": "646",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Semantic Web",
+          "value": "648",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Software",
+          "value": "672",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Statistics and Demographics",
+          "value": "650",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Telephony",
+          "value": "652",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Training",
+          "value": "674",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Usenet",
+          "value": "654",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Web Design and Development",
+          "value": "656",
+          "disabled": false
+        },
+        {
+          "label": "|   |___WWW",
+          "value": "658",
+          "disabled": false
+        },
+        {
+          "label": "|___Kids and Teens",
+          "value": "220",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Arts",
+          "value": "221",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Computers",
+          "value": "222",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "223",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Entertainment",
+          "value": "224",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Games",
+          "value": "225",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Health",
+          "value": "226",
+          "disabled": false
+        },
+        {
+          "label": "|   |___International",
+          "value": "227",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News",
+          "value": "228",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Kids and Teens)",
+          "value": "690",
+          "disabled": false
+        },
+        {
+          "label": "|   |___People and Society",
+          "value": "229",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pre-School",
+          "value": "230",
+          "disabled": false
+        },
+        {
+          "label": "|   |___School Time",
+          "value": "231",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Sports and Hobbies",
+          "value": "232",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Teen Life",
+          "value": "233",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Your Family",
+          "value": "234",
+          "disabled": false
+        },
+        {
+          "label": "|___News",
+          "value": "235",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Alternative",
+          "value": "236",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Analysis and Opinion",
+          "value": "237",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Breaking News",
+          "value": "238",
+          "disabled": false
+        },
+        {
+          "label": "|   |___By Region",
+          "value": "250",
+          "disabled": false
+        },
+        {
+          "label": "|   |___By Subject",
+          "value": "239",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chats and Forums",
+          "value": "240",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Colleges and Universities",
+          "value": "241",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Current Events",
+          "value": "242",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "243",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Extended Coverage",
+          "value": "244",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Internet Broadcasts",
+          "value": "245",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Magazines and E-zines",
+          "value": "246",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Media",
+          "value": "247",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Museums and Archives",
+          "value": "248",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Newspapers",
+          "value": "249",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (News)",
+          "value": "692",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Personalized News",
+          "value": "251",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Satire",
+          "value": "252",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Weather",
+          "value": "253",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Weblogs",
+          "value": "254",
+          "disabled": false
+        },
+        {
+          "label": "|___Recreation",
+          "value": "255",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Antiques",
+          "value": "256",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Audio",
+          "value": "257",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Autos",
+          "value": "258",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Aviation",
+          "value": "259",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Birding",
+          "value": "260",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Boating",
+          "value": "261",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Camps",
+          "value": "262",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Climbing",
+          "value": "263",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Collecting",
+          "value": "264",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "265",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Food",
+          "value": "267",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Humor",
+          "value": "269",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Kites",
+          "value": "270",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Knives",
+          "value": "271",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Living History",
+          "value": "272",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Models",
+          "value": "273",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Motorcycles",
+          "value": "274",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Recreation)",
+          "value": "694",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Outdoors",
+          "value": "276",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Parties",
+          "value": "277",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pets",
+          "value": "278",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Picture Ratings",
+          "value": "279",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Radio",
+          "value": "280",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Roads and Highways",
+          "value": "281",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Scouting",
+          "value": "282",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Theme Parks",
+          "value": "283",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Trains and Railroads",
+          "value": "285",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Travel",
+          "value": "286",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Whips",
+          "value": "287",
+          "disabled": false
+        },
+        {
+          "label": "|___Reference",
+          "value": "288",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Almanacs",
+          "value": "289",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Archives",
+          "value": "290",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Ask an Expert",
+          "value": "291",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bibliography",
+          "value": "292",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Biography",
+          "value": "293",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Books",
+          "value": "294",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Dictionaries",
+          "value": "295",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "296",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Education",
+          "value": "297",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Encyclopedias",
+          "value": "298",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Flags",
+          "value": "299",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Journals",
+          "value": "300",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Knots",
+          "value": "301",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Knowledge Management",
+          "value": "302",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Libraries",
+          "value": "303",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Maps",
+          "value": "304",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Museums",
+          "value": "305",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Open Access Resources",
+          "value": "306",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Reference)",
+          "value": "696",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Parliamentary Procedure",
+          "value": "307",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Quotations",
+          "value": "308",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Thesauri",
+          "value": "309",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Time",
+          "value": "310",
+          "disabled": false
+        },
+        {
+          "label": "|   |___World Records",
+          "value": "311",
+          "disabled": false
+        },
+        {
+          "label": "|___Science",
+          "value": "349",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Agriculture",
+          "value": "351",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Anomalies and Alternative Science",
+          "value": "353",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Astronomy",
+          "value": "352",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Biology",
+          "value": "355",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chats and Forums",
+          "value": "357",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Chemistry",
+          "value": "358",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "360",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Earth Sciences",
+          "value": "362",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Educational Resources",
+          "value": "363",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Employment",
+          "value": "364",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Environment",
+          "value": "365",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Events",
+          "value": "400",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Institutions",
+          "value": "370",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Instruments and Supplies",
+          "value": "371",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Math",
+          "value": "376",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Methods and Techniques",
+          "value": "377",
+          "disabled": false
+        },
+        {
+          "label": "|   |___News and Media",
+          "value": "379",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Science)",
+          "value": "698",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Physics",
+          "value": "382",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Publications",
+          "value": "383",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Reference",
+          "value": "386",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Science in Society",
+          "value": "388",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Search Engines",
+          "value": "389",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Social Sciences",
+          "value": "390",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Software",
+          "value": "391",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Technology",
+          "value": "393",
+          "disabled": false
+        },
+        {
+          "label": "|___Shopping",
+          "value": "401",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Antiques and Collectibles",
+          "value": "402",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Auctions",
+          "value": "403",
+          "disabled": false
+        },
+        {
+          "label": "|   |___By Region",
+          "value": "404",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Children",
+          "value": "405",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Classifieds",
+          "value": "406",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Clothing",
+          "value": "407",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Consumer Electronics",
+          "value": "408",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Crafts",
+          "value": "409",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Death Care",
+          "value": "410",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Directories",
+          "value": "411",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Entertainment",
+          "value": "412",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Ethnic and Regional",
+          "value": "413",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Flowers",
+          "value": "414",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Food",
+          "value": "415",
+          "disabled": false
+        },
+        {
+          "label": "|   |___General Merchandise",
+          "value": "416",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Gifts",
+          "value": "417",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Health",
+          "value": "418",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Holidays",
+          "value": "419",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Home and Garden",
+          "value": "420",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Jewelry",
+          "value": "421",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Music",
+          "value": "422",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Niche",
+          "value": "423",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Office Products",
+          "value": "424",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Shopping)",
+          "value": "700",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pets",
+          "value": "425",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Photography",
+          "value": "426",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Publications",
+          "value": "427",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Recreation",
+          "value": "428",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Sports",
+          "value": "429",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Tools",
+          "value": "431",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Toys and Games",
+          "value": "432",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Travel",
+          "value": "433",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Vehicles",
+          "value": "434",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Visual Arts",
+          "value": "435",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Weddings",
+          "value": "436",
+          "disabled": false
+        },
+        {
+          "label": "|___Society",
+          "value": "437",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Activism",
+          "value": "438",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Advice",
+          "value": "439",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Crime",
+          "value": "440",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Death",
+          "value": "441",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Disabled",
+          "value": "442",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Ethnicity",
+          "value": "443",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Folklore",
+          "value": "444",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Future",
+          "value": "445",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Genealogy",
+          "value": "447",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Government",
+          "value": "448",
+          "disabled": false
+        },
+        {
+          "label": "|   |___History",
+          "value": "449",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Holidays",
+          "value": "450",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Issues",
+          "value": "451",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Laws",
+          "value": "452",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Lifestyle Choices",
+          "value": "453",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Military",
+          "value": "454",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Organizations",
+          "value": "455",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Society)",
+          "value": "702",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Paranormal",
+          "value": "456",
+          "disabled": false
+        },
+        {
+          "label": "|   |___People",
+          "value": "457",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Philanthropy",
+          "value": "458",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Philosophy",
+          "value": "459",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Politics",
+          "value": "460",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Relationships",
+          "value": "461",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Religion and Spirituality",
+          "value": "462",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Subcultures",
+          "value": "464",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Support Groups",
+          "value": "465",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Transgendered",
+          "value": "466",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Work",
+          "value": "467",
+          "disabled": false
+        },
+        {
+          "label": "|___Sports",
+          "value": "468",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Adventure Racing",
+          "value": "470",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Airsoft",
+          "value": "471",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Animal Sports",
+          "value": "472",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Archery",
+          "value": "473",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Badminton",
+          "value": "475",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Baseball",
+          "value": "476",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Basketball",
+          "value": "477",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Billiards",
+          "value": "478",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bocce",
+          "value": "479",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Boomerang",
+          "value": "480",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Bowling",
+          "value": "481",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Boxing",
+          "value": "482",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cheerleading",
+          "value": "484",
+          "disabled": false
+        },
+        {
+          "label": "|   |___College and University",
+          "value": "485",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cricket",
+          "value": "486",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Croquet",
+          "value": "487",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Cycling",
+          "value": "488",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Darts",
+          "value": "490",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Disabled",
+          "value": "491",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Equestrian",
+          "value": "493",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Events",
+          "value": "494",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Extreme Sports",
+          "value": "495",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Fantasy",
+          "value": "497",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Fencing",
+          "value": "498",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Flying Discs",
+          "value": "499",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Footbag",
+          "value": "500",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Football",
+          "value": "501",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Gaelic",
+          "value": "503",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Goalball",
+          "value": "504",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Golf",
+          "value": "505",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Greyhound Racing",
+          "value": "506",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Gymnastics",
+          "value": "507",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Handball",
+          "value": "509",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Hockey",
+          "value": "510",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Informal Sports",
+          "value": "512",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Jai Alai",
+          "value": "514",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Kabbadi",
+          "value": "516",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Korfball",
+          "value": "517",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Lacrosse",
+          "value": "519",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Laser Games",
+          "value": "520",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Lumberjack",
+          "value": "521",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Martial Arts",
+          "value": "523",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Motorsports",
+          "value": "524",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Multi-Sports",
+          "value": "525",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Netball",
+          "value": "527",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Officiating",
+          "value": "529",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Organizations",
+          "value": "530",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Orienteering",
+          "value": "531",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Others (Sports)",
+          "value": "704",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Paddleball",
+          "value": "533",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Paintball",
+          "value": "534",
+          "disabled": false
+        },
+        {
+          "label": "|   |___People",
+          "value": "535",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Pesapallo",
+          "value": "536",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Petanque",
+          "value": "537",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Professional",
+          "value": "575",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Racquetball",
+          "value": "540",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Resources",
+          "value": "541",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Rodeo",
+          "value": "542",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Rope Skipping",
+          "value": "543",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Rounders",
+          "value": "544",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Running",
+          "value": "545",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Sepak Takraw",
+          "value": "547",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Skateboarding",
+          "value": "548",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Skating",
+          "value": "549",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Soccer",
+          "value": "550",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Softball",
+          "value": "551",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Software",
+          "value": "552",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Squash",
+          "value": "553",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Strength Sports",
+          "value": "554",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Table Tennis",
+          "value": "556",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Tchoukball",
+          "value": "557",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Team Handball",
+          "value": "558",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Team Spirit",
+          "value": "559",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Tennis",
+          "value": "560",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Track and Field",
+          "value": "561",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Volleyball",
+          "value": "564",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Walking",
+          "value": "566",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Water Sports",
+          "value": "567",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Winter Sports",
+          "value": "568",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Women",
+          "value": "569",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Wrestling",
+          "value": "570",
+          "disabled": false
+        },
+        {
+          "label": "|   |___Youth and High School",
+          "value": "573",
+          "disabled": false
+        }
+      ],
+      "option_count": 540,
+      "checked_utc": "2026-10-30T16:33:36.481166+00:00"
+    }
+  },
+  "decisions": {
+    "2f5a420fd9466f77:9bd3184d03abe1c7": {
+      "topic": {
+        "category": "sports",
+        "fallbacks": []
+      },
+      "selected": {
+        "label": "|___Sports",
+        "value": "468",
+        "disabled": false
+      },
+      "reason": "Matched approved categories or clear business evidence",
+      "source": "automatic",
+      "options_fingerprint": "9bd3184d03abe1c7",
+      "checked_utc": "2026-10-30T16:33:36.481166+00:00"
+    }
+  }
+}

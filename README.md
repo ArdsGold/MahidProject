@@ -6,7 +6,7 @@ Double-click **Start_Backlink_App.cmd** to open the native Windows app. Choose a
 
 The app runs deterministic saved workflows through regular Chrome/Ui.Vision and Playwright. It preserves the workbook and saved campaign, pauses for human verification or unresolved results, marks unsupported workflows Needs mapping, and separates independently verified URLs from all outcomes. It uses installed Python/Tk; it is not a self-contained EXE installer.
 
-**Transferring this project? Start with [HANDOFF.md](HANDOFF.md).** It covers private transfer, prerequisites and preserved progress. [WORKFLOW.md](WORKFLOW.md) describes current decisions. [AGENTS.md](AGENTS.md) preserves rules for future maintenance. The existing campaign credential workbook is `.local/workbooks/Cheer_Athletics_St_Louis.xlsx`; it requires a separate private transfer and is not included in Git.
+**Transferring this project? Start with [HANDOFF.md](HANDOFF.md).** It covers private transfer, prerequisites and preserved progress. [WORKFLOW.md](WORKFLOW.md) describes current decisions. [AGENTS.md](AGENTS.md) preserves rules for future maintenance. The portable credential workbook is `.local/workbooks/Cheer_Athletics_St_Louis.xlsx`.
 
 **Coverage is partial.** At the 2026-10-30 desktop checkpoint, the pool has 286 websites and 120 registered main-runner routes plus 19 supervised classic-blog workflows; 147 pool sites still need executable workflows. Live availability and new-client compatibility vary. A saved layout alone is not a working publishing adapter. Read current progress files for the actual count; the saved Cheer Athletics checkpoint is 83/100.
 
@@ -39,32 +39,20 @@ Python dependencies and Chromium were installed on the source machine. Reinstall
 
 ## Excel templates
 
-Use `templates/Backlink_Template.xlsx` for a new business. `templates/Cheer_Athletics_Example.xlsx` shows the supplied public business details and confirmed hours in this layout. The distributed blank template contains the original 95 domains with credentials blank; the public-data example is available in the private working copy only. The blank template leaves hours unknown; the example uses separate ASCII `HH:MM` values: Monday-Thursday 15:00-21:00, Friday/Saturday Closed, Sunday 12:00-21:00.
+Use [templates/Backlink_Template.xlsx](templates/Backlink_Template.xlsx). Paste the original citation workbook's first eight business values directly into Business!B1:B8: business name, full address, phone, website, description, primary category, multiline business hours, and keywords.
 
-| Sheet | Where to enter data |
-| --- | --- |
-| Business | Column B beside each field label: name, website, approved descriptions, address components, phone, email, category, keywords, time zone, logo, and social profiles |
-| Hours | One row per weekday: Status, Opens and Closes. Use 24-hour `HH:MM`; leave times empty for Closed, 24 hours, or By appointment |
-| Sites | One row per target domain: Listing site, Username, Password, Login email, and Enabled = Yes/No |
-| Instructions | Filling instructions and commands; not read as business content |
+Enter shared credentials once on Account!B2:B4. Sites contains only optional website/exclusion rows; Overrides is only for sites with different credentials. The main website pool remains in websites/Website_Pool.xlsx. Blank Sites uses the pool. Primary category plus ordered optional fallbacks are supported; the tool selects one real, unambiguous option on each site.
 
-Required business values are **Business name, Website, and Description**. Individual sites may also require address, phone, category or other details. Keep sheet names and field labels. The reader identifies Business fields by label and Hours/Sites columns by header, so their order can change. The active tab does not matter. Phone numbers and postal codes are formatted as text to preserve country prefixes and leading zeros. Paste values rather than formulas.
+See [the operating guide](OPERATING_GUIDE.md#prepare-a-client-workbook) for exact cells, hour validation, optional fields, and examples. Old structured and original single-sheet workbooks remain supported. Formula cells are rejected in the standard template; private credentials never become public listing content.
 
-Hours have status dropdowns and time-entry validation. Put `15:00` in Opens and `21:00` in Closes instead of pasting `3-9 PM` into one cell. The script creates ranges with standard ASCII hyphens. Closed, 24 hours and By appointment need empty time cells; blank status means unknown. For overnight hours use the actual closing time, such as 22:00 to 02:00. Native Excel time values are also accepted. Paste/import can bypass Excel validation, so run the validation command below to catch invalid cells before publishing.
-
-The reader recognizes hours, logo and social fields, but each publishing workflow still submits only the fields it supports. Adding data to the template does not add website coverage. An optional Short description is used by IKEandED; otherwise the tool shortens the first approved sentence.
-
-Validate a completed copy without accessing any site:
+Generate a new blank template, optionally with a public-data example from a source workbook (credentials are not copied):
 
 ```powershell
-python backlinks.py "your-business.xlsx"
+python workbook_layout.py
+python workbook_layout.py --source "source.xlsx" --output ".local/template-preview"
 ```
 
-Regenerate templates with a source workbook's public details and target domains (credentials are never copied):
-
-```powershell
-python workbook_layout.py --source "source.xlsx"
-```
+These commands generate the paste-ready layout. The legacy Python `create_template` helper remains available for older integrations and compatibility tests; new callers should use `create_simple_template`.
 
 ## Run
 
@@ -193,7 +181,3 @@ Reference: [Playwright Python library documentation](https://playwright.dev/pyth
 Long text fields include all available public client details, including hours, social links and keywords. Declared character limits prioritize name, website and contact details before the description and remaining fields. Only description prose may be shortened; contact values and URLs stay whole. New result rows report `omitted_fields` and `content_notes`. The change applies to future submissions and does not rewrite existing publications.
 
 For supported PHP directories, receipt and duplicate handling now attempts a read-only exact-destination search for linked detail pages before leaving an outcome pending/rejected. Both publishers independently verify any discovered detail page and preserve candidates when verification fails. This also applies during resume without reposting pending/rejected/uncertain records. Other platforms and directory layouts still need their own lookup workflows.
-
-## Source distribution and private state
-
-This repository includes source, reference fixtures, saved mappings, tests, a blank client template, and a clean website pool. It excludes `.local/`, `output/`, client workbooks, credentials, and recovery files. The shared supervised blog helpers are in [tools/](tools/README.md); they are separate from the standard launcher and currently target the private campaign workbook. The main runner supports its registered workflows. The default Cheer Athletics workbook is private: new operators must pass their own completed workbook with `-Workbook`.

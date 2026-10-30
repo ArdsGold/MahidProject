@@ -16,7 +16,7 @@ try:
     with UiVision() as client:
         client.call('select_browser', {'target': 'chrome#1', 'why': 'Continue the operator-authorized mapping and publishing workflow.'})
         client.call('run_macro', {'script': 'uiv.goto(' + json.dumps(row['website']) + ');', 'look': 'none', 'log_limit': 200})
-        record = inspect_site(client, row, credentials=shared_credentials('.local/workbooks/Cheer_Athletics_St_Louis.xlsx'))
+        record = inspect_site(client, row, credentials=shared_credentials('.local/workbooks/Cheer_Athletics_St_Louis.xlsx', host))
         print(host, record['status'], flush=True)
 except Exception as error:
     Path('.local/' + host + '-continuation-error.txt').write_text(str(error), encoding='utf-8')

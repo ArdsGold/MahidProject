@@ -1,0 +1,40 @@
+{
+  "domain": "fire-directory.com",
+  "latest_fingerprint": "66a893ff17e38e1f",
+  "versions": {
+    "66a893ff17e38e1f": {
+      "page": "https://fire-directory.com/submit.php",
+      "options": [
+        {
+          "label": "[Top]",
+          "value": "0",
+          "disabled": false
+        },
+        {
+          "label": "Sports",
+          "value": "fixture-sports",
+          "disabled": false
+        }
+      ],
+      "option_count": 2,
+      "checked_utc": "2026-10-30T16:33:41.443207+00:00"
+    }
+  },
+  "decisions": {
+    "2f5a420fd9466f77:66a893ff17e38e1f": {
+      "topic": {
+        "category": "sports",
+        "fallbacks": []
+      },
+      "selected": {
+        "label": "Sports",
+        "value": "fixture-sports",
+        "disabled": false
+      },
+      "reason": "Matched approved categories or clear business evidence",
+      "source": "automatic",
+      "options_fingerprint": "66a893ff17e38e1f",
+      "checked_utc": "2026-10-30T16:33:41.443207+00:00"
+    }
+  }
+}

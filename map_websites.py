@@ -464,7 +464,7 @@ def main():
                     continue
                 print('Inspecting', host, flush=True)
                 try:
-                    record = inspect_site(client, row, credentials=credentials)
+                    record = inspect_site(client, row, credentials=shared_credentials(args.workbook, host))
                     print(host, record['status'], flush=True)
                 except KeyboardInterrupt:
                     export_index(rows)

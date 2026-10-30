@@ -46,6 +46,8 @@ def text(cell):
 def load_workbook(path, sheet=None):
     w = openpyxl.load_workbook(path, data_only=False)
     try:
+        if 'Business' in w.sheetnames and 'Account' in w.sheetnames:
+            return read_standard(w, domain)
         if {'Business', 'Sites'} <= set(w.sheetnames) and sheet in (None, 'Business'):
             return read_standard(w, domain)
         if 'Business' in w.sheetnames and text(w['Business']['A1']).lower() == 'field':
@@ -81,6 +83,8 @@ def load_workbook(path, sheet=None):
             business['hours'] = re.sub(r'(?<=\d)[\ufffd\u2013\u2014](?=\d)', '-', business['hours'])
         entries = []
         for row in s.iter_rows(min_row=header + 1):
+            if text(row[0]).strip().lower().rstrip(':') in ('backup sites', 'backup websites', 'listing sites'):
+                continue
             if text(row[0]):
                 entries.append({'row': row[0].row, 'domain': domain(text(row[0])),
                                 'username': text(row[3]) if len(row) > 3 else '',
@@ -131,7 +135,7 @@ def save(state, folder, entries):
     atomic_write(folder / 'published_urls.txt', ''.join(u + '\n' for u in urls))
     f = io.StringIO(newline='')
     writer = csv.writer(f)
-    writer.writerow(['spreadsheet_row', 'domain', 'status', 'published_url', 'reason', 'checked_utc', 'nofollow', 'noindex', 'redirected', 'workflow_status', 'duplicate', 'listing_origin', 'omitted_fields', 'content_notes'])
+    writer.writerow(['spreadsheet_row', 'domain', 'status', 'published_url', 'reason', 'checked_utc', 'nofollow', 'noindex', 'redirected', 'workflow_status', 'duplicate', 'listing_origin', 'omitted_fields', 'content_notes', 'selected_category', 'category_value', 'category_reason', 'category_options_file'])
     seen = set()
     listed = {e['domain'] for e in entries}
     report_entries = list(entries) + [{'row': '', 'domain': host} for host in state if host not in listed]
@@ -142,6 +146,8 @@ def save(state, folder, entries):
         workflow_status = r.get('status', 'not_run')
         status = 'error' if workflow_status in ('failed', 'needs_attention', 'needs_mapping', 'rejected', 'unverified', 'uncertain', 'error') else workflow_status
         values = [e['row'], e['domain'], status, r.get('url', '') if workflow_status == 'published' else '', r.get('reason', ''), r.get('checked_utc', ''), r.get('nofollow', ''), r.get('noindex', ''), r.get('redirected', ''), workflow_status, duplicate, r.get('listing_origin', ''), '; '.join(r.get('omitted_fields', [])), r.get('content_notes', '')]
+        selected = r.get('selected_category') or {}
+        values.extend([selected.get('label', ''), selected.get('value', ''), selected.get('reason', ''), r.get('category_options_path', '')])
         # Prevent spreadsheet formula interpretation in externally controlled strings.
         writer.writerow(["'" + v if isinstance(v, str) and v.startswith(('=', '+', '-', '@')) else v for v in values])
     report = '\ufeff' + f.getvalue()

@@ -5,27 +5,38 @@ from urllib.parse import urlsplit, parse_qs, urlencode
 from .registry import CLASSIFIEDS, DIRECTORIES, US_STATES
 from .directories import DIRECTORY_SITES, DIRECTORY_INSPECTOR, submission_url
 from .categories import category_choice
+from .classified_routes import category_route, location as classified_location
+from .category_records import observe_route
 from .common import NeedsAttention, domain, fit_body, go, wait_for_challenge
 from operator_notifications import check_cancelled
 
 
 def prepare(page, host, b, entry, record, interactive):
     if host in CLASSIFIEDS:
-        address = re.fullmatch(r'(.+),\s*([^,]+),\s*([A-Z]{2})\s+(\d{5}(?:-\d{4})?),\s*(?:United States|USA|US)', b.get('address', ''))
-        if not address:
-            raise NeedsAttention('This classifieds workflow needs a US city, state and ZIP address')
-        if not re.search(r'sport|cheer|fitness', b.get('category', '') + ' ' + b['description'], re.I):
-            raise NeedsAttention('Classifieds category mapping is needed for this business')
-        _, city, region, _ = address.groups()
-        if region not in US_STATES or not b.get('email'):
-            raise NeedsAttention('Classifieds workflow needs a recognized US state and public business email')
+        place = classified_location(b)
+        route = category_route(b)
+        if not place or not b.get('email'):
+            raise NeedsAttention('Classifieds workflow needs a recognized US location and public business email')
+        if not route:
+            raise NeedsAttention('Classifieds category route needs mapping for this business type')
+        city, state = place
         go(page, 'https://' + host + '/index.php?view=post&cityid=0&lang=en')
-        location = page.get_by_role('link', name=US_STATES[region], exact=True)
+        location = page.get_by_role('link', name=state, exact=True)
         if location.count() != 1:
             raise NeedsAttention('No unique matching state on this classifieds site')
         location.click()
-        page.get_by_role('link', name='Services', exact=True).click()
-        page.get_by_role('link', name='Health & Fitness', exact=True).click()
+        steps = []
+        for label in route['labels']:
+            options = page.locator('a[href]').evaluate_all("els=>els.filter(a=>{try{const u=new URL(a.href);return u.origin===location.origin&&u.searchParams.get('view')==='post'&&!!u.searchParams.get('catid')&&[...u.searchParams.keys()].every(k=>['view','postevent','cityid','lang','catid','subcatid','shortcutregion'].includes(k));}catch{return false;}}).map(a=>({label:a.textContent.trim(),value:a.href}))")
+            matches = [o for o in options if o['label'] == label]
+            steps.append({'options': options, 'selected': matches[0] if len(matches)==1 else None})
+            observe_route(host,b,steps,route)
+            if len(matches)!=1:
+                raise NeedsAttention('Classifieds category route changed; complete category inventory saved for review')
+            check_cancelled()
+            page.get_by_role('link',name=label,exact=True).click()
+        record['selected_category'] = {'label':' > '.join(route['labels']),'value':steps[-1]['selected']['value'],'reason':route['reason']}
+        record['category_options_path'] = 'mappings/category_routes/' + host + '.json'
         page.wait_for_load_state('domcontentloaded')
         query = parse_qs(urlsplit(page.url).query)
         record['category_url'] = 'https://' + host + '/index.php?' + urlencode({'view': 'ads', **{key: query[key][0] for key in ('cityid', 'catid', 'subcatid') if key in query}})
@@ -44,6 +55,10 @@ def prepare(page, host, b, entry, record, interactive):
             page.locator('[name="' + name + '"]').select_option(label='None')
         page.locator('[name="agree"]').check()
         wait_for_challenge(page, interactive)
+        expected = parse_qs(urlsplit(steps[-1]['selected']['value']).query)
+        current = parse_qs(urlsplit(page.url).query)
+        if domain(page.url) != host or any(expected.get(k) != current.get(k) for k in ('cityid','catid','subcatid')):
+            raise NeedsAttention('Selected classifieds category changed; no submission made')
         return 'button[type="submit"]:has-text("Post Now")', None
     if host == 'ikeanded.com':
         if not entry['login_email'] or not entry['password']:

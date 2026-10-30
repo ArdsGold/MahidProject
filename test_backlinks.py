@@ -169,24 +169,25 @@ class Checks(unittest.TestCase):
             def fixture(route):
                 requests.append(route.request.method)
                 url = route.request.url
-                if 'stage=form' in url:
+                if 'subcatid=29' in url:
                     body = '''<input id="adtitle"><textarea name="addesc"></textarea><input id="email">
                     <select name="arealist"><option value="">Select</option><option value="stl">st louis</option></select><input name="area">
                     <select name="promote[featured]"><option value="paid">15 days ($3)</option><option value="0">None</option></select>
                     <select name="promote[extended]"><option value="paid">30 days ($5)</option><option value="0">None</option></select>
                     <input type="checkbox" name="agree"><button type="submit">Post Now</button>'''
-                elif 'stage=category' in url:
-                    body = '<a href="/index.php?stage=form">Health &amp; Fitness</a>'
-                elif 'stage=state' in url:
-                    body = '<a href="/index.php?stage=category">Services</a>'
+                elif 'catid=3' in url:
+                    body = '<a href="/index.php?view=post&amp;cityid=1&amp;catid=3&amp;subcatid=29">Health &amp; Fitness</a>'
+                elif 'cityid=1' in url:
+                    body = '<a href="/index.php?view=post&amp;cityid=1&amp;catid=3">Services</a>'
                 else:
-                    body = '<a href="/index.php?stage=state">Missouri</a>'
+                    body = '<a href="/index.php?view=post&amp;cityid=1">Missouri</a>'
                 route.fulfill(content_type='text/html', body=body)
             page.route('https://foldads.com/**', fixture)
             b = {'name': 'Example Gym', 'description': 'Approved description', 'category': 'Sports',
                  'address': '10 Main St, St. Louis, MO 63146, United States',
                  'website': 'https://business.example/', 'email': 'public@example.com'}
-            selector, _ = prepare(page, 'foldads.com', b, {}, {}, False)
+            with patch('mappings.playwright.observe_route'):
+                selector, _ = prepare(page, 'foldads.com', b, {}, {}, False)
             self.assertEqual(page.locator('[name="arealist"]').input_value(), 'stl')
             self.assertEqual(page.locator('[name="promote[featured]"]').input_value(), '0')
             self.assertEqual(page.locator('[name="promote[extended]"]').input_value(), '0')

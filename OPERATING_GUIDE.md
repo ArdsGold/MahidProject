@@ -4,15 +4,38 @@ This repository contains the Windows tool source, saved mappings, tests, a blank
 
 ## Prepare a client workbook
 
-1. Copy `templates/Backlink_Template.xlsx` from the full project. Save a separate copy per client, for example `.local/workbooks/Your_Client.xlsx`.
-2. Keep the sheet names `Business`, `Hours`, `Sites`, and `Instructions`, and preserve their field labels and column headers. Fill the blue cells with approved data; paste values rather than formulas.
-3. In Business, enter the official name, exact destination website URL, approved description, address, phone, public email, category, keywords, and available public social links. Name, Website, and Description are required; individual sites may require more.
-4. In Hours, use one weekday per row. Put `Open` in Status and separate 24-hour values such as `15:00` and `21:00` in Opens and Closes. For Closed, 24 hours, or By appointment, leave the time cells empty. Blank status means unknown. Do not paste a combined range such as `3-9 PM` into a time cell.
-5. In Sites, enter the listing hostname and supplied account credentials, plus Enabled = Yes/No. Credentials remain private; they are never public listing content.
+Use `templates/Backlink_Template.xlsx`. Its Business sheet starts at row 1 and matches the uploaded citation document exactly for the first eight rows:
 
-The private project may also contain `templates/Cheer_Athletics_Example.xlsx`, a public-data example with no login credentials. It is not part of the source distribution. For the existing campaign, continue using `.local/workbooks/Cheer_Athletics_St_Louis.xlsx` and preserve its campaign identity and output folder.
+| Row | Business field |
+| --- | --- |
+| 1 | Business name |
+| 2 | Address (full address in one cell) |
+| 3 | Phone |
+| 4 | Website |
+| 5 | Description |
+| 6 | Category |
+| 7 | Business hours (all weekdays in one multiline cell) |
+| 8 | Keywords |
 
-The expandable website pool is `websites/Website_Pool.xlsx`, sheet Websites. Edit Website, Enabled, and Notes. Set Enabled to No to exclude a site, and explain why in Notes. Adding a URL does not create a publishing workflow. Close Excel before running the tool so reports and pool labels can update.
+Copy the source document's first eight values into **Business!B1:B8**, or paste its first eight label/value rows into **A1:B8**. Use Excel's Paste Values. Colon-suffixed labels are accepted. For multiline values, copy the Excel cell itself rather than unquoted tab-separated text. Keep each description/hours block inside its single cell.
+
+- **Business!B9:** optional fallback categories, one per line or separated by semicolons, in priority order. The primary Category stays in B6. Only actual enabled site options are used; ambiguous matches require review.
+- **Business!B10:** optional public business email. B11 is the optional time zone. Expand the collapsed optional rows for socials, services, and address components when needed.
+- **Account!B2:B4:** shared Username, Login email, and Password, entered once. These are private and never part of published content.
+- **Sites:** optional client-specific websites and Yes/No exclusions only. Leave blank to use `websites/Website_Pool.xlsx`. No credentials are repeated here.
+- **Overrides:** optional per-site account differences only. Enter Listing site, Username, Login email, Password. Blank credential cells inherit Account. An override never re-enables a disabled website.
+
+Save the completed copy as `.local/workbooks/Your_Client.xlsx`, then run:
+
+```powershell
+.\Start_Browser_Automation.ps1 -Workbook ".local\workbooks\Your_Client.xlsx"
+```
+
+Hours accept full weekday lines such as `Monday 7 AM-8 PM`, `Tuesday Closed`, or `Sunday 10 PM-2 AM`. Unicode dash variants and narrow spaces from Excel are normalized to safe ASCII time ranges. Missing days remain unknown; ambiguous times, repeated days, or invalid values produce a correction message before publishing. Full US addresses matching `street, city, ST ZIP` are parsed without changing the approved address; other formats can use the optional address component fields.
+
+`templates/Mobile_Battery_Example.xlsx` and `templates/Cheer_Athletics_Example.xlsx` demonstrate the new layout with approved public details and **no login credentials**. Old four-sheet templates and original single-sheet citation workbooks remain readable. Recognized BACKUP SITES headings are treated as section headings, not website hostnames.
+
+Keep credentials and completed client workbooks private. Close Excel before starting the publisher. Creating or validating a workbook does not publish anything.
 
 ## Set up the full private project
 

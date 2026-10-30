@@ -13,7 +13,9 @@ from backlinks import (CLASSIFIEDS, DIRECTORIES, US_STATES, NeedsAttention, camp
                        campaign_lock, check_public_url, content, domain, load_workbook, save, stamp, verify, publish, recover_directory)
 from uivision import BridgeError, UiVision, tool_text, bridge_connected
 from mappings.directories import DIRECTORY_SITES, DIRECTORY_INSPECTOR, submission_url
+from mappings.classified_routes import category_route, location as classified_location
 from mappings.categories import CATEGORY_MATCHER
+from mappings.category_records import saved_rule, observe as observe_categories, capture_options
 from mappings.common import CONTENT_FITTER, content_parts, publication_domain, InspectionRequired
 from mappings.registry import SUPPORTED
 from template_detector import FORM_STRUCTURE_JS, observe_browser
@@ -35,17 +37,18 @@ def prompt(message):
 
 
 def make_job(business, host):
-    job = {key: business.get(key, '') for key in ('name', 'website', 'description', 'category', 'email', 'services', 'short_description')}
+    job = {key: business.get(key, '') for key in ('name', 'website', 'description', 'category', 'category_fallbacks', 'email', 'services', 'short_description')}
     job.update(domain=host, workflow='classifieds' if host in CLASSIFIEDS else 'directory',
                markdown=content(business)[1], content_parts=content_parts(business, host in CLASSIFIEDS))
+    job['category_rule'] = saved_rule(host, business)
     if host in DIRECTORY_SITES:
         job['directory'] = DIRECTORY_SITES[host]
         job['submission_url'] = submission_url(job['directory'])
     if host in CLASSIFIEDS:
-        address = re.fullmatch(r'(.+),\s*([^,]+),\s*([A-Z]{2})\s+(\d{5}(?:-\d{4})?),\s*(?:United States|USA|US)', business.get('address', ''))
-        if address:
-            _, job['city'], region, _ = address.groups()
-            job['state_name'] = US_STATES.get(region, '')
+        place = classified_location(business)
+        if place:
+            job['city'], job['state_name'] = place
+        job['classified_route'] = category_route(business)
     return job
 
 
@@ -57,11 +60,34 @@ def run_stage(client, job, stage):
     source += 'const contentFitter = ' + json.dumps(CONTENT_FITTER) + ';\n'
     source += 'const job = ' + json.dumps(job, ensure_ascii=False) + ';\nconst stage = ' + json.dumps(stage) + ';\n'
     result = client.call('run_macro', {'script': source + SCRIPT.read_text(encoding='utf-8'),
-                                      'look': 'none', 'log_limit': 4000}, timeout=180)
+                                      'look': 'none', 'log_limit': 40000 if stage == 'prepare' else 4000}, timeout=180)
     matches = re.findall(r'BACKLINK_RESULT:(\{[^\n]*\})', tool_text(result))
     if not matches:
         raise BridgeError('Browser workflow did not return a result; inspect the page before repeating.')
     result = json.loads(matches[-1])
+    navigation = result.pop('category_navigation', None)
+    if navigation:
+        from mappings.category_records import observe_route
+        path = observe_route(job['domain'], job, navigation, job.get('classified_route'))
+        result['category_options_path'] = path.relative_to(Path(__file__).resolve().parent).as_posix()
+        if job.get('classified_route') and all(step.get('selected') for step in navigation):
+            result['selected_category'] = {'label': ' > '.join(job['classified_route']['labels']),
+                                           'value': navigation[-1]['selected']['value'],
+                                           'reason': job['classified_route']['reason']}
+    category = result.pop('category_evidence', None)
+    if category:
+        rule = job.get('category_rule') or {}
+        selected = category.get('selected')
+        options = category.get('options')
+        if options is None:
+            options = capture_options(client, category['selector'], category['option_count'])
+        reused = bool(selected and rule.get('selected') and str(selected.get('value')) == str(rule['selected'].get('value')))
+        reason = rule.get('reason') if reused else 'Matched approved primary/fallback category or clear business-topic evidence' if selected else 'No unambiguous deterministic match; assistant review required'
+        path = observe_categories(job['domain'], job, options, category.get('page', ''),
+                                  selected=selected, reason=reason, source=rule.get('source', 'saved') if reused else 'automatic' if selected else 'needs_review')
+        result['category_options_path'] = path.relative_to(Path(__file__).resolve().parent).as_posix()
+        if selected:
+            result['selected_category'] = {'label': selected.get('label', selected.get('text', '')), 'value': str(selected['value']), 'reason': reason}
     structure = result.pop('template_structure', None)
     if structure:
         try:
@@ -175,7 +201,7 @@ def run_queue(client, browser, business, entries, state, folder, only=None, all_
                     operator_skipped = True
                     break
                 result = run_stage(client, job, 'prepare')
-            metadata = {key: result[key] for key in ('omitted_fields', 'content_notes') if key in result}
+            metadata = {key: result[key] for key in ('omitted_fields', 'content_notes', 'category_options_path', 'selected_category') if key in result}
             job.update(metadata)
             if 'content_limit' in result:
                 job['content_limit'] = result['content_limit']
@@ -184,6 +210,9 @@ def run_queue(client, browser, business, entries, state, folder, only=None, all_
                 needs_mapping = any(word in reason.lower() for word in ('mapping', 'changed', 'control missing', 'unexpected form'))
                 state[host] = {'status': 'skipped' if operator_skipped else 'needs_mapping' if needs_mapping else 'needs_attention', 'score_deferred': operator_skipped or needs_mapping or result.get('status') == 'access_challenge', 'reason': 'Skipped by operator before submission' if operator_skipped else reason, 'checked_utc': stamp()}
                 save(state, folder, entries)
+                if result.get('status') == 'category_review':
+                    print(host, 'category inventory saved; queue waiting for assistant mapping review', flush=True)
+                    break
                 continue
             while result.get('challenge'):
                 answer = prompt(host + ': Complete CAPTCHA in Chrome, then Enter to submit. Type skip or stop: ')

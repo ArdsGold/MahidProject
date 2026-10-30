@@ -13,11 +13,31 @@ ROOT = Path(__file__).resolve().parent
 ACCESS_DIR = ROOT / '.local' / 'site-access'
 
 
-def shared_credentials(workbook):
+def shared_credentials(workbook, host=None):
     from backlinks import load_workbook
     business, rows = load_workbook(workbook)
+    import openpyxl
+    from workbook_layout import read_account
+    with_book = openpyxl.load_workbook(workbook, data_only=False)
+    try:
+        shared = read_account(with_book) if 'Account' in with_book.sheetnames else None
+    finally:
+        with_book.close()
+    if shared is not None:
+        if host:
+            selected = next((row for row in rows if row['domain'] == host), None)
+            if selected:
+                shared = {key: selected.get(key, '') or shared[key] for key in shared}
+        if not shared['password'] or not (shared['username'] or shared['login_email']):
+            raise ValueError('Account sheet: enter the shared password and username or login email.')
+        return {'username': shared['username'] or shared['login_email'],
+                'email': shared['login_email'] or shared['username'], 'password': shared['password'],
+                'business_name': business['name'],
+                'blog_name': re.sub(r'[^A-Za-z0-9]', '', business['name'])}
+    matching = [row for row in rows if host and row.get('domain') == host and row.get('password')
+                and (row.get('username') or row.get('login_email'))]
     accounts = {(r.get('username', ''), r.get('login_email', ''), r.get('password', ''))
-                for r in rows if r.get('password') and (r.get('username') or r.get('login_email'))}
+                for r in (matching or rows) if r.get('password') and (r.get('username') or r.get('login_email'))}
     if len(accounts) != 1:
         raise ValueError('The shared workbook account is missing or ambiguous; credentials were not printed.')
     username, email, password = next(iter(accounts))
